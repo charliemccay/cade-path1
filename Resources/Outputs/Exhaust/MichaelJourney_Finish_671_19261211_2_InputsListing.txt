@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 2
+   Gender: Female
+   DOB: 1980-08-19 00:00:00
+   Surname: Long
+   GivenName: Cerys
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 23771deb-6edf-4d3d-b85c-5160c17e940e
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '1980-10-28T00:00:00', 'id': UUID('fa982e58-f51c-46fd-856e-36f42f226eee')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '1980-10-28T00:00:00', 'id': UUID('fa982e58-f51c-46fd-856e-36f42f226eee')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '1980-10-28T00:00:00', 'id': UUID('fa982e58-f51c-46fd-856e-36f42f226eee')}

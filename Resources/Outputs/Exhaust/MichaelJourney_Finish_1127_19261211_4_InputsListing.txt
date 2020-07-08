@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 4
+   Gender: Male
+   DOB: 2016-06-01 00:00:00
+   Surname: Pearson
+   GivenName: Harley
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 8cfb9326-9774-4ddf-9563-78828ee09441
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg'], 'date': '2016-08-23T00:00:00', 'id': UUID('998a1060-1da9-49b9-a1d7-01f83c5c3b3e')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg'], 'date': '2016-08-23T00:00:00', 'id': UUID('998a1060-1da9-49b9-a1d7-01f83c5c3b3e')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg'], 'date': '2016-08-23T00:00:00', 'id': UUID('998a1060-1da9-49b9-a1d7-01f83c5c3b3e')}

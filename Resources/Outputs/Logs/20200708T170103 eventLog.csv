@@ -1,0 +1,1276 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+17.01.05,0,50,MichaelJourney,Birth,,,,1926-12-11T00:00:00
+17.01.05,1,50,MichaelJourney,WaitToSeeGP,,Delay Until - ,1927-03-02 00:00:00,1926-12-11T00:00:00
+17.01.05,2,50,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1927-03-02T00:00:00
+17.01.05,2,50,MichaelJourney,GPvisit,,,,1927-03-02T00:00:00
+17.01.05,3,50,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1927-03-10 15:00:00,1927-03-02T00:00:00
+17.01.05,4,50,MichaelJourney,PharmacyVisit,,,,1927-03-10T15:00:00
+17.01.05,5,50,MichaelJourney,Wait4Park,,Delay Until - ,1927-03-22 15:00:00,1927-03-10T15:00:00
+17.01.05,6,50,MichaelJourney,ParrkVisit,,,,1927-03-22T15:00:00
+17.01.05,7,50,MichaelJourney,Wait4Ambulance,,Delay Until - ,1927-03-22 15:06:00,1927-03-22T15:00:00
+17.01.05,8,50,MichaelJourney,AmbulanceTrip,,,,1927-03-22T15:06:00
+17.01.05,9,50,MichaelJourney,Wiat4ED,,Delay Until - ,1927-03-22 15:16:00,1927-03-22T15:06:00
+17.01.05,10,50,MichaelJourney,EmergencyDept,,,,1927-03-22T15:16:00
+17.01.05,11,50,MichaelJourney,Wait4Ward,,Delay Until - ,1927-03-22 15:19:00,1927-03-22T15:16:00
+17.01.05,12,50,MichaelJourney,Admit2Ward,,,,1927-03-22T15:19:00
+17.01.05,13,50,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1927-03-22 15:23:00,1927-03-22T15:19:00
+17.01.05,14,50,MichaelJourney,Prepare4Discharge,,,,1927-03-22T15:23:00
+17.01.05,15,50,MichaelJourney,Wait4Discharge,,Delay Until - ,1927-03-22 15:31:00,1927-03-22T15:23:00
+17.01.05,16,50,MichaelJourney,Discharge,,,,1927-03-22T15:31:00
+17.01.05,17,50,MichaelJourney,Wait4PHR,,Delay Until - ,1927-03-22 15:51:00,1927-03-22T15:31:00
+17.01.05,18,50,MichaelJourney,UpdatePHR,,,,1927-03-22T15:51:00
+17.01.05,19,50,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1927-03-22 15:54:00,1927-03-22T15:51:00
+17.01.05,20,50,MichaelJourney,CreateOutpatientAppt,,,,1927-03-22T15:54:00
+17.01.05,21,50,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1927-03-22 15:57:00,1927-03-22T15:54:00
+17.01.05,22,50,MichaelJourney,AttendOutpatients,,,,1927-03-22T15:57:00
+17.01.05,23,50,MichaelJourney,Finish,,,,1927-03-22T15:57:00
+17.01.05,24,47,MichaelJourney,Birth,,,,1936-02-20T00:00:00
+17.01.05,25,47,MichaelJourney,WaitToSeeGP,,Delay Until - ,1936-04-23 00:00:00,1936-02-20T00:00:00
+17.01.05,26,47,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1936-04-23T00:00:00
+17.01.05,26,47,MichaelJourney,GPvisit,,,,1936-04-23T00:00:00
+17.01.05,27,47,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1936-04-30 17:00:00,1936-04-23T00:00:00
+17.01.05,28,47,MichaelJourney,PharmacyVisit,,,,1936-04-30T17:00:00
+17.01.05,29,47,MichaelJourney,Wait4Park,,Delay Until - ,1936-05-05 17:00:00,1936-04-30T17:00:00
+17.01.05,30,47,MichaelJourney,ParrkVisit,,,,1936-05-05T17:00:00
+17.01.05,31,47,MichaelJourney,Wait4Ambulance,,Delay Until - ,1936-05-05 17:13:00,1936-05-05T17:00:00
+17.01.05,32,47,MichaelJourney,AmbulanceTrip,,,,1936-05-05T17:13:00
+17.01.05,33,47,MichaelJourney,Wiat4ED,,Delay Until - ,1936-05-05 17:23:00,1936-05-05T17:13:00
+17.01.05,34,47,MichaelJourney,EmergencyDept,,,,1936-05-05T17:23:00
+17.01.05,35,47,MichaelJourney,Wait4Ward,,Delay Until - ,1936-05-05 17:41:00,1936-05-05T17:23:00
+17.01.05,36,47,MichaelJourney,Admit2Ward,,,,1936-05-05T17:41:00
+17.01.05,37,47,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1936-05-05 17:42:00,1936-05-05T17:41:00
+17.01.05,38,47,MichaelJourney,Prepare4Discharge,,,,1936-05-05T17:42:00
+17.01.05,39,47,MichaelJourney,Wait4Discharge,,Delay Until - ,1936-05-05 17:46:00,1936-05-05T17:42:00
+17.01.05,40,47,MichaelJourney,Discharge,,,,1936-05-05T17:46:00
+17.01.05,41,47,MichaelJourney,Wait4PHR,,Delay Until - ,1936-05-05 17:58:00,1936-05-05T17:46:00
+17.01.05,42,47,MichaelJourney,UpdatePHR,,,,1936-05-05T17:58:00
+17.01.05,43,47,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1936-05-05 18:07:00,1936-05-05T17:58:00
+17.01.05,44,47,MichaelJourney,CreateOutpatientAppt,,,,1936-05-05T18:07:00
+17.01.05,45,47,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1936-05-05 18:19:00,1936-05-05T18:07:00
+17.01.05,46,47,MichaelJourney,AttendOutpatients,,,,1936-05-05T18:19:00
+17.01.05,47,47,MichaelJourney,Finish,,,,1936-05-05T18:19:00
+17.01.05,48,38,MichaelJourney,Birth,,,,1937-04-02T00:00:00
+17.01.05,49,38,MichaelJourney,WaitToSeeGP,,Delay Until - ,1937-05-29 00:00:00,1937-04-02T00:00:00
+17.01.05,50,38,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1937-05-29T00:00:00
+17.01.05,50,38,MichaelJourney,GPvisit,,,,1937-05-29T00:00:00
+17.01.05,51,38,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1937-06-06 18:00:00,1937-05-29T00:00:00
+17.01.05,52,38,MichaelJourney,PharmacyVisit,,,,1937-06-06T18:00:00
+17.01.05,53,38,MichaelJourney,Wait4Park,,Delay Until - ,1937-06-10 18:00:00,1937-06-06T18:00:00
+17.01.05,54,38,MichaelJourney,ParrkVisit,,,,1937-06-10T18:00:00
+17.01.05,55,38,MichaelJourney,Wait4Ambulance,,Delay Until - ,1937-06-10 18:08:00,1937-06-10T18:00:00
+17.01.05,56,38,MichaelJourney,AmbulanceTrip,,,,1937-06-10T18:08:00
+17.01.05,57,38,MichaelJourney,Wiat4ED,,Delay Until - ,1937-06-10 18:20:00,1937-06-10T18:08:00
+17.01.05,58,38,MichaelJourney,EmergencyDept,,,,1937-06-10T18:20:00
+17.01.05,59,38,MichaelJourney,Wait4Ward,,Delay Until - ,1937-06-10 18:24:00,1937-06-10T18:20:00
+17.01.05,60,38,MichaelJourney,Admit2Ward,,,,1937-06-10T18:24:00
+17.01.05,61,38,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1937-06-10 18:39:00,1937-06-10T18:24:00
+17.01.05,62,38,MichaelJourney,Prepare4Discharge,,,,1937-06-10T18:39:00
+17.01.05,63,38,MichaelJourney,Wait4Discharge,,Delay Until - ,1937-06-10 18:41:00,1937-06-10T18:39:00
+17.01.05,64,38,MichaelJourney,Discharge,,,,1937-06-10T18:41:00
+17.01.05,65,38,MichaelJourney,Wait4PHR,,Delay Until - ,1937-06-10 18:45:00,1937-06-10T18:41:00
+17.01.05,66,38,MichaelJourney,UpdatePHR,,,,1937-06-10T18:45:00
+17.01.05,67,38,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1937-06-10 19:00:00,1937-06-10T18:45:00
+17.01.05,68,38,MichaelJourney,CreateOutpatientAppt,,,,1937-06-10T19:00:00
+17.01.05,69,38,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1937-06-10 19:04:00,1937-06-10T19:00:00
+17.01.05,70,38,MichaelJourney,AttendOutpatients,,,,1937-06-10T19:04:00
+17.01.05,71,38,MichaelJourney,Finish,,,,1937-06-10T19:04:00
+17.01.05,72,34,MichaelJourney,Birth,,,,1942-09-14T00:00:00
+17.01.05,73,34,MichaelJourney,WaitToSeeGP,,Delay Until - ,1942-11-21 00:00:00,1942-09-14T00:00:00
+17.01.05,74,34,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1942-11-21T00:00:00
+17.01.05,74,34,MichaelJourney,GPvisit,,,,1942-11-21T00:00:00
+17.01.05,75,34,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1942-11-27 06:00:00,1942-11-21T00:00:00
+17.01.05,76,34,MichaelJourney,PharmacyVisit,,,,1942-11-27T06:00:00
+17.01.05,77,34,MichaelJourney,Wait4Park,,Delay Until - ,1942-12-05 06:00:00,1942-11-27T06:00:00
+17.01.05,78,34,MichaelJourney,ParrkVisit,,,,1942-12-05T06:00:00
+17.01.05,79,34,MichaelJourney,Wait4Ambulance,,Delay Until - ,1942-12-05 06:16:00,1942-12-05T06:00:00
+17.01.05,80,34,MichaelJourney,AmbulanceTrip,,,,1942-12-05T06:16:00
+17.01.05,81,34,MichaelJourney,Wiat4ED,,Delay Until - ,1942-12-05 06:22:00,1942-12-05T06:16:00
+17.01.05,82,34,MichaelJourney,EmergencyDept,,,,1942-12-05T06:22:00
+17.01.05,83,34,MichaelJourney,Wait4Ward,,Delay Until - ,1942-12-05 06:29:00,1942-12-05T06:22:00
+17.01.05,84,34,MichaelJourney,Admit2Ward,,,,1942-12-05T06:29:00
+17.01.05,85,34,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1942-12-05 06:37:00,1942-12-05T06:29:00
+17.01.05,86,34,MichaelJourney,Prepare4Discharge,,,,1942-12-05T06:37:00
+17.01.05,87,34,MichaelJourney,Wait4Discharge,,Delay Until - ,1942-12-05 06:45:00,1942-12-05T06:37:00
+17.01.05,88,34,MichaelJourney,Discharge,,,,1942-12-05T06:45:00
+17.01.05,89,34,MichaelJourney,Wait4PHR,,Delay Until - ,1942-12-05 06:50:00,1942-12-05T06:45:00
+17.01.05,90,34,MichaelJourney,UpdatePHR,,,,1942-12-05T06:50:00
+17.01.05,91,34,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1942-12-05 07:02:00,1942-12-05T06:50:00
+17.01.05,92,34,MichaelJourney,CreateOutpatientAppt,,,,1942-12-05T07:02:00
+17.01.05,93,34,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1942-12-05 07:17:00,1942-12-05T07:02:00
+17.01.05,94,34,MichaelJourney,AttendOutpatients,,,,1942-12-05T07:17:00
+17.01.05,95,34,MichaelJourney,Finish,,,,1942-12-05T07:17:00
+17.01.05,96,26,MichaelJourney,Birth,,,,1944-11-06T00:00:00
+17.01.05,97,26,MichaelJourney,WaitToSeeGP,,Delay Until - ,1945-01-21 00:00:00,1944-11-06T00:00:00
+17.01.05,98,26,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1945-01-21T00:00:00
+17.01.05,98,26,MichaelJourney,GPvisit,,,,1945-01-21T00:00:00
+17.01.05,99,26,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1945-01-22 21:00:00,1945-01-21T00:00:00
+17.01.05,100,26,MichaelJourney,PharmacyVisit,,,,1945-01-22T21:00:00
+17.01.05,101,26,MichaelJourney,Wait4Park,,Delay Until - ,1945-01-24 21:00:00,1945-01-22T21:00:00
+17.01.05,102,26,MichaelJourney,ParrkVisit,,,,1945-01-24T21:00:00
+17.01.05,103,26,MichaelJourney,Wait4Ambulance,,Delay Until - ,1945-01-24 21:11:00,1945-01-24T21:00:00
+17.01.05,104,26,MichaelJourney,AmbulanceTrip,,,,1945-01-24T21:11:00
+17.01.05,105,26,MichaelJourney,Wiat4ED,,Delay Until - ,1945-01-24 21:25:00,1945-01-24T21:11:00
+17.01.05,106,26,MichaelJourney,EmergencyDept,,,,1945-01-24T21:25:00
+17.01.05,107,26,MichaelJourney,Wait4Ward,,Delay Until - ,1945-01-24 21:39:00,1945-01-24T21:25:00
+17.01.05,108,26,MichaelJourney,Admit2Ward,,,,1945-01-24T21:39:00
+17.01.05,109,26,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1945-01-24 21:53:00,1945-01-24T21:39:00
+17.01.05,110,26,MichaelJourney,Prepare4Discharge,,,,1945-01-24T21:53:00
+17.01.05,111,26,MichaelJourney,Wait4Discharge,,Delay Until - ,1945-01-24 22:01:00,1945-01-24T21:53:00
+17.01.05,112,26,MichaelJourney,Discharge,,,,1945-01-24T22:01:00
+17.01.05,113,26,MichaelJourney,Wait4PHR,,Delay Until - ,1945-01-24 22:11:00,1945-01-24T22:01:00
+17.01.05,114,26,MichaelJourney,UpdatePHR,,,,1945-01-24T22:11:00
+17.01.05,115,26,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1945-01-24 22:19:00,1945-01-24T22:11:00
+17.01.05,116,26,MichaelJourney,CreateOutpatientAppt,,,,1945-01-24T22:19:00
+17.01.05,117,26,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1945-01-24 22:29:00,1945-01-24T22:19:00
+17.01.05,118,26,MichaelJourney,AttendOutpatients,,,,1945-01-24T22:29:00
+17.01.05,119,26,MichaelJourney,Finish,,,,1945-01-24T22:29:00
+17.01.05,120,31,MichaelJourney,Birth,,,,1945-11-19T00:00:00
+17.01.05,121,31,MichaelJourney,WaitToSeeGP,,Delay Until - ,1946-01-29 00:00:00,1945-11-19T00:00:00
+17.01.05,122,31,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1946-01-29T00:00:00
+17.01.05,122,31,MichaelJourney,GPvisit,,,,1946-01-29T00:00:00
+17.01.05,123,31,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1946-01-30 01:00:00,1946-01-29T00:00:00
+17.01.05,124,31,MichaelJourney,PharmacyVisit,,,,1946-01-30T01:00:00
+17.01.05,125,31,MichaelJourney,Wait4Park,,Delay Until - ,1946-02-10 01:00:00,1946-01-30T01:00:00
+17.01.05,126,31,MichaelJourney,ParrkVisit,,,,1946-02-10T01:00:00
+17.01.05,127,31,MichaelJourney,Wait4Ambulance,,Delay Until - ,1946-02-10 01:05:00,1946-02-10T01:00:00
+17.01.05,128,31,MichaelJourney,AmbulanceTrip,,,,1946-02-10T01:05:00
+17.01.05,129,31,MichaelJourney,Wiat4ED,,Delay Until - ,1946-02-10 01:19:00,1946-02-10T01:05:00
+17.01.05,130,31,MichaelJourney,EmergencyDept,,,,1946-02-10T01:19:00
+17.01.05,131,31,MichaelJourney,Wait4Ward,,Delay Until - ,1946-02-10 01:25:00,1946-02-10T01:19:00
+17.01.05,132,31,MichaelJourney,Admit2Ward,,,,1946-02-10T01:25:00
+17.01.05,133,31,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1946-02-10 01:32:00,1946-02-10T01:25:00
+17.01.05,134,31,MichaelJourney,Prepare4Discharge,,,,1946-02-10T01:32:00
+17.01.05,135,31,MichaelJourney,Wait4Discharge,,Delay Until - ,1946-02-10 01:38:00,1946-02-10T01:32:00
+17.01.05,136,31,MichaelJourney,Discharge,,,,1946-02-10T01:38:00
+17.01.05,137,31,MichaelJourney,Wait4PHR,,Delay Until - ,1946-02-10 01:57:00,1946-02-10T01:38:00
+17.01.05,138,31,MichaelJourney,UpdatePHR,,,,1946-02-10T01:57:00
+17.01.05,139,31,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1946-02-10 02:00:00,1946-02-10T01:57:00
+17.01.05,140,31,MichaelJourney,CreateOutpatientAppt,,,,1946-02-10T02:00:00
+17.01.05,141,31,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1946-02-10 02:13:00,1946-02-10T02:00:00
+17.01.05,142,31,MichaelJourney,AttendOutpatients,,,,1946-02-10T02:13:00
+17.01.05,143,31,MichaelJourney,Finish,,,,1946-02-10T02:13:00
+17.01.05,144,37,MichaelJourney,Birth,,,,1947-02-05T00:00:00
+17.01.05,145,37,MichaelJourney,WaitToSeeGP,,Delay Until - ,1947-04-08 00:00:00,1947-02-05T00:00:00
+17.01.05,146,37,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1947-04-08T00:00:00
+17.01.05,146,37,MichaelJourney,GPvisit,,,,1947-04-08T00:00:00
+17.01.05,147,37,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1947-04-10 13:00:00,1947-04-08T00:00:00
+17.01.05,148,37,MichaelJourney,PharmacyVisit,,,,1947-04-10T13:00:00
+17.01.05,149,37,MichaelJourney,Wait4Park,,Delay Until - ,1947-04-23 13:00:00,1947-04-10T13:00:00
+17.01.05,150,37,MichaelJourney,ParrkVisit,,,,1947-04-23T13:00:00
+17.01.05,151,37,MichaelJourney,Wait4Ambulance,,Delay Until - ,1947-04-23 13:15:00,1947-04-23T13:00:00
+17.01.05,152,37,MichaelJourney,AmbulanceTrip,,,,1947-04-23T13:15:00
+17.01.05,153,37,MichaelJourney,Wiat4ED,,Delay Until - ,1947-04-23 13:29:00,1947-04-23T13:15:00
+17.01.05,154,37,MichaelJourney,EmergencyDept,,,,1947-04-23T13:29:00
+17.01.05,155,37,MichaelJourney,Wait4Ward,,Delay Until - ,1947-04-23 13:35:00,1947-04-23T13:29:00
+17.01.05,156,37,MichaelJourney,Admit2Ward,,,,1947-04-23T13:35:00
+17.01.05,157,37,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1947-04-23 13:44:00,1947-04-23T13:35:00
+17.01.05,158,37,MichaelJourney,Prepare4Discharge,,,,1947-04-23T13:44:00
+17.01.05,159,37,MichaelJourney,Wait4Discharge,,Delay Until - ,1947-04-23 13:47:00,1947-04-23T13:44:00
+17.01.05,160,37,MichaelJourney,Discharge,,,,1947-04-23T13:47:00
+17.01.05,161,37,MichaelJourney,Wait4PHR,,Delay Until - ,1947-04-23 13:58:00,1947-04-23T13:47:00
+17.01.05,162,37,MichaelJourney,UpdatePHR,,,,1947-04-23T13:58:00
+17.01.05,163,37,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1947-04-23 14:11:00,1947-04-23T13:58:00
+17.01.05,164,37,MichaelJourney,CreateOutpatientAppt,,,,1947-04-23T14:11:00
+17.01.05,165,37,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1947-04-23 14:27:00,1947-04-23T14:11:00
+17.01.05,166,37,MichaelJourney,AttendOutpatients,,,,1947-04-23T14:27:00
+17.01.05,167,37,MichaelJourney,Finish,,,,1947-04-23T14:27:00
+17.01.05,168,24,MichaelJourney,Birth,,,,1947-08-11T00:00:00
+17.01.05,169,24,MichaelJourney,WaitToSeeGP,,Delay Until - ,1947-10-22 00:00:00,1947-08-11T00:00:00
+17.01.05,170,24,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1947-10-22T00:00:00
+17.01.05,170,24,MichaelJourney,GPvisit,,,,1947-10-22T00:00:00
+17.01.05,171,24,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1947-10-23 07:00:00,1947-10-22T00:00:00
+17.01.05,172,24,MichaelJourney,PharmacyVisit,,,,1947-10-23T07:00:00
+17.01.05,173,24,MichaelJourney,Wait4Park,,Delay Until - ,1947-10-27 07:00:00,1947-10-23T07:00:00
+17.01.05,174,24,MichaelJourney,ParrkVisit,,,,1947-10-27T07:00:00
+17.01.05,175,24,MichaelJourney,Wait4Ambulance,,Delay Until - ,1947-10-27 07:01:00,1947-10-27T07:00:00
+17.01.05,176,24,MichaelJourney,AmbulanceTrip,,,,1947-10-27T07:01:00
+17.01.05,177,24,MichaelJourney,Wiat4ED,,Delay Until - ,1947-10-27 07:07:00,1947-10-27T07:01:00
+17.01.05,178,24,MichaelJourney,EmergencyDept,,,,1947-10-27T07:07:00
+17.01.05,179,24,MichaelJourney,Wait4Ward,,Delay Until - ,1947-10-27 07:16:00,1947-10-27T07:07:00
+17.01.05,180,24,MichaelJourney,Admit2Ward,,,,1947-10-27T07:16:00
+17.01.05,181,24,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1947-10-27 07:22:00,1947-10-27T07:16:00
+17.01.05,182,24,MichaelJourney,Prepare4Discharge,,,,1947-10-27T07:22:00
+17.01.05,183,24,MichaelJourney,Wait4Discharge,,Delay Until - ,1947-10-27 07:33:00,1947-10-27T07:22:00
+17.01.05,184,24,MichaelJourney,Discharge,,,,1947-10-27T07:33:00
+17.01.05,185,24,MichaelJourney,Wait4PHR,,Delay Until - ,1947-10-27 07:49:00,1947-10-27T07:33:00
+17.01.05,186,24,MichaelJourney,UpdatePHR,,,,1947-10-27T07:49:00
+17.01.05,187,24,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1947-10-27 08:09:00,1947-10-27T07:49:00
+17.01.05,188,24,MichaelJourney,CreateOutpatientAppt,,,,1947-10-27T08:09:00
+17.01.05,189,24,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1947-10-27 08:23:00,1947-10-27T08:09:00
+17.01.05,190,24,MichaelJourney,AttendOutpatients,,,,1947-10-27T08:23:00
+17.01.05,191,24,MichaelJourney,Finish,,,,1947-10-27T08:23:00
+17.01.05,192,10,MichaelJourney,Birth,,,,1948-01-20T00:00:00
+17.01.05,193,10,MichaelJourney,WaitToSeeGP,,Delay Until - ,1948-03-30 00:00:00,1948-01-20T00:00:00
+17.01.05,194,10,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']",1948-03-30T00:00:00
+17.01.05,194,10,MichaelJourney,GPvisit,,,,1948-03-30T00:00:00
+17.01.05,195,10,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1948-04-01 04:00:00,1948-03-30T00:00:00
+17.01.05,196,10,MichaelJourney,PharmacyVisit,,,,1948-04-01T04:00:00
+17.01.05,197,10,MichaelJourney,Wait4Park,,Delay Until - ,1948-04-03 04:00:00,1948-04-01T04:00:00
+17.01.05,198,10,MichaelJourney,ParrkVisit,,,,1948-04-03T04:00:00
+17.01.05,199,10,MichaelJourney,Wait4Ambulance,,Delay Until - ,1948-04-03 04:09:00,1948-04-03T04:00:00
+17.01.05,200,10,MichaelJourney,AmbulanceTrip,,,,1948-04-03T04:09:00
+17.01.05,201,10,MichaelJourney,Wiat4ED,,Delay Until - ,1948-04-03 04:13:00,1948-04-03T04:09:00
+17.01.05,202,10,MichaelJourney,EmergencyDept,,,,1948-04-03T04:13:00
+17.01.05,203,10,MichaelJourney,Wait4Ward,,Delay Until - ,1948-04-03 04:15:00,1948-04-03T04:13:00
+17.01.05,204,10,MichaelJourney,Admit2Ward,,,,1948-04-03T04:15:00
+17.01.05,205,10,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1948-04-03 04:34:00,1948-04-03T04:15:00
+17.01.05,206,10,MichaelJourney,Prepare4Discharge,,,,1948-04-03T04:34:00
+17.01.05,207,10,MichaelJourney,Wait4Discharge,,Delay Until - ,1948-04-03 04:44:00,1948-04-03T04:34:00
+17.01.05,208,10,MichaelJourney,Discharge,,,,1948-04-03T04:44:00
+17.01.05,209,10,MichaelJourney,Wait4PHR,,Delay Until - ,1948-04-03 04:53:00,1948-04-03T04:44:00
+17.01.05,210,10,MichaelJourney,UpdatePHR,,,,1948-04-03T04:53:00
+17.01.05,211,10,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1948-04-03 05:10:00,1948-04-03T04:53:00
+17.01.05,212,10,MichaelJourney,CreateOutpatientAppt,,,,1948-04-03T05:10:00
+17.01.05,213,10,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1948-04-03 05:16:00,1948-04-03T05:10:00
+17.01.05,214,10,MichaelJourney,AttendOutpatients,,,,1948-04-03T05:16:00
+17.01.05,215,10,MichaelJourney,Finish,,,,1948-04-03T05:16:00
+17.01.05,216,23,MichaelJourney,Birth,,,,1948-07-31T00:00:00
+17.01.05,217,23,MichaelJourney,WaitToSeeGP,,Delay Until - ,1948-10-05 00:00:00,1948-07-31T00:00:00
+17.01.05,218,23,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1948-10-05T00:00:00
+17.01.05,218,23,MichaelJourney,GPvisit,,,,1948-10-05T00:00:00
+17.01.05,219,23,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1948-10-14 10:00:00,1948-10-05T00:00:00
+17.01.05,220,23,MichaelJourney,PharmacyVisit,,,,1948-10-14T10:00:00
+17.01.05,221,23,MichaelJourney,Wait4Park,,Delay Until - ,1948-10-18 10:00:00,1948-10-14T10:00:00
+17.01.05,222,23,MichaelJourney,ParrkVisit,,,,1948-10-18T10:00:00
+17.01.05,223,23,MichaelJourney,Wait4Ambulance,,Delay Until - ,1948-10-18 10:15:00,1948-10-18T10:00:00
+17.01.05,224,23,MichaelJourney,AmbulanceTrip,,,,1948-10-18T10:15:00
+17.01.05,225,23,MichaelJourney,Wiat4ED,,Delay Until - ,1948-10-18 10:23:00,1948-10-18T10:15:00
+17.01.05,226,23,MichaelJourney,EmergencyDept,,,,1948-10-18T10:23:00
+17.01.05,227,23,MichaelJourney,Wait4Ward,,Delay Until - ,1948-10-18 10:30:00,1948-10-18T10:23:00
+17.01.05,228,23,MichaelJourney,Admit2Ward,,,,1948-10-18T10:30:00
+17.01.05,229,23,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1948-10-18 10:45:00,1948-10-18T10:30:00
+17.01.05,230,23,MichaelJourney,Prepare4Discharge,,,,1948-10-18T10:45:00
+17.01.05,231,23,MichaelJourney,Wait4Discharge,,Delay Until - ,1948-10-18 10:55:00,1948-10-18T10:45:00
+17.01.05,232,23,MichaelJourney,Discharge,,,,1948-10-18T10:55:00
+17.01.05,233,23,MichaelJourney,Wait4PHR,,Delay Until - ,1948-10-18 11:04:00,1948-10-18T10:55:00
+17.01.05,234,23,MichaelJourney,UpdatePHR,,,,1948-10-18T11:04:00
+17.01.05,235,23,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1948-10-18 11:10:00,1948-10-18T11:04:00
+17.01.05,236,23,MichaelJourney,CreateOutpatientAppt,,,,1948-10-18T11:10:00
+17.01.05,237,23,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1948-10-18 11:24:00,1948-10-18T11:10:00
+17.01.05,238,23,MichaelJourney,AttendOutpatients,,,,1948-10-18T11:24:00
+17.01.05,239,23,MichaelJourney,Finish,,,,1948-10-18T11:24:00
+17.01.06,240,25,MichaelJourney,Birth,,,,1950-08-14T00:00:00
+17.01.06,241,25,MichaelJourney,WaitToSeeGP,,Delay Until - ,1950-10-10 00:00:00,1950-08-14T00:00:00
+17.01.06,242,25,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1950-10-10T00:00:00
+17.01.06,242,25,MichaelJourney,GPvisit,,,,1950-10-10T00:00:00
+17.01.06,243,25,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1950-10-10 17:00:00,1950-10-10T00:00:00
+17.01.06,244,25,MichaelJourney,PharmacyVisit,,,,1950-10-10T17:00:00
+17.01.06,245,25,MichaelJourney,Wait4Park,,Delay Until - ,1950-10-17 17:00:00,1950-10-10T17:00:00
+17.01.06,246,25,MichaelJourney,ParrkVisit,,,,1950-10-17T17:00:00
+17.01.06,247,25,MichaelJourney,Wait4Ambulance,,Delay Until - ,1950-10-17 17:13:00,1950-10-17T17:00:00
+17.01.06,248,25,MichaelJourney,AmbulanceTrip,,,,1950-10-17T17:13:00
+17.01.06,249,25,MichaelJourney,Wiat4ED,,Delay Until - ,1950-10-17 17:18:00,1950-10-17T17:13:00
+17.01.06,250,25,MichaelJourney,EmergencyDept,,,,1950-10-17T17:18:00
+17.01.06,251,25,MichaelJourney,Wait4Ward,,Delay Until - ,1950-10-17 17:38:00,1950-10-17T17:18:00
+17.01.06,252,25,MichaelJourney,Admit2Ward,,,,1950-10-17T17:38:00
+17.01.06,253,25,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1950-10-17 17:43:00,1950-10-17T17:38:00
+17.01.06,254,25,MichaelJourney,Prepare4Discharge,,,,1950-10-17T17:43:00
+17.01.06,255,25,MichaelJourney,Wait4Discharge,,Delay Until - ,1950-10-17 17:53:00,1950-10-17T17:43:00
+17.01.06,256,25,MichaelJourney,Discharge,,,,1950-10-17T17:53:00
+17.01.06,257,25,MichaelJourney,Wait4PHR,,Delay Until - ,1950-10-17 18:12:00,1950-10-17T17:53:00
+17.01.06,258,25,MichaelJourney,UpdatePHR,,,,1950-10-17T18:12:00
+17.01.06,259,25,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1950-10-17 18:22:00,1950-10-17T18:12:00
+17.01.06,260,25,MichaelJourney,CreateOutpatientAppt,,,,1950-10-17T18:22:00
+17.01.06,261,25,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1950-10-17 18:30:00,1950-10-17T18:22:00
+17.01.06,262,25,MichaelJourney,AttendOutpatients,,,,1950-10-17T18:30:00
+17.01.06,263,25,MichaelJourney,Finish,,,,1950-10-17T18:30:00
+17.01.06,264,7,MichaelJourney,Birth,,,,1958-10-30T00:00:00
+17.01.06,265,7,MichaelJourney,WaitToSeeGP,,Delay Until - ,1958-12-29 00:00:00,1958-10-30T00:00:00
+17.01.06,266,7,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1958-12-29T00:00:00
+17.01.06,266,7,MichaelJourney,GPvisit,,,,1958-12-29T00:00:00
+17.01.06,267,7,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1959-01-02 17:00:00,1958-12-29T00:00:00
+17.01.06,268,7,MichaelJourney,PharmacyVisit,,,,1959-01-02T17:00:00
+17.01.06,269,7,MichaelJourney,Wait4Park,,Delay Until - ,1959-01-17 17:00:00,1959-01-02T17:00:00
+17.01.06,270,7,MichaelJourney,ParrkVisit,,,,1959-01-17T17:00:00
+17.01.06,271,7,MichaelJourney,Wait4Ambulance,,Delay Until - ,1959-01-17 17:16:00,1959-01-17T17:00:00
+17.01.06,272,7,MichaelJourney,AmbulanceTrip,,,,1959-01-17T17:16:00
+17.01.06,273,7,MichaelJourney,Wiat4ED,,Delay Until - ,1959-01-17 17:19:00,1959-01-17T17:16:00
+17.01.06,274,7,MichaelJourney,EmergencyDept,,,,1959-01-17T17:19:00
+17.01.06,275,7,MichaelJourney,Wait4Ward,,Delay Until - ,1959-01-17 17:27:00,1959-01-17T17:19:00
+17.01.06,276,7,MichaelJourney,Admit2Ward,,,,1959-01-17T17:27:00
+17.01.06,277,7,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1959-01-17 17:46:00,1959-01-17T17:27:00
+17.01.06,278,7,MichaelJourney,Prepare4Discharge,,,,1959-01-17T17:46:00
+17.01.06,279,7,MichaelJourney,Wait4Discharge,,Delay Until - ,1959-01-17 17:59:00,1959-01-17T17:46:00
+17.01.06,280,7,MichaelJourney,Discharge,,,,1959-01-17T17:59:00
+17.01.06,281,7,MichaelJourney,Wait4PHR,,Delay Until - ,1959-01-17 18:01:00,1959-01-17T17:59:00
+17.01.06,282,7,MichaelJourney,UpdatePHR,,,,1959-01-17T18:01:00
+17.01.06,283,7,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1959-01-17 18:10:00,1959-01-17T18:01:00
+17.01.06,284,7,MichaelJourney,CreateOutpatientAppt,,,,1959-01-17T18:10:00
+17.01.06,285,7,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1959-01-17 18:27:00,1959-01-17T18:10:00
+17.01.06,286,7,MichaelJourney,AttendOutpatients,,,,1959-01-17T18:27:00
+17.01.06,287,7,MichaelJourney,Finish,,,,1959-01-17T18:27:00
+17.01.06,288,21,MichaelJourney,Birth,,,,1959-05-17T00:00:00
+17.01.06,289,21,MichaelJourney,WaitToSeeGP,,Delay Until - ,1959-07-24 00:00:00,1959-05-17T00:00:00
+17.01.06,290,21,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1959-07-24T00:00:00
+17.01.06,290,21,MichaelJourney,GPvisit,,,,1959-07-24T00:00:00
+17.01.06,291,21,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1959-07-27 19:00:00,1959-07-24T00:00:00
+17.01.06,292,21,MichaelJourney,PharmacyVisit,,,,1959-07-27T19:00:00
+17.01.06,293,21,MichaelJourney,Wait4Park,,Delay Until - ,1959-08-04 19:00:00,1959-07-27T19:00:00
+17.01.06,294,21,MichaelJourney,ParrkVisit,,,,1959-08-04T19:00:00
+17.01.06,295,21,MichaelJourney,Wait4Ambulance,,Delay Until - ,1959-08-04 19:01:00,1959-08-04T19:00:00
+17.01.06,296,21,MichaelJourney,AmbulanceTrip,,,,1959-08-04T19:01:00
+17.01.06,297,21,MichaelJourney,Wiat4ED,,Delay Until - ,1959-08-04 19:08:00,1959-08-04T19:01:00
+17.01.06,298,21,MichaelJourney,EmergencyDept,,,,1959-08-04T19:08:00
+17.01.06,299,21,MichaelJourney,Wait4Ward,,Delay Until - ,1959-08-04 19:15:00,1959-08-04T19:08:00
+17.01.06,300,21,MichaelJourney,Admit2Ward,,,,1959-08-04T19:15:00
+17.01.06,301,21,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1959-08-04 19:29:00,1959-08-04T19:15:00
+17.01.06,302,21,MichaelJourney,Prepare4Discharge,,,,1959-08-04T19:29:00
+17.01.06,303,21,MichaelJourney,Wait4Discharge,,Delay Until - ,1959-08-04 19:47:00,1959-08-04T19:29:00
+17.01.06,304,21,MichaelJourney,Discharge,,,,1959-08-04T19:47:00
+17.01.06,305,21,MichaelJourney,Wait4PHR,,Delay Until - ,1959-08-04 19:57:00,1959-08-04T19:47:00
+17.01.06,306,21,MichaelJourney,UpdatePHR,,,,1959-08-04T19:57:00
+17.01.06,307,21,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1959-08-04 20:09:00,1959-08-04T19:57:00
+17.01.06,308,21,MichaelJourney,CreateOutpatientAppt,,,,1959-08-04T20:09:00
+17.01.06,309,21,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1959-08-04 20:17:00,1959-08-04T20:09:00
+17.01.06,310,21,MichaelJourney,AttendOutpatients,,,,1959-08-04T20:17:00
+17.01.06,311,21,MichaelJourney,Finish,,,,1959-08-04T20:17:00
+17.01.06,312,12,MichaelJourney,Birth,,,,1959-10-17T00:00:00
+17.01.06,313,12,MichaelJourney,WaitToSeeGP,,Delay Until - ,1959-12-19 00:00:00,1959-10-17T00:00:00
+17.01.06,314,1,MichaelJourney,Birth,,,,1959-11-29T00:00:00
+17.01.06,315,1,MichaelJourney,WaitToSeeGP,,Delay Until - ,1960-02-17 00:00:00,1959-11-29T00:00:00
+17.01.06,316,12,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1959-12-19T00:00:00
+17.01.06,316,12,MichaelJourney,GPvisit,,,,1959-12-19T00:00:00
+17.01.06,317,12,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1959-12-27 23:00:00,1959-12-19T00:00:00
+17.01.06,318,12,MichaelJourney,PharmacyVisit,,,,1959-12-27T23:00:00
+17.01.06,319,12,MichaelJourney,Wait4Park,,Delay Until - ,1960-01-01 23:00:00,1959-12-27T23:00:00
+17.01.06,320,12,MichaelJourney,ParrkVisit,,,,1960-01-01T23:00:00
+17.01.06,321,12,MichaelJourney,Wait4Ambulance,,Delay Until - ,1960-01-01 23:12:00,1960-01-01T23:00:00
+17.01.06,322,12,MichaelJourney,AmbulanceTrip,,,,1960-01-01T23:12:00
+17.01.06,323,12,MichaelJourney,Wiat4ED,,Delay Until - ,1960-01-01 23:27:00,1960-01-01T23:12:00
+17.01.06,324,12,MichaelJourney,EmergencyDept,,,,1960-01-01T23:27:00
+17.01.06,325,12,MichaelJourney,Wait4Ward,,Delay Until - ,1960-01-01 23:43:00,1960-01-01T23:27:00
+17.01.06,326,12,MichaelJourney,Admit2Ward,,,,1960-01-01T23:43:00
+17.01.06,327,12,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1960-01-01 23:55:00,1960-01-01T23:43:00
+17.01.06,328,12,MichaelJourney,Prepare4Discharge,,,,1960-01-01T23:55:00
+17.01.06,329,12,MichaelJourney,Wait4Discharge,,Delay Until - ,1960-01-02 00:03:00,1960-01-01T23:55:00
+17.01.06,330,12,MichaelJourney,Discharge,,,,1960-01-02T00:03:00
+17.01.06,331,12,MichaelJourney,Wait4PHR,,Delay Until - ,1960-01-02 00:09:00,1960-01-02T00:03:00
+17.01.06,332,12,MichaelJourney,UpdatePHR,,,,1960-01-02T00:09:00
+17.01.06,333,12,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1960-01-02 00:11:00,1960-01-02T00:09:00
+17.01.06,334,12,MichaelJourney,CreateOutpatientAppt,,,,1960-01-02T00:11:00
+17.01.06,335,12,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1960-01-02 00:13:00,1960-01-02T00:11:00
+17.01.06,336,12,MichaelJourney,AttendOutpatients,,,,1960-01-02T00:13:00
+17.01.06,337,12,MichaelJourney,Finish,,,,1960-01-02T00:13:00
+17.01.06,338,1,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg']",1960-02-17T00:00:00
+17.01.06,338,1,MichaelJourney,GPvisit,,,,1960-02-17T00:00:00
+17.01.06,339,1,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1960-02-17 14:00:00,1960-02-17T00:00:00
+17.01.06,340,1,MichaelJourney,PharmacyVisit,,,,1960-02-17T14:00:00
+17.01.06,341,1,MichaelJourney,Wait4Park,,Delay Until - ,1960-02-27 14:00:00,1960-02-17T14:00:00
+17.01.06,342,1,MichaelJourney,ParrkVisit,,,,1960-02-27T14:00:00
+17.01.06,343,1,MichaelJourney,Wait4Ambulance,,Delay Until - ,1960-02-27 14:06:00,1960-02-27T14:00:00
+17.01.06,344,1,MichaelJourney,AmbulanceTrip,,,,1960-02-27T14:06:00
+17.01.06,345,1,MichaelJourney,Wiat4ED,,Delay Until - ,1960-02-27 14:19:00,1960-02-27T14:06:00
+17.01.06,346,1,MichaelJourney,EmergencyDept,,,,1960-02-27T14:19:00
+17.01.06,347,1,MichaelJourney,Wait4Ward,,Delay Until - ,1960-02-27 14:34:00,1960-02-27T14:19:00
+17.01.06,348,1,MichaelJourney,Admit2Ward,,,,1960-02-27T14:34:00
+17.01.06,349,1,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1960-02-27 14:36:00,1960-02-27T14:34:00
+17.01.06,350,1,MichaelJourney,Prepare4Discharge,,,,1960-02-27T14:36:00
+17.01.06,351,1,MichaelJourney,Wait4Discharge,,Delay Until - ,1960-02-27 14:47:00,1960-02-27T14:36:00
+17.01.06,352,1,MichaelJourney,Discharge,,,,1960-02-27T14:47:00
+17.01.06,353,1,MichaelJourney,Wait4PHR,,Delay Until - ,1960-02-27 14:51:00,1960-02-27T14:47:00
+17.01.06,354,1,MichaelJourney,UpdatePHR,,,,1960-02-27T14:51:00
+17.01.06,355,1,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1960-02-27 14:58:00,1960-02-27T14:51:00
+17.01.06,356,1,MichaelJourney,CreateOutpatientAppt,,,,1960-02-27T14:58:00
+17.01.06,357,1,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1960-02-27 15:15:00,1960-02-27T14:58:00
+17.01.06,358,1,MichaelJourney,AttendOutpatients,,,,1960-02-27T15:15:00
+17.01.06,359,1,MichaelJourney,Finish,,,,1960-02-27T15:15:00
+17.01.06,360,15,MichaelJourney,Birth,,,,1960-06-17T00:00:00
+17.01.06,361,15,MichaelJourney,WaitToSeeGP,,Delay Until - ,1960-09-04 00:00:00,1960-06-17T00:00:00
+17.01.06,362,15,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1960-09-04T00:00:00
+17.01.06,362,15,MichaelJourney,GPvisit,,,,1960-09-04T00:00:00
+17.01.06,363,15,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1960-09-08 02:00:00,1960-09-04T00:00:00
+17.01.06,364,15,MichaelJourney,PharmacyVisit,,,,1960-09-08T02:00:00
+17.01.06,365,15,MichaelJourney,Wait4Park,,Delay Until - ,1960-09-10 02:00:00,1960-09-08T02:00:00
+17.01.06,366,15,MichaelJourney,ParrkVisit,,,,1960-09-10T02:00:00
+17.01.06,367,15,MichaelJourney,Wait4Ambulance,,Delay Until - ,1960-09-10 02:19:00,1960-09-10T02:00:00
+17.01.06,368,15,MichaelJourney,AmbulanceTrip,,,,1960-09-10T02:19:00
+17.01.06,369,15,MichaelJourney,Wiat4ED,,Delay Until - ,1960-09-10 02:34:00,1960-09-10T02:19:00
+17.01.06,370,15,MichaelJourney,EmergencyDept,,,,1960-09-10T02:34:00
+17.01.06,371,15,MichaelJourney,Wait4Ward,,Delay Until - ,1960-09-10 02:38:00,1960-09-10T02:34:00
+17.01.06,372,15,MichaelJourney,Admit2Ward,,,,1960-09-10T02:38:00
+17.01.06,373,15,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1960-09-10 02:47:00,1960-09-10T02:38:00
+17.01.06,374,15,MichaelJourney,Prepare4Discharge,,,,1960-09-10T02:47:00
+17.01.06,375,15,MichaelJourney,Wait4Discharge,,Delay Until - ,1960-09-10 03:04:00,1960-09-10T02:47:00
+17.01.06,376,15,MichaelJourney,Discharge,,,,1960-09-10T03:04:00
+17.01.06,377,15,MichaelJourney,Wait4PHR,,Delay Until - ,1960-09-10 03:19:00,1960-09-10T03:04:00
+17.01.06,378,15,MichaelJourney,UpdatePHR,,,,1960-09-10T03:19:00
+17.01.06,379,15,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1960-09-10 03:35:00,1960-09-10T03:19:00
+17.01.06,380,15,MichaelJourney,CreateOutpatientAppt,,,,1960-09-10T03:35:00
+17.01.06,381,15,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1960-09-10 03:47:00,1960-09-10T03:35:00
+17.01.06,382,15,MichaelJourney,AttendOutpatients,,,,1960-09-10T03:47:00
+17.01.06,383,15,MichaelJourney,Finish,,,,1960-09-10T03:47:00
+17.01.06,384,42,MichaelJourney,Birth,,,,1960-11-11T00:00:00
+17.01.06,385,42,MichaelJourney,WaitToSeeGP,,Delay Until - ,1961-02-01 00:00:00,1960-11-11T00:00:00
+17.01.06,386,42,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1961-02-01T00:00:00
+17.01.06,386,42,MichaelJourney,GPvisit,,,,1961-02-01T00:00:00
+17.01.06,387,42,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1961-02-02 07:00:00,1961-02-01T00:00:00
+17.01.06,388,42,MichaelJourney,PharmacyVisit,,,,1961-02-02T07:00:00
+17.01.06,389,42,MichaelJourney,Wait4Park,,Delay Until - ,1961-02-08 07:00:00,1961-02-02T07:00:00
+17.01.06,390,42,MichaelJourney,ParrkVisit,,,,1961-02-08T07:00:00
+17.01.06,391,42,MichaelJourney,Wait4Ambulance,,Delay Until - ,1961-02-08 07:19:00,1961-02-08T07:00:00
+17.01.06,392,42,MichaelJourney,AmbulanceTrip,,,,1961-02-08T07:19:00
+17.01.06,393,42,MichaelJourney,Wiat4ED,,Delay Until - ,1961-02-08 07:20:00,1961-02-08T07:19:00
+17.01.06,394,42,MichaelJourney,EmergencyDept,,,,1961-02-08T07:20:00
+17.01.06,395,42,MichaelJourney,Wait4Ward,,Delay Until - ,1961-02-08 07:37:00,1961-02-08T07:20:00
+17.01.06,396,42,MichaelJourney,Admit2Ward,,,,1961-02-08T07:37:00
+17.01.06,397,42,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1961-02-08 07:39:00,1961-02-08T07:37:00
+17.01.06,398,42,MichaelJourney,Prepare4Discharge,,,,1961-02-08T07:39:00
+17.01.06,399,42,MichaelJourney,Wait4Discharge,,Delay Until - ,1961-02-08 07:42:00,1961-02-08T07:39:00
+17.01.06,400,42,MichaelJourney,Discharge,,,,1961-02-08T07:42:00
+17.01.06,401,42,MichaelJourney,Wait4PHR,,Delay Until - ,1961-02-08 07:49:00,1961-02-08T07:42:00
+17.01.06,402,42,MichaelJourney,UpdatePHR,,,,1961-02-08T07:49:00
+17.01.06,403,42,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1961-02-08 08:09:00,1961-02-08T07:49:00
+17.01.06,404,42,MichaelJourney,CreateOutpatientAppt,,,,1961-02-08T08:09:00
+17.01.06,405,42,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1961-02-08 08:22:00,1961-02-08T08:09:00
+17.01.06,406,42,MichaelJourney,AttendOutpatients,,,,1961-02-08T08:22:00
+17.01.06,407,42,MichaelJourney,Finish,,,,1961-02-08T08:22:00
+17.01.06,408,22,MichaelJourney,Birth,,,,1962-02-20T00:00:00
+17.01.06,409,22,MichaelJourney,WaitToSeeGP,,Delay Until - ,1962-04-20 00:00:00,1962-02-20T00:00:00
+17.01.06,410,22,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1962-04-20T00:00:00
+17.01.06,410,22,MichaelJourney,GPvisit,,,,1962-04-20T00:00:00
+17.01.06,411,22,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1962-04-20 21:00:00,1962-04-20T00:00:00
+17.01.06,412,22,MichaelJourney,PharmacyVisit,,,,1962-04-20T21:00:00
+17.01.06,413,22,MichaelJourney,Wait4Park,,Delay Until - ,1962-05-08 21:00:00,1962-04-20T21:00:00
+17.01.06,414,22,MichaelJourney,ParrkVisit,,,,1962-05-08T21:00:00
+17.01.06,415,22,MichaelJourney,Wait4Ambulance,,Delay Until - ,1962-05-08 21:04:00,1962-05-08T21:00:00
+17.01.06,416,22,MichaelJourney,AmbulanceTrip,,,,1962-05-08T21:04:00
+17.01.06,417,22,MichaelJourney,Wiat4ED,,Delay Until - ,1962-05-08 21:22:00,1962-05-08T21:04:00
+17.01.06,418,22,MichaelJourney,EmergencyDept,,,,1962-05-08T21:22:00
+17.01.06,419,22,MichaelJourney,Wait4Ward,,Delay Until - ,1962-05-08 21:24:00,1962-05-08T21:22:00
+17.01.06,420,22,MichaelJourney,Admit2Ward,,,,1962-05-08T21:24:00
+17.01.06,421,22,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1962-05-08 21:32:00,1962-05-08T21:24:00
+17.01.06,422,22,MichaelJourney,Prepare4Discharge,,,,1962-05-08T21:32:00
+17.01.06,423,22,MichaelJourney,Wait4Discharge,,Delay Until - ,1962-05-08 21:44:00,1962-05-08T21:32:00
+17.01.06,424,22,MichaelJourney,Discharge,,,,1962-05-08T21:44:00
+17.01.06,425,22,MichaelJourney,Wait4PHR,,Delay Until - ,1962-05-08 21:49:00,1962-05-08T21:44:00
+17.01.06,426,22,MichaelJourney,UpdatePHR,,,,1962-05-08T21:49:00
+17.01.06,427,22,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1962-05-08 21:59:00,1962-05-08T21:49:00
+17.01.06,428,22,MichaelJourney,CreateOutpatientAppt,,,,1962-05-08T21:59:00
+17.01.06,429,22,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1962-05-08 22:18:00,1962-05-08T21:59:00
+17.01.06,430,22,MichaelJourney,AttendOutpatients,,,,1962-05-08T22:18:00
+17.01.06,431,22,MichaelJourney,Finish,,,,1962-05-08T22:18:00
+17.01.06,432,43,MichaelJourney,Birth,,,,1964-08-11T00:00:00
+17.01.06,433,43,MichaelJourney,WaitToSeeGP,,Delay Until - ,1964-11-01 00:00:00,1964-08-11T00:00:00
+17.01.06,434,43,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1964-11-01T00:00:00
+17.01.06,434,43,MichaelJourney,GPvisit,,,,1964-11-01T00:00:00
+17.01.06,435,43,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1964-11-07 18:00:00,1964-11-01T00:00:00
+17.01.06,436,43,MichaelJourney,PharmacyVisit,,,,1964-11-07T18:00:00
+17.01.06,437,43,MichaelJourney,Wait4Park,,Delay Until - ,1964-11-17 18:00:00,1964-11-07T18:00:00
+17.01.06,438,43,MichaelJourney,ParrkVisit,,,,1964-11-17T18:00:00
+17.01.06,439,43,MichaelJourney,Wait4Ambulance,,Delay Until - ,1964-11-17 18:11:00,1964-11-17T18:00:00
+17.01.06,440,43,MichaelJourney,AmbulanceTrip,,,,1964-11-17T18:11:00
+17.01.06,441,43,MichaelJourney,Wiat4ED,,Delay Until - ,1964-11-17 18:20:00,1964-11-17T18:11:00
+17.01.06,442,43,MichaelJourney,EmergencyDept,,,,1964-11-17T18:20:00
+17.01.06,443,43,MichaelJourney,Wait4Ward,,Delay Until - ,1964-11-17 18:22:00,1964-11-17T18:20:00
+17.01.06,444,43,MichaelJourney,Admit2Ward,,,,1964-11-17T18:22:00
+17.01.06,445,43,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1964-11-17 18:30:00,1964-11-17T18:22:00
+17.01.06,446,43,MichaelJourney,Prepare4Discharge,,,,1964-11-17T18:30:00
+17.01.06,447,43,MichaelJourney,Wait4Discharge,,Delay Until - ,1964-11-17 18:33:00,1964-11-17T18:30:00
+17.01.06,448,43,MichaelJourney,Discharge,,,,1964-11-17T18:33:00
+17.01.06,449,43,MichaelJourney,Wait4PHR,,Delay Until - ,1964-11-17 18:52:00,1964-11-17T18:33:00
+17.01.06,450,43,MichaelJourney,UpdatePHR,,,,1964-11-17T18:52:00
+17.01.06,451,43,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1964-11-17 19:01:00,1964-11-17T18:52:00
+17.01.06,452,43,MichaelJourney,CreateOutpatientAppt,,,,1964-11-17T19:01:00
+17.01.06,453,43,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1964-11-17 19:07:00,1964-11-17T19:01:00
+17.01.06,454,43,MichaelJourney,AttendOutpatients,,,,1964-11-17T19:07:00
+17.01.06,455,43,MichaelJourney,Finish,,,,1964-11-17T19:07:00
+17.01.06,456,27,MichaelJourney,Birth,,,,1966-12-28T00:00:00
+17.01.06,457,27,MichaelJourney,WaitToSeeGP,,Delay Until - ,1967-03-04 00:00:00,1966-12-28T00:00:00
+17.01.06,458,27,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1967-03-04T00:00:00
+17.01.06,458,27,MichaelJourney,GPvisit,,,,1967-03-04T00:00:00
+17.01.06,459,27,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1967-03-06 07:00:00,1967-03-04T00:00:00
+17.01.06,460,27,MichaelJourney,PharmacyVisit,,,,1967-03-06T07:00:00
+17.01.06,461,27,MichaelJourney,Wait4Park,,Delay Until - ,1967-03-26 07:00:00,1967-03-06T07:00:00
+17.01.06,462,27,MichaelJourney,ParrkVisit,,,,1967-03-26T07:00:00
+17.01.06,463,27,MichaelJourney,Wait4Ambulance,,Delay Until - ,1967-03-26 07:04:00,1967-03-26T07:00:00
+17.01.06,464,27,MichaelJourney,AmbulanceTrip,,,,1967-03-26T07:04:00
+17.01.06,465,27,MichaelJourney,Wiat4ED,,Delay Until - ,1967-03-26 07:06:00,1967-03-26T07:04:00
+17.01.06,466,27,MichaelJourney,EmergencyDept,,,,1967-03-26T07:06:00
+17.01.06,467,27,MichaelJourney,Wait4Ward,,Delay Until - ,1967-03-26 07:17:00,1967-03-26T07:06:00
+17.01.06,468,27,MichaelJourney,Admit2Ward,,,,1967-03-26T07:17:00
+17.01.06,469,27,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1967-03-26 07:36:00,1967-03-26T07:17:00
+17.01.06,470,27,MichaelJourney,Prepare4Discharge,,,,1967-03-26T07:36:00
+17.01.06,471,27,MichaelJourney,Wait4Discharge,,Delay Until - ,1967-03-26 07:41:00,1967-03-26T07:36:00
+17.01.06,472,27,MichaelJourney,Discharge,,,,1967-03-26T07:41:00
+17.01.06,473,27,MichaelJourney,Wait4PHR,,Delay Until - ,1967-03-26 08:00:00,1967-03-26T07:41:00
+17.01.06,474,27,MichaelJourney,UpdatePHR,,,,1967-03-26T08:00:00
+17.01.06,475,27,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1967-03-26 08:05:00,1967-03-26T08:00:00
+17.01.06,476,27,MichaelJourney,CreateOutpatientAppt,,,,1967-03-26T08:05:00
+17.01.06,477,27,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1967-03-26 08:20:00,1967-03-26T08:05:00
+17.01.06,478,27,MichaelJourney,AttendOutpatients,,,,1967-03-26T08:20:00
+17.01.06,479,27,MichaelJourney,Finish,,,,1967-03-26T08:20:00
+17.01.06,480,16,MichaelJourney,Birth,,,,1967-12-25T00:00:00
+17.01.06,481,16,MichaelJourney,WaitToSeeGP,,Delay Until - ,1968-03-13 00:00:00,1967-12-25T00:00:00
+17.01.06,482,16,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1968-03-13T00:00:00
+17.01.06,482,16,MichaelJourney,GPvisit,,,,1968-03-13T00:00:00
+17.01.06,483,16,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1968-03-13 05:00:00,1968-03-13T00:00:00
+17.01.06,484,16,MichaelJourney,PharmacyVisit,,,,1968-03-13T05:00:00
+17.01.06,485,16,MichaelJourney,Wait4Park,,Delay Until - ,1968-03-30 05:00:00,1968-03-13T05:00:00
+17.01.06,486,16,MichaelJourney,ParrkVisit,,,,1968-03-30T05:00:00
+17.01.06,487,16,MichaelJourney,Wait4Ambulance,,Delay Until - ,1968-03-30 05:05:00,1968-03-30T05:00:00
+17.01.06,488,16,MichaelJourney,AmbulanceTrip,,,,1968-03-30T05:05:00
+17.01.06,489,16,MichaelJourney,Wiat4ED,,Delay Until - ,1968-03-30 05:25:00,1968-03-30T05:05:00
+17.01.06,490,16,MichaelJourney,EmergencyDept,,,,1968-03-30T05:25:00
+17.01.06,491,16,MichaelJourney,Wait4Ward,,Delay Until - ,1968-03-30 05:41:00,1968-03-30T05:25:00
+17.01.06,492,16,MichaelJourney,Admit2Ward,,,,1968-03-30T05:41:00
+17.01.06,493,16,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1968-03-30 05:44:00,1968-03-30T05:41:00
+17.01.06,494,16,MichaelJourney,Prepare4Discharge,,,,1968-03-30T05:44:00
+17.01.06,495,16,MichaelJourney,Wait4Discharge,,Delay Until - ,1968-03-30 05:46:00,1968-03-30T05:44:00
+17.01.06,496,16,MichaelJourney,Discharge,,,,1968-03-30T05:46:00
+17.01.06,497,16,MichaelJourney,Wait4PHR,,Delay Until - ,1968-03-30 06:05:00,1968-03-30T05:46:00
+17.01.06,498,16,MichaelJourney,UpdatePHR,,,,1968-03-30T06:05:00
+17.01.06,499,16,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1968-03-30 06:08:00,1968-03-30T06:05:00
+17.01.06,500,16,MichaelJourney,CreateOutpatientAppt,,,,1968-03-30T06:08:00
+17.01.06,501,16,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1968-03-30 06:16:00,1968-03-30T06:08:00
+17.01.06,502,16,MichaelJourney,AttendOutpatients,,,,1968-03-30T06:16:00
+17.01.06,503,16,MichaelJourney,Finish,,,,1968-03-30T06:16:00
+17.01.06,504,36,MichaelJourney,Birth,,,,1969-10-17T00:00:00
+17.01.06,505,36,MichaelJourney,WaitToSeeGP,,Delay Until - ,1969-12-13 00:00:00,1969-10-17T00:00:00
+17.01.06,506,36,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1969-12-13T00:00:00
+17.01.06,506,36,MichaelJourney,GPvisit,,,,1969-12-13T00:00:00
+17.01.06,507,36,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1969-12-20 22:00:00,1969-12-13T00:00:00
+17.01.06,508,36,MichaelJourney,PharmacyVisit,,,,1969-12-20T22:00:00
+17.01.06,509,36,MichaelJourney,Wait4Park,,Delay Until - ,1969-12-28 22:00:00,1969-12-20T22:00:00
+17.01.06,510,36,MichaelJourney,ParrkVisit,,,,1969-12-28T22:00:00
+17.01.06,511,36,MichaelJourney,Wait4Ambulance,,Delay Until - ,1969-12-28 22:13:00,1969-12-28T22:00:00
+17.01.06,512,36,MichaelJourney,AmbulanceTrip,,,,1969-12-28T22:13:00
+17.01.06,513,36,MichaelJourney,Wiat4ED,,Delay Until - ,1969-12-28 22:15:00,1969-12-28T22:13:00
+17.01.06,514,36,MichaelJourney,EmergencyDept,,,,1969-12-28T22:15:00
+17.01.06,515,36,MichaelJourney,Wait4Ward,,Delay Until - ,1969-12-28 22:26:00,1969-12-28T22:15:00
+17.01.06,516,36,MichaelJourney,Admit2Ward,,,,1969-12-28T22:26:00
+17.01.06,517,36,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1969-12-28 22:41:00,1969-12-28T22:26:00
+17.01.06,518,36,MichaelJourney,Prepare4Discharge,,,,1969-12-28T22:41:00
+17.01.06,519,36,MichaelJourney,Wait4Discharge,,Delay Until - ,1969-12-28 22:48:00,1969-12-28T22:41:00
+17.01.06,520,36,MichaelJourney,Discharge,,,,1969-12-28T22:48:00
+17.01.06,521,36,MichaelJourney,Wait4PHR,,Delay Until - ,1969-12-28 22:58:00,1969-12-28T22:48:00
+17.01.06,522,36,MichaelJourney,UpdatePHR,,,,1969-12-28T22:58:00
+17.01.06,523,36,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1969-12-28 23:07:00,1969-12-28T22:58:00
+17.01.06,524,36,MichaelJourney,CreateOutpatientAppt,,,,1969-12-28T23:07:00
+17.01.06,525,36,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1969-12-28 23:22:00,1969-12-28T23:07:00
+17.01.06,526,36,MichaelJourney,AttendOutpatients,,,,1969-12-28T23:22:00
+17.01.06,527,36,MichaelJourney,Finish,,,,1969-12-28T23:22:00
+17.01.06,528,11,MichaelJourney,Birth,,,,1973-11-27T00:00:00
+17.01.06,529,11,MichaelJourney,WaitToSeeGP,,Delay Until - ,1974-01-22 00:00:00,1973-11-27T00:00:00
+17.01.06,530,11,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1974-01-22T00:00:00
+17.01.06,530,11,MichaelJourney,GPvisit,,,,1974-01-22T00:00:00
+17.01.06,531,11,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1974-01-25 15:00:00,1974-01-22T00:00:00
+17.01.06,532,11,MichaelJourney,PharmacyVisit,,,,1974-01-25T15:00:00
+17.01.06,533,11,MichaelJourney,Wait4Park,,Delay Until - ,1974-01-30 15:00:00,1974-01-25T15:00:00
+17.01.06,534,11,MichaelJourney,ParrkVisit,,,,1974-01-30T15:00:00
+17.01.06,535,11,MichaelJourney,Wait4Ambulance,,Delay Until - ,1974-01-30 15:01:00,1974-01-30T15:00:00
+17.01.06,536,11,MichaelJourney,AmbulanceTrip,,,,1974-01-30T15:01:00
+17.01.06,537,11,MichaelJourney,Wiat4ED,,Delay Until - ,1974-01-30 15:09:00,1974-01-30T15:01:00
+17.01.06,538,11,MichaelJourney,EmergencyDept,,,,1974-01-30T15:09:00
+17.01.06,539,11,MichaelJourney,Wait4Ward,,Delay Until - ,1974-01-30 15:16:00,1974-01-30T15:09:00
+17.01.06,540,11,MichaelJourney,Admit2Ward,,,,1974-01-30T15:16:00
+17.01.06,541,11,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1974-01-30 15:19:00,1974-01-30T15:16:00
+17.01.06,542,11,MichaelJourney,Prepare4Discharge,,,,1974-01-30T15:19:00
+17.01.06,543,11,MichaelJourney,Wait4Discharge,,Delay Until - ,1974-01-30 15:28:00,1974-01-30T15:19:00
+17.01.06,544,11,MichaelJourney,Discharge,,,,1974-01-30T15:28:00
+17.01.06,545,11,MichaelJourney,Wait4PHR,,Delay Until - ,1974-01-30 15:46:00,1974-01-30T15:28:00
+17.01.06,546,11,MichaelJourney,UpdatePHR,,,,1974-01-30T15:46:00
+17.01.06,547,11,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1974-01-30 15:48:00,1974-01-30T15:46:00
+17.01.06,548,11,MichaelJourney,CreateOutpatientAppt,,,,1974-01-30T15:48:00
+17.01.06,549,11,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1974-01-30 16:06:00,1974-01-30T15:48:00
+17.01.06,550,11,MichaelJourney,AttendOutpatients,,,,1974-01-30T16:06:00
+17.01.06,551,11,MichaelJourney,Finish,,,,1974-01-30T16:06:00
+17.01.06,552,0,MichaelJourney,Birth,,,,1975-07-12T00:00:00
+17.01.06,553,0,MichaelJourney,WaitToSeeGP,,Delay Until - ,1975-09-23 00:00:00,1975-07-12T00:00:00
+17.01.06,554,39,MichaelJourney,Birth,,,,1975-08-10T00:00:00
+17.01.06,555,39,MichaelJourney,WaitToSeeGP,,Delay Until - ,1975-10-31 00:00:00,1975-08-10T00:00:00
+17.01.06,556,0,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg']",1975-09-23T00:00:00
+17.01.06,556,0,MichaelJourney,GPvisit,,,,1975-09-23T00:00:00
+17.01.06,557,0,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1975-09-25 23:00:00,1975-09-23T00:00:00
+17.01.06,558,0,MichaelJourney,PharmacyVisit,,,,1975-09-25T23:00:00
+17.01.06,559,0,MichaelJourney,Wait4Park,,Delay Until - ,1975-10-03 23:00:00,1975-09-25T23:00:00
+17.01.06,560,0,MichaelJourney,ParrkVisit,,,,1975-10-03T23:00:00
+17.01.06,561,0,MichaelJourney,Wait4Ambulance,,Delay Until - ,1975-10-03 23:15:00,1975-10-03T23:00:00
+17.01.06,562,0,MichaelJourney,AmbulanceTrip,,,,1975-10-03T23:15:00
+17.01.06,563,0,MichaelJourney,Wiat4ED,,Delay Until - ,1975-10-03 23:31:00,1975-10-03T23:15:00
+17.01.06,564,0,MichaelJourney,EmergencyDept,,,,1975-10-03T23:31:00
+17.01.06,565,0,MichaelJourney,Wait4Ward,,Delay Until - ,1975-10-03 23:44:00,1975-10-03T23:31:00
+17.01.06,566,0,MichaelJourney,Admit2Ward,,,,1975-10-03T23:44:00
+17.01.06,567,0,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1975-10-03 23:52:00,1975-10-03T23:44:00
+17.01.06,568,0,MichaelJourney,Prepare4Discharge,,,,1975-10-03T23:52:00
+17.01.06,569,0,MichaelJourney,Wait4Discharge,,Delay Until - ,1975-10-04 00:01:00,1975-10-03T23:52:00
+17.01.06,570,0,MichaelJourney,Discharge,,,,1975-10-04T00:01:00
+17.01.06,571,0,MichaelJourney,Wait4PHR,,Delay Until - ,1975-10-04 00:14:00,1975-10-04T00:01:00
+17.01.06,572,0,MichaelJourney,UpdatePHR,,,,1975-10-04T00:14:00
+17.01.06,573,0,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1975-10-04 00:28:00,1975-10-04T00:14:00
+17.01.06,574,0,MichaelJourney,CreateOutpatientAppt,,,,1975-10-04T00:28:00
+17.01.06,575,0,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1975-10-04 00:35:00,1975-10-04T00:28:00
+17.01.06,576,0,MichaelJourney,AttendOutpatients,,,,1975-10-04T00:35:00
+17.01.06,577,0,MichaelJourney,Finish,,,,1975-10-04T00:35:00
+17.01.06,578,39,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1975-10-31T00:00:00
+17.01.06,578,39,MichaelJourney,GPvisit,,,,1975-10-31T00:00:00
+17.01.06,579,39,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1975-11-06 01:00:00,1975-10-31T00:00:00
+17.01.06,580,39,MichaelJourney,PharmacyVisit,,,,1975-11-06T01:00:00
+17.01.06,581,39,MichaelJourney,Wait4Park,,Delay Until - ,1975-11-16 01:00:00,1975-11-06T01:00:00
+17.01.06,582,39,MichaelJourney,ParrkVisit,,,,1975-11-16T01:00:00
+17.01.06,583,39,MichaelJourney,Wait4Ambulance,,Delay Until - ,1975-11-16 01:15:00,1975-11-16T01:00:00
+17.01.06,584,39,MichaelJourney,AmbulanceTrip,,,,1975-11-16T01:15:00
+17.01.06,585,39,MichaelJourney,Wiat4ED,,Delay Until - ,1975-11-16 01:21:00,1975-11-16T01:15:00
+17.01.06,586,39,MichaelJourney,EmergencyDept,,,,1975-11-16T01:21:00
+17.01.06,587,39,MichaelJourney,Wait4Ward,,Delay Until - ,1975-11-16 01:30:00,1975-11-16T01:21:00
+17.01.06,588,39,MichaelJourney,Admit2Ward,,,,1975-11-16T01:30:00
+17.01.06,589,39,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1975-11-16 01:42:00,1975-11-16T01:30:00
+17.01.06,590,39,MichaelJourney,Prepare4Discharge,,,,1975-11-16T01:42:00
+17.01.06,591,39,MichaelJourney,Wait4Discharge,,Delay Until - ,1975-11-16 01:58:00,1975-11-16T01:42:00
+17.01.06,592,39,MichaelJourney,Discharge,,,,1975-11-16T01:58:00
+17.01.06,593,39,MichaelJourney,Wait4PHR,,Delay Until - ,1975-11-16 02:09:00,1975-11-16T01:58:00
+17.01.06,594,39,MichaelJourney,UpdatePHR,,,,1975-11-16T02:09:00
+17.01.06,595,39,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1975-11-16 02:28:00,1975-11-16T02:09:00
+17.01.06,596,39,MichaelJourney,CreateOutpatientAppt,,,,1975-11-16T02:28:00
+17.01.06,597,39,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1975-11-16 02:38:00,1975-11-16T02:28:00
+17.01.06,598,39,MichaelJourney,AttendOutpatients,,,,1975-11-16T02:38:00
+17.01.06,599,39,MichaelJourney,Finish,,,,1975-11-16T02:38:00
+17.01.06,600,30,MichaelJourney,Birth,,,,1976-05-12T00:00:00
+17.01.06,601,30,MichaelJourney,WaitToSeeGP,,Delay Until - ,1976-07-25 00:00:00,1976-05-12T00:00:00
+17.01.06,602,30,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1976-07-25T00:00:00
+17.01.06,602,30,MichaelJourney,GPvisit,,,,1976-07-25T00:00:00
+17.01.06,603,30,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1976-08-03 13:00:00,1976-07-25T00:00:00
+17.01.06,604,30,MichaelJourney,PharmacyVisit,,,,1976-08-03T13:00:00
+17.01.06,605,30,MichaelJourney,Wait4Park,,Delay Until - ,1976-08-23 13:00:00,1976-08-03T13:00:00
+17.01.06,606,30,MichaelJourney,ParrkVisit,,,,1976-08-23T13:00:00
+17.01.06,607,30,MichaelJourney,Wait4Ambulance,,Delay Until - ,1976-08-23 13:11:00,1976-08-23T13:00:00
+17.01.06,608,30,MichaelJourney,AmbulanceTrip,,,,1976-08-23T13:11:00
+17.01.06,609,30,MichaelJourney,Wiat4ED,,Delay Until - ,1976-08-23 13:31:00,1976-08-23T13:11:00
+17.01.06,610,30,MichaelJourney,EmergencyDept,,,,1976-08-23T13:31:00
+17.01.06,611,30,MichaelJourney,Wait4Ward,,Delay Until - ,1976-08-23 13:34:00,1976-08-23T13:31:00
+17.01.06,612,30,MichaelJourney,Admit2Ward,,,,1976-08-23T13:34:00
+17.01.06,613,30,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1976-08-23 13:53:00,1976-08-23T13:34:00
+17.01.06,614,30,MichaelJourney,Prepare4Discharge,,,,1976-08-23T13:53:00
+17.01.06,615,30,MichaelJourney,Wait4Discharge,,Delay Until - ,1976-08-23 14:00:00,1976-08-23T13:53:00
+17.01.06,616,30,MichaelJourney,Discharge,,,,1976-08-23T14:00:00
+17.01.06,617,30,MichaelJourney,Wait4PHR,,Delay Until - ,1976-08-23 14:07:00,1976-08-23T14:00:00
+17.01.06,618,30,MichaelJourney,UpdatePHR,,,,1976-08-23T14:07:00
+17.01.06,619,30,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1976-08-23 14:25:00,1976-08-23T14:07:00
+17.01.06,620,30,MichaelJourney,CreateOutpatientAppt,,,,1976-08-23T14:25:00
+17.01.06,621,30,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1976-08-23 14:35:00,1976-08-23T14:25:00
+17.01.06,622,30,MichaelJourney,AttendOutpatients,,,,1976-08-23T14:35:00
+17.01.06,623,30,MichaelJourney,Finish,,,,1976-08-23T14:35:00
+17.01.06,624,28,MichaelJourney,Birth,,,,1979-04-06T00:00:00
+17.01.06,625,28,MichaelJourney,WaitToSeeGP,,Delay Until - ,1979-06-12 00:00:00,1979-04-06T00:00:00
+17.01.06,626,28,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1979-06-12T00:00:00
+17.01.06,626,28,MichaelJourney,GPvisit,,,,1979-06-12T00:00:00
+17.01.06,627,28,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1979-06-14 05:00:00,1979-06-12T00:00:00
+17.01.06,628,28,MichaelJourney,PharmacyVisit,,,,1979-06-14T05:00:00
+17.01.06,629,28,MichaelJourney,Wait4Park,,Delay Until - ,1979-07-03 05:00:00,1979-06-14T05:00:00
+17.01.06,630,28,MichaelJourney,ParrkVisit,,,,1979-07-03T05:00:00
+17.01.06,631,28,MichaelJourney,Wait4Ambulance,,Delay Until - ,1979-07-03 05:06:00,1979-07-03T05:00:00
+17.01.06,632,28,MichaelJourney,AmbulanceTrip,,,,1979-07-03T05:06:00
+17.01.06,633,28,MichaelJourney,Wiat4ED,,Delay Until - ,1979-07-03 05:24:00,1979-07-03T05:06:00
+17.01.06,634,28,MichaelJourney,EmergencyDept,,,,1979-07-03T05:24:00
+17.01.06,635,28,MichaelJourney,Wait4Ward,,Delay Until - ,1979-07-03 05:41:00,1979-07-03T05:24:00
+17.01.06,636,28,MichaelJourney,Admit2Ward,,,,1979-07-03T05:41:00
+17.01.06,637,28,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1979-07-03 05:48:00,1979-07-03T05:41:00
+17.01.06,638,28,MichaelJourney,Prepare4Discharge,,,,1979-07-03T05:48:00
+17.01.06,639,28,MichaelJourney,Wait4Discharge,,Delay Until - ,1979-07-03 06:03:00,1979-07-03T05:48:00
+17.01.06,640,28,MichaelJourney,Discharge,,,,1979-07-03T06:03:00
+17.01.06,641,28,MichaelJourney,Wait4PHR,,Delay Until - ,1979-07-03 06:04:00,1979-07-03T06:03:00
+17.01.06,642,28,MichaelJourney,UpdatePHR,,,,1979-07-03T06:04:00
+17.01.06,643,28,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1979-07-03 06:17:00,1979-07-03T06:04:00
+17.01.06,644,28,MichaelJourney,CreateOutpatientAppt,,,,1979-07-03T06:17:00
+17.01.06,645,28,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1979-07-03 06:33:00,1979-07-03T06:17:00
+17.01.06,646,28,MichaelJourney,AttendOutpatients,,,,1979-07-03T06:33:00
+17.01.06,647,28,MichaelJourney,Finish,,,,1979-07-03T06:33:00
+17.01.06,648,2,MichaelJourney,Birth,,,,1980-08-19T00:00:00
+17.01.06,649,2,MichaelJourney,WaitToSeeGP,,Delay Until - ,1980-10-28 00:00:00,1980-08-19T00:00:00
+17.01.06,650,2,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg']",1980-10-28T00:00:00
+17.01.06,650,2,MichaelJourney,GPvisit,,,,1980-10-28T00:00:00
+17.01.06,651,2,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1980-11-04 10:00:00,1980-10-28T00:00:00
+17.01.06,652,2,MichaelJourney,PharmacyVisit,,,,1980-11-04T10:00:00
+17.01.06,653,2,MichaelJourney,Wait4Park,,Delay Until - ,1980-11-21 10:00:00,1980-11-04T10:00:00
+17.01.06,654,2,MichaelJourney,ParrkVisit,,,,1980-11-21T10:00:00
+17.01.06,655,2,MichaelJourney,Wait4Ambulance,,Delay Until - ,1980-11-21 10:15:00,1980-11-21T10:00:00
+17.01.06,656,2,MichaelJourney,AmbulanceTrip,,,,1980-11-21T10:15:00
+17.01.06,657,2,MichaelJourney,Wiat4ED,,Delay Until - ,1980-11-21 10:35:00,1980-11-21T10:15:00
+17.01.06,658,2,MichaelJourney,EmergencyDept,,,,1980-11-21T10:35:00
+17.01.06,659,2,MichaelJourney,Wait4Ward,,Delay Until - ,1980-11-21 10:52:00,1980-11-21T10:35:00
+17.01.06,660,2,MichaelJourney,Admit2Ward,,,,1980-11-21T10:52:00
+17.01.06,661,2,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1980-11-21 10:57:00,1980-11-21T10:52:00
+17.01.06,662,2,MichaelJourney,Prepare4Discharge,,,,1980-11-21T10:57:00
+17.01.06,663,2,MichaelJourney,Wait4Discharge,,Delay Until - ,1980-11-21 11:04:00,1980-11-21T10:57:00
+17.01.06,664,2,MichaelJourney,Discharge,,,,1980-11-21T11:04:00
+17.01.06,665,2,MichaelJourney,Wait4PHR,,Delay Until - ,1980-11-21 11:13:00,1980-11-21T11:04:00
+17.01.06,666,2,MichaelJourney,UpdatePHR,,,,1980-11-21T11:13:00
+17.01.06,667,2,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1980-11-21 11:23:00,1980-11-21T11:13:00
+17.01.06,668,2,MichaelJourney,CreateOutpatientAppt,,,,1980-11-21T11:23:00
+17.01.06,669,2,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1980-11-21 11:43:00,1980-11-21T11:23:00
+17.01.06,670,2,MichaelJourney,AttendOutpatients,,,,1980-11-21T11:43:00
+17.01.06,671,2,MichaelJourney,Finish,,,,1980-11-21T11:43:00
+17.01.06,672,46,MichaelJourney,Birth,,,,1985-04-27T00:00:00
+17.01.06,673,46,MichaelJourney,WaitToSeeGP,,Delay Until - ,1985-07-14 00:00:00,1985-04-27T00:00:00
+17.01.06,674,46,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1985-07-14T00:00:00
+17.01.06,674,46,MichaelJourney,GPvisit,,,,1985-07-14T00:00:00
+17.01.06,675,46,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1985-07-21 08:00:00,1985-07-14T00:00:00
+17.01.06,676,46,MichaelJourney,PharmacyVisit,,,,1985-07-21T08:00:00
+17.01.06,677,46,MichaelJourney,Wait4Park,,Delay Until - ,1985-08-05 08:00:00,1985-07-21T08:00:00
+17.01.06,678,46,MichaelJourney,ParrkVisit,,,,1985-08-05T08:00:00
+17.01.06,679,46,MichaelJourney,Wait4Ambulance,,Delay Until - ,1985-08-05 08:05:00,1985-08-05T08:00:00
+17.01.06,680,46,MichaelJourney,AmbulanceTrip,,,,1985-08-05T08:05:00
+17.01.06,681,46,MichaelJourney,Wiat4ED,,Delay Until - ,1985-08-05 08:24:00,1985-08-05T08:05:00
+17.01.06,682,46,MichaelJourney,EmergencyDept,,,,1985-08-05T08:24:00
+17.01.06,683,46,MichaelJourney,Wait4Ward,,Delay Until - ,1985-08-05 08:39:00,1985-08-05T08:24:00
+17.01.06,684,46,MichaelJourney,Admit2Ward,,,,1985-08-05T08:39:00
+17.01.06,685,46,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1985-08-05 08:40:00,1985-08-05T08:39:00
+17.01.06,686,46,MichaelJourney,Prepare4Discharge,,,,1985-08-05T08:40:00
+17.01.06,687,46,MichaelJourney,Wait4Discharge,,Delay Until - ,1985-08-05 08:45:00,1985-08-05T08:40:00
+17.01.06,688,46,MichaelJourney,Discharge,,,,1985-08-05T08:45:00
+17.01.06,689,46,MichaelJourney,Wait4PHR,,Delay Until - ,1985-08-05 08:47:00,1985-08-05T08:45:00
+17.01.06,690,46,MichaelJourney,UpdatePHR,,,,1985-08-05T08:47:00
+17.01.06,691,46,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1985-08-05 08:55:00,1985-08-05T08:47:00
+17.01.06,692,46,MichaelJourney,CreateOutpatientAppt,,,,1985-08-05T08:55:00
+17.01.06,693,46,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1985-08-05 09:00:00,1985-08-05T08:55:00
+17.01.06,694,46,MichaelJourney,AttendOutpatients,,,,1985-08-05T09:00:00
+17.01.06,695,46,MichaelJourney,Finish,,,,1985-08-05T09:00:00
+17.01.06,696,5,MichaelJourney,Birth,,,,1990-07-22T00:00:00
+17.01.06,697,5,MichaelJourney,WaitToSeeGP,,Delay Until - ,1990-10-08 00:00:00,1990-07-22T00:00:00
+17.01.06,698,5,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1990-10-08T00:00:00
+17.01.06,698,5,MichaelJourney,GPvisit,,,,1990-10-08T00:00:00
+17.01.06,699,5,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1990-10-09 00:00:00,1990-10-08T00:00:00
+17.01.06,700,5,MichaelJourney,PharmacyVisit,,,,1990-10-09T00:00:00
+17.01.06,701,5,MichaelJourney,Wait4Park,,Delay Until - ,1990-10-27 00:00:00,1990-10-09T00:00:00
+17.01.06,702,5,MichaelJourney,ParrkVisit,,,,1990-10-27T00:00:00
+17.01.06,703,5,MichaelJourney,Wait4Ambulance,,Delay Until - ,1990-10-27 00:02:00,1990-10-27T00:00:00
+17.01.06,704,5,MichaelJourney,AmbulanceTrip,,,,1990-10-27T00:02:00
+17.01.06,705,5,MichaelJourney,Wiat4ED,,Delay Until - ,1990-10-27 00:22:00,1990-10-27T00:02:00
+17.01.06,706,5,MichaelJourney,EmergencyDept,,,,1990-10-27T00:22:00
+17.01.06,707,5,MichaelJourney,Wait4Ward,,Delay Until - ,1990-10-27 00:23:00,1990-10-27T00:22:00
+17.01.06,708,5,MichaelJourney,Admit2Ward,,,,1990-10-27T00:23:00
+17.01.06,709,5,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1990-10-27 00:29:00,1990-10-27T00:23:00
+17.01.06,710,5,MichaelJourney,Prepare4Discharge,,,,1990-10-27T00:29:00
+17.01.06,711,5,MichaelJourney,Wait4Discharge,,Delay Until - ,1990-10-27 00:41:00,1990-10-27T00:29:00
+17.01.06,712,5,MichaelJourney,Discharge,,,,1990-10-27T00:41:00
+17.01.06,713,5,MichaelJourney,Wait4PHR,,Delay Until - ,1990-10-27 00:55:00,1990-10-27T00:41:00
+17.01.06,714,5,MichaelJourney,UpdatePHR,,,,1990-10-27T00:55:00
+17.01.06,715,5,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1990-10-27 01:10:00,1990-10-27T00:55:00
+17.01.06,716,5,MichaelJourney,CreateOutpatientAppt,,,,1990-10-27T01:10:00
+17.01.06,717,5,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1990-10-27 01:12:00,1990-10-27T01:10:00
+17.01.06,718,5,MichaelJourney,AttendOutpatients,,,,1990-10-27T01:12:00
+17.01.06,719,5,MichaelJourney,Finish,,,,1990-10-27T01:12:00
+17.01.06,720,19,MichaelJourney,Birth,,,,1992-04-06T00:00:00
+17.01.06,721,19,MichaelJourney,WaitToSeeGP,,Delay Until - ,1992-06-11 00:00:00,1992-04-06T00:00:00
+17.01.06,722,19,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1992-06-11T00:00:00
+17.01.06,722,19,MichaelJourney,GPvisit,,,,1992-06-11T00:00:00
+17.01.06,723,19,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1992-06-19 18:00:00,1992-06-11T00:00:00
+17.01.06,724,19,MichaelJourney,PharmacyVisit,,,,1992-06-19T18:00:00
+17.01.06,725,19,MichaelJourney,Wait4Park,,Delay Until - ,1992-07-01 18:00:00,1992-06-19T18:00:00
+17.01.06,726,19,MichaelJourney,ParrkVisit,,,,1992-07-01T18:00:00
+17.01.06,727,19,MichaelJourney,Wait4Ambulance,,Delay Until - ,1992-07-01 18:03:00,1992-07-01T18:00:00
+17.01.06,728,19,MichaelJourney,AmbulanceTrip,,,,1992-07-01T18:03:00
+17.01.06,729,19,MichaelJourney,Wiat4ED,,Delay Until - ,1992-07-01 18:09:00,1992-07-01T18:03:00
+17.01.06,730,19,MichaelJourney,EmergencyDept,,,,1992-07-01T18:09:00
+17.01.06,731,19,MichaelJourney,Wait4Ward,,Delay Until - ,1992-07-01 18:18:00,1992-07-01T18:09:00
+17.01.06,732,19,MichaelJourney,Admit2Ward,,,,1992-07-01T18:18:00
+17.01.06,733,19,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1992-07-01 18:37:00,1992-07-01T18:18:00
+17.01.06,734,19,MichaelJourney,Prepare4Discharge,,,,1992-07-01T18:37:00
+17.01.06,735,19,MichaelJourney,Wait4Discharge,,Delay Until - ,1992-07-01 18:48:00,1992-07-01T18:37:00
+17.01.06,736,19,MichaelJourney,Discharge,,,,1992-07-01T18:48:00
+17.01.06,737,19,MichaelJourney,Wait4PHR,,Delay Until - ,1992-07-01 19:03:00,1992-07-01T18:48:00
+17.01.06,738,19,MichaelJourney,UpdatePHR,,,,1992-07-01T19:03:00
+17.01.06,739,19,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1992-07-01 19:05:00,1992-07-01T19:03:00
+17.01.06,740,19,MichaelJourney,CreateOutpatientAppt,,,,1992-07-01T19:05:00
+17.01.06,741,19,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1992-07-01 19:13:00,1992-07-01T19:05:00
+17.01.06,742,19,MichaelJourney,AttendOutpatients,,,,1992-07-01T19:13:00
+17.01.06,743,19,MichaelJourney,Finish,,,,1992-07-01T19:13:00
+17.01.06,744,3,MichaelJourney,Birth,,,,1996-01-06T00:00:00
+17.01.06,745,3,MichaelJourney,WaitToSeeGP,,Delay Until - ,1996-03-16 00:00:00,1996-01-06T00:00:00
+17.01.06,746,3,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg']",1996-03-16T00:00:00
+17.01.06,746,3,MichaelJourney,GPvisit,,,,1996-03-16T00:00:00
+17.01.06,747,3,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1996-03-23 16:00:00,1996-03-16T00:00:00
+17.01.06,748,3,MichaelJourney,PharmacyVisit,,,,1996-03-23T16:00:00
+17.01.06,749,3,MichaelJourney,Wait4Park,,Delay Until - ,1996-04-09 16:00:00,1996-03-23T16:00:00
+17.01.06,750,3,MichaelJourney,ParrkVisit,,,,1996-04-09T16:00:00
+17.01.06,751,3,MichaelJourney,Wait4Ambulance,,Delay Until - ,1996-04-09 16:02:00,1996-04-09T16:00:00
+17.01.06,752,3,MichaelJourney,AmbulanceTrip,,,,1996-04-09T16:02:00
+17.01.06,753,3,MichaelJourney,Wiat4ED,,Delay Until - ,1996-04-09 16:13:00,1996-04-09T16:02:00
+17.01.06,754,3,MichaelJourney,EmergencyDept,,,,1996-04-09T16:13:00
+17.01.06,755,3,MichaelJourney,Wait4Ward,,Delay Until - ,1996-04-09 16:15:00,1996-04-09T16:13:00
+17.01.06,756,3,MichaelJourney,Admit2Ward,,,,1996-04-09T16:15:00
+17.01.06,757,3,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1996-04-09 16:35:00,1996-04-09T16:15:00
+17.01.06,758,3,MichaelJourney,Prepare4Discharge,,,,1996-04-09T16:35:00
+17.01.06,759,3,MichaelJourney,Wait4Discharge,,Delay Until - ,1996-04-09 16:55:00,1996-04-09T16:35:00
+17.01.06,760,3,MichaelJourney,Discharge,,,,1996-04-09T16:55:00
+17.01.06,761,3,MichaelJourney,Wait4PHR,,Delay Until - ,1996-04-09 17:04:00,1996-04-09T16:55:00
+17.01.06,762,3,MichaelJourney,UpdatePHR,,,,1996-04-09T17:04:00
+17.01.06,763,3,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1996-04-09 17:12:00,1996-04-09T17:04:00
+17.01.06,764,3,MichaelJourney,CreateOutpatientAppt,,,,1996-04-09T17:12:00
+17.01.06,765,3,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1996-04-09 17:16:00,1996-04-09T17:12:00
+17.01.06,766,3,MichaelJourney,AttendOutpatients,,,,1996-04-09T17:16:00
+17.01.06,767,3,MichaelJourney,Finish,,,,1996-04-09T17:16:00
+17.01.06,768,8,MichaelJourney,Birth,,,,1997-05-06T00:00:00
+17.01.06,769,8,MichaelJourney,WaitToSeeGP,,Delay Until - ,1997-07-08 00:00:00,1997-05-06T00:00:00
+17.01.06,770,8,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1997-07-08T00:00:00
+17.01.06,770,8,MichaelJourney,GPvisit,,,,1997-07-08T00:00:00
+17.01.06,771,8,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1997-07-14 11:00:00,1997-07-08T00:00:00
+17.01.06,772,8,MichaelJourney,PharmacyVisit,,,,1997-07-14T11:00:00
+17.01.06,773,8,MichaelJourney,Wait4Park,,Delay Until - ,1997-07-15 11:00:00,1997-07-14T11:00:00
+17.01.06,774,8,MichaelJourney,ParrkVisit,,,,1997-07-15T11:00:00
+17.01.06,775,8,MichaelJourney,Wait4Ambulance,,Delay Until - ,1997-07-15 11:14:00,1997-07-15T11:00:00
+17.01.06,776,8,MichaelJourney,AmbulanceTrip,,,,1997-07-15T11:14:00
+17.01.06,777,8,MichaelJourney,Wiat4ED,,Delay Until - ,1997-07-15 11:26:00,1997-07-15T11:14:00
+17.01.06,778,8,MichaelJourney,EmergencyDept,,,,1997-07-15T11:26:00
+17.01.06,779,8,MichaelJourney,Wait4Ward,,Delay Until - ,1997-07-15 11:31:00,1997-07-15T11:26:00
+17.01.06,780,8,MichaelJourney,Admit2Ward,,,,1997-07-15T11:31:00
+17.01.06,781,8,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1997-07-15 11:41:00,1997-07-15T11:31:00
+17.01.06,782,8,MichaelJourney,Prepare4Discharge,,,,1997-07-15T11:41:00
+17.01.06,783,8,MichaelJourney,Wait4Discharge,,Delay Until - ,1997-07-15 11:50:00,1997-07-15T11:41:00
+17.01.06,784,8,MichaelJourney,Discharge,,,,1997-07-15T11:50:00
+17.01.06,785,8,MichaelJourney,Wait4PHR,,Delay Until - ,1997-07-15 11:51:00,1997-07-15T11:50:00
+17.01.06,786,8,MichaelJourney,UpdatePHR,,,,1997-07-15T11:51:00
+17.01.06,787,8,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1997-07-15 11:53:00,1997-07-15T11:51:00
+17.01.06,788,8,MichaelJourney,CreateOutpatientAppt,,,,1997-07-15T11:53:00
+17.01.06,789,8,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1997-07-15 12:04:00,1997-07-15T11:53:00
+17.01.06,790,8,MichaelJourney,AttendOutpatients,,,,1997-07-15T12:04:00
+17.01.06,791,8,MichaelJourney,Finish,,,,1997-07-15T12:04:00
+17.01.06,792,35,MichaelJourney,Birth,,,,1998-07-24T00:00:00
+17.01.06,793,35,MichaelJourney,WaitToSeeGP,,Delay Until - ,1998-09-25 00:00:00,1998-07-24T00:00:00
+17.01.06,794,35,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1998-09-25T00:00:00
+17.01.06,794,35,MichaelJourney,GPvisit,,,,1998-09-25T00:00:00
+17.01.06,795,35,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1998-09-26 19:00:00,1998-09-25T00:00:00
+17.01.06,796,35,MichaelJourney,PharmacyVisit,,,,1998-09-26T19:00:00
+17.01.06,797,35,MichaelJourney,Wait4Park,,Delay Until - ,1998-10-15 19:00:00,1998-09-26T19:00:00
+17.01.06,798,18,MichaelJourney,Birth,,,,1998-10-06T00:00:00
+17.01.06,799,18,MichaelJourney,WaitToSeeGP,,Delay Until - ,1998-12-11 00:00:00,1998-10-06T00:00:00
+17.01.06,800,35,MichaelJourney,ParrkVisit,,,,1998-10-15T19:00:00
+17.01.06,801,35,MichaelJourney,Wait4Ambulance,,Delay Until - ,1998-10-15 19:17:00,1998-10-15T19:00:00
+17.01.06,802,35,MichaelJourney,AmbulanceTrip,,,,1998-10-15T19:17:00
+17.01.06,803,35,MichaelJourney,Wiat4ED,,Delay Until - ,1998-10-15 19:24:00,1998-10-15T19:17:00
+17.01.06,804,35,MichaelJourney,EmergencyDept,,,,1998-10-15T19:24:00
+17.01.06,805,35,MichaelJourney,Wait4Ward,,Delay Until - ,1998-10-15 19:25:00,1998-10-15T19:24:00
+17.01.06,806,35,MichaelJourney,Admit2Ward,,,,1998-10-15T19:25:00
+17.01.06,807,35,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1998-10-15 19:31:00,1998-10-15T19:25:00
+17.01.06,808,35,MichaelJourney,Prepare4Discharge,,,,1998-10-15T19:31:00
+17.01.06,809,35,MichaelJourney,Wait4Discharge,,Delay Until - ,1998-10-15 19:41:00,1998-10-15T19:31:00
+17.01.06,810,35,MichaelJourney,Discharge,,,,1998-10-15T19:41:00
+17.01.06,811,35,MichaelJourney,Wait4PHR,,Delay Until - ,1998-10-15 19:46:00,1998-10-15T19:41:00
+17.01.06,812,35,MichaelJourney,UpdatePHR,,,,1998-10-15T19:46:00
+17.01.06,813,35,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1998-10-15 20:04:00,1998-10-15T19:46:00
+17.01.06,814,35,MichaelJourney,CreateOutpatientAppt,,,,1998-10-15T20:04:00
+17.01.06,815,35,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1998-10-15 20:09:00,1998-10-15T20:04:00
+17.01.06,816,35,MichaelJourney,AttendOutpatients,,,,1998-10-15T20:09:00
+17.01.06,817,35,MichaelJourney,Finish,,,,1998-10-15T20:09:00
+17.01.06,818,18,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1998-12-11T00:00:00
+17.01.06,818,18,MichaelJourney,GPvisit,,,,1998-12-11T00:00:00
+17.01.06,819,18,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1998-12-18 10:00:00,1998-12-11T00:00:00
+17.01.06,820,18,MichaelJourney,PharmacyVisit,,,,1998-12-18T10:00:00
+17.01.06,821,18,MichaelJourney,Wait4Park,,Delay Until - ,1999-01-07 10:00:00,1998-12-18T10:00:00
+17.01.06,822,18,MichaelJourney,ParrkVisit,,,,1999-01-07T10:00:00
+17.01.06,823,18,MichaelJourney,Wait4Ambulance,,Delay Until - ,1999-01-07 10:07:00,1999-01-07T10:00:00
+17.01.06,824,18,MichaelJourney,AmbulanceTrip,,,,1999-01-07T10:07:00
+17.01.06,825,18,MichaelJourney,Wiat4ED,,Delay Until - ,1999-01-07 10:23:00,1999-01-07T10:07:00
+17.01.06,826,18,MichaelJourney,EmergencyDept,,,,1999-01-07T10:23:00
+17.01.06,827,18,MichaelJourney,Wait4Ward,,Delay Until - ,1999-01-07 10:24:00,1999-01-07T10:23:00
+17.01.06,828,18,MichaelJourney,Admit2Ward,,,,1999-01-07T10:24:00
+17.01.06,829,18,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1999-01-07 10:37:00,1999-01-07T10:24:00
+17.01.06,830,18,MichaelJourney,Prepare4Discharge,,,,1999-01-07T10:37:00
+17.01.06,831,18,MichaelJourney,Wait4Discharge,,Delay Until - ,1999-01-07 10:55:00,1999-01-07T10:37:00
+17.01.06,832,18,MichaelJourney,Discharge,,,,1999-01-07T10:55:00
+17.01.06,833,18,MichaelJourney,Wait4PHR,,Delay Until - ,1999-01-07 11:05:00,1999-01-07T10:55:00
+17.01.06,834,18,MichaelJourney,UpdatePHR,,,,1999-01-07T11:05:00
+17.01.06,835,18,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1999-01-07 11:14:00,1999-01-07T11:05:00
+17.01.06,836,18,MichaelJourney,CreateOutpatientAppt,,,,1999-01-07T11:14:00
+17.01.06,837,18,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1999-01-07 11:26:00,1999-01-07T11:14:00
+17.01.06,838,18,MichaelJourney,AttendOutpatients,,,,1999-01-07T11:26:00
+17.01.06,839,18,MichaelJourney,Finish,,,,1999-01-07T11:26:00
+17.01.06,840,49,MichaelJourney,Birth,,,,1999-02-26T00:00:00
+17.01.06,841,49,MichaelJourney,WaitToSeeGP,,Delay Until - ,1999-05-12 00:00:00,1999-02-26T00:00:00
+17.01.06,842,49,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1999-05-12T00:00:00
+17.01.06,842,49,MichaelJourney,GPvisit,,,,1999-05-12T00:00:00
+17.01.06,843,49,MichaelJourney,Wait4Pharmacy,,Delay Until - ,1999-05-21 22:00:00,1999-05-12T00:00:00
+17.01.06,844,49,MichaelJourney,PharmacyVisit,,,,1999-05-21T22:00:00
+17.01.06,845,49,MichaelJourney,Wait4Park,,Delay Until - ,1999-06-10 22:00:00,1999-05-21T22:00:00
+17.01.06,846,49,MichaelJourney,ParrkVisit,,,,1999-06-10T22:00:00
+17.01.06,847,49,MichaelJourney,Wait4Ambulance,,Delay Until - ,1999-06-10 22:16:00,1999-06-10T22:00:00
+17.01.06,848,49,MichaelJourney,AmbulanceTrip,,,,1999-06-10T22:16:00
+17.01.06,849,49,MichaelJourney,Wiat4ED,,Delay Until - ,1999-06-10 22:22:00,1999-06-10T22:16:00
+17.01.06,850,49,MichaelJourney,EmergencyDept,,,,1999-06-10T22:22:00
+17.01.06,851,49,MichaelJourney,Wait4Ward,,Delay Until - ,1999-06-10 22:35:00,1999-06-10T22:22:00
+17.01.06,852,49,MichaelJourney,Admit2Ward,,,,1999-06-10T22:35:00
+17.01.06,853,49,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,1999-06-10 22:42:00,1999-06-10T22:35:00
+17.01.06,854,49,MichaelJourney,Prepare4Discharge,,,,1999-06-10T22:42:00
+17.01.06,855,49,MichaelJourney,Wait4Discharge,,Delay Until - ,1999-06-10 22:58:00,1999-06-10T22:42:00
+17.01.06,856,49,MichaelJourney,Discharge,,,,1999-06-10T22:58:00
+17.01.06,857,49,MichaelJourney,Wait4PHR,,Delay Until - ,1999-06-10 23:04:00,1999-06-10T22:58:00
+17.01.06,858,49,MichaelJourney,UpdatePHR,,,,1999-06-10T23:04:00
+17.01.06,859,49,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,1999-06-10 23:12:00,1999-06-10T23:04:00
+17.01.06,860,49,MichaelJourney,CreateOutpatientAppt,,,,1999-06-10T23:12:00
+17.01.06,861,49,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,1999-06-10 23:17:00,1999-06-10T23:12:00
+17.01.06,862,49,MichaelJourney,AttendOutpatients,,,,1999-06-10T23:17:00
+17.01.06,863,49,MichaelJourney,Finish,,,,1999-06-10T23:17:00
+17.01.06,864,32,MichaelJourney,Birth,,,,2001-07-07T00:00:00
+17.01.06,865,32,MichaelJourney,WaitToSeeGP,,Delay Until - ,2001-09-06 00:00:00,2001-07-07T00:00:00
+17.01.06,866,32,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2001-09-06T00:00:00
+17.01.06,866,32,MichaelJourney,GPvisit,,,,2001-09-06T00:00:00
+17.01.06,867,32,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2001-09-08 15:00:00,2001-09-06T00:00:00
+17.01.06,868,32,MichaelJourney,PharmacyVisit,,,,2001-09-08T15:00:00
+17.01.06,869,32,MichaelJourney,Wait4Park,,Delay Until - ,2001-09-27 15:00:00,2001-09-08T15:00:00
+17.01.06,870,32,MichaelJourney,ParrkVisit,,,,2001-09-27T15:00:00
+17.01.06,871,32,MichaelJourney,Wait4Ambulance,,Delay Until - ,2001-09-27 15:03:00,2001-09-27T15:00:00
+17.01.06,872,32,MichaelJourney,AmbulanceTrip,,,,2001-09-27T15:03:00
+17.01.06,873,32,MichaelJourney,Wiat4ED,,Delay Until - ,2001-09-27 15:20:00,2001-09-27T15:03:00
+17.01.06,874,32,MichaelJourney,EmergencyDept,,,,2001-09-27T15:20:00
+17.01.06,875,32,MichaelJourney,Wait4Ward,,Delay Until - ,2001-09-27 15:22:00,2001-09-27T15:20:00
+17.01.06,876,32,MichaelJourney,Admit2Ward,,,,2001-09-27T15:22:00
+17.01.06,877,32,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2001-09-27 15:39:00,2001-09-27T15:22:00
+17.01.06,878,32,MichaelJourney,Prepare4Discharge,,,,2001-09-27T15:39:00
+17.01.06,879,32,MichaelJourney,Wait4Discharge,,Delay Until - ,2001-09-27 15:40:00,2001-09-27T15:39:00
+17.01.06,880,32,MichaelJourney,Discharge,,,,2001-09-27T15:40:00
+17.01.06,881,32,MichaelJourney,Wait4PHR,,Delay Until - ,2001-09-27 15:46:00,2001-09-27T15:40:00
+17.01.06,882,32,MichaelJourney,UpdatePHR,,,,2001-09-27T15:46:00
+17.01.06,883,32,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2001-09-27 16:01:00,2001-09-27T15:46:00
+17.01.06,884,32,MichaelJourney,CreateOutpatientAppt,,,,2001-09-27T16:01:00
+17.01.06,885,32,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2001-09-27 16:05:00,2001-09-27T16:01:00
+17.01.06,886,32,MichaelJourney,AttendOutpatients,,,,2001-09-27T16:05:00
+17.01.06,887,32,MichaelJourney,Finish,,,,2001-09-27T16:05:00
+17.01.06,888,14,MichaelJourney,Birth,,,,2004-01-07T00:00:00
+17.01.06,889,14,MichaelJourney,WaitToSeeGP,,Delay Until - ,2004-03-23 00:00:00,2004-01-07T00:00:00
+17.01.06,890,41,MichaelJourney,Birth,,,,2004-01-16T00:00:00
+17.01.06,891,41,MichaelJourney,WaitToSeeGP,,Delay Until - ,2004-03-31 00:00:00,2004-01-16T00:00:00
+17.01.06,892,14,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2004-03-23T00:00:00
+17.01.06,892,14,MichaelJourney,GPvisit,,,,2004-03-23T00:00:00
+17.01.06,893,14,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2004-04-01 18:00:00,2004-03-23T00:00:00
+17.01.06,894,41,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2004-03-31T00:00:00
+17.01.06,894,41,MichaelJourney,GPvisit,,,,2004-03-31T00:00:00
+17.01.06,895,41,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2004-04-05 17:00:00,2004-03-31T00:00:00
+17.01.06,896,14,MichaelJourney,PharmacyVisit,,,,2004-04-01T18:00:00
+17.01.06,897,14,MichaelJourney,Wait4Park,,Delay Until - ,2004-04-16 18:00:00,2004-04-01T18:00:00
+17.01.06,898,41,MichaelJourney,PharmacyVisit,,,,2004-04-05T17:00:00
+17.01.06,899,41,MichaelJourney,Wait4Park,,Delay Until - ,2004-04-12 17:00:00,2004-04-05T17:00:00
+17.01.06,900,41,MichaelJourney,ParrkVisit,,,,2004-04-12T17:00:00
+17.01.06,901,41,MichaelJourney,Wait4Ambulance,,Delay Until - ,2004-04-12 17:16:00,2004-04-12T17:00:00
+17.01.06,902,41,MichaelJourney,AmbulanceTrip,,,,2004-04-12T17:16:00
+17.01.06,903,41,MichaelJourney,Wiat4ED,,Delay Until - ,2004-04-12 17:32:00,2004-04-12T17:16:00
+17.01.06,904,41,MichaelJourney,EmergencyDept,,,,2004-04-12T17:32:00
+17.01.06,905,41,MichaelJourney,Wait4Ward,,Delay Until - ,2004-04-12 17:38:00,2004-04-12T17:32:00
+17.01.06,906,41,MichaelJourney,Admit2Ward,,,,2004-04-12T17:38:00
+17.01.06,907,41,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2004-04-12 17:58:00,2004-04-12T17:38:00
+17.01.06,908,41,MichaelJourney,Prepare4Discharge,,,,2004-04-12T17:58:00
+17.01.06,909,41,MichaelJourney,Wait4Discharge,,Delay Until - ,2004-04-12 18:11:00,2004-04-12T17:58:00
+17.01.06,910,41,MichaelJourney,Discharge,,,,2004-04-12T18:11:00
+17.01.06,911,41,MichaelJourney,Wait4PHR,,Delay Until - ,2004-04-12 18:14:00,2004-04-12T18:11:00
+17.01.06,912,41,MichaelJourney,UpdatePHR,,,,2004-04-12T18:14:00
+17.01.06,913,41,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2004-04-12 18:16:00,2004-04-12T18:14:00
+17.01.06,914,41,MichaelJourney,CreateOutpatientAppt,,,,2004-04-12T18:16:00
+17.01.06,915,41,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2004-04-12 18:29:00,2004-04-12T18:16:00
+17.01.06,916,41,MichaelJourney,AttendOutpatients,,,,2004-04-12T18:29:00
+17.01.06,917,41,MichaelJourney,Finish,,,,2004-04-12T18:29:00
+17.01.06,918,14,MichaelJourney,ParrkVisit,,,,2004-04-16T18:00:00
+17.01.06,919,14,MichaelJourney,Wait4Ambulance,,Delay Until - ,2004-04-16 18:01:00,2004-04-16T18:00:00
+17.01.06,920,14,MichaelJourney,AmbulanceTrip,,,,2004-04-16T18:01:00
+17.01.06,921,14,MichaelJourney,Wiat4ED,,Delay Until - ,2004-04-16 18:11:00,2004-04-16T18:01:00
+17.01.06,922,14,MichaelJourney,EmergencyDept,,,,2004-04-16T18:11:00
+17.01.06,923,14,MichaelJourney,Wait4Ward,,Delay Until - ,2004-04-16 18:25:00,2004-04-16T18:11:00
+17.01.06,924,14,MichaelJourney,Admit2Ward,,,,2004-04-16T18:25:00
+17.01.06,925,14,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2004-04-16 18:37:00,2004-04-16T18:25:00
+17.01.06,926,14,MichaelJourney,Prepare4Discharge,,,,2004-04-16T18:37:00
+17.01.06,927,14,MichaelJourney,Wait4Discharge,,Delay Until - ,2004-04-16 18:48:00,2004-04-16T18:37:00
+17.01.06,928,14,MichaelJourney,Discharge,,,,2004-04-16T18:48:00
+17.01.06,929,14,MichaelJourney,Wait4PHR,,Delay Until - ,2004-04-16 18:57:00,2004-04-16T18:48:00
+17.01.06,930,14,MichaelJourney,UpdatePHR,,,,2004-04-16T18:57:00
+17.01.06,931,14,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2004-04-16 19:05:00,2004-04-16T18:57:00
+17.01.06,932,14,MichaelJourney,CreateOutpatientAppt,,,,2004-04-16T19:05:00
+17.01.06,933,14,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2004-04-16 19:10:00,2004-04-16T19:05:00
+17.01.06,934,14,MichaelJourney,AttendOutpatients,,,,2004-04-16T19:10:00
+17.01.06,935,14,MichaelJourney,Finish,,,,2004-04-16T19:10:00
+17.01.06,936,13,MichaelJourney,Birth,,,,2004-09-11T00:00:00
+17.01.06,937,13,MichaelJourney,WaitToSeeGP,,Delay Until - ,2004-11-08 00:00:00,2004-09-11T00:00:00
+17.01.06,938,13,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2004-11-08T00:00:00
+17.01.06,938,13,MichaelJourney,GPvisit,,,,2004-11-08T00:00:00
+17.01.06,939,13,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2004-11-13 16:00:00,2004-11-08T00:00:00
+17.01.06,940,13,MichaelJourney,PharmacyVisit,,,,2004-11-13T16:00:00
+17.01.06,941,13,MichaelJourney,Wait4Park,,Delay Until - ,2004-11-26 16:00:00,2004-11-13T16:00:00
+17.01.06,942,13,MichaelJourney,ParrkVisit,,,,2004-11-26T16:00:00
+17.01.06,943,13,MichaelJourney,Wait4Ambulance,,Delay Until - ,2004-11-26 16:04:00,2004-11-26T16:00:00
+17.01.06,944,13,MichaelJourney,AmbulanceTrip,,,,2004-11-26T16:04:00
+17.01.06,945,13,MichaelJourney,Wiat4ED,,Delay Until - ,2004-11-26 16:17:00,2004-11-26T16:04:00
+17.01.06,946,13,MichaelJourney,EmergencyDept,,,,2004-11-26T16:17:00
+17.01.06,947,13,MichaelJourney,Wait4Ward,,Delay Until - ,2004-11-26 16:36:00,2004-11-26T16:17:00
+17.01.06,948,13,MichaelJourney,Admit2Ward,,,,2004-11-26T16:36:00
+17.01.06,949,13,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2004-11-26 16:41:00,2004-11-26T16:36:00
+17.01.06,950,13,MichaelJourney,Prepare4Discharge,,,,2004-11-26T16:41:00
+17.01.06,951,13,MichaelJourney,Wait4Discharge,,Delay Until - ,2004-11-26 16:48:00,2004-11-26T16:41:00
+17.01.06,952,13,MichaelJourney,Discharge,,,,2004-11-26T16:48:00
+17.01.06,953,13,MichaelJourney,Wait4PHR,,Delay Until - ,2004-11-26 16:59:00,2004-11-26T16:48:00
+17.01.06,954,13,MichaelJourney,UpdatePHR,,,,2004-11-26T16:59:00
+17.01.06,955,13,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2004-11-26 17:15:00,2004-11-26T16:59:00
+17.01.06,956,13,MichaelJourney,CreateOutpatientAppt,,,,2004-11-26T17:15:00
+17.01.06,957,13,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2004-11-26 17:33:00,2004-11-26T17:15:00
+17.01.06,958,13,MichaelJourney,AttendOutpatients,,,,2004-11-26T17:33:00
+17.01.06,959,13,MichaelJourney,Finish,,,,2004-11-26T17:33:00
+17.01.06,960,20,MichaelJourney,Birth,,,,2005-04-30T00:00:00
+17.01.06,961,20,MichaelJourney,WaitToSeeGP,,Delay Until - ,2005-07-19 00:00:00,2005-04-30T00:00:00
+17.01.06,962,20,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2005-07-19T00:00:00
+17.01.06,962,20,MichaelJourney,GPvisit,,,,2005-07-19T00:00:00
+17.01.06,963,20,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2005-07-24 11:00:00,2005-07-19T00:00:00
+17.01.06,964,20,MichaelJourney,PharmacyVisit,,,,2005-07-24T11:00:00
+17.01.06,965,20,MichaelJourney,Wait4Park,,Delay Until - ,2005-07-28 11:00:00,2005-07-24T11:00:00
+17.01.06,966,20,MichaelJourney,ParrkVisit,,,,2005-07-28T11:00:00
+17.01.06,967,20,MichaelJourney,Wait4Ambulance,,Delay Until - ,2005-07-28 11:17:00,2005-07-28T11:00:00
+17.01.06,968,20,MichaelJourney,AmbulanceTrip,,,,2005-07-28T11:17:00
+17.01.06,969,20,MichaelJourney,Wiat4ED,,Delay Until - ,2005-07-28 11:18:00,2005-07-28T11:17:00
+17.01.06,970,20,MichaelJourney,EmergencyDept,,,,2005-07-28T11:18:00
+17.01.06,971,20,MichaelJourney,Wait4Ward,,Delay Until - ,2005-07-28 11:23:00,2005-07-28T11:18:00
+17.01.06,972,20,MichaelJourney,Admit2Ward,,,,2005-07-28T11:23:00
+17.01.06,973,20,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2005-07-28 11:34:00,2005-07-28T11:23:00
+17.01.06,974,20,MichaelJourney,Prepare4Discharge,,,,2005-07-28T11:34:00
+17.01.06,975,20,MichaelJourney,Wait4Discharge,,Delay Until - ,2005-07-28 11:54:00,2005-07-28T11:34:00
+17.01.06,976,20,MichaelJourney,Discharge,,,,2005-07-28T11:54:00
+17.01.06,977,20,MichaelJourney,Wait4PHR,,Delay Until - ,2005-07-28 12:10:00,2005-07-28T11:54:00
+17.01.06,978,20,MichaelJourney,UpdatePHR,,,,2005-07-28T12:10:00
+17.01.06,979,20,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2005-07-28 12:17:00,2005-07-28T12:10:00
+17.01.06,980,20,MichaelJourney,CreateOutpatientAppt,,,,2005-07-28T12:17:00
+17.01.06,981,20,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2005-07-28 12:19:00,2005-07-28T12:17:00
+17.01.06,982,20,MichaelJourney,AttendOutpatients,,,,2005-07-28T12:19:00
+17.01.06,983,20,MichaelJourney,Finish,,,,2005-07-28T12:19:00
+17.01.06,984,44,MichaelJourney,Birth,,,,2006-09-03T00:00:00
+17.01.06,985,44,MichaelJourney,WaitToSeeGP,,Delay Until - ,2006-11-08 00:00:00,2006-09-03T00:00:00
+17.01.06,986,44,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2006-11-08T00:00:00
+17.01.06,986,44,MichaelJourney,GPvisit,,,,2006-11-08T00:00:00
+17.01.06,987,44,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2006-11-14 07:00:00,2006-11-08T00:00:00
+17.01.06,988,44,MichaelJourney,PharmacyVisit,,,,2006-11-14T07:00:00
+17.01.06,989,44,MichaelJourney,Wait4Park,,Delay Until - ,2006-12-01 07:00:00,2006-11-14T07:00:00
+17.01.06,990,44,MichaelJourney,ParrkVisit,,,,2006-12-01T07:00:00
+17.01.06,991,44,MichaelJourney,Wait4Ambulance,,Delay Until - ,2006-12-01 07:07:00,2006-12-01T07:00:00
+17.01.06,992,44,MichaelJourney,AmbulanceTrip,,,,2006-12-01T07:07:00
+17.01.06,993,44,MichaelJourney,Wiat4ED,,Delay Until - ,2006-12-01 07:13:00,2006-12-01T07:07:00
+17.01.06,994,44,MichaelJourney,EmergencyDept,,,,2006-12-01T07:13:00
+17.01.06,995,44,MichaelJourney,Wait4Ward,,Delay Until - ,2006-12-01 07:25:00,2006-12-01T07:13:00
+17.01.06,996,44,MichaelJourney,Admit2Ward,,,,2006-12-01T07:25:00
+17.01.06,997,44,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2006-12-01 07:37:00,2006-12-01T07:25:00
+17.01.06,998,44,MichaelJourney,Prepare4Discharge,,,,2006-12-01T07:37:00
+17.01.06,999,44,MichaelJourney,Wait4Discharge,,Delay Until - ,2006-12-01 07:54:00,2006-12-01T07:37:00
+17.01.06,1000,44,MichaelJourney,Discharge,,,,2006-12-01T07:54:00
+17.01.06,1001,44,MichaelJourney,Wait4PHR,,Delay Until - ,2006-12-01 08:00:00,2006-12-01T07:54:00
+17.01.06,1002,44,MichaelJourney,UpdatePHR,,,,2006-12-01T08:00:00
+17.01.06,1003,44,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2006-12-01 08:16:00,2006-12-01T08:00:00
+17.01.06,1004,44,MichaelJourney,CreateOutpatientAppt,,,,2006-12-01T08:16:00
+17.01.06,1005,44,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2006-12-01 08:26:00,2006-12-01T08:16:00
+17.01.06,1006,44,MichaelJourney,AttendOutpatients,,,,2006-12-01T08:26:00
+17.01.06,1007,44,MichaelJourney,Finish,,,,2006-12-01T08:26:00
+17.01.06,1008,40,MichaelJourney,Birth,,,,2007-09-15T00:00:00
+17.01.06,1009,40,MichaelJourney,WaitToSeeGP,,Delay Until - ,2007-11-16 00:00:00,2007-09-15T00:00:00
+17.01.06,1010,40,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2007-11-16T00:00:00
+17.01.06,1010,40,MichaelJourney,GPvisit,,,,2007-11-16T00:00:00
+17.01.06,1011,40,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2007-11-24 14:00:00,2007-11-16T00:00:00
+17.01.06,1012,40,MichaelJourney,PharmacyVisit,,,,2007-11-24T14:00:00
+17.01.06,1013,40,MichaelJourney,Wait4Park,,Delay Until - ,2007-12-04 14:00:00,2007-11-24T14:00:00
+17.01.06,1014,40,MichaelJourney,ParrkVisit,,,,2007-12-04T14:00:00
+17.01.06,1015,40,MichaelJourney,Wait4Ambulance,,Delay Until - ,2007-12-04 14:11:00,2007-12-04T14:00:00
+17.01.06,1016,40,MichaelJourney,AmbulanceTrip,,,,2007-12-04T14:11:00
+17.01.06,1017,40,MichaelJourney,Wiat4ED,,Delay Until - ,2007-12-04 14:15:00,2007-12-04T14:11:00
+17.01.06,1018,40,MichaelJourney,EmergencyDept,,,,2007-12-04T14:15:00
+17.01.06,1019,40,MichaelJourney,Wait4Ward,,Delay Until - ,2007-12-04 14:33:00,2007-12-04T14:15:00
+17.01.06,1020,40,MichaelJourney,Admit2Ward,,,,2007-12-04T14:33:00
+17.01.06,1021,40,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2007-12-04 14:50:00,2007-12-04T14:33:00
+17.01.06,1022,40,MichaelJourney,Prepare4Discharge,,,,2007-12-04T14:50:00
+17.01.06,1023,40,MichaelJourney,Wait4Discharge,,Delay Until - ,2007-12-04 14:54:00,2007-12-04T14:50:00
+17.01.06,1024,40,MichaelJourney,Discharge,,,,2007-12-04T14:54:00
+17.01.06,1025,40,MichaelJourney,Wait4PHR,,Delay Until - ,2007-12-04 14:58:00,2007-12-04T14:54:00
+17.01.06,1026,40,MichaelJourney,UpdatePHR,,,,2007-12-04T14:58:00
+17.01.06,1027,40,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2007-12-04 15:12:00,2007-12-04T14:58:00
+17.01.06,1028,40,MichaelJourney,CreateOutpatientAppt,,,,2007-12-04T15:12:00
+17.01.06,1029,40,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2007-12-04 15:15:00,2007-12-04T15:12:00
+17.01.06,1030,40,MichaelJourney,AttendOutpatients,,,,2007-12-04T15:15:00
+17.01.06,1031,40,MichaelJourney,Finish,,,,2007-12-04T15:15:00
+17.01.06,1032,29,MichaelJourney,Birth,,,,2008-05-21T00:00:00
+17.01.06,1033,29,MichaelJourney,WaitToSeeGP,,Delay Until - ,2008-07-21 00:00:00,2008-05-21T00:00:00
+17.01.06,1034,29,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2008-07-21T00:00:00
+17.01.06,1034,29,MichaelJourney,GPvisit,,,,2008-07-21T00:00:00
+17.01.06,1035,29,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2008-07-22 19:00:00,2008-07-21T00:00:00
+17.01.06,1036,29,MichaelJourney,PharmacyVisit,,,,2008-07-22T19:00:00
+17.01.06,1037,29,MichaelJourney,Wait4Park,,Delay Until - ,2008-08-10 19:00:00,2008-07-22T19:00:00
+17.01.06,1038,29,MichaelJourney,ParrkVisit,,,,2008-08-10T19:00:00
+17.01.06,1039,29,MichaelJourney,Wait4Ambulance,,Delay Until - ,2008-08-10 19:13:00,2008-08-10T19:00:00
+17.01.06,1040,29,MichaelJourney,AmbulanceTrip,,,,2008-08-10T19:13:00
+17.01.06,1041,29,MichaelJourney,Wiat4ED,,Delay Until - ,2008-08-10 19:33:00,2008-08-10T19:13:00
+17.01.06,1042,29,MichaelJourney,EmergencyDept,,,,2008-08-10T19:33:00
+17.01.06,1043,29,MichaelJourney,Wait4Ward,,Delay Until - ,2008-08-10 19:42:00,2008-08-10T19:33:00
+17.01.06,1044,29,MichaelJourney,Admit2Ward,,,,2008-08-10T19:42:00
+17.01.06,1045,29,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2008-08-10 19:47:00,2008-08-10T19:42:00
+17.01.06,1046,29,MichaelJourney,Prepare4Discharge,,,,2008-08-10T19:47:00
+17.01.06,1047,29,MichaelJourney,Wait4Discharge,,Delay Until - ,2008-08-10 19:59:00,2008-08-10T19:47:00
+17.01.06,1048,29,MichaelJourney,Discharge,,,,2008-08-10T19:59:00
+17.01.06,1049,29,MichaelJourney,Wait4PHR,,Delay Until - ,2008-08-10 20:08:00,2008-08-10T19:59:00
+17.01.06,1050,29,MichaelJourney,UpdatePHR,,,,2008-08-10T20:08:00
+17.01.06,1051,29,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2008-08-10 20:16:00,2008-08-10T20:08:00
+17.01.06,1052,29,MichaelJourney,CreateOutpatientAppt,,,,2008-08-10T20:16:00
+17.01.06,1053,29,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2008-08-10 20:30:00,2008-08-10T20:16:00
+17.01.06,1054,29,MichaelJourney,AttendOutpatients,,,,2008-08-10T20:30:00
+17.01.06,1055,29,MichaelJourney,Finish,,,,2008-08-10T20:30:00
+17.01.06,1056,9,MichaelJourney,Birth,,,,2014-10-26T00:00:00
+17.01.06,1057,9,MichaelJourney,WaitToSeeGP,,Delay Until - ,2015-01-12 00:00:00,2014-10-26T00:00:00
+17.01.06,1058,9,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg']",2015-01-12T00:00:00
+17.01.06,1058,9,MichaelJourney,GPvisit,,,,2015-01-12T00:00:00
+17.01.06,1059,9,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2015-01-18 21:00:00,2015-01-12T00:00:00
+17.01.06,1060,9,MichaelJourney,PharmacyVisit,,,,2015-01-18T21:00:00
+17.01.06,1061,9,MichaelJourney,Wait4Park,,Delay Until - ,2015-02-04 21:00:00,2015-01-18T21:00:00
+17.01.06,1062,9,MichaelJourney,ParrkVisit,,,,2015-02-04T21:00:00
+17.01.06,1063,9,MichaelJourney,Wait4Ambulance,,Delay Until - ,2015-02-04 21:14:00,2015-02-04T21:00:00
+17.01.06,1064,9,MichaelJourney,AmbulanceTrip,,,,2015-02-04T21:14:00
+17.01.06,1065,9,MichaelJourney,Wiat4ED,,Delay Until - ,2015-02-04 21:24:00,2015-02-04T21:14:00
+17.01.06,1066,9,MichaelJourney,EmergencyDept,,,,2015-02-04T21:24:00
+17.01.06,1067,9,MichaelJourney,Wait4Ward,,Delay Until - ,2015-02-04 21:40:00,2015-02-04T21:24:00
+17.01.06,1068,9,MichaelJourney,Admit2Ward,,,,2015-02-04T21:40:00
+17.01.06,1069,9,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2015-02-04 22:00:00,2015-02-04T21:40:00
+17.01.06,1070,9,MichaelJourney,Prepare4Discharge,,,,2015-02-04T22:00:00
+17.01.06,1071,9,MichaelJourney,Wait4Discharge,,Delay Until - ,2015-02-04 22:10:00,2015-02-04T22:00:00
+17.01.06,1072,9,MichaelJourney,Discharge,,,,2015-02-04T22:10:00
+17.01.06,1073,9,MichaelJourney,Wait4PHR,,Delay Until - ,2015-02-04 22:25:00,2015-02-04T22:10:00
+17.01.06,1074,9,MichaelJourney,UpdatePHR,,,,2015-02-04T22:25:00
+17.01.06,1075,9,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2015-02-04 22:26:00,2015-02-04T22:25:00
+17.01.06,1076,9,MichaelJourney,CreateOutpatientAppt,,,,2015-02-04T22:26:00
+17.01.06,1077,9,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2015-02-04 22:42:00,2015-02-04T22:26:00
+17.01.06,1078,9,MichaelJourney,AttendOutpatients,,,,2015-02-04T22:42:00
+17.01.06,1079,9,MichaelJourney,Finish,,,,2015-02-04T22:42:00
+17.01.06,1080,33,MichaelJourney,Birth,,,,2016-04-14T00:00:00
+17.01.06,1081,33,MichaelJourney,WaitToSeeGP,,Delay Until - ,2016-07-07 00:00:00,2016-04-14T00:00:00
+17.01.06,1082,4,MichaelJourney,Birth,,,,2016-06-01T00:00:00
+17.01.06,1083,4,MichaelJourney,WaitToSeeGP,,Delay Until - ,2016-08-23 00:00:00,2016-06-01T00:00:00
+17.01.06,1084,33,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2016-07-07T00:00:00
+17.01.06,1084,33,MichaelJourney,GPvisit,,,,2016-07-07T00:00:00
+17.01.06,1085,33,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2016-07-09 00:00:00,2016-07-07T00:00:00
+17.01.06,1086,33,MichaelJourney,PharmacyVisit,,,,2016-07-09T00:00:00
+17.01.06,1087,33,MichaelJourney,Wait4Park,,Delay Until - ,2016-07-10 00:00:00,2016-07-09T00:00:00
+17.01.06,1088,33,MichaelJourney,ParrkVisit,,,,2016-07-10T00:00:00
+17.01.06,1089,33,MichaelJourney,Wait4Ambulance,,Delay Until - ,2016-07-10 00:01:00,2016-07-10T00:00:00
+17.01.06,1090,33,MichaelJourney,AmbulanceTrip,,,,2016-07-10T00:01:00
+17.01.06,1091,33,MichaelJourney,Wiat4ED,,Delay Until - ,2016-07-10 00:19:00,2016-07-10T00:01:00
+17.01.06,1092,33,MichaelJourney,EmergencyDept,,,,2016-07-10T00:19:00
+17.01.06,1093,33,MichaelJourney,Wait4Ward,,Delay Until - ,2016-07-10 00:25:00,2016-07-10T00:19:00
+17.01.06,1094,33,MichaelJourney,Admit2Ward,,,,2016-07-10T00:25:00
+17.01.06,1095,33,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2016-07-10 00:42:00,2016-07-10T00:25:00
+17.01.06,1096,33,MichaelJourney,Prepare4Discharge,,,,2016-07-10T00:42:00
+17.01.06,1097,33,MichaelJourney,Wait4Discharge,,Delay Until - ,2016-07-10 00:47:00,2016-07-10T00:42:00
+17.01.06,1098,33,MichaelJourney,Discharge,,,,2016-07-10T00:47:00
+17.01.06,1099,33,MichaelJourney,Wait4PHR,,Delay Until - ,2016-07-10 01:04:00,2016-07-10T00:47:00
+17.01.06,1100,33,MichaelJourney,UpdatePHR,,,,2016-07-10T01:04:00
+17.01.06,1101,33,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2016-07-10 01:16:00,2016-07-10T01:04:00
+17.01.06,1102,33,MichaelJourney,CreateOutpatientAppt,,,,2016-07-10T01:16:00
+17.01.06,1103,33,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2016-07-10 01:23:00,2016-07-10T01:16:00
+17.01.06,1104,33,MichaelJourney,AttendOutpatients,,,,2016-07-10T01:23:00
+17.01.06,1105,33,MichaelJourney,Finish,,,,2016-07-10T01:23:00
+17.01.06,1106,4,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg']",2016-08-23T00:00:00
+17.01.06,1106,4,MichaelJourney,GPvisit,,,,2016-08-23T00:00:00
+17.01.06,1107,4,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2016-08-23 21:00:00,2016-08-23T00:00:00
+17.01.06,1108,4,MichaelJourney,PharmacyVisit,,,,2016-08-23T21:00:00
+17.01.06,1109,4,MichaelJourney,Wait4Park,,Delay Until - ,2016-09-06 21:00:00,2016-08-23T21:00:00
+17.01.06,1110,4,MichaelJourney,ParrkVisit,,,,2016-09-06T21:00:00
+17.01.06,1111,4,MichaelJourney,Wait4Ambulance,,Delay Until - ,2016-09-06 21:06:00,2016-09-06T21:00:00
+17.01.06,1112,4,MichaelJourney,AmbulanceTrip,,,,2016-09-06T21:06:00
+17.01.06,1113,4,MichaelJourney,Wiat4ED,,Delay Until - ,2016-09-06 21:21:00,2016-09-06T21:06:00
+17.01.06,1114,4,MichaelJourney,EmergencyDept,,,,2016-09-06T21:21:00
+17.01.06,1115,4,MichaelJourney,Wait4Ward,,Delay Until - ,2016-09-06 21:28:00,2016-09-06T21:21:00
+17.01.06,1116,4,MichaelJourney,Admit2Ward,,,,2016-09-06T21:28:00
+17.01.06,1117,4,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2016-09-06 21:38:00,2016-09-06T21:28:00
+17.01.06,1118,4,MichaelJourney,Prepare4Discharge,,,,2016-09-06T21:38:00
+17.01.06,1119,4,MichaelJourney,Wait4Discharge,,Delay Until - ,2016-09-06 21:54:00,2016-09-06T21:38:00
+17.01.06,1120,4,MichaelJourney,Discharge,,,,2016-09-06T21:54:00
+17.01.06,1121,4,MichaelJourney,Wait4PHR,,Delay Until - ,2016-09-06 22:00:00,2016-09-06T21:54:00
+17.01.06,1122,4,MichaelJourney,UpdatePHR,,,,2016-09-06T22:00:00
+17.01.06,1123,4,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2016-09-06 22:08:00,2016-09-06T22:00:00
+17.01.06,1124,4,MichaelJourney,CreateOutpatientAppt,,,,2016-09-06T22:08:00
+17.01.06,1125,4,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2016-09-06 22:21:00,2016-09-06T22:08:00
+17.01.06,1126,4,MichaelJourney,AttendOutpatients,,,,2016-09-06T22:21:00
+17.01.06,1127,4,MichaelJourney,Finish,,,,2016-09-06T22:21:00
+17.01.06,1128,17,MichaelJourney,Birth,,,,2016-09-23T00:00:00
+17.01.06,1129,17,MichaelJourney,WaitToSeeGP,,Delay Until - ,2016-11-20 00:00:00,2016-09-23T00:00:00
+17.01.06,1130,17,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2016-11-20T00:00:00
+17.01.06,1130,17,MichaelJourney,GPvisit,,,,2016-11-20T00:00:00
+17.01.06,1131,17,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2016-11-29 00:00:00,2016-11-20T00:00:00
+17.01.06,1132,17,MichaelJourney,PharmacyVisit,,,,2016-11-29T00:00:00
+17.01.06,1133,17,MichaelJourney,Wait4Park,,Delay Until - ,2016-12-02 00:00:00,2016-11-29T00:00:00
+17.01.06,1134,17,MichaelJourney,ParrkVisit,,,,2016-12-02T00:00:00
+17.01.06,1135,17,MichaelJourney,Wait4Ambulance,,Delay Until - ,2016-12-02 00:13:00,2016-12-02T00:00:00
+17.01.06,1136,17,MichaelJourney,AmbulanceTrip,,,,2016-12-02T00:13:00
+17.01.06,1137,17,MichaelJourney,Wiat4ED,,Delay Until - ,2016-12-02 00:18:00,2016-12-02T00:13:00
+17.01.06,1138,17,MichaelJourney,EmergencyDept,,,,2016-12-02T00:18:00
+17.01.06,1139,17,MichaelJourney,Wait4Ward,,Delay Until - ,2016-12-02 00:29:00,2016-12-02T00:18:00
+17.01.06,1140,17,MichaelJourney,Admit2Ward,,,,2016-12-02T00:29:00
+17.01.06,1141,17,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2016-12-02 00:45:00,2016-12-02T00:29:00
+17.01.06,1142,17,MichaelJourney,Prepare4Discharge,,,,2016-12-02T00:45:00
+17.01.06,1143,17,MichaelJourney,Wait4Discharge,,Delay Until - ,2016-12-02 01:01:00,2016-12-02T00:45:00
+17.01.06,1144,17,MichaelJourney,Discharge,,,,2016-12-02T01:01:00
+17.01.06,1145,17,MichaelJourney,Wait4PHR,,Delay Until - ,2016-12-02 01:13:00,2016-12-02T01:01:00
+17.01.06,1146,17,MichaelJourney,UpdatePHR,,,,2016-12-02T01:13:00
+17.01.06,1147,17,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2016-12-02 01:30:00,2016-12-02T01:13:00
+17.01.06,1148,17,MichaelJourney,CreateOutpatientAppt,,,,2016-12-02T01:30:00
+17.01.06,1149,17,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2016-12-02 01:35:00,2016-12-02T01:30:00
+17.01.06,1150,17,MichaelJourney,AttendOutpatients,,,,2016-12-02T01:35:00
+17.01.06,1151,17,MichaelJourney,Finish,,,,2016-12-02T01:35:00
+17.01.06,1152,45,MichaelJourney,Birth,,,,2017-08-24T00:00:00
+17.01.06,1153,45,MichaelJourney,WaitToSeeGP,,Delay Until - ,2017-10-21 00:00:00,2017-08-24T00:00:00
+17.01.06,1154,45,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2017-10-21T00:00:00
+17.01.06,1154,45,MichaelJourney,GPvisit,,,,2017-10-21T00:00:00
+17.01.06,1155,45,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2017-10-21 20:00:00,2017-10-21T00:00:00
+17.01.06,1156,45,MichaelJourney,PharmacyVisit,,,,2017-10-21T20:00:00
+17.01.06,1157,45,MichaelJourney,Wait4Park,,Delay Until - ,2017-11-04 20:00:00,2017-10-21T20:00:00
+17.01.06,1158,45,MichaelJourney,ParrkVisit,,,,2017-11-04T20:00:00
+17.01.06,1159,45,MichaelJourney,Wait4Ambulance,,Delay Until - ,2017-11-04 20:19:00,2017-11-04T20:00:00
+17.01.06,1160,45,MichaelJourney,AmbulanceTrip,,,,2017-11-04T20:19:00
+17.01.06,1161,45,MichaelJourney,Wiat4ED,,Delay Until - ,2017-11-04 20:23:00,2017-11-04T20:19:00
+17.01.06,1162,45,MichaelJourney,EmergencyDept,,,,2017-11-04T20:23:00
+17.01.06,1163,45,MichaelJourney,Wait4Ward,,Delay Until - ,2017-11-04 20:38:00,2017-11-04T20:23:00
+17.01.06,1164,45,MichaelJourney,Admit2Ward,,,,2017-11-04T20:38:00
+17.01.06,1165,45,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2017-11-04 20:41:00,2017-11-04T20:38:00
+17.01.06,1166,45,MichaelJourney,Prepare4Discharge,,,,2017-11-04T20:41:00
+17.01.06,1167,45,MichaelJourney,Wait4Discharge,,Delay Until - ,2017-11-04 21:01:00,2017-11-04T20:41:00
+17.01.06,1168,45,MichaelJourney,Discharge,,,,2017-11-04T21:01:00
+17.01.06,1169,45,MichaelJourney,Wait4PHR,,Delay Until - ,2017-11-04 21:12:00,2017-11-04T21:01:00
+17.01.06,1170,45,MichaelJourney,UpdatePHR,,,,2017-11-04T21:12:00
+17.01.06,1171,45,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2017-11-04 21:30:00,2017-11-04T21:12:00
+17.01.06,1172,45,MichaelJourney,CreateOutpatientAppt,,,,2017-11-04T21:30:00
+17.01.06,1173,45,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2017-11-04 21:50:00,2017-11-04T21:30:00
+17.01.06,1174,45,MichaelJourney,AttendOutpatients,,,,2017-11-04T21:50:00
+17.01.06,1175,45,MichaelJourney,Finish,,,,2017-11-04T21:50:00
+17.01.06,1176,48,MichaelJourney,Birth,,,,2019-03-13T00:00:00
+17.01.06,1177,48,MichaelJourney,WaitToSeeGP,,Delay Until - ,2019-05-18 00:00:00,2019-03-13T00:00:00
+17.01.06,1178,48,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2019-05-18T00:00:00
+17.01.06,1178,48,MichaelJourney,GPvisit,,,,2019-05-18T00:00:00
+17.01.06,1179,48,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2019-05-24 12:00:00,2019-05-18T00:00:00
+17.01.06,1180,48,MichaelJourney,PharmacyVisit,,,,2019-05-24T12:00:00
+17.01.06,1181,48,MichaelJourney,Wait4Park,,Delay Until - ,2019-05-25 12:00:00,2019-05-24T12:00:00
+17.01.06,1182,48,MichaelJourney,ParrkVisit,,,,2019-05-25T12:00:00
+17.01.06,1183,48,MichaelJourney,Wait4Ambulance,,Delay Until - ,2019-05-25 12:10:00,2019-05-25T12:00:00
+17.01.06,1184,48,MichaelJourney,AmbulanceTrip,,,,2019-05-25T12:10:00
+17.01.06,1185,48,MichaelJourney,Wiat4ED,,Delay Until - ,2019-05-25 12:19:00,2019-05-25T12:10:00
+17.01.06,1186,48,MichaelJourney,EmergencyDept,,,,2019-05-25T12:19:00
+17.01.06,1187,48,MichaelJourney,Wait4Ward,,Delay Until - ,2019-05-25 12:37:00,2019-05-25T12:19:00
+17.01.06,1188,48,MichaelJourney,Admit2Ward,,,,2019-05-25T12:37:00
+17.01.06,1189,48,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2019-05-25 12:39:00,2019-05-25T12:37:00
+17.01.06,1190,48,MichaelJourney,Prepare4Discharge,,,,2019-05-25T12:39:00
+17.01.06,1191,48,MichaelJourney,Wait4Discharge,,Delay Until - ,2019-05-25 12:42:00,2019-05-25T12:39:00
+17.01.06,1192,48,MichaelJourney,Discharge,,,,2019-05-25T12:42:00
+17.01.06,1193,48,MichaelJourney,Wait4PHR,,Delay Until - ,2019-05-25 12:59:00,2019-05-25T12:42:00
+17.01.06,1194,48,MichaelJourney,UpdatePHR,,,,2019-05-25T12:59:00
+17.01.06,1195,48,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2019-05-25 13:10:00,2019-05-25T12:59:00
+17.01.06,1196,48,MichaelJourney,CreateOutpatientAppt,,,,2019-05-25T13:10:00
+17.01.06,1197,48,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2019-05-25 13:16:00,2019-05-25T13:10:00
+17.01.06,1198,48,MichaelJourney,AttendOutpatients,,,,2019-05-25T13:16:00
+17.01.06,1199,48,MichaelJourney,Finish,,,,2019-05-25T13:16:00
+17.01.06,1200,6,MichaelJourney,Birth,,,,2019-09-24T00:00:00
+17.01.06,1201,6,MichaelJourney,WaitToSeeGP,,Delay Until - ,2019-11-29 00:00:00,2019-09-24T00:00:00
+17.01.06,1202,6,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg']",2019-11-29T00:00:00
+17.01.06,1202,6,MichaelJourney,GPvisit,,,,2019-11-29T00:00:00
+17.01.06,1203,6,MichaelJourney,Wait4Pharmacy,,Delay Until - ,2019-12-03 01:00:00,2019-11-29T00:00:00
+17.01.06,1204,6,MichaelJourney,PharmacyVisit,,,,2019-12-03T01:00:00
+17.01.06,1205,6,MichaelJourney,Wait4Park,,Delay Until - ,2019-12-16 01:00:00,2019-12-03T01:00:00
+17.01.06,1206,6,MichaelJourney,ParrkVisit,,,,2019-12-16T01:00:00
+17.01.06,1207,6,MichaelJourney,Wait4Ambulance,,Delay Until - ,2019-12-16 01:16:00,2019-12-16T01:00:00
+17.01.06,1208,6,MichaelJourney,AmbulanceTrip,,,,2019-12-16T01:16:00
+17.01.06,1209,6,MichaelJourney,Wiat4ED,,Delay Until - ,2019-12-16 01:21:00,2019-12-16T01:16:00
+17.01.06,1210,6,MichaelJourney,EmergencyDept,,,,2019-12-16T01:21:00
+17.01.06,1211,6,MichaelJourney,Wait4Ward,,Delay Until - ,2019-12-16 01:35:00,2019-12-16T01:21:00
+17.01.06,1212,6,MichaelJourney,Admit2Ward,,,,2019-12-16T01:35:00
+17.01.06,1213,6,MichaelJourney,Wait4Prepare4Discharge,,Delay Until - ,2019-12-16 01:49:00,2019-12-16T01:35:00
+17.01.06,1214,6,MichaelJourney,Prepare4Discharge,,,,2019-12-16T01:49:00
+17.01.06,1215,6,MichaelJourney,Wait4Discharge,,Delay Until - ,2019-12-16 02:05:00,2019-12-16T01:49:00
+17.01.06,1216,6,MichaelJourney,Discharge,,,,2019-12-16T02:05:00
+17.01.06,1217,6,MichaelJourney,Wait4PHR,,Delay Until - ,2019-12-16 02:17:00,2019-12-16T02:05:00
+17.01.06,1218,6,MichaelJourney,UpdatePHR,,,,2019-12-16T02:17:00
+17.01.06,1219,6,MichaelJourney,Wait4OPMakeAppt,,Delay Until - ,2019-12-16 02:20:00,2019-12-16T02:17:00
+17.01.06,1220,6,MichaelJourney,CreateOutpatientAppt,,,,2019-12-16T02:20:00
+17.01.06,1221,6,MichaelJourney,Wait4OutpatientAppt,,Delay Until - ,2019-12-16 02:31:00,2019-12-16T02:20:00
+17.01.06,1222,6,MichaelJourney,AttendOutpatients,,,,2019-12-16T02:31:00
+17.01.06,1223,6,MichaelJourney,Finish,,,,2019-12-16T02:31:00

@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Female
+   DOB: 1959-11-29 00:00:00
+   Surname: Perkins
+   GivenName: Jodie
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: b84eef30-1d3d-4b42-bea7-b152e10160c1
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg'], 'date': '1960-02-17T00:00:00', 'id': UUID('70fbc0fc-2918-4b66-9ace-833c437c2ea4')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg'], 'date': '1960-02-17T00:00:00', 'id': UUID('70fbc0fc-2918-4b66-9ace-833c437c2ea4')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg'], 'date': '1960-02-17T00:00:00', 'id': UUID('70fbc0fc-2918-4b66-9ace-833c437c2ea4')}

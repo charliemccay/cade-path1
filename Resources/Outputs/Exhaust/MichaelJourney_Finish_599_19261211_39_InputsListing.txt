@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 39
+   Gender: Male
+   DOB: 1975-08-10 00:00:00
+   Surname: Ross
+   GivenName: Peter
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 907eee58-ef2d-41f7-a897-c10f0cf8f1a0
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1975-10-31T00:00:00', 'id': UUID('821f2627-e7fb-4683-a3ea-8fcaa3a4c828')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1975-10-31T00:00:00', 'id': UUID('821f2627-e7fb-4683-a3ea-8fcaa3a4c828')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1975-10-31T00:00:00', 'id': UUID('821f2627-e7fb-4683-a3ea-8fcaa3a4c828')}

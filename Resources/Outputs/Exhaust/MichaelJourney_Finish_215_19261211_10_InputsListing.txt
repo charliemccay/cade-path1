@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 10
+   Gender: Male
+   DOB: 1948-01-20 00:00:00
+   Surname: Chamberlain
+   GivenName: Billy
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: f33586fe-bba5-494c-8f99-4586b672a751
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1948-03-30T00:00:00', 'id': UUID('a972bb36-37da-46a8-b643-94096c632358')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1948-03-30T00:00:00', 'id': UUID('a972bb36-37da-46a8-b643-94096c632358')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1948-03-30T00:00:00', 'id': UUID('a972bb36-37da-46a8-b643-94096c632358')}

@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 38
+   Gender: Male
+   DOB: 1937-04-02 00:00:00
+   Surname: Baxter
+   GivenName: Edward
+   School: Quarry School
+   GP: Quarry GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: bddc3ce5-88b0-4806-8e7b-0cf3c11c66ff
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1937-05-29T00:00:00', 'id': UUID('d045abe4-db8e-4d4e-ad2d-7dc6f4b1783d')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1937-05-29T00:00:00', 'id': UUID('d045abe4-db8e-4d4e-ad2d-7dc6f4b1783d')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1937-05-29T00:00:00', 'id': UUID('d045abe4-db8e-4d4e-ad2d-7dc6f4b1783d')}

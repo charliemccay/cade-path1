@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 32
+   Gender: Female
+   DOB: 2001-07-07 00:00:00
+   Surname: Jones
+   GivenName: Alicia
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 08c95646-2e51-40bb-948e-3ed837cac628
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '2001-09-06T00:00:00', 'id': UUID('60d8f012-5d88-4417-ba4a-895ba868b8db')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '2001-09-06T00:00:00', 'id': UUID('60d8f012-5d88-4417-ba4a-895ba868b8db')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '2001-09-06T00:00:00', 'id': UUID('60d8f012-5d88-4417-ba4a-895ba868b8db')}

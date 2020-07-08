@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 22
+   Gender: Male
+   DOB: 1962-02-20 00:00:00
+   Surname: Myers
+   GivenName: Lewis
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 7a94acf5-11b0-4834-8ffb-9127c333d255
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1962-04-20T00:00:00', 'id': UUID('31501182-684a-46cb-a049-61a1d3a8e770')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1962-04-20T00:00:00', 'id': UUID('31501182-684a-46cb-a049-61a1d3a8e770')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1962-04-20T00:00:00', 'id': UUID('31501182-684a-46cb-a049-61a1d3a8e770')}

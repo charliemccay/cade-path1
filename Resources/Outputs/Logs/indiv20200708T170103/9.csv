@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+1056,MichaelJourney,WaitToSeeGP,,,,2014-10-26T00:00:00
+1057,MichaelJourney,GPvisit,,,,2014-10-26T00:00:00
+1058,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg']",2015-01-12T00:00:00
+1058,MichaelJourney,GPvisit,,,,2015-01-12T00:00:00
+1059,MichaelJourney,PharmacyVisit,,,,2015-01-12T00:00:00
+1060,MichaelJourney,Wait4Park,,,,2015-01-18T21:00:00
+1061,MichaelJourney,ParrkVisit,,,,2015-01-18T21:00:00
+1062,MichaelJourney,Wait4Ambulance,,,,2015-02-04T21:00:00
+1063,MichaelJourney,AmbulanceTrip,,,,2015-02-04T21:00:00
+1064,MichaelJourney,Wiat4ED,,,,2015-02-04T21:14:00
+1065,MichaelJourney,EmergencyDept,,,,2015-02-04T21:14:00
+1066,MichaelJourney,Wait4Ward,,,,2015-02-04T21:24:00
+1067,MichaelJourney,Admit2Ward,,,,2015-02-04T21:24:00
+1068,MichaelJourney,Wait4Prepare4Discharge,,,,2015-02-04T21:40:00
+1069,MichaelJourney,Prepare4Discharge,,,,2015-02-04T21:40:00
+1070,MichaelJourney,Wait4Discharge,,,,2015-02-04T22:00:00
+1071,MichaelJourney,Discharge,,,,2015-02-04T22:00:00
+1072,MichaelJourney,Wait4PHR,,,,2015-02-04T22:10:00
+1073,MichaelJourney,UpdatePHR,,,,2015-02-04T22:10:00
+1074,MichaelJourney,Wait4OPMakeAppt,,,,2015-02-04T22:25:00
+1075,MichaelJourney,CreateOutpatientAppt,,,,2015-02-04T22:25:00
+1076,MichaelJourney,Wait4OutpatientAppt,,,,2015-02-04T22:26:00
+1077,MichaelJourney,AttendOutpatients,,,,2015-02-04T22:26:00
+1078,MichaelJourney,Finish,,,,2015-02-04T22:42:00
+1079,MichaelJourney,Finish,,,,2015-02-04T22:42:00

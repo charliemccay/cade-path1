@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 15
+   Gender: Male
+   DOB: 1960-06-17 00:00:00
+   Surname: Cook
+   GivenName: Isaac
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 16bf41e3-3ed5-496e-b68f-098769b3fe25
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1960-09-04T00:00:00', 'id': UUID('ed47bcbb-bd85-449b-be3c-54e561264c8b')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1960-09-04T00:00:00', 'id': UUID('ed47bcbb-bd85-449b-be3c-54e561264c8b')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1960-09-04T00:00:00', 'id': UUID('ed47bcbb-bd85-449b-be3c-54e561264c8b')}

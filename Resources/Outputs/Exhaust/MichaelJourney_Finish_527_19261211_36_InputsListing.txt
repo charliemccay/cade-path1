@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 36
+   Gender: Male
+   DOB: 1969-10-17 00:00:00
+   Surname: Power
+   GivenName: Charles
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: db066a4b-f72b-4573-a651-1fcd32e79009
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1969-12-13T00:00:00', 'id': UUID('7adafa8b-014e-4e7b-9358-fc3492b83d79')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1969-12-13T00:00:00', 'id': UUID('7adafa8b-014e-4e7b-9358-fc3492b83d79')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1969-12-13T00:00:00', 'id': UUID('7adafa8b-014e-4e7b-9358-fc3492b83d79')}

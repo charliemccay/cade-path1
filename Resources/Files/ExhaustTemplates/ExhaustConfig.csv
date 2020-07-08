@@ -1,4 +1,3 @@
 TriggerPathway,TriggerNode,TriggerEvent,TemplateName,Validation,Destination,id_attr
-GestationalDiabetes,Birth,Start,KAFKA_Patient.txt,,Patient/,patient_id
-GestationalDiabetes,Finish,Start,InputsListing.txt,,
-GestationalDiabetes,FirstAntenatal,Start,InputsListing.txt,,
+MichaelJourney,Birth,Start,KAFKA_Patient.txt,,Patient/,patient_id
+MichaelJourney,Finish,Start,InputsListing.txt,,,

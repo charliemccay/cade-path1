@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 46
+   Gender: Male
+   DOB: 1985-04-27 00:00:00
+   Surname: Baxter
+   GivenName: Christopher
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: a327a0ee-18e5-4cd6-8600-e8d1339f35ab
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1985-07-14T00:00:00', 'id': UUID('95a23343-361c-4737-a764-ea0f59ec73f3')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1985-07-14T00:00:00', 'id': UUID('95a23343-361c-4737-a764-ea0f59ec73f3')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1985-07-14T00:00:00', 'id': UUID('95a23343-361c-4737-a764-ea0f59ec73f3')}

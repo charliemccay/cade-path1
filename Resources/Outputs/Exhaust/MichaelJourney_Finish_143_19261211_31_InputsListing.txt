@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Male
+   DOB: 1945-11-19 00:00:00
+   Surname: Bolton
+   GivenName: John
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 112ff46b-0bd3-46aa-ba7a-a0149429355a
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1946-01-29T00:00:00', 'id': UUID('45ef73b1-577a-488f-a694-4ddbd239a66b')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1946-01-29T00:00:00', 'id': UUID('45ef73b1-577a-488f-a694-4ddbd239a66b')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1946-01-29T00:00:00', 'id': UUID('45ef73b1-577a-488f-a694-4ddbd239a66b')}

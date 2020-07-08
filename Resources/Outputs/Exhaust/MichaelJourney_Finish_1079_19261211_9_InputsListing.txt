@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Female
+   DOB: 2014-10-26 00:00:00
+   Surname: Long
+   GivenName: Natasha
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 495d1526-86c8-4611-858b-5537c18a2d27
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg'], 'date': '2015-01-12T00:00:00', 'id': UUID('11679571-091c-40e7-9a94-3efd077057e7')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg'], 'date': '2015-01-12T00:00:00', 'id': UUID('11679571-091c-40e7-9a94-3efd077057e7')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 108, 'kg'], 'date': '2015-01-12T00:00:00', 'id': UUID('11679571-091c-40e7-9a94-3efd077057e7')}

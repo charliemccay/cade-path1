@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 5
+   Gender: Male
+   DOB: 1990-07-22 00:00:00
+   Surname: Daly
+   GivenName: Owen
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: b78a8210-d142-4a1c-bd2f-bd3774adc856
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg'], 'date': '1990-10-08T00:00:00', 'id': UUID('674bf58e-1444-4886-b8f3-9d2dedc48891')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg'], 'date': '1990-10-08T00:00:00', 'id': UUID('674bf58e-1444-4886-b8f3-9d2dedc48891')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg'], 'date': '1990-10-08T00:00:00', 'id': UUID('674bf58e-1444-4886-b8f3-9d2dedc48891')}

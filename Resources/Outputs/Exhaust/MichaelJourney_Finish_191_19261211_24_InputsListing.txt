@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Harlescott
+   Country: England
+   PersonID: 24
+   Gender: Female
+   DOB: 1947-08-11 00:00:00
+   Surname: Anderson
+   GivenName: Keira
+   School: Harlescott School
+   GP: Harlescott GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: f8928e9d-7a19-4c2e-b337-cbbb0484b1a0
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1947-10-22T00:00:00', 'id': UUID('7a8028d7-2c2e-4f3d-b961-9e0758576fe6')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1947-10-22T00:00:00', 'id': UUID('7a8028d7-2c2e-4f3d-b961-9e0758576fe6')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1947-10-22T00:00:00', 'id': UUID('7a8028d7-2c2e-4f3d-b961-9e0758576fe6')}

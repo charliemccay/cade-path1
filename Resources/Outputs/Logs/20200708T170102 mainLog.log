@@ -1,0 +1,70 @@
+17:01:03 00001 INFO: Starting...
+17:01:03 00111 INFO: Creating 50 patients.
+17:01:03 00112 INFO: Reading file: FakeNameGeneratorShr.csv.
+17:01:03 00113 INFO: Found name generator file: FakeNameGeneratorShr.csv
+17:01:03 00112 INFO: Reading file: PopulationStatistics.csv.
+17:01:03 00113 INFO: Found domain statistics file: PopulationStatistics.csv
+17:01:03 00112 INFO: Reading file: ShrewsburyStats.csv.
+17:01:03 00113 INFO: Found area statistics file: ShrewsburyStats.csv
+17:01:03 00114 INFO: Dealing with area type: Ward
+17:01:05 00101 INFO: Adding pathway file 'MichaelJourney.bpmn' to validation list
+17:01:05 00101 INFO: Adding pathway file 'ChildGender.dmn' to validation list
+17:01:05 00101 INFO: Adding pathway file 'GPVisit.dmn' to validation list
+17:01:05 NOTE  invalid DMN model
+17:01:05 21008 WARNING: Files not valid against information items. Check the validation log for details.
+17:01:05 00107 INFO: Validating pathways.
+17:01:05 00108 INFO: Importing pathway file Resources/Files/Pathway/BPMN/MichaelJourney.bpmn
+17:01:05 00109 INFO: Pathways validated.
+17:01:05 00110 INFO: Importing pathways successful.
+17:01:05 NOTE  person being put onto pathway :50 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :47 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :38 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :34 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :26 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :31 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :37 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :24 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :10 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :23 : MichaelJourney
+17:01:05 NOTE  person being put onto pathway :25 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :7 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :21 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :12 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :1 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :15 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :42 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :22 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :43 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :27 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :16 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :36 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :11 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :0 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :39 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :30 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :28 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :2 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :46 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :5 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :19 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :3 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :8 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :35 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :18 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :49 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :32 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :14 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :41 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :13 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :20 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :44 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :40 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :29 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :9 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :33 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :4 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :17 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :45 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :48 : MichaelJourney
+17:01:06 NOTE  person being put onto pathway :6 : MichaelJourney
+17:01:06 NOTE  Time elapsed: 3 seconds

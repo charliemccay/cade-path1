@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+798,MichaelJourney,WaitToSeeGP,,,,1998-10-06T00:00:00
+799,MichaelJourney,GPvisit,,,,1998-10-06T00:00:00
+818,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1998-12-11T00:00:00
+818,MichaelJourney,GPvisit,,,,1998-12-11T00:00:00
+819,MichaelJourney,PharmacyVisit,,,,1998-12-11T00:00:00
+820,MichaelJourney,Wait4Park,,,,1998-12-18T10:00:00
+821,MichaelJourney,ParrkVisit,,,,1998-12-18T10:00:00
+822,MichaelJourney,Wait4Ambulance,,,,1999-01-07T10:00:00
+823,MichaelJourney,AmbulanceTrip,,,,1999-01-07T10:00:00
+824,MichaelJourney,Wiat4ED,,,,1999-01-07T10:07:00
+825,MichaelJourney,EmergencyDept,,,,1999-01-07T10:07:00
+826,MichaelJourney,Wait4Ward,,,,1999-01-07T10:23:00
+827,MichaelJourney,Admit2Ward,,,,1999-01-07T10:23:00
+828,MichaelJourney,Wait4Prepare4Discharge,,,,1999-01-07T10:24:00
+829,MichaelJourney,Prepare4Discharge,,,,1999-01-07T10:24:00
+830,MichaelJourney,Wait4Discharge,,,,1999-01-07T10:37:00
+831,MichaelJourney,Discharge,,,,1999-01-07T10:37:00
+832,MichaelJourney,Wait4PHR,,,,1999-01-07T10:55:00
+833,MichaelJourney,UpdatePHR,,,,1999-01-07T10:55:00
+834,MichaelJourney,Wait4OPMakeAppt,,,,1999-01-07T11:05:00
+835,MichaelJourney,CreateOutpatientAppt,,,,1999-01-07T11:05:00
+836,MichaelJourney,Wait4OutpatientAppt,,,,1999-01-07T11:14:00
+837,MichaelJourney,AttendOutpatients,,,,1999-01-07T11:14:00
+838,MichaelJourney,Finish,,,,1999-01-07T11:26:00
+839,MichaelJourney,Finish,,,,1999-01-07T11:26:00

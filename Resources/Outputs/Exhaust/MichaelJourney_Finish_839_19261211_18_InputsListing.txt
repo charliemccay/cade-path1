@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Column
+   Country: England
+   PersonID: 18
+   Gender: Male
+   DOB: 1998-10-06 00:00:00
+   Surname: Mason
+   GivenName: Ryan
+   School: Column School
+   GP: Column GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 1a5f16a7-b3dd-40bf-b7c0-b9e0da22465d
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1998-12-11T00:00:00', 'id': UUID('036681db-7bab-447d-a689-237689af7d7c')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1998-12-11T00:00:00', 'id': UUID('036681db-7bab-447d-a689-237689af7d7c')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1998-12-11T00:00:00', 'id': UUID('036681db-7bab-447d-a689-237689af7d7c')}

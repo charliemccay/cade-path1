@@ -1,0 +1,13 @@
+17:01:05 00102 INFO: Converting BPMN pathway MichaelJourney.bpmn to json...
+17:01:05 20025 ERROR: Simple Node PharmacyVisit in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node ParrkVisit in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node AmbulanceTrip in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node EmergencyDept in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node Admit2Ward in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node Prepare4Discharge in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node Discharge in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node UpdatePHR in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node CreateOutpatientAppt in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Simple Node AttendOutpatients in MichaelJourney.bpmn is not a defined information item.
+17:01:05 20025 ERROR: Input PersonID in Resources/Files/Pathway/DMN/GPVisit is not a defined information item.
+17:01:05 20025 ERROR: Output Symptom in Resources/Files/Pathway/DMN/GPVisit is not a defined information item.

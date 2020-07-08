@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 14
+   Gender: Female
+   DOB: 2004-01-07 00:00:00
+   Surname: Bevan
+   GivenName: Alicia
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 52d1cf75-5542-4bc9-bdd1-3623e0e08602
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '2004-03-23T00:00:00', 'id': UUID('4fd9263d-bd1c-4691-838c-50c43448c410')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '2004-03-23T00:00:00', 'id': UUID('4fd9263d-bd1c-4691-838c-50c43448c410')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '2004-03-23T00:00:00', 'id': UUID('4fd9263d-bd1c-4691-838c-50c43448c410')}

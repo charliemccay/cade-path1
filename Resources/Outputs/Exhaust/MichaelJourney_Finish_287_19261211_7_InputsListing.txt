@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 7
+   Gender: Male
+   DOB: 1958-10-30 00:00:00
+   Surname: Brennan
+   GivenName: Jack
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 147548ef-f341-4d3f-836a-cf2b7895e2e3
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg'], 'date': '1958-12-29T00:00:00', 'id': UUID('cd4d2af1-cfe2-472f-bf37-d02828313e7b')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg'], 'date': '1958-12-29T00:00:00', 'id': UUID('cd4d2af1-cfe2-472f-bf37-d02828313e7b')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg'], 'date': '1958-12-29T00:00:00', 'id': UUID('cd4d2af1-cfe2-472f-bf37-d02828313e7b')}

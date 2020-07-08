@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 28
+   Gender: Male
+   DOB: 1979-04-06 00:00:00
+   Surname: Evans
+   GivenName: Robert
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 40d1e4ca-6a5b-498a-95f5-d10005b44c47
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1979-06-12T00:00:00', 'id': UUID('d87b0112-61f2-4970-8571-fe2657831541')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1979-06-12T00:00:00', 'id': UUID('d87b0112-61f2-4970-8571-fe2657831541')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1979-06-12T00:00:00', 'id': UUID('d87b0112-61f2-4970-8571-fe2657831541')}

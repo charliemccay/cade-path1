@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 6
+   Gender: Male
+   DOB: 2019-09-24 00:00:00
+   Surname: Bradley
+   GivenName: Dylan
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 95aeb2aa-6ae5-467f-b2f8-e2dca2ac3981
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg'], 'date': '2019-11-29T00:00:00', 'id': UUID('018ada30-d722-40e3-8b6b-f34aa2b283aa')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg'], 'date': '2019-11-29T00:00:00', 'id': UUID('018ada30-d722-40e3-8b6b-f34aa2b283aa')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg'], 'date': '2019-11-29T00:00:00', 'id': UUID('018ada30-d722-40e3-8b6b-f34aa2b283aa')}

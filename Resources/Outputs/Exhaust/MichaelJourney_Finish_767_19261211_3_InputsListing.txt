@@ -1,0 +1,23 @@
+
+timestamp: 1926_12_11
+activity_time: 1926-12-11
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 3
+   Gender: Female
+   DOB: 1996-01-06 00:00:00
+   Surname: Cooper
+   GivenName: Kayleigh
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: f99c34c7-8be2-49bb-addc-21b118091685
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg'], 'date': '1996-03-16T00:00:00', 'id': UUID('2aec4e47-e278-462e-88e4-9b61ad1f4677')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg'], 'date': '1996-03-16T00:00:00', 'id': UUID('2aec4e47-e278-462e-88e4-9b61ad1f4677')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg'], 'date': '1996-03-16T00:00:00', 'id': UUID('2aec4e47-e278-462e-88e4-9b61ad1f4677')}

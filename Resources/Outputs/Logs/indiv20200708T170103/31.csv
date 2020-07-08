@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+120,MichaelJourney,WaitToSeeGP,,,,1945-11-19T00:00:00
+121,MichaelJourney,GPvisit,,,,1945-11-19T00:00:00
+122,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1946-01-29T00:00:00
+122,MichaelJourney,GPvisit,,,,1946-01-29T00:00:00
+123,MichaelJourney,PharmacyVisit,,,,1946-01-29T00:00:00
+124,MichaelJourney,Wait4Park,,,,1946-01-30T01:00:00
+125,MichaelJourney,ParrkVisit,,,,1946-01-30T01:00:00
+126,MichaelJourney,Wait4Ambulance,,,,1946-02-10T01:00:00
+127,MichaelJourney,AmbulanceTrip,,,,1946-02-10T01:00:00
+128,MichaelJourney,Wiat4ED,,,,1946-02-10T01:05:00
+129,MichaelJourney,EmergencyDept,,,,1946-02-10T01:05:00
+130,MichaelJourney,Wait4Ward,,,,1946-02-10T01:19:00
+131,MichaelJourney,Admit2Ward,,,,1946-02-10T01:19:00
+132,MichaelJourney,Wait4Prepare4Discharge,,,,1946-02-10T01:25:00
+133,MichaelJourney,Prepare4Discharge,,,,1946-02-10T01:25:00
+134,MichaelJourney,Wait4Discharge,,,,1946-02-10T01:32:00
+135,MichaelJourney,Discharge,,,,1946-02-10T01:32:00
+136,MichaelJourney,Wait4PHR,,,,1946-02-10T01:38:00
+137,MichaelJourney,UpdatePHR,,,,1946-02-10T01:38:00
+138,MichaelJourney,Wait4OPMakeAppt,,,,1946-02-10T01:57:00
+139,MichaelJourney,CreateOutpatientAppt,,,,1946-02-10T01:57:00
+140,MichaelJourney,Wait4OutpatientAppt,,,,1946-02-10T02:00:00
+141,MichaelJourney,AttendOutpatients,,,,1946-02-10T02:00:00
+142,MichaelJourney,Finish,,,,1946-02-10T02:13:00
+143,MichaelJourney,Finish,,,,1946-02-10T02:13:00
