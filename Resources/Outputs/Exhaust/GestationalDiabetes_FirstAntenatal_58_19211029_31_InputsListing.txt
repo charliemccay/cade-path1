@@ -1,0 +1,41 @@
+
+timestamp: 1921_10_29
+activity_time: 1921-10-29
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Female
+   DOB: 1942-08-28 00:00:00
+   Surname: Lord
+   GivenName: Holly
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   GestationalDiabetesStatus: FirstAntenatal
+   patient_id: 90f1e381-4232-4b1b-8123-3881656378ad
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.361149819996454, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-05-11T00:00:00', 'id': UUID('9333bc72-f0cb-40ed-bc99-a9484f732c67')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 196, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.92003331945023, 'kg/m2']
+   GenderProbability: 0.32524
+   ChildGender: 0
+   BloodGlucose: {'quantity': 5.361149819996454, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1942-08-28T00:00:00', 'id': UUID('9569a8a6-11a6-4a10-adff-19688e08d783')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg'], 'date': '1942-08-28T00:00:00', 'id': UUID('f00a13e0-dfd8-400c-8178-67d3da6408e5')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 196, 'cm'], 'date': '1942-08-28T00:00:00', 'id': UUID('abb5b1d3-aa3e-4082-95d0-36050e3e0624')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.92003331945023, 'kg/m2'], 'date': '1942-08-28T00:00:00', 'id': UUID('fa1fa090-cdda-4bf0-a89c-690127932b20')}]
+   GenderProbability: [{'value': 0.32524, 'date': '1966-03-12T00:00:00', 'id': UUID('87da9689-a2c0-4f22-84b8-aebbe9fb7ab5')}]
+   ChildGender: [{'value': 0, 'date': '1966-03-12T00:00:00', 'id': UUID('52e4793e-320d-4b73-b7f1-abda3727e62c')}]
+   BloodGlucose: [{'value': {'quantity': 5.361149819996454, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-05-11T00:00:00', 'id': UUID('9333bc72-f0cb-40ed-bc99-a9484f732c67')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1942-08-28T00:00:00', 'id': UUID('9569a8a6-11a6-4a10-adff-19688e08d783')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg'], 'date': '1942-08-28T00:00:00', 'id': UUID('f00a13e0-dfd8-400c-8178-67d3da6408e5')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 196, 'cm'], 'date': '1942-08-28T00:00:00', 'id': UUID('abb5b1d3-aa3e-4082-95d0-36050e3e0624')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.92003331945023, 'kg/m2'], 'date': '1942-08-28T00:00:00', 'id': UUID('fa1fa090-cdda-4bf0-a89c-690127932b20')}
+   GenderProbability: {'value': 0.32524, 'date': '1966-03-12T00:00:00', 'id': UUID('87da9689-a2c0-4f22-84b8-aebbe9fb7ab5')}
+   ChildGender: {'value': 0, 'date': '1966-03-12T00:00:00', 'id': UUID('52e4793e-320d-4b73-b7f1-abda3727e62c')}
+   BloodGlucose: {'value': {'quantity': 5.361149819996454, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-05-11T00:00:00', 'id': UUID('9333bc72-f0cb-40ed-bc99-a9484f732c67')}

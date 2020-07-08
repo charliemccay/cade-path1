@@ -1,0 +1,10 @@
+Date: <$<currDate('%Y/%m/%d')>$>
+Attack Severity: <$<person:AttackSeverity>$>
+Length of attack: <$<person:TimeExperiencingSymptoms>$>
+Response to attack: <$<person:Response>$>
+Patient:
+  <$<person:Surname>$>, <$<person:GivenName>$>
+  ID: <$<person:PersonID>$>
+  DOB: <$<person:DOB>$>
+GP:
+  <$<person:GP>$>

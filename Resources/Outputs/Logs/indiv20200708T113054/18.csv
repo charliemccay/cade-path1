@@ -1,0 +1,16 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+42,GestationalDiabetes,GenderDecision,,,,1960-09-12T00:00:00
+42,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1960-09-12T00:00:00
+42,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg']",1960-09-12T00:00:00
+42,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 201, 'cm']",1960-09-12T00:00:00
+42,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 17.573822430137874, 'kg/m2']",1960-09-12T00:00:00
+43,GestationalDiabetes,Wait4Conception,,,,1960-09-12T00:00:00
+44,GestationalDiabetes,CheckHasOneChild,,,,1960-09-12T00:00:00
+129,GestationalDiabetes,ConceiveFirstChild,,,,1988-07-24T00:00:00
+130,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,1988-07-24T00:00:00
+130,GestationalDiabetes,ConceiveFirstChild,,,,1988-07-24T00:00:00
+131,GestationalDiabetes,GPvisit,,,,1988-07-24T00:00:00
+132,GestationalDiabetes,Wait2SeeMidwife,,,,1988-09-19T00:00:00
+133,GestationalDiabetes,FirstAntenatal,,,,1988-09-19T00:00:00
+134,GestationalDiabetes,Finish,,,,1989-01-14T00:00:00
+135,GestationalDiabetes,Finish,,,,1989-01-14T00:00:00

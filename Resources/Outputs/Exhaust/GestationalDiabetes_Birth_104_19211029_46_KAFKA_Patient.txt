@@ -1,0 +1,1 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":76,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"value":{"name": "testUser"}}]}

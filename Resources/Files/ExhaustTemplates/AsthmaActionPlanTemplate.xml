@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="{{ person['ActionPlanID'] }}"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Asthma Action Plan as a FHIR careplan</p>
+    </div>
+  </text>
+  <contained>
+    <!-- may be reasonable to link care plans back to the diagnosis that triggered them -->
+    <!-- this could support snomed searches for careplans for similar conditions -->
+    <Condition>
+      <id value="p1"/>
+      <clinicalStatus>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+          <code value="active"/>
+        </coding>
+      </clinicalStatus>
+      <verificationStatus>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+          <code value="confirmed"/>
+        </coding>
+      </verificationStatus>
+      <code>
+        <!--   Could coded if we wanted to...  -->
+        <text value="{{ person['AsthmaSeverity'] }} Asthma"/>
+      </code>
+      <subject>
+        <reference value="Patient/{{ person['PersonID'] }}"/>
+        <display value="{{ person['GivenName'] }} {{ person['Surname'] }}"/>
+      </subject>
+    </Condition>
+  </contained>
+
+  <contained>
+    <CareTeam>
+      <id value="careteam"/>
+      <!-- since this is the careteam for the asthma action plan, it may include the school, relatives, etc, etc -->
+      <participant id="part1">
+        <role> <!-- CareConnect probably has codes for this -->
+          <coding>
+            <system value="http://example.org/local"/>
+            <code value="GP"/>
+          </coding>
+          <text value="GP"/>
+        </role>
+        <member>
+          <reference value="Practitioner/13"/> <!-- currently this is fixed, could come from GP directory -->
+          <display value="{{ person['GP'] }}"/>
+        </member>
+      </participant>
+    </CareTeam>
+  </contained>
+  <contained>
+        <Medication>
+            <id value="med01"/>
+            <code>
+                <coding>
+                    <!-- this is currently fixed, but could come from a DMN decision table -->
+                    <system value="http://example.org/local"/> <!-- could have been http://snomed.info/sct -->
+                    <code value="123456789"/>
+                    <display value="Routine Inhaler medication"/>
+                    <!-- there is no obvious way in FHIR to provide a patient-facing description of the medication -->
+                </coding>
+            </code>
+        </Medication>
+    </contained>
+    <contained>
+          <Medication>
+              <id value="med02"/>
+              <code>
+                  <coding>
+                      <!-- this is currently fixed, but could come from a DMN decision table -->
+                      <system value="http://example.org/local"/> <!-- could have been http://snomed.info/sct -->
+                      <code value="987654321"/>
+                      <display value="Emergency Inhaler medication"/>
+                  </coding>
+              </code>
+          </Medication>
+      </contained>
+  <status value="active"/>
+  <intent value="plan"/>
+  <subject>
+    <reference value="Patient/{{ person['PersonID'] }}"/>
+    <display value="{{ person['GivenName'] }} {{ person['Surname'] }}"/>
+  </subject>
+  <period>
+    <!--   This is the time the plan started - i.e. when they arrived  -->
+    <start value="{{ activity_time }}"/>
+    <!--   No end yet as the encounter is still in progress.  -->
+  </period>
+  <careTeam>
+    <reference value="#careteam"/>
+  </careTeam>
+  <activity>
+    <detail>
+      <kind value="Task"/>
+      <code>
+        <text value="Daily Asthma Treatment"/>
+      </code>
+      <status value="in-progress"/> <!-- no "as needed" option in the FHIR code list -->
+      <doNotPerform value="false"/>
+      <scheduledString>Daily routine when not medically supervised</scheduledString>
+      <performer>
+        <reference value="Patient/{{ person['PersonID'] }}"/>
+        <display value="{{ person['GivenName'] }} {{ person['Surname'] }}"/>
+      </performer>
+      <product>
+        <reference value="#med01"/>
+      </product>
+      <description>{{ person['ActionPlanDailyText'] }}</description>
+    </detail>
+  </activity>
+  <activity>
+    <detail>
+      <kind value="Task"/>
+      <code>
+        <text value="Rescue Asthma Treatment"/>
+      </code>
+      <status value="in-progress"/> <!-- no "as needed" option in the FHIR code list -->
+      <doNotPerform value="false"/>
+      <scheduledString>If there are symptoms of wheezing, etc</scheduledString>
+      <performer>
+        <reference value="Patient/{{ person['PersonID'] }}"/>
+        <display value="{{ person['GivenName'] }} {{ person['Surname'] }}"/>
+      </performer>
+      <product>
+        <reference value="#med02"/>
+      </product>
+      <description>{{ person['ActionPlanRescueText'] }}</description>
+    </detail>
+  </activity>
+    <activity>
+      <detail>
+        <kind value="Task"/>
+        <code>
+          <text value="Emergency Asthma Treatment"/>
+        </code>
+        <status value="in-progress"/> <!-- no "as needed" option in the FHIR code list -->
+        <doNotPerform value="false"/>
+        <scheduledString>In case of a serious attack</scheduledString>
+        <performer>
+          <reference value="Patient/{{ person['PersonID'] }}"/>
+          <display value="{{ person['GivenName'] }} {{ person['Surname'] }}"/>
+        </performer>
+        <product>
+          <reference value="#med02"/>
+        </product>
+        <description>{{ person['ActionPlanEmergencyText'] }}</description>
+      </detail>
+  </activity>
+</CarePlan>

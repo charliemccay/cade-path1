@@ -1,0 +1,21 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+124,GestationalDiabetes,GenderDecision,,,,1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 176, 'cm']",1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 36.479855371900825, 'kg/m2']",1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1988-02-07T00:00:00
+124,GestationalDiabetes,GenderDecision,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1988-02-07T00:00:00
+125,GestationalDiabetes,Wait4Conception,,,,1988-02-07T00:00:00
+126,GestationalDiabetes,CheckHasOneChild,,,,1988-02-07T00:00:00
+237,GestationalDiabetes,ConceiveFirstChild,,,,2020-01-11T00:00:00
+238,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,2020-01-11T00:00:00
+238,GestationalDiabetes,ConceiveFirstChild,,,,2020-01-11T00:00:00
+239,GestationalDiabetes,GPvisit,,,,2020-01-11T00:00:00
+243,GestationalDiabetes,Wait2SeeMidwife,,,,2020-04-03T00:00:00
+243,GestationalDiabetes,Wait2SeeMidwife,,BloodGlucose,"{'quantity': 5.287727017100276, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2020-04-03T00:00:00
+243,GestationalDiabetes,Wait2SeeMidwife,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2020-04-03T00:00:00
+243,GestationalDiabetes,Wait2SeeMidwife,,obese,"['414915002', 'obese']",2020-04-03T00:00:00
+244,GestationalDiabetes,FirstAntenatal,,,,2020-04-03T00:00:00
+247,GestationalDiabetes,Finish,,,,2020-07-28T00:00:00
+248,GestationalDiabetes,Finish,,,,2020-07-28T00:00:00

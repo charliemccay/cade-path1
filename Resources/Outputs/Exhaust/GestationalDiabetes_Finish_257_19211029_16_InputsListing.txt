@@ -1,0 +1,38 @@
+
+timestamp: 1921_10_29
+activity_time: 1921-10-29
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 16
+   Gender: Female
+   DOB: 2002-11-27 00:00:00
+   Surname: Lord
+   GivenName: Molly
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 4a325f0f-6f6e-4a5d-9c59-41a1b8e758ae
+   This: {'name': 'ChildGender', 'value': 1, 'date': '2022-10-10T00:00:00', 'id': UUID('fa72a22f-c7e8-4662-9e92-20fffc18efe8')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.913805697589478, 'kg/m2']
+   GenderProbability: 0.54492
+   ChildGender: 1
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2002-11-27T00:00:00', 'id': UUID('09c17a85-ce20-484c-92a4-3e8798e25b1e')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '2002-11-27T00:00:00', 'id': UUID('6e83db4a-7038-476a-85a2-da4da1dd7228')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm'], 'date': '2002-11-27T00:00:00', 'id': UUID('05375e9e-850b-4da0-b14b-a378f92f8700')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.913805697589478, 'kg/m2'], 'date': '2002-11-27T00:00:00', 'id': UUID('23211be2-2122-4003-9b73-34727e269b99')}]
+   GenderProbability: [{'value': 0.54492, 'date': '2022-10-10T00:00:00', 'id': UUID('e27ece36-bb7c-4ce8-90d2-6cb20c74921c')}]
+   ChildGender: [{'value': 1, 'date': '2022-10-10T00:00:00', 'id': UUID('fa72a22f-c7e8-4662-9e92-20fffc18efe8')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2002-11-27T00:00:00', 'id': UUID('09c17a85-ce20-484c-92a4-3e8798e25b1e')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '2002-11-27T00:00:00', 'id': UUID('6e83db4a-7038-476a-85a2-da4da1dd7228')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm'], 'date': '2002-11-27T00:00:00', 'id': UUID('05375e9e-850b-4da0-b14b-a378f92f8700')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.913805697589478, 'kg/m2'], 'date': '2002-11-27T00:00:00', 'id': UUID('23211be2-2122-4003-9b73-34727e269b99')}
+   GenderProbability: {'value': 0.54492, 'date': '2022-10-10T00:00:00', 'id': UUID('e27ece36-bb7c-4ce8-90d2-6cb20c74921c')}
+   ChildGender: {'value': 1, 'date': '2022-10-10T00:00:00', 'id': UUID('fa72a22f-c7e8-4662-9e92-20fffc18efe8')}

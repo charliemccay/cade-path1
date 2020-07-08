@@ -1,0 +1,41 @@
+
+timestamp: 1921_10_29
+activity_time: 1921-10-29
+person: 
+   Area: Porthill
+   Country: England
+   PersonID: 33
+   Gender: Female
+   DOB: 1969-02-05 00:00:00
+   Surname: Bell
+   GivenName: Grace
+   School: Porthill School
+   GP: Porthill GP
+   Terminal: False
+   GestationalDiabetesStatus: Finish
+   patient_id: 92cea20d-7672-41b0-905c-594a426db070
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1993-03-15T00:00:00', 'id': UUID('ca955328-d21d-4835-854a-1b3f0e4b702a')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 175, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.408163265306122, 'kg/m2']
+   GenderProbability: 0.6887
+   ChildGender: 1
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1969-02-05T00:00:00', 'id': UUID('839882b6-46cb-4f8a-8a09-dc9a19d61482')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg'], 'date': '1969-02-05T00:00:00', 'id': UUID('0df63559-9cd2-4aa5-a76c-13729e91451c')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 175, 'cm'], 'date': '1969-02-05T00:00:00', 'id': UUID('19576a0c-5fab-475d-8d6b-6dce79656151')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.408163265306122, 'kg/m2'], 'date': '1969-02-05T00:00:00', 'id': UUID('2e4f6e61-a31e-4b06-b698-2b3d1a2a8926')}]
+   GenderProbability: [{'value': 0.6887, 'date': '1992-12-29T00:00:00', 'id': UUID('d1821446-2943-4ae2-bbe9-2b1634797910')}]
+   ChildGender: [{'value': 1, 'date': '1992-12-29T00:00:00', 'id': UUID('ba0e12da-8344-461a-9056-78eccb9de6e3')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1993-03-15T00:00:00', 'id': UUID('ca955328-d21d-4835-854a-1b3f0e4b702a')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1969-02-05T00:00:00', 'id': UUID('839882b6-46cb-4f8a-8a09-dc9a19d61482')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg'], 'date': '1969-02-05T00:00:00', 'id': UUID('0df63559-9cd2-4aa5-a76c-13729e91451c')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 175, 'cm'], 'date': '1969-02-05T00:00:00', 'id': UUID('19576a0c-5fab-475d-8d6b-6dce79656151')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.408163265306122, 'kg/m2'], 'date': '1969-02-05T00:00:00', 'id': UUID('2e4f6e61-a31e-4b06-b698-2b3d1a2a8926')}
+   GenderProbability: {'value': 0.6887, 'date': '1992-12-29T00:00:00', 'id': UUID('d1821446-2943-4ae2-bbe9-2b1634797910')}
+   ChildGender: {'value': 1, 'date': '1992-12-29T00:00:00', 'id': UUID('ba0e12da-8344-461a-9056-78eccb9de6e3')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1993-03-15T00:00:00', 'id': UUID('ca955328-d21d-4835-854a-1b3f0e4b702a')}

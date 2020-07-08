@@ -1,0 +1,554 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+11.30.57,0,2,GestationalDiabetes,Birth,,,,1921-10-29T00:00:00
+11.30.57,0,2,GestationalDiabetes,Birth,,HasFirstChild,False,1921-10-29T00:00:00
+11.30.57,0,2,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 68, 'kg']",1921-10-29T00:00:00
+11.30.57,0,2,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']",1921-10-29T00:00:00
+11.30.57,0,2,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.461936624163616, 'kg/m2']",1921-10-29T00:00:00
+11.30.57,1,2,GestationalDiabetes,GenderDecision,,,,1921-10-29T00:00:00
+11.30.57,2,2,GestationalDiabetes,Wait4Conception,,Delay Until - ,1951-09-11 00:00:00,1921-10-29T00:00:00
+11.30.57,3,40,GestationalDiabetes,Birth,,,,1931-03-04T00:00:00
+11.30.57,3,40,GestationalDiabetes,Birth,,HasFirstChild,True,1931-03-04T00:00:00
+11.30.57,3,40,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 67, 'kg']",1931-03-04T00:00:00
+11.30.57,3,40,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 167, 'cm']",1931-03-04T00:00:00
+11.30.57,3,40,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.023808670084982, 'kg/m2']",1931-03-04T00:00:00
+11.30.57,4,40,GestationalDiabetes,GenderDecision,,,,1931-03-04T00:00:00
+11.30.57,5,40,GestationalDiabetes,Wait4Conception,,Delay Until - ,1954-11-08 00:00:00,1931-03-04T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,,,1932-03-20T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,HasFirstChild,True,1932-03-20T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg']",1932-03-20T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",1932-03-20T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.076193048107708, 'kg/m2']",1932-03-20T00:00:00
+11.30.57,6,11,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1932-03-20T00:00:00
+11.30.57,7,11,GestationalDiabetes,GenderDecision,,,,1932-03-20T00:00:00
+11.30.57,8,11,GestationalDiabetes,Male,,,,1932-03-20T00:00:00
+11.30.57,9,22,GestationalDiabetes,Birth,,,,1940-01-29T00:00:00
+11.30.57,9,22,GestationalDiabetes,Birth,,HasFirstChild,False,1940-01-29T00:00:00
+11.30.57,9,22,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 111, 'kg']",1940-01-29T00:00:00
+11.30.57,9,22,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 165, 'cm']",1940-01-29T00:00:00
+11.30.57,9,22,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 40.77134986225896, 'kg/m2']",1940-01-29T00:00:00
+11.30.57,10,22,GestationalDiabetes,GenderDecision,,,,1940-01-29T00:00:00
+11.30.57,11,22,GestationalDiabetes,Wait4Conception,,Delay Until - ,1966-10-22 00:00:00,1940-01-29T00:00:00
+11.30.57,12,13,GestationalDiabetes,Birth,,,,1940-11-12T00:00:00
+11.30.57,12,13,GestationalDiabetes,Birth,,HasFirstChild,False,1940-11-12T00:00:00
+11.30.57,12,13,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg']",1940-11-12T00:00:00
+11.30.57,12,13,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 157, 'cm']",1940-11-12T00:00:00
+11.30.57,12,13,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 36.10694145807132, 'kg/m2']",1940-11-12T00:00:00
+11.30.58,13,13,GestationalDiabetes,GenderDecision,,,,1940-11-12T00:00:00
+11.30.58,14,13,GestationalDiabetes,Wait4Conception,,Delay Until - ,1965-11-28 00:00:00,1940-11-12T00:00:00
+11.30.58,15,31,GestationalDiabetes,Birth,,,,1942-08-28T00:00:00
+11.30.58,15,31,GestationalDiabetes,Birth,,HasFirstChild,True,1942-08-28T00:00:00
+11.30.58,15,31,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg']",1942-08-28T00:00:00
+11.30.58,15,31,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 196, 'cm']",1942-08-28T00:00:00
+11.30.58,15,31,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.92003331945023, 'kg/m2']",1942-08-28T00:00:00
+11.30.58,16,31,GestationalDiabetes,GenderDecision,,,,1942-08-28T00:00:00
+11.30.58,17,31,GestationalDiabetes,Wait4Conception,,Delay Until - ,1966-03-12 00:00:00,1942-08-28T00:00:00
+11.30.58,18,41,GestationalDiabetes,Birth,,,,1945-01-26T00:00:00
+11.30.58,18,41,GestationalDiabetes,Birth,,HasFirstChild,True,1945-01-26T00:00:00
+11.30.58,18,41,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 69, 'kg']",1945-01-26T00:00:00
+11.30.58,18,41,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 156, 'cm']",1945-01-26T00:00:00
+11.30.58,18,41,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.353057199211044, 'kg/m2']",1945-01-26T00:00:00
+11.30.58,19,41,GestationalDiabetes,GenderDecision,,,,1945-01-26T00:00:00
+11.30.58,20,41,GestationalDiabetes,Wait4Conception,,Delay Until - ,1972-12-26 00:00:00,1945-01-26T00:00:00
+11.30.58,21,50,GestationalDiabetes,Birth,,,,1946-07-31T00:00:00
+11.30.58,21,50,GestationalDiabetes,Birth,,HasFirstChild,True,1946-07-31T00:00:00
+11.30.58,21,50,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 95, 'kg']",1946-07-31T00:00:00
+11.30.58,21,50,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 165, 'cm']",1946-07-31T00:00:00
+11.30.58,21,50,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 34.894398530762174, 'kg/m2']",1946-07-31T00:00:00
+11.30.58,22,50,GestationalDiabetes,GenderDecision,,,,1946-07-31T00:00:00
+11.30.58,23,50,GestationalDiabetes,Male,,,,1946-07-31T00:00:00
+11.30.58,24,17,GestationalDiabetes,Birth,,,,1946-12-02T00:00:00
+11.30.58,24,17,GestationalDiabetes,Birth,,HasFirstChild,False,1946-12-02T00:00:00
+11.30.58,24,17,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg']",1946-12-02T00:00:00
+11.30.58,24,17,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']",1946-12-02T00:00:00
+11.30.58,24,17,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 50.5987518974532, 'kg/m2']",1946-12-02T00:00:00
+11.30.58,25,17,GestationalDiabetes,GenderDecision,,,,1946-12-02T00:00:00
+11.30.58,26,17,GestationalDiabetes,Wait4Conception,,Delay Until - ,1988-03-08 00:00:00,1946-12-02T00:00:00
+11.30.58,27,2,GestationalDiabetes,CheckHasOneChild,,,,1951-09-11T00:00:00
+11.30.58,28,2,GestationalDiabetes,Childless,,,,1951-09-11T00:00:00
+11.30.58,29,40,GestationalDiabetes,CheckHasOneChild,,,,1954-11-08T00:00:00
+11.30.58,30,40,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,1954-11-08T00:00:00
+11.30.58,30,40,GestationalDiabetes,ConceiveFirstChild,,,,1954-11-08T00:00:00
+11.30.58,31,40,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,1955-01-10 00:00:00,1954-11-08T00:00:00
+11.30.58,32,40,GestationalDiabetes,GPvisit,,,,1955-01-10T00:00:00
+11.30.58,32,40,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 5.205844053569164, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1955-01-10T00:00:00
+11.30.58,33,40,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,1955-05-23 00:00:00,1955-01-10T00:00:00
+11.30.58,34,40,GestationalDiabetes,FirstAntenatal,,,,1955-05-23T00:00:00
+11.30.58,35,40,GestationalDiabetes,Finish,,,,1955-05-23T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,,,1959-01-28T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,HasFirstChild,False,1959-01-28T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 115, 'kg']",1959-01-28T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 162, 'cm']",1959-01-28T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 43.81953970431336, 'kg/m2']",1959-01-28T00:00:00
+11.30.58,36,4,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1959-01-28T00:00:00
+11.30.58,37,4,GestationalDiabetes,GenderDecision,,,,1959-01-28T00:00:00
+11.30.58,38,4,GestationalDiabetes,Wait4Conception,,Delay Until - ,1987-12-09 00:00:00,1959-01-28T00:00:00
+11.30.58,39,0,GestationalDiabetes,Birth,,,,1959-02-12T00:00:00
+11.30.58,39,0,GestationalDiabetes,Birth,,HasFirstChild,False,1959-02-12T00:00:00
+11.30.58,39,0,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 69, 'kg']",1959-02-12T00:00:00
+11.30.58,39,0,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 157, 'cm']",1959-02-12T00:00:00
+11.30.58,39,0,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.993022029291247, 'kg/m2']",1959-02-12T00:00:00
+11.30.59,39,0,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1959-02-12T00:00:00
+11.30.59,40,0,GestationalDiabetes,GenderDecision,,,,1959-02-12T00:00:00
+11.30.59,41,0,GestationalDiabetes,Wait4Conception,,Delay Until - ,1978-08-11 00:00:00,1959-02-12T00:00:00
+11.30.59,42,18,GestationalDiabetes,Birth,,,,1960-09-12T00:00:00
+11.30.59,42,18,GestationalDiabetes,Birth,,HasFirstChild,True,1960-09-12T00:00:00
+11.30.59,42,18,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg']",1960-09-12T00:00:00
+11.30.59,42,18,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 201, 'cm']",1960-09-12T00:00:00
+11.30.59,42,18,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 17.573822430137874, 'kg/m2']",1960-09-12T00:00:00
+11.30.59,43,18,GestationalDiabetes,GenderDecision,,,,1960-09-12T00:00:00
+11.30.59,44,18,GestationalDiabetes,Wait4Conception,,Delay Until - ,1988-07-24 00:00:00,1960-09-12T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,,,1961-07-14T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,HasFirstChild,False,1961-07-14T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 85, 'kg']",1961-07-14T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 204, 'cm']",1961-07-14T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.424836601307188, 'kg/m2']",1961-07-14T00:00:00
+11.30.59,45,15,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1961-07-14T00:00:00
+11.30.59,46,15,GestationalDiabetes,GenderDecision,,,,1961-07-14T00:00:00
+11.30.59,47,15,GestationalDiabetes,Wait4Conception,,Delay Until - ,1992-02-18 00:00:00,1961-07-14T00:00:00
+11.30.59,48,13,GestationalDiabetes,CheckHasOneChild,,,,1965-11-28T00:00:00
+11.30.59,49,13,GestationalDiabetes,Childless,,,,1965-11-28T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,,,1966-01-24T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,HasFirstChild,False,1966-01-24T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg']",1966-01-24T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm']",1966-01-24T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.25310978907518, 'kg/m2']",1966-01-24T00:00:00
+11.30.59,50,26,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1966-01-24T00:00:00
+11.30.59,51,26,GestationalDiabetes,GenderDecision,,,,1966-01-24T00:00:00
+11.30.59,52,26,GestationalDiabetes,Wait4Conception,,Delay Until - ,2008-01-24 00:00:00,1966-01-24T00:00:00
+11.30.59,53,31,GestationalDiabetes,CheckHasOneChild,,,,1966-03-12T00:00:00
+11.30.59,54,31,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,1966-03-12T00:00:00
+11.30.59,54,31,GestationalDiabetes,ConceiveFirstChild,,,,1966-03-12T00:00:00
+11.30.59,55,31,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,1966-05-11 00:00:00,1966-03-12T00:00:00
+11.30.59,56,31,GestationalDiabetes,GPvisit,,,,1966-05-11T00:00:00
+11.30.59,56,31,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 5.361149819996454, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1966-05-11T00:00:00
+11.30.59,57,31,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,1966-09-07 00:00:00,1966-05-11T00:00:00
+11.30.59,58,31,GestationalDiabetes,FirstAntenatal,,,,1966-09-07T00:00:00
+11.30.59,59,31,GestationalDiabetes,Finish,,,,1966-09-07T00:00:00
+11.30.59,60,22,GestationalDiabetes,CheckHasOneChild,,,,1966-10-22T00:00:00
+11.30.59,61,22,GestationalDiabetes,Childless,,,,1966-10-22T00:00:00
+11.30.59,62,33,GestationalDiabetes,Birth,,,,1969-02-05T00:00:00
+11.30.59,62,33,GestationalDiabetes,Birth,,HasFirstChild,True,1969-02-05T00:00:00
+11.30.59,62,33,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg']",1969-02-05T00:00:00
+11.30.59,62,33,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 175, 'cm']",1969-02-05T00:00:00
+11.30.59,62,33,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.408163265306122, 'kg/m2']",1969-02-05T00:00:00
+11.30.59,63,33,GestationalDiabetes,GenderDecision,,,,1969-02-05T00:00:00
+11.30.59,64,33,GestationalDiabetes,Wait4Conception,,Delay Until - ,1992-12-29 00:00:00,1969-02-05T00:00:00
+11.30.59,65,8,GestationalDiabetes,Birth,,,,1970-06-17T00:00:00
+11.30.59,65,8,GestationalDiabetes,Birth,,HasFirstChild,False,1970-06-17T00:00:00
+11.30.59,65,8,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 95, 'kg']",1970-06-17T00:00:00
+11.30.59,65,8,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 169, 'cm']",1970-06-17T00:00:00
+11.30.59,65,8,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 33.2621406813487, 'kg/m2']",1970-06-17T00:00:00
+11.30.59,66,8,GestationalDiabetes,GenderDecision,,,,1970-06-17T00:00:00
+11.30.59,67,8,GestationalDiabetes,Male,,,,1970-06-17T00:00:00
+11.30.59,68,49,GestationalDiabetes,Birth,,,,1971-04-09T00:00:00
+11.30.59,68,49,GestationalDiabetes,Birth,,HasFirstChild,False,1971-04-09T00:00:00
+11.31.00,68,49,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 81, 'kg']",1971-04-09T00:00:00
+11.31.00,68,49,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm']",1971-04-09T00:00:00
+11.31.00,68,49,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 23.413111342351716, 'kg/m2']",1971-04-09T00:00:00
+11.31.00,69,49,GestationalDiabetes,GenderDecision,,,,1971-04-09T00:00:00
+11.31.00,70,49,GestationalDiabetes,Wait4Conception,,Delay Until - ,2008-02-04 00:00:00,1971-04-09T00:00:00
+11.31.00,71,44,GestationalDiabetes,Birth,,,,1972-05-11T00:00:00
+11.31.00,71,44,GestationalDiabetes,Birth,,HasFirstChild,True,1972-05-11T00:00:00
+11.31.00,71,44,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg']",1972-05-11T00:00:00
+11.31.00,71,44,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 182, 'cm']",1972-05-11T00:00:00
+11.31.00,71,44,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.302378939741576, 'kg/m2']",1972-05-11T00:00:00
+11.31.00,72,44,GestationalDiabetes,GenderDecision,,,,1972-05-11T00:00:00
+11.31.00,73,44,GestationalDiabetes,Male,,,,1972-05-11T00:00:00
+11.31.00,74,41,GestationalDiabetes,CheckHasOneChild,,,,1972-12-26T00:00:00
+11.31.00,75,41,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,1972-12-26T00:00:00
+11.31.00,75,41,GestationalDiabetes,ConceiveFirstChild,,,,1972-12-26T00:00:00
+11.31.00,76,41,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,1973-03-19 00:00:00,1972-12-26T00:00:00
+11.31.00,77,41,GestationalDiabetes,GPvisit,,,,1973-03-19T00:00:00
+11.31.00,77,41,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 4.86143796643173, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1973-03-19T00:00:00
+11.31.00,77,41,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1973-03-19T00:00:00
+11.31.00,78,41,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,1973-07-28 00:00:00,1973-03-19T00:00:00
+11.31.00,79,43,GestationalDiabetes,Birth,,,,1973-05-25T00:00:00
+11.31.00,79,43,GestationalDiabetes,Birth,,HasFirstChild,True,1973-05-25T00:00:00
+11.31.00,79,43,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 67, 'kg']",1973-05-25T00:00:00
+11.31.00,79,43,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 201, 'cm']",1973-05-25T00:00:00
+11.31.00,79,43,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.583747927031514, 'kg/m2']",1973-05-25T00:00:00
+11.31.00,80,43,GestationalDiabetes,GenderDecision,,,,1973-05-25T00:00:00
+11.31.00,81,43,GestationalDiabetes,Wait4Conception,,Delay Until - ,2008-02-02 00:00:00,1973-05-25T00:00:00
+11.31.00,82,35,GestationalDiabetes,Birth,,,,1973-06-26T00:00:00
+11.31.00,82,35,GestationalDiabetes,Birth,,HasFirstChild,False,1973-06-26T00:00:00
+11.31.00,82,35,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1973-06-26T00:00:00
+11.31.00,82,35,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 165, 'cm']",1973-06-26T00:00:00
+11.31.00,82,35,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.282828282828287, 'kg/m2']",1973-06-26T00:00:00
+11.31.00,83,35,GestationalDiabetes,GenderDecision,,,,1973-06-26T00:00:00
+11.31.00,84,35,GestationalDiabetes,Male,,,,1973-06-26T00:00:00
+11.31.00,85,41,GestationalDiabetes,FirstAntenatal,,,,1973-07-28T00:00:00
+11.31.00,86,41,GestationalDiabetes,Finish,,,,1973-07-28T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,,,1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,HasFirstChild,False,1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 100, 'kg']",1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 38.57875853555032, 'kg/m2']",1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1973-10-17T00:00:00
+11.31.00,87,24,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1973-10-17T00:00:00
+11.31.01,88,24,GestationalDiabetes,GenderDecision,,,,1973-10-17T00:00:00
+11.31.01,89,24,GestationalDiabetes,Male,,,,1973-10-17T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,,,1974-05-11T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,HasFirstChild,False,1974-05-11T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1974-05-11T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 177, 'cm']",1974-05-11T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.577867151840145, 'kg/m2']",1974-05-11T00:00:00
+11.31.01,90,20,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1974-05-11T00:00:00
+11.31.01,91,20,GestationalDiabetes,GenderDecision,,,,1974-05-11T00:00:00
+11.31.01,92,20,GestationalDiabetes,Wait4Conception,,Delay Until - ,1998-04-06 00:00:00,1974-05-11T00:00:00
+11.31.01,93,0,GestationalDiabetes,CheckHasOneChild,,,,1978-08-11T00:00:00
+11.31.01,94,0,GestationalDiabetes,Childless,,,,1978-08-11T00:00:00
+11.31.01,95,39,GestationalDiabetes,Birth,,,,1979-04-01T00:00:00
+11.31.01,95,39,GestationalDiabetes,Birth,,HasFirstChild,True,1979-04-01T00:00:00
+11.31.01,95,39,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 82, 'kg']",1979-04-01T00:00:00
+11.31.01,95,39,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm']",1979-04-01T00:00:00
+11.31.01,95,39,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.48565200513601, 'kg/m2']",1979-04-01T00:00:00
+11.31.01,96,39,GestationalDiabetes,GenderDecision,,,,1979-04-01T00:00:00
+11.31.01,97,39,GestationalDiabetes,Wait4Conception,,Delay Until - ,2008-02-02 00:00:00,1979-04-01T00:00:00
+11.31.01,98,19,GestationalDiabetes,Birth,,,,1979-12-20T00:00:00
+11.31.01,98,19,GestationalDiabetes,Birth,,HasFirstChild,True,1979-12-20T00:00:00
+11.31.01,98,19,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg']",1979-12-20T00:00:00
+11.31.01,98,19,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 195, 'cm']",1979-12-20T00:00:00
+11.31.01,98,19,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.509533201840895, 'kg/m2']",1979-12-20T00:00:00
+11.31.01,99,19,GestationalDiabetes,GenderDecision,,,,1979-12-20T00:00:00
+11.31.01,100,19,GestationalDiabetes,Male,,,,1979-12-20T00:00:00
+11.31.01,101,30,GestationalDiabetes,Birth,,,,1982-03-21T00:00:00
+11.31.01,101,30,GestationalDiabetes,Birth,,HasFirstChild,False,1982-03-21T00:00:00
+11.31.01,101,30,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 99, 'kg']",1982-03-21T00:00:00
+11.31.01,101,30,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 184, 'cm']",1982-03-21T00:00:00
+11.31.01,101,30,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.24149338374291, 'kg/m2']",1982-03-21T00:00:00
+11.31.01,102,30,GestationalDiabetes,GenderDecision,,,,1982-03-21T00:00:00
+11.31.01,103,30,GestationalDiabetes,Wait4Conception,,Delay Until - ,2002-01-21 00:00:00,1982-03-21T00:00:00
+11.31.01,104,46,GestationalDiabetes,Birth,,,,1982-11-13T00:00:00
+11.31.01,104,46,GestationalDiabetes,Birth,,HasFirstChild,True,1982-11-13T00:00:00
+11.31.01,104,46,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 67, 'kg']",1982-11-13T00:00:00
+11.31.01,104,46,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']",1982-11-13T00:00:00
+11.31.01,104,46,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.25096980941137, 'kg/m2']",1982-11-13T00:00:00
+11.31.01,105,46,GestationalDiabetes,GenderDecision,,,,1982-11-13T00:00:00
+11.31.01,106,46,GestationalDiabetes,Wait4Conception,,Delay Until - ,2024-12-13 00:00:00,1982-11-13T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,,,1983-02-15T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,HasFirstChild,False,1983-02-15T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']",1983-02-15T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 197, 'cm']",1983-02-15T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.46033136643562, 'kg/m2']",1983-02-15T00:00:00
+11.31.01,107,25,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1983-02-15T00:00:00
+11.31.02,108,25,GestationalDiabetes,GenderDecision,,,,1983-02-15T00:00:00
+11.31.02,109,25,GestationalDiabetes,Wait4Conception,,Delay Until - ,2017-10-26 00:00:00,1983-02-15T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,,,1983-07-11T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,HasFirstChild,True,1983-07-11T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 55, 'kg']",1983-07-11T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']",1983-07-11T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 13.34659904389818, 'kg/m2']",1983-07-11T00:00:00
+11.31.02,110,10,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1983-07-11T00:00:00
+11.31.02,111,10,GestationalDiabetes,GenderDecision,,,,1983-07-11T00:00:00
+11.31.02,112,10,GestationalDiabetes,Male,,,,1983-07-11T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,,,1984-11-27T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,HasFirstChild,True,1984-11-27T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg']",1984-11-27T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 174, 'cm']",1984-11-27T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.09327520147972, 'kg/m2']",1984-11-27T00:00:00
+11.31.02,113,12,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1984-11-27T00:00:00
+11.31.02,114,12,GestationalDiabetes,GenderDecision,,,,1984-11-27T00:00:00
+11.31.02,115,12,GestationalDiabetes,Wait4Conception,,Delay Until - ,2010-11-13 00:00:00,1984-11-27T00:00:00
+11.31.02,116,9,GestationalDiabetes,Birth,,,,1986-06-08T00:00:00
+11.31.02,116,9,GestationalDiabetes,Birth,,HasFirstChild,False,1986-06-08T00:00:00
+11.31.02,116,9,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg']",1986-06-08T00:00:00
+11.31.02,116,9,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",1986-06-08T00:00:00
+11.31.02,116,9,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 46.29451024266039, 'kg/m2']",1986-06-08T00:00:00
+11.31.02,117,9,GestationalDiabetes,GenderDecision,,,,1986-06-08T00:00:00
+11.31.02,118,9,GestationalDiabetes,Wait4Conception,,Delay Until - ,2019-09-25 00:00:00,1986-06-08T00:00:00
+11.31.02,119,3,GestationalDiabetes,Birth,,,,1987-09-14T00:00:00
+11.31.02,119,3,GestationalDiabetes,Birth,,HasFirstChild,True,1987-09-14T00:00:00
+11.31.02,119,3,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 115, 'kg']",1987-09-14T00:00:00
+11.31.02,119,3,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",1987-09-14T00:00:00
+11.31.02,119,3,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 44.36557231588287, 'kg/m2']",1987-09-14T00:00:00
+11.31.02,120,3,GestationalDiabetes,GenderDecision,,,,1987-09-14T00:00:00
+11.31.02,121,3,GestationalDiabetes,Wait4Conception,,Delay Until - ,2029-10-22 00:00:00,1987-09-14T00:00:00
+11.31.02,122,4,GestationalDiabetes,CheckHasOneChild,,,,1987-12-09T00:00:00
+11.31.02,123,4,GestationalDiabetes,Childless,,,,1987-12-09T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,,,1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,HasFirstChild,True,1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 176, 'cm']",1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 36.479855371900825, 'kg/m2']",1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1988-02-07T00:00:00
+11.31.02,124,37,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1988-02-07T00:00:00
+11.31.02,125,37,GestationalDiabetes,GenderDecision,,,,1988-02-07T00:00:00
+11.31.02,126,37,GestationalDiabetes,Wait4Conception,,Delay Until - ,2020-01-11 00:00:00,1988-02-07T00:00:00
+11.31.02,127,17,GestationalDiabetes,CheckHasOneChild,,,,1988-03-08T00:00:00
+11.31.02,128,17,GestationalDiabetes,Childless,,,,1988-03-08T00:00:00
+11.31.02,129,18,GestationalDiabetes,CheckHasOneChild,,,,1988-07-24T00:00:00
+11.31.02,130,18,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,1988-07-24T00:00:00
+11.31.02,130,18,GestationalDiabetes,ConceiveFirstChild,,,,1988-07-24T00:00:00
+11.31.02,131,18,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,1988-09-19 00:00:00,1988-07-24T00:00:00
+11.31.02,132,18,GestationalDiabetes,GPvisit,,,,1988-09-19T00:00:00
+11.31.02,133,18,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,1989-01-14 00:00:00,1988-09-19T00:00:00
+11.31.02,134,18,GestationalDiabetes,FirstAntenatal,,,,1989-01-14T00:00:00
+11.31.02,135,18,GestationalDiabetes,Finish,,,,1989-01-14T00:00:00
+11.31.02,136,29,GestationalDiabetes,Birth,,,,1989-01-28T00:00:00
+11.31.02,136,29,GestationalDiabetes,Birth,,HasFirstChild,False,1989-01-28T00:00:00
+11.31.02,136,29,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 93, 'kg']",1989-01-28T00:00:00
+11.31.02,136,29,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 194, 'cm']",1989-01-28T00:00:00
+11.31.03,136,29,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.710383675204593, 'kg/m2']",1989-01-28T00:00:00
+11.31.03,136,29,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1989-01-28T00:00:00
+11.31.03,137,29,GestationalDiabetes,GenderDecision,,,,1989-01-28T00:00:00
+11.31.03,138,29,GestationalDiabetes,Wait4Conception,,Delay Until - ,2027-02-10 00:00:00,1989-01-28T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,,,1989-06-02T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,HasFirstChild,False,1989-06-02T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 62, 'kg']",1989-06-02T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 155, 'cm']",1989-06-02T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.806451612903224, 'kg/m2']",1989-06-02T00:00:00
+11.31.03,139,48,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1989-06-02T00:00:00
+11.31.03,140,48,GestationalDiabetes,GenderDecision,,,,1989-06-02T00:00:00
+11.31.03,141,48,GestationalDiabetes,Male,,,,1989-06-02T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,,,1989-12-10T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,HasFirstChild,False,1989-12-10T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 96, 'kg']",1989-12-10T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 180, 'cm']",1989-12-10T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.629629629629626, 'kg/m2']",1989-12-10T00:00:00
+11.31.03,142,6,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1989-12-10T00:00:00
+11.31.03,143,6,GestationalDiabetes,GenderDecision,,,,1989-12-10T00:00:00
+11.31.03,144,6,GestationalDiabetes,Wait4Conception,,Delay Until - ,2010-09-16 00:00:00,1989-12-10T00:00:00
+11.31.03,145,15,GestationalDiabetes,CheckHasOneChild,,,,1992-02-18T00:00:00
+11.31.03,146,15,GestationalDiabetes,Childless,,,,1992-02-18T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,,,1992-05-10T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,HasFirstChild,True,1992-05-10T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1992-05-10T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm']",1992-05-10T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.25690831309978, 'kg/m2']",1992-05-10T00:00:00
+11.31.03,147,7,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1992-05-10T00:00:00
+11.31.03,148,7,GestationalDiabetes,GenderDecision,,,,1992-05-10T00:00:00
+11.31.03,149,7,GestationalDiabetes,Male,,,,1992-05-10T00:00:00
+11.31.03,150,21,GestationalDiabetes,Birth,,,,1992-11-25T00:00:00
+11.31.03,150,21,GestationalDiabetes,Birth,,HasFirstChild,True,1992-11-25T00:00:00
+11.31.03,150,21,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg']",1992-11-25T00:00:00
+11.31.03,150,21,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 163, 'cm']",1992-11-25T00:00:00
+11.31.03,150,21,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.74492829989838, 'kg/m2']",1992-11-25T00:00:00
+11.31.03,151,21,GestationalDiabetes,GenderDecision,,,,1992-11-25T00:00:00
+11.31.03,152,21,GestationalDiabetes,Wait4Conception,,Delay Until - ,2020-02-14 00:00:00,1992-11-25T00:00:00
+11.31.03,153,33,GestationalDiabetes,CheckHasOneChild,,,,1992-12-29T00:00:00
+11.31.03,154,33,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,1992-12-29T00:00:00
+11.31.03,154,33,GestationalDiabetes,ConceiveFirstChild,,,,1992-12-29T00:00:00
+11.31.03,155,33,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,1993-03-15 00:00:00,1992-12-29T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,,,1993-02-05T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,HasFirstChild,True,1993-02-05T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 66, 'kg']",1993-02-05T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1993-02-05T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.66624580187369, 'kg/m2']",1993-02-05T00:00:00
+11.31.03,156,42,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1993-02-05T00:00:00
+11.31.04,156,42,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1993-02-05T00:00:00
+11.31.04,157,42,GestationalDiabetes,GenderDecision,,,,1993-02-05T00:00:00
+11.31.04,158,42,GestationalDiabetes,Male,,,,1993-02-05T00:00:00
+11.31.04,159,33,GestationalDiabetes,GPvisit,,,,1993-03-15T00:00:00
+11.31.04,159,33,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1993-03-15T00:00:00
+11.31.04,160,33,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,1993-07-11 00:00:00,1993-03-15T00:00:00
+11.31.04,161,33,GestationalDiabetes,FirstAntenatal,,,,1993-07-11T00:00:00
+11.31.04,162,33,GestationalDiabetes,Finish,,,,1993-07-11T00:00:00
+11.31.04,163,23,GestationalDiabetes,Birth,,,,1997-03-27T00:00:00
+11.31.04,163,23,GestationalDiabetes,Birth,,HasFirstChild,True,1997-03-27T00:00:00
+11.31.04,163,23,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 63, 'kg']",1997-03-27T00:00:00
+11.31.04,163,23,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']",1997-03-27T00:00:00
+11.31.04,163,23,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.883853048857468, 'kg/m2']",1997-03-27T00:00:00
+11.31.04,164,23,GestationalDiabetes,GenderDecision,,,,1997-03-27T00:00:00
+11.31.04,165,23,GestationalDiabetes,Male,,,,1997-03-27T00:00:00
+11.31.04,166,20,GestationalDiabetes,CheckHasOneChild,,,,1998-04-06T00:00:00
+11.31.04,167,20,GestationalDiabetes,Childless,,,,1998-04-06T00:00:00
+11.31.04,168,30,GestationalDiabetes,CheckHasOneChild,,,,2002-01-21T00:00:00
+11.31.04,169,30,GestationalDiabetes,Childless,,,,2002-01-21T00:00:00
+11.31.04,170,14,GestationalDiabetes,Birth,,,,2002-06-08T00:00:00
+11.31.04,170,14,GestationalDiabetes,Birth,,HasFirstChild,False,2002-06-08T00:00:00
+11.31.04,170,14,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg']",2002-06-08T00:00:00
+11.31.04,170,14,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm']",2002-06-08T00:00:00
+11.31.04,170,14,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.530994120647534, 'kg/m2']",2002-06-08T00:00:00
+11.31.04,171,14,GestationalDiabetes,GenderDecision,,,,2002-06-08T00:00:00
+11.31.04,172,14,GestationalDiabetes,Wait4Conception,,Delay Until - ,2036-05-28 00:00:00,2002-06-08T00:00:00
+11.31.04,173,16,GestationalDiabetes,Birth,,,,2002-11-27T00:00:00
+11.31.04,173,16,GestationalDiabetes,Birth,,HasFirstChild,True,2002-11-27T00:00:00
+11.31.04,173,16,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']",2002-11-27T00:00:00
+11.31.04,173,16,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm']",2002-11-27T00:00:00
+11.31.04,173,16,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.913805697589478, 'kg/m2']",2002-11-27T00:00:00
+11.31.04,174,16,GestationalDiabetes,GenderDecision,,,,2002-11-27T00:00:00
+11.31.04,175,16,GestationalDiabetes,Wait4Conception,,Delay Until - ,2022-10-10 00:00:00,2002-11-27T00:00:00
+11.31.04,176,47,GestationalDiabetes,Birth,,,,2005-07-05T00:00:00
+11.31.04,176,47,GestationalDiabetes,Birth,,HasFirstChild,True,2005-07-05T00:00:00
+11.31.04,176,47,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg']",2005-07-05T00:00:00
+11.31.04,176,47,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 194, 'cm']",2005-07-05T00:00:00
+11.31.04,176,47,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.83600807737273, 'kg/m2']",2005-07-05T00:00:00
+11.31.04,177,47,GestationalDiabetes,GenderDecision,,,,2005-07-05T00:00:00
+11.31.04,178,47,GestationalDiabetes,Male,,,,2005-07-05T00:00:00
+11.31.04,179,28,GestationalDiabetes,Birth,,,,2006-01-06T00:00:00
+11.31.04,179,28,GestationalDiabetes,Birth,,HasFirstChild,True,2006-01-06T00:00:00
+11.31.04,179,28,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 59, 'kg']",2006-01-06T00:00:00
+11.31.04,179,28,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 158, 'cm']",2006-01-06T00:00:00
+11.31.05,179,28,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 23.634033007530842, 'kg/m2']",2006-01-06T00:00:00
+11.31.05,180,28,GestationalDiabetes,GenderDecision,,,,2006-01-06T00:00:00
+11.31.05,181,28,GestationalDiabetes,Wait4Conception,,Delay Until - ,2035-01-01 00:00:00,2006-01-06T00:00:00
+11.31.05,182,38,GestationalDiabetes,Birth,,,,2006-05-25T00:00:00
+11.31.05,182,38,GestationalDiabetes,Birth,,HasFirstChild,False,2006-05-25T00:00:00
+11.31.05,182,38,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']",2006-05-25T00:00:00
+11.31.05,182,38,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm']",2006-05-25T00:00:00
+11.31.05,182,38,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.0, 'kg/m2']",2006-05-25T00:00:00
+11.31.05,183,38,GestationalDiabetes,GenderDecision,,,,2006-05-25T00:00:00
+11.31.05,184,38,GestationalDiabetes,Wait4Conception,,Delay Until - ,2035-10-23 00:00:00,2006-05-25T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,,,2007-08-20T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,HasFirstChild,False,2007-08-20T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg']",2007-08-20T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 192, 'cm']",2007-08-20T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.669270833333336, 'kg/m2']",2007-08-20T00:00:00
+11.31.05,185,34,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",2007-08-20T00:00:00
+11.31.05,186,34,GestationalDiabetes,GenderDecision,,,,2007-08-20T00:00:00
+11.31.05,187,34,GestationalDiabetes,Wait4Conception,,Delay Until - ,2032-07-12 00:00:00,2007-08-20T00:00:00
+11.31.05,188,26,GestationalDiabetes,CheckHasOneChild,,,,2008-01-24T00:00:00
+11.31.05,189,26,GestationalDiabetes,Childless,,,,2008-01-24T00:00:00
+11.31.05,190,43,GestationalDiabetes,CheckHasOneChild,,,,2008-02-02T00:00:00
+11.31.05,191,39,GestationalDiabetes,CheckHasOneChild,,,,2008-02-02T00:00:00
+11.31.05,192,43,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,2008-02-02T00:00:00
+11.31.05,192,43,GestationalDiabetes,ConceiveFirstChild,,,,2008-02-02T00:00:00
+11.31.05,193,39,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,2008-02-02T00:00:00
+11.31.05,193,39,GestationalDiabetes,ConceiveFirstChild,,,,2008-02-02T00:00:00
+11.31.05,194,43,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2008-04-10 00:00:00,2008-02-02T00:00:00
+11.31.05,195,39,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2008-04-05 00:00:00,2008-02-02T00:00:00
+11.31.05,196,49,GestationalDiabetes,CheckHasOneChild,,,,2008-02-04T00:00:00
+11.31.05,197,49,GestationalDiabetes,Childless,,,,2008-02-04T00:00:00
+11.31.05,198,39,GestationalDiabetes,GPvisit,,,,2008-04-05T00:00:00
+11.31.05,199,39,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2008-08-23 00:00:00,2008-04-05T00:00:00
+11.31.05,200,43,GestationalDiabetes,GPvisit,,,,2008-04-10T00:00:00
+11.31.05,200,43,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 5.212658424056414, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2008-04-10T00:00:00
+11.31.05,201,43,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2008-08-28 00:00:00,2008-04-10T00:00:00
+11.31.05,202,39,GestationalDiabetes,FirstAntenatal,,,,2008-08-23T00:00:00
+11.31.05,203,39,GestationalDiabetes,Finish,,,,2008-08-23T00:00:00
+11.31.05,204,43,GestationalDiabetes,FirstAntenatal,,,,2008-08-28T00:00:00
+11.31.05,205,43,GestationalDiabetes,Finish,,,,2008-08-28T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,,,2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,HasFirstChild,True,2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 67, 'kg']",2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 184, 'cm']",2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.78969754253308, 'kg/m2']",2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",2010-04-20T00:00:00
+11.31.05,206,1,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2010-04-20T00:00:00
+11.31.05,207,1,GestationalDiabetes,GenderDecision,,,,2010-04-20T00:00:00
+11.31.05,208,1,GestationalDiabetes,Male,,,,2010-04-20T00:00:00
+11.31.05,209,6,GestationalDiabetes,CheckHasOneChild,,,,2010-09-16T00:00:00
+11.31.05,210,6,GestationalDiabetes,Childless,,,,2010-09-16T00:00:00
+11.31.05,211,12,GestationalDiabetes,CheckHasOneChild,,,,2010-11-13T00:00:00
+11.31.05,212,12,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,2010-11-13T00:00:00
+11.31.05,212,12,GestationalDiabetes,ConceiveFirstChild,,,,2010-11-13T00:00:00
+11.31.06,213,12,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2011-01-20 00:00:00,2010-11-13T00:00:00
+11.31.06,214,12,GestationalDiabetes,GPvisit,,,,2011-01-20T00:00:00
+11.31.06,214,12,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 4.6862448106578825, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2011-01-20T00:00:00
+11.31.06,214,12,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2011-01-20T00:00:00
+11.31.06,215,12,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2011-05-21 00:00:00,2011-01-20T00:00:00
+11.31.06,216,12,GestationalDiabetes,FirstAntenatal,,,,2011-05-21T00:00:00
+11.31.06,217,12,GestationalDiabetes,Finish,,,,2011-05-21T00:00:00
+11.31.06,218,27,GestationalDiabetes,Birth,,,,2011-12-18T00:00:00
+11.31.06,218,27,GestationalDiabetes,Birth,,HasFirstChild,False,2011-12-18T00:00:00
+11.31.06,218,27,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 99, 'kg']",2011-12-18T00:00:00
+11.31.06,218,27,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm']",2011-12-18T00:00:00
+11.31.06,218,27,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.926223520818112, 'kg/m2']",2011-12-18T00:00:00
+11.31.06,219,27,GestationalDiabetes,GenderDecision,,,,2011-12-18T00:00:00
+11.31.06,220,27,GestationalDiabetes,Male,,,,2011-12-18T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,,,2013-07-02T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,HasFirstChild,False,2013-07-02T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 95, 'kg']",2013-07-02T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 161, 'cm']",2013-07-02T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 36.64982060877281, 'kg/m2']",2013-07-02T00:00:00
+11.31.06,221,5,GestationalDiabetes,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2013-07-02T00:00:00
+11.31.06,222,5,GestationalDiabetes,GenderDecision,,,,2013-07-02T00:00:00
+11.31.06,223,5,GestationalDiabetes,Wait4Conception,,Delay Until - ,2043-12-05 00:00:00,2013-07-02T00:00:00
+11.31.06,224,32,GestationalDiabetes,Birth,,,,2014-08-19T00:00:00
+11.31.06,224,32,GestationalDiabetes,Birth,,HasFirstChild,True,2014-08-19T00:00:00
+11.31.06,224,32,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 56, 'kg']",2014-08-19T00:00:00
+11.31.06,224,32,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']",2014-08-19T00:00:00
+11.31.06,224,32,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 17.67453604342886, 'kg/m2']",2014-08-19T00:00:00
+11.31.06,225,32,GestationalDiabetes,GenderDecision,,,,2014-08-19T00:00:00
+11.31.06,226,32,GestationalDiabetes,Male,,,,2014-08-19T00:00:00
+11.31.06,227,25,GestationalDiabetes,CheckHasOneChild,,,,2017-10-26T00:00:00
+11.31.06,228,25,GestationalDiabetes,Childless,,,,2017-10-26T00:00:00
+11.31.06,229,36,GestationalDiabetes,Birth,,,,2018-06-24T00:00:00
+11.31.06,229,36,GestationalDiabetes,Birth,,HasFirstChild,False,2018-06-24T00:00:00
+11.31.06,229,36,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']",2018-06-24T00:00:00
+11.31.06,229,36,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 167, 'cm']",2018-06-24T00:00:00
+11.31.06,229,36,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.513858510523864, 'kg/m2']",2018-06-24T00:00:00
+11.31.06,230,36,GestationalDiabetes,GenderDecision,,,,2018-06-24T00:00:00
+11.31.06,231,36,GestationalDiabetes,Wait4Conception,,Delay Until - ,2047-11-07 00:00:00,2018-06-24T00:00:00
+11.31.06,232,45,GestationalDiabetes,Birth,,,,2019-09-12T00:00:00
+11.31.06,232,45,GestationalDiabetes,Birth,,HasFirstChild,False,2019-09-12T00:00:00
+11.31.06,232,45,GestationalDiabetes,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 93, 'kg']",2019-09-12T00:00:00
+11.31.06,232,45,GestationalDiabetes,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 195, 'cm']",2019-09-12T00:00:00
+11.31.06,232,45,GestationalDiabetes,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.45759368836292, 'kg/m2']",2019-09-12T00:00:00
+11.31.06,233,45,GestationalDiabetes,GenderDecision,,,,2019-09-12T00:00:00
+11.31.06,234,45,GestationalDiabetes,Wait4Conception,,Delay Until - ,2058-10-19 00:00:00,2019-09-12T00:00:00
+11.31.06,235,9,GestationalDiabetes,CheckHasOneChild,,,,2019-09-25T00:00:00
+11.31.06,236,9,GestationalDiabetes,Childless,,,,2019-09-25T00:00:00
+11.31.06,237,37,GestationalDiabetes,CheckHasOneChild,,,,2020-01-11T00:00:00
+11.31.06,238,37,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,2020-01-11T00:00:00
+11.31.06,238,37,GestationalDiabetes,ConceiveFirstChild,,,,2020-01-11T00:00:00
+11.31.06,239,37,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2020-04-03 00:00:00,2020-01-11T00:00:00
+11.31.06,240,21,GestationalDiabetes,CheckHasOneChild,,,,2020-02-14T00:00:00
+11.31.06,241,21,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,2020-02-14T00:00:00
+11.31.06,241,21,GestationalDiabetes,ConceiveFirstChild,,,,2020-02-14T00:00:00
+11.31.06,242,21,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2020-04-14 00:00:00,2020-02-14T00:00:00
+11.31.06,243,37,GestationalDiabetes,GPvisit,,,,2020-04-03T00:00:00
+11.31.07,243,37,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 5.287727017100276, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2020-04-03T00:00:00
+11.31.07,243,37,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2020-04-03T00:00:00
+11.31.07,243,37,GestationalDiabetes,GPvisit,,obese,"['414915002', 'obese']",2020-04-03T00:00:00
+11.31.07,244,37,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2020-07-28 00:00:00,2020-04-03T00:00:00
+11.31.07,245,21,GestationalDiabetes,GPvisit,,,,2020-04-14T00:00:00
+11.31.07,245,21,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 4.350038070190055, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2020-04-14T00:00:00
+11.31.07,245,21,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2020-04-14T00:00:00
+11.31.07,245,21,GestationalDiabetes,GPvisit,,obese,"['414915002', 'obese']",2020-04-14T00:00:00
+11.31.07,246,21,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2020-08-22 00:00:00,2020-04-14T00:00:00
+11.31.07,247,37,GestationalDiabetes,FirstAntenatal,,,,2020-07-28T00:00:00
+11.31.07,248,37,GestationalDiabetes,Finish,,,,2020-07-28T00:00:00
+11.31.07,249,21,GestationalDiabetes,FirstAntenatal,,,,2020-08-22T00:00:00
+11.31.07,250,21,GestationalDiabetes,Finish,,,,2020-08-22T00:00:00
+11.31.07,251,16,GestationalDiabetes,CheckHasOneChild,,,,2022-10-10T00:00:00
+11.31.07,252,16,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,2022-10-10T00:00:00
+11.31.07,252,16,GestationalDiabetes,ConceiveFirstChild,,,,2022-10-10T00:00:00
+11.31.07,253,16,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2022-12-25 00:00:00,2022-10-10T00:00:00
+11.31.07,254,16,GestationalDiabetes,GPvisit,,,,2022-12-25T00:00:00
+11.31.07,255,16,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2023-04-24 00:00:00,2022-12-25T00:00:00
+11.31.07,256,16,GestationalDiabetes,FirstAntenatal,,,,2023-04-24T00:00:00
+11.31.07,257,16,GestationalDiabetes,Finish,,,,2023-04-24T00:00:00
+11.31.07,258,46,GestationalDiabetes,CheckHasOneChild,,,,2024-12-13T00:00:00
+11.31.07,259,46,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,2024-12-13T00:00:00
+11.31.07,259,46,GestationalDiabetes,ConceiveFirstChild,,,,2024-12-13T00:00:00
+11.31.07,260,46,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2025-02-22 00:00:00,2024-12-13T00:00:00
+11.31.07,261,46,GestationalDiabetes,GPvisit,,,,2025-02-22T00:00:00
+11.31.07,261,46,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2025-02-22T00:00:00
+11.31.07,262,46,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2025-06-20 00:00:00,2025-02-22T00:00:00
+11.31.07,263,46,GestationalDiabetes,FirstAntenatal,,,,2025-06-20T00:00:00
+11.31.07,264,46,GestationalDiabetes,Finish,,,,2025-06-20T00:00:00
+11.31.07,265,29,GestationalDiabetes,CheckHasOneChild,,,,2027-02-10T00:00:00
+11.31.07,266,29,GestationalDiabetes,Childless,,,,2027-02-10T00:00:00
+11.31.07,267,3,GestationalDiabetes,CheckHasOneChild,,,,2029-10-22T00:00:00
+11.31.07,268,3,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,0,2029-10-22T00:00:00
+11.31.07,268,3,GestationalDiabetes,ConceiveFirstChild,,,,2029-10-22T00:00:00
+11.31.07,269,3,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2030-01-10 00:00:00,2029-10-22T00:00:00
+11.31.07,270,3,GestationalDiabetes,GPvisit,,,,2030-01-10T00:00:00
+11.31.07,270,3,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 4.260916489619404, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2030-01-10T00:00:00
+11.31.07,270,3,GestationalDiabetes,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2030-01-10T00:00:00
+11.31.07,270,3,GestationalDiabetes,GPvisit,,obese,"['414915002', 'obese']",2030-01-10T00:00:00
+11.31.07,271,3,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2030-05-30 00:00:00,2030-01-10T00:00:00
+11.31.07,272,3,GestationalDiabetes,FirstAntenatal,,,,2030-05-30T00:00:00
+11.31.07,273,3,GestationalDiabetes,Finish,,,,2030-05-30T00:00:00
+11.31.07,274,34,GestationalDiabetes,CheckHasOneChild,,,,2032-07-12T00:00:00
+11.31.07,275,34,GestationalDiabetes,Childless,,,,2032-07-12T00:00:00
+11.31.07,276,28,GestationalDiabetes,CheckHasOneChild,,,,2035-01-01T00:00:00
+11.31.07,277,28,GestationalDiabetes,ConceiveFirstChild,ChildGender,ChildGender,1,2035-01-01T00:00:00
+11.31.07,277,28,GestationalDiabetes,ConceiveFirstChild,,,,2035-01-01T00:00:00
+11.31.07,278,28,GestationalDiabetes,WaitToSeeGP,,Delay Until - ,2035-03-07 00:00:00,2035-01-01T00:00:00
+11.31.07,279,28,GestationalDiabetes,GPvisit,,,,2035-03-07T00:00:00
+11.31.07,279,28,GestationalDiabetes,GPvisit,,BloodGlucose,"{'quantity': 4.430590945166572, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2035-03-07T00:00:00
+11.31.07,280,28,GestationalDiabetes,Wait2SeeMidwife,,Delay Until - ,2035-07-19 00:00:00,2035-03-07T00:00:00
+11.31.07,281,28,GestationalDiabetes,FirstAntenatal,,,,2035-07-19T00:00:00
+11.31.07,282,28,GestationalDiabetes,Finish,,,,2035-07-19T00:00:00
+11.31.07,283,38,GestationalDiabetes,CheckHasOneChild,,,,2035-10-23T00:00:00
+11.31.07,284,38,GestationalDiabetes,Childless,,,,2035-10-23T00:00:00
+11.31.07,285,14,GestationalDiabetes,CheckHasOneChild,,,,2036-05-28T00:00:00
+11.31.07,286,14,GestationalDiabetes,Childless,,,,2036-05-28T00:00:00
+11.31.07,287,5,GestationalDiabetes,CheckHasOneChild,,,,2043-12-05T00:00:00
+11.31.07,288,5,GestationalDiabetes,Childless,,,,2043-12-05T00:00:00
+11.31.07,289,36,GestationalDiabetes,CheckHasOneChild,,,,2047-11-07T00:00:00
+11.31.07,290,36,GestationalDiabetes,Childless,,,,2047-11-07T00:00:00
+11.31.07,291,45,GestationalDiabetes,CheckHasOneChild,,,,2058-10-19T00:00:00
+11.31.07,292,45,GestationalDiabetes,Childless,,,,2058-10-19T00:00:00
