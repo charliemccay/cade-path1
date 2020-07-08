@@ -5,7 +5,7 @@ This is a demo Resouces folder for the CADE2 pathway-based simulation tool
 2. If you don't already have Git on your system, download and install it from https://git-scm.com/downloads
 3. Clone this project
 ```sh
-	git clone https://github.com/charliemccay/cade-gest-diab3
+	git clone https://github.com/charliemccay/cade-meds1
 ```
 To run a simulation you need to mount the Resources folder in this project in the CADE2 Docker container.  Note that you need to provide the absolute path for your local copy of the Resources folder.  
 
