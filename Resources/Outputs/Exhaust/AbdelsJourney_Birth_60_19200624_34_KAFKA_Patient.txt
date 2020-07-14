@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":564,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"dd822c45-38cb-4233-a0e9-0389f3778b99","value":{"resourceType": "Patient",
+          "id": "dd822c45-38cb-4233-a0e9-0389f3778b99",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "34",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Wall",
+              "given": [
+                "Skye"
+              ]
+            }
+          ],
+          "birthDate": "1931-01-12"
+        }}]}

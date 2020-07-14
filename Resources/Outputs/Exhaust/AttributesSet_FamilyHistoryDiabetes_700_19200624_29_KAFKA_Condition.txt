@@ -1,0 +1,19 @@
+http://localhost:8082/topics/Condition/200{"offsets":[{"partition":0,"offset":408,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"9c15a4a9-a850-4ba0-bf46-bd5ee943bc03","value":{"resourceType": "Condition",
+  "id": "9c15a4a9-a850-4ba0-bf46-bd5ee943bc03",
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "430679000",
+        "display": "Family history of diabetes mellitus type 2"
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/b6084e46-0ed6-40e9-ad28-bc35cb0cd18e"},
+  "dateRecorded": "1920-06-24"
+}}]}

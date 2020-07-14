@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+420,AbdelsJourney,Wait1,,,,1965-07-31T00:00:00
+420,AbdelsJourney,Wait1,,HasFirstChild,True,1965-07-31T00:00:00
+420,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg']",1965-07-31T00:00:00
+420,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1965-07-31T00:00:00
+420,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.261963081740358, 'kg/m2']",1965-07-31T00:00:00
+421,AbdelsJourney,GPvisit,,,,1965-07-31T00:00:00
+422,AbdelsJourney,GPRefersToHospital,,,,1965-09-29T00:00:00
+422,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 5.145318818973408, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1965-09-29T00:00:00
+422,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1965-09-29T00:00:00
+422,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1965-09-29T00:00:00
+423,AbdelsJourney,Wait2,,,,1965-09-29T00:00:00
+424,AbdelsJourney,ArriveHospital,,,,1965-09-29T00:00:00
+425,AbdelsJourney,Wait3,,,,1965-10-09T00:00:00
+426,AbdelsJourney,LookupMedsFromLHCR,,,,1965-10-09T00:00:00
+427,AbdelsJourney,MedsReconcile,,,,1965-10-09T00:12:00
+428,AbdelsJourney,Wait5,,,,1965-10-09T00:12:00
+429,AbdelsJourney,MedsPrescribe,,,,1965-10-09T00:12:00
+430,AbdelsJourney,Wait6,,,,1965-10-09T00:15:00
+431,AbdelsJourney,MedsReconcileForDigcharge,,,,1965-10-09T00:15:00
+432,AbdelsJourney,Wait7,,,,1965-10-09T00:31:00
+433,AbdelsJourney,Discharge,,,,1965-10-09T00:31:00
+434,AbdelsJourney,Wait8,,,,1965-10-09T00:45:00
+435,AbdelsJourney,SendDischarge2GP,,,,1965-10-09T00:45:00
+436,AbdelsJourney,Wait9,,,,1965-10-09T00:59:00
+437,AbdelsJourney,GPMedsReconcile,,,,1965-10-09T00:59:00
+438,AbdelsJourney,Finish,,,,1965-10-11T00:59:00
+439,AbdelsJourney,Finish,,,,1965-10-11T00:59:00

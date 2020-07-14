@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":583,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"c46891c4-0752-42ee-b373-b257d33ba855","value":{"resourceType": "Patient",
+          "id": "c46891c4-0752-42ee-b373-b257d33ba855",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "6",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Bryant",
+              "given": [
+                "Amy"
+              ]
+            }
+          ],
+          "birthDate": "1971-10-01"
+        }}]}

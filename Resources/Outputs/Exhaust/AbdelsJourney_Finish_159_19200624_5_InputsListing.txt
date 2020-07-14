@@ -1,0 +1,35 @@
+
+timestamp: 1920_06_24
+activity_time: 1920-06-24
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 5
+   Gender: Male
+   DOB: 1941-03-20 00:00:00
+   Surname: West
+   GivenName: Lucas
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 04db28ca-ba8c-43f2-b568-b277a21aa750
+   This: {'name': 'GPmed', 'value': ['27658006', 'Amoxicillin (product)'], 'date': '1941-06-06T00:00:00', 'id': UUID('700f54f8-ab5d-4ea7-a40b-3781cf97d4e4')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.938915683947375, 'kg/m2']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1941-03-20T00:00:00', 'id': UUID('4d795109-ff2a-4df8-afdf-ea5ed4461b77')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '1941-03-20T00:00:00', 'id': UUID('a02c5f10-4868-4702-be46-d1952dd2a561')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm'], 'date': '1941-03-20T00:00:00', 'id': UUID('4feda6f7-d9ab-4a62-abcb-735d5e3dc020')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.938915683947375, 'kg/m2'], 'date': '1941-03-20T00:00:00', 'id': UUID('af5c33fa-e080-4b53-b20e-13c88321caa1')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1941-06-06T00:00:00', 'id': UUID('700f54f8-ab5d-4ea7-a40b-3781cf97d4e4')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1941-03-20T00:00:00', 'id': UUID('4d795109-ff2a-4df8-afdf-ea5ed4461b77')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '1941-03-20T00:00:00', 'id': UUID('a02c5f10-4868-4702-be46-d1952dd2a561')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm'], 'date': '1941-03-20T00:00:00', 'id': UUID('4feda6f7-d9ab-4a62-abcb-735d5e3dc020')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.938915683947375, 'kg/m2'], 'date': '1941-03-20T00:00:00', 'id': UUID('af5c33fa-e080-4b53-b20e-13c88321caa1')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1941-06-06T00:00:00', 'id': UUID('700f54f8-ab5d-4ea7-a40b-3781cf97d4e4')}

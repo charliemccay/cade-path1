@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":596,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"b6084e46-0ed6-40e9-ad28-bc35cb0cd18e","value":{"resourceType": "Patient",
+          "id": "b6084e46-0ed6-40e9-ad28-bc35cb0cd18e",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "29",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "O'Neill",
+              "given": [
+                "Evie"
+              ]
+            }
+          ],
+          "birthDate": "1984-09-12"
+        }}]}

@@ -1,0 +1,38 @@
+
+timestamp: 1920_06_24
+activity_time: 1920-06-24
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 28
+   Gender: Female
+   DOB: 2018-09-27 00:00:00
+   Surname: Carr
+   GivenName: Sophie
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 3ec64562-929b-43c4-a871-bda869218de9
+   This: {'name': 'GPmed', 'value': ['27658006', 'Amoxicillin (product)'], 'date': '2018-12-11T00:00:00', 'id': UUID('75705fad-2e17-46e9-a556-c9983f9b4112')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 114, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.78715183960001, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '2018-09-27T00:00:00', 'id': UUID('069abd57-bb75-4a57-b519-b0e9b8fcd502')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 114, 'kg'], 'date': '2018-09-27T00:00:00', 'id': UUID('2a603263-1dc4-4dce-be2d-e6b5f7a35e24')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm'], 'date': '2018-09-27T00:00:00', 'id': UUID('8f7b3791-0001-4592-81b8-bd7a6b0e63b9')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.78715183960001, 'kg/m2'], 'date': '2018-09-27T00:00:00', 'id': UUID('17837eb4-5f6b-4774-8e35-c7df25f39a20')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2018-12-11T00:00:00', 'id': UUID('954bb56a-415e-4046-bf0d-d022964a02de')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '2018-12-11T00:00:00', 'id': UUID('75705fad-2e17-46e9-a556-c9983f9b4112')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '2018-09-27T00:00:00', 'id': UUID('069abd57-bb75-4a57-b519-b0e9b8fcd502')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 114, 'kg'], 'date': '2018-09-27T00:00:00', 'id': UUID('2a603263-1dc4-4dce-be2d-e6b5f7a35e24')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm'], 'date': '2018-09-27T00:00:00', 'id': UUID('8f7b3791-0001-4592-81b8-bd7a6b0e63b9')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.78715183960001, 'kg/m2'], 'date': '2018-09-27T00:00:00', 'id': UUID('17837eb4-5f6b-4774-8e35-c7df25f39a20')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2018-12-11T00:00:00', 'id': UUID('954bb56a-415e-4046-bf0d-d022964a02de')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '2018-12-11T00:00:00', 'id': UUID('75705fad-2e17-46e9-a556-c9983f9b4112')}

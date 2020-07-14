@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+282,AbdelsJourney,Wait1,,,,1957-08-18T00:00:00
+282,AbdelsJourney,Wait1,,HasFirstChild,False,1957-08-18T00:00:00
+282,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg']",1957-08-18T00:00:00
+282,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 198, 'cm']",1957-08-18T00:00:00
+282,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.527905315784103, 'kg/m2']",1957-08-18T00:00:00
+283,AbdelsJourney,GPvisit,,,,1957-08-18T00:00:00
+302,AbdelsJourney,GPRefersToHospital,,,,1957-10-21T00:00:00
+302,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 4.857787260655251, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1957-10-21T00:00:00
+302,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1957-10-21T00:00:00
+302,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1957-10-21T00:00:00
+303,AbdelsJourney,Wait2,,,,1957-10-21T00:00:00
+304,AbdelsJourney,ArriveHospital,,,,1957-10-21T00:00:00
+307,AbdelsJourney,Wait3,,,,1957-10-25T00:00:00
+308,AbdelsJourney,LookupMedsFromLHCR,,,,1957-10-25T00:00:00
+309,AbdelsJourney,MedsReconcile,,,,1957-10-25T00:11:00
+310,AbdelsJourney,Wait5,,,,1957-10-25T00:11:00
+311,AbdelsJourney,MedsPrescribe,,,,1957-10-25T00:11:00
+312,AbdelsJourney,Wait6,,,,1957-10-25T00:13:00
+313,AbdelsJourney,MedsReconcileForDigcharge,,,,1957-10-25T00:13:00
+314,AbdelsJourney,Wait7,,,,1957-10-25T00:17:00
+315,AbdelsJourney,Discharge,,,,1957-10-25T00:17:00
+316,AbdelsJourney,Wait8,,,,1957-10-25T00:36:00
+317,AbdelsJourney,SendDischarge2GP,,,,1957-10-25T00:36:00
+318,AbdelsJourney,Wait9,,,,1957-10-25T00:53:00
+319,AbdelsJourney,GPMedsReconcile,,,,1957-10-25T00:53:00
+320,AbdelsJourney,Finish,,,,1957-10-30T00:53:00
+321,AbdelsJourney,Finish,,,,1957-10-30T00:53:00

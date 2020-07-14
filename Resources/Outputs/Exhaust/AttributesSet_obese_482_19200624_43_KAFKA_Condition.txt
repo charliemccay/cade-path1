@@ -1,0 +1,19 @@
+http://localhost:8082/topics/Condition/200{"offsets":[{"partition":0,"offset":392,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"006000f9-a732-49cf-9cf9-b527e418b711","value":{"resourceType": "Condition",
+  "id": "006000f9-a732-49cf-9cf9-b527e418b711",
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "414915002",
+        "display": "obese"
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/da524544-4779-4dae-9318-c206726f93cb"},
+  "dateRecorded": "1920-06-24"
+}}]}

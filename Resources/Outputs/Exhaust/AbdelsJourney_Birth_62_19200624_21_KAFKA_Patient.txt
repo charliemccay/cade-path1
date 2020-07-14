@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":565,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"a6414d23-3616-4dbe-a07b-41f7359fd332","value":{"resourceType": "Patient",
+          "id": "a6414d23-3616-4dbe-a07b-41f7359fd332",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "21",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Webster",
+              "given": [
+                "Tia"
+              ]
+            }
+          ],
+          "birthDate": "1931-01-13"
+        }}]}

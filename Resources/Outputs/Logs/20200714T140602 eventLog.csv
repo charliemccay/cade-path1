@@ -1,0 +1,1374 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+14.06.05,0,50,AbdelsJourney,Birth,,,,1920-06-24T00:00:00
+14.06.05,0,50,AbdelsJourney,Birth,,HasFirstChild,True,1920-06-24T00:00:00
+14.06.05,0,50,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 85, 'kg']",1920-06-24T00:00:00
+14.06.05,0,50,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 195, 'cm']",1920-06-24T00:00:00
+14.06.05,0,50,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.353714661406972, 'kg/m2']",1920-06-24T00:00:00
+14.06.05,1,50,AbdelsJourney,Wait1,,Delay Until - ,1920-08-29 00:00:00,1920-06-24T00:00:00
+14.06.05,2,50,AbdelsJourney,GPvisit,,,,1920-08-29T00:00:00
+14.06.05,2,50,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1920-08-29T00:00:00
+14.06.05,3,50,AbdelsJourney,GPRefersToHospital,,,,1920-08-29T00:00:00
+14.06.06,4,50,AbdelsJourney,Wait2,,Delay Until - ,1920-09-17 00:00:00,1920-08-29T00:00:00
+14.06.06,5,50,AbdelsJourney,ArriveHospital,,,,1920-09-17T00:00:00
+14.06.06,6,50,AbdelsJourney,Wait3,,Delay Until - ,1920-09-17 00:08:00,1920-09-17T00:00:00
+14.06.06,7,50,AbdelsJourney,LookupMedsFromLHCR,,,,1920-09-17T00:08:00
+14.06.06,8,50,AbdelsJourney,MedsReconcile,,,,1920-09-17T00:08:00
+14.06.06,9,50,AbdelsJourney,Wait5,,Delay Until - ,1920-09-17 00:09:00,1920-09-17T00:08:00
+14.06.06,10,50,AbdelsJourney,MedsPrescribe,,,,1920-09-17T00:09:00
+14.06.06,11,50,AbdelsJourney,Wait6,,Delay Until - ,1920-09-17 00:19:00,1920-09-17T00:09:00
+14.06.06,12,50,AbdelsJourney,MedsReconcileForDigcharge,,,,1920-09-17T00:19:00
+14.06.06,13,50,AbdelsJourney,Wait7,,Delay Until - ,1920-09-17 00:27:00,1920-09-17T00:19:00
+14.06.06,14,50,AbdelsJourney,Discharge,,,,1920-09-17T00:27:00
+14.06.06,15,50,AbdelsJourney,Wait8,,Delay Until - ,1920-09-17 00:30:00,1920-09-17T00:27:00
+14.06.06,16,50,AbdelsJourney,SendDischarge2GP,,,,1920-09-17T00:30:00
+14.06.06,17,50,AbdelsJourney,Wait9,,Delay Until - ,1920-09-18 00:30:00,1920-09-17T00:30:00
+14.06.06,18,50,AbdelsJourney,GPMedsReconcile,,,,1920-09-18T00:30:00
+14.06.06,19,50,AbdelsJourney,Finish,,,,1920-09-18T00:30:00
+14.06.06,20,27,AbdelsJourney,Birth,,,,1920-09-30T00:00:00
+14.06.06,20,27,AbdelsJourney,Birth,,HasFirstChild,False,1920-09-30T00:00:00
+14.06.06,20,27,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg']",1920-09-30T00:00:00
+14.06.06,20,27,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 160, 'cm']",1920-09-30T00:00:00
+14.06.06,20,27,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 31.249999999999993, 'kg/m2']",1920-09-30T00:00:00
+14.06.06,21,27,AbdelsJourney,Wait1,,Delay Until - ,1920-12-18 00:00:00,1920-09-30T00:00:00
+14.06.06,22,27,AbdelsJourney,GPvisit,,,,1920-12-18T00:00:00
+14.06.06,22,27,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.396295515287417, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1920-12-18T00:00:00
+14.06.06,22,27,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1920-12-18T00:00:00
+14.06.06,22,27,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1920-12-18T00:00:00
+14.06.06,22,27,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1920-12-18T00:00:00
+14.06.06,23,27,AbdelsJourney,GPRefersToHospital,,,,1920-12-18T00:00:00
+14.06.06,24,27,AbdelsJourney,Wait2,,Delay Until - ,1921-01-05 00:00:00,1920-12-18T00:00:00
+14.06.06,25,27,AbdelsJourney,ArriveHospital,,,,1921-01-05T00:00:00
+14.06.06,26,27,AbdelsJourney,Wait3,,Delay Until - ,1921-01-05 00:16:00,1921-01-05T00:00:00
+14.06.06,27,27,AbdelsJourney,LookupMedsFromLHCR,,,,1921-01-05T00:16:00
+14.06.06,28,27,AbdelsJourney,MedsReconcile,,,,1921-01-05T00:16:00
+14.06.06,29,27,AbdelsJourney,Wait5,,Delay Until - ,1921-01-05 00:17:00,1921-01-05T00:16:00
+14.06.06,30,27,AbdelsJourney,MedsPrescribe,,,,1921-01-05T00:17:00
+14.06.06,31,27,AbdelsJourney,Wait6,,Delay Until - ,1921-01-05 00:34:00,1921-01-05T00:17:00
+14.06.06,32,27,AbdelsJourney,MedsReconcileForDigcharge,,,,1921-01-05T00:34:00
+14.06.06,33,27,AbdelsJourney,Wait7,,Delay Until - ,1921-01-05 00:42:00,1921-01-05T00:34:00
+14.06.06,34,27,AbdelsJourney,Discharge,,,,1921-01-05T00:42:00
+14.06.06,35,27,AbdelsJourney,Wait8,,Delay Until - ,1921-01-05 00:44:00,1921-01-05T00:42:00
+14.06.06,36,27,AbdelsJourney,SendDischarge2GP,,,,1921-01-05T00:44:00
+14.06.06,37,27,AbdelsJourney,Wait9,,Delay Until - ,1921-01-08 00:44:00,1921-01-05T00:44:00
+14.06.06,38,27,AbdelsJourney,GPMedsReconcile,,,,1921-01-08T00:44:00
+14.06.06,39,27,AbdelsJourney,Finish,,,,1921-01-08T00:44:00
+14.06.06,40,14,AbdelsJourney,Birth,,,,1926-08-25T00:00:00
+14.06.06,40,14,AbdelsJourney,Birth,,HasFirstChild,False,1926-08-25T00:00:00
+14.06.06,40,14,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 58, 'kg']",1926-08-25T00:00:00
+14.06.06,40,14,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']",1926-08-25T00:00:00
+14.06.06,40,14,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.456063417102378, 'kg/m2']",1926-08-25T00:00:00
+14.06.06,41,14,AbdelsJourney,Wait1,,Delay Until - ,1926-11-07 00:00:00,1926-08-25T00:00:00
+14.06.06,42,14,AbdelsJourney,GPvisit,,,,1926-11-07T00:00:00
+14.06.06,42,14,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.6259822372008585, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1926-11-07T00:00:00
+14.06.06,42,14,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1926-11-07T00:00:00
+14.06.06,43,14,AbdelsJourney,GPRefersToHospital,,,,1926-11-07T00:00:00
+14.06.06,44,14,AbdelsJourney,Wait2,,Delay Until - ,1926-11-17 00:00:00,1926-11-07T00:00:00
+14.06.06,45,14,AbdelsJourney,ArriveHospital,,,,1926-11-17T00:00:00
+14.06.07,46,14,AbdelsJourney,Wait3,,Delay Until - ,1926-11-17 00:02:00,1926-11-17T00:00:00
+14.06.07,47,14,AbdelsJourney,LookupMedsFromLHCR,,,,1926-11-17T00:02:00
+14.06.07,48,14,AbdelsJourney,MedsReconcile,,,,1926-11-17T00:02:00
+14.06.07,49,14,AbdelsJourney,Wait5,,Delay Until - ,1926-11-17 00:04:00,1926-11-17T00:02:00
+14.06.07,50,14,AbdelsJourney,MedsPrescribe,,,,1926-11-17T00:04:00
+14.06.07,51,14,AbdelsJourney,Wait6,,Delay Until - ,1926-11-17 00:09:00,1926-11-17T00:04:00
+14.06.07,52,14,AbdelsJourney,MedsReconcileForDigcharge,,,,1926-11-17T00:09:00
+14.06.07,53,14,AbdelsJourney,Wait7,,Delay Until - ,1926-11-17 00:26:00,1926-11-17T00:09:00
+14.06.07,54,14,AbdelsJourney,Discharge,,,,1926-11-17T00:26:00
+14.06.07,55,14,AbdelsJourney,Wait8,,Delay Until - ,1926-11-17 00:43:00,1926-11-17T00:26:00
+14.06.07,56,14,AbdelsJourney,SendDischarge2GP,,,,1926-11-17T00:43:00
+14.06.07,57,14,AbdelsJourney,Wait9,,Delay Until - ,1926-11-19 00:43:00,1926-11-17T00:43:00
+14.06.07,58,14,AbdelsJourney,GPMedsReconcile,,,,1926-11-19T00:43:00
+14.06.07,59,14,AbdelsJourney,Finish,,,,1926-11-19T00:43:00
+14.06.07,60,34,AbdelsJourney,Birth,,,,1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,HasFirstChild,True,1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 156, 'cm']",1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 31.640368178829714, 'kg/m2']",1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1931-01-12T00:00:00
+14.06.07,60,34,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1931-01-12T00:00:00
+14.06.07,61,34,AbdelsJourney,Wait1,,Delay Until - ,1931-03-25 00:00:00,1931-01-12T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,,,1931-01-13T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,HasFirstChild,True,1931-01-13T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 78, 'kg']",1931-01-13T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 177, 'cm']",1931-01-13T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.897060231734173, 'kg/m2']",1931-01-13T00:00:00
+14.06.07,62,21,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1931-01-13T00:00:00
+14.06.07,63,21,AbdelsJourney,Wait1,,Delay Until - ,1931-03-21 00:00:00,1931-01-13T00:00:00
+14.06.07,64,21,AbdelsJourney,GPvisit,,,,1931-03-21T00:00:00
+14.06.07,64,21,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1931-03-21T00:00:00
+14.06.07,65,21,AbdelsJourney,GPRefersToHospital,,,,1931-03-21T00:00:00
+14.06.07,66,21,AbdelsJourney,Wait2,,Delay Until - ,1931-03-30 00:00:00,1931-03-21T00:00:00
+14.06.07,67,34,AbdelsJourney,GPvisit,,,,1931-03-25T00:00:00
+14.06.07,67,34,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.1508380899015, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1931-03-25T00:00:00
+14.06.07,67,34,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1931-03-25T00:00:00
+14.06.07,67,34,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1931-03-25T00:00:00
+14.06.07,67,34,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1931-03-25T00:00:00
+14.06.07,68,34,AbdelsJourney,GPRefersToHospital,,,,1931-03-25T00:00:00
+14.06.07,69,34,AbdelsJourney,Wait2,,Delay Until - ,1931-04-10 00:00:00,1931-03-25T00:00:00
+14.06.07,70,21,AbdelsJourney,ArriveHospital,,,,1931-03-30T00:00:00
+14.06.07,71,21,AbdelsJourney,Wait3,,Delay Until - ,1931-03-30 00:19:00,1931-03-30T00:00:00
+14.06.07,72,21,AbdelsJourney,LookupMedsFromLHCR,,,,1931-03-30T00:19:00
+14.06.07,73,21,AbdelsJourney,MedsReconcile,,,,1931-03-30T00:19:00
+14.06.07,74,21,AbdelsJourney,Wait5,,Delay Until - ,1931-03-30 00:21:00,1931-03-30T00:19:00
+14.06.07,75,21,AbdelsJourney,MedsPrescribe,,,,1931-03-30T00:21:00
+14.06.07,76,21,AbdelsJourney,Wait6,,Delay Until - ,1931-03-30 00:30:00,1931-03-30T00:21:00
+14.06.07,77,21,AbdelsJourney,MedsReconcileForDigcharge,,,,1931-03-30T00:30:00
+14.06.07,78,21,AbdelsJourney,Wait7,,Delay Until - ,1931-03-30 00:32:00,1931-03-30T00:30:00
+14.06.07,79,21,AbdelsJourney,Discharge,,,,1931-03-30T00:32:00
+14.06.07,80,21,AbdelsJourney,Wait8,,Delay Until - ,1931-03-30 00:41:00,1931-03-30T00:32:00
+14.06.07,81,21,AbdelsJourney,SendDischarge2GP,,,,1931-03-30T00:41:00
+14.06.07,82,21,AbdelsJourney,Wait9,,Delay Until - ,1931-04-02 00:41:00,1931-03-30T00:41:00
+14.06.07,83,21,AbdelsJourney,GPMedsReconcile,,,,1931-04-02T00:41:00
+14.06.08,84,21,AbdelsJourney,Finish,,,,1931-04-02T00:41:00
+14.06.08,85,34,AbdelsJourney,ArriveHospital,,,,1931-04-10T00:00:00
+14.06.08,86,34,AbdelsJourney,Wait3,,Delay Until - ,1931-04-10 00:14:00,1931-04-10T00:00:00
+14.06.08,87,34,AbdelsJourney,LookupMedsFromLHCR,,,,1931-04-10T00:14:00
+14.06.08,88,34,AbdelsJourney,MedsReconcile,,,,1931-04-10T00:14:00
+14.06.08,89,34,AbdelsJourney,Wait5,,Delay Until - ,1931-04-10 00:15:00,1931-04-10T00:14:00
+14.06.08,90,34,AbdelsJourney,MedsPrescribe,,,,1931-04-10T00:15:00
+14.06.08,91,34,AbdelsJourney,Wait6,,Delay Until - ,1931-04-10 00:16:00,1931-04-10T00:15:00
+14.06.08,92,34,AbdelsJourney,MedsReconcileForDigcharge,,,,1931-04-10T00:16:00
+14.06.08,93,34,AbdelsJourney,Wait7,,Delay Until - ,1931-04-10 00:36:00,1931-04-10T00:16:00
+14.06.08,94,34,AbdelsJourney,Discharge,,,,1931-04-10T00:36:00
+14.06.08,95,34,AbdelsJourney,Wait8,,Delay Until - ,1931-04-10 00:45:00,1931-04-10T00:36:00
+14.06.08,96,34,AbdelsJourney,SendDischarge2GP,,,,1931-04-10T00:45:00
+14.06.08,97,34,AbdelsJourney,Wait9,,Delay Until - ,1931-04-12 00:45:00,1931-04-10T00:45:00
+14.06.08,98,34,AbdelsJourney,GPMedsReconcile,,,,1931-04-12T00:45:00
+14.06.08,99,34,AbdelsJourney,Finish,,,,1931-04-12T00:45:00
+14.06.08,100,18,AbdelsJourney,Birth,,,,1933-08-31T00:00:00
+14.06.08,100,18,AbdelsJourney,Birth,,HasFirstChild,True,1933-08-31T00:00:00
+14.06.08,100,18,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 61, 'kg']",1933-08-31T00:00:00
+14.06.08,100,18,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 173, 'cm']",1933-08-31T00:00:00
+14.06.08,100,18,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.381569714992146, 'kg/m2']",1933-08-31T00:00:00
+14.06.08,101,18,AbdelsJourney,Wait1,,Delay Until - ,1933-11-09 00:00:00,1933-08-31T00:00:00
+14.06.08,102,18,AbdelsJourney,GPvisit,,,,1933-11-09T00:00:00
+14.06.08,102,18,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1933-11-09T00:00:00
+14.06.08,103,18,AbdelsJourney,GPRefersToHospital,,,,1933-11-09T00:00:00
+14.06.08,104,18,AbdelsJourney,Wait2,,Delay Until - ,1933-11-28 00:00:00,1933-11-09T00:00:00
+14.06.08,105,18,AbdelsJourney,ArriveHospital,,,,1933-11-28T00:00:00
+14.06.08,106,18,AbdelsJourney,Wait3,,Delay Until - ,1933-11-28 00:02:00,1933-11-28T00:00:00
+14.06.08,107,18,AbdelsJourney,LookupMedsFromLHCR,,,,1933-11-28T00:02:00
+14.06.08,108,18,AbdelsJourney,MedsReconcile,,,,1933-11-28T00:02:00
+14.06.08,109,18,AbdelsJourney,Wait5,,Delay Until - ,1933-11-28 00:03:00,1933-11-28T00:02:00
+14.06.08,110,18,AbdelsJourney,MedsPrescribe,,,,1933-11-28T00:03:00
+14.06.08,111,18,AbdelsJourney,Wait6,,Delay Until - ,1933-11-28 00:19:00,1933-11-28T00:03:00
+14.06.08,112,18,AbdelsJourney,MedsReconcileForDigcharge,,,,1933-11-28T00:19:00
+14.06.08,113,18,AbdelsJourney,Wait7,,Delay Until - ,1933-11-28 00:27:00,1933-11-28T00:19:00
+14.06.08,114,18,AbdelsJourney,Discharge,,,,1933-11-28T00:27:00
+14.06.08,115,18,AbdelsJourney,Wait8,,Delay Until - ,1933-11-28 00:33:00,1933-11-28T00:27:00
+14.06.08,116,18,AbdelsJourney,SendDischarge2GP,,,,1933-11-28T00:33:00
+14.06.08,117,18,AbdelsJourney,Wait9,,Delay Until - ,1933-11-29 00:33:00,1933-11-28T00:33:00
+14.06.08,118,18,AbdelsJourney,GPMedsReconcile,,,,1933-11-29T00:33:00
+14.06.08,119,18,AbdelsJourney,Finish,,,,1933-11-29T00:33:00
+14.06.08,120,47,AbdelsJourney,Birth,,,,1938-04-16T00:00:00
+14.06.08,120,47,AbdelsJourney,Birth,,HasFirstChild,False,1938-04-16T00:00:00
+14.06.08,120,47,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 99, 'kg']",1938-04-16T00:00:00
+14.06.08,120,47,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm']",1938-04-16T00:00:00
+14.06.08,120,47,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.926223520818112, 'kg/m2']",1938-04-16T00:00:00
+14.06.08,121,47,AbdelsJourney,Wait1,,Delay Until - ,1938-06-26 00:00:00,1938-04-16T00:00:00
+14.06.08,122,47,AbdelsJourney,GPvisit,,,,1938-06-26T00:00:00
+14.06.08,122,47,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1938-06-26T00:00:00
+14.06.08,122,47,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1938-06-26T00:00:00
+14.06.08,123,47,AbdelsJourney,GPRefersToHospital,,,,1938-06-26T00:00:00
+14.06.08,124,47,AbdelsJourney,Wait2,,Delay Until - ,1938-06-28 00:00:00,1938-06-26T00:00:00
+14.06.08,125,47,AbdelsJourney,ArriveHospital,,,,1938-06-28T00:00:00
+14.06.08,126,47,AbdelsJourney,Wait3,,Delay Until - ,1938-06-28 00:20:00,1938-06-28T00:00:00
+14.06.08,127,47,AbdelsJourney,LookupMedsFromLHCR,,,,1938-06-28T00:20:00
+14.06.08,128,47,AbdelsJourney,MedsReconcile,,,,1938-06-28T00:20:00
+14.06.08,129,47,AbdelsJourney,Wait5,,Delay Until - ,1938-06-28 00:23:00,1938-06-28T00:20:00
+14.06.08,130,47,AbdelsJourney,MedsPrescribe,,,,1938-06-28T00:23:00
+14.06.08,131,47,AbdelsJourney,Wait6,,Delay Until - ,1938-06-28 00:40:00,1938-06-28T00:23:00
+14.06.08,132,47,AbdelsJourney,MedsReconcileForDigcharge,,,,1938-06-28T00:40:00
+14.06.08,133,47,AbdelsJourney,Wait7,,Delay Until - ,1938-06-28 00:58:00,1938-06-28T00:40:00
+14.06.08,134,47,AbdelsJourney,Discharge,,,,1938-06-28T00:58:00
+14.06.08,135,47,AbdelsJourney,Wait8,,Delay Until - ,1938-06-28 01:06:00,1938-06-28T00:58:00
+14.06.08,136,47,AbdelsJourney,SendDischarge2GP,,,,1938-06-28T01:06:00
+14.06.09,137,47,AbdelsJourney,Wait9,,Delay Until - ,1938-06-30 01:06:00,1938-06-28T01:06:00
+14.06.09,138,47,AbdelsJourney,GPMedsReconcile,,,,1938-06-30T01:06:00
+14.06.09,139,47,AbdelsJourney,Finish,,,,1938-06-30T01:06:00
+14.06.09,140,5,AbdelsJourney,Birth,,,,1941-03-20T00:00:00
+14.06.09,140,5,AbdelsJourney,Birth,,HasFirstChild,False,1941-03-20T00:00:00
+14.06.09,140,5,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']",1941-03-20T00:00:00
+14.06.09,140,5,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1941-03-20T00:00:00
+14.06.09,140,5,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.938915683947375, 'kg/m2']",1941-03-20T00:00:00
+14.06.09,141,5,AbdelsJourney,Wait1,,Delay Until - ,1941-06-06 00:00:00,1941-03-20T00:00:00
+14.06.09,142,5,AbdelsJourney,GPvisit,,,,1941-06-06T00:00:00
+14.06.09,142,5,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1941-06-06T00:00:00
+14.06.09,143,5,AbdelsJourney,GPRefersToHospital,,,,1941-06-06T00:00:00
+14.06.09,144,5,AbdelsJourney,Wait2,,Delay Until - ,1941-06-07 00:00:00,1941-06-06T00:00:00
+14.06.09,145,5,AbdelsJourney,ArriveHospital,,,,1941-06-07T00:00:00
+14.06.09,146,5,AbdelsJourney,Wait3,,Delay Until - ,1941-06-07 00:02:00,1941-06-07T00:00:00
+14.06.09,147,5,AbdelsJourney,LookupMedsFromLHCR,,,,1941-06-07T00:02:00
+14.06.09,148,5,AbdelsJourney,MedsReconcile,,,,1941-06-07T00:02:00
+14.06.09,149,5,AbdelsJourney,Wait5,,Delay Until - ,1941-06-07 00:04:00,1941-06-07T00:02:00
+14.06.09,150,5,AbdelsJourney,MedsPrescribe,,,,1941-06-07T00:04:00
+14.06.09,151,5,AbdelsJourney,Wait6,,Delay Until - ,1941-06-07 00:24:00,1941-06-07T00:04:00
+14.06.09,152,5,AbdelsJourney,MedsReconcileForDigcharge,,,,1941-06-07T00:24:00
+14.06.09,153,5,AbdelsJourney,Wait7,,Delay Until - ,1941-06-07 00:30:00,1941-06-07T00:24:00
+14.06.09,154,5,AbdelsJourney,Discharge,,,,1941-06-07T00:30:00
+14.06.09,155,5,AbdelsJourney,Wait8,,Delay Until - ,1941-06-07 00:38:00,1941-06-07T00:30:00
+14.06.09,156,5,AbdelsJourney,SendDischarge2GP,,,,1941-06-07T00:38:00
+14.06.09,157,5,AbdelsJourney,Wait9,,Delay Until - ,1941-06-08 00:38:00,1941-06-07T00:38:00
+14.06.09,158,5,AbdelsJourney,GPMedsReconcile,,,,1941-06-08T00:38:00
+14.06.09,159,5,AbdelsJourney,Finish,,,,1941-06-08T00:38:00
+14.06.09,160,20,AbdelsJourney,Birth,,,,1942-02-21T00:00:00
+14.06.09,160,20,AbdelsJourney,Birth,,HasFirstChild,False,1942-02-21T00:00:00
+14.06.09,160,20,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 93, 'kg']",1942-02-21T00:00:00
+14.06.09,160,20,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 195, 'cm']",1942-02-21T00:00:00
+14.06.09,160,20,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.45759368836292, 'kg/m2']",1942-02-21T00:00:00
+14.06.09,161,20,AbdelsJourney,Wait1,,Delay Until - ,1942-05-12 00:00:00,1942-02-21T00:00:00
+14.06.09,162,20,AbdelsJourney,GPvisit,,,,1942-05-12T00:00:00
+14.06.09,162,20,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.254634981203088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1942-05-12T00:00:00
+14.06.09,162,20,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1942-05-12T00:00:00
+14.06.09,163,20,AbdelsJourney,GPRefersToHospital,,,,1942-05-12T00:00:00
+14.06.09,164,20,AbdelsJourney,Wait2,,Delay Until - ,1942-05-14 00:00:00,1942-05-12T00:00:00
+14.06.09,165,20,AbdelsJourney,ArriveHospital,,,,1942-05-14T00:00:00
+14.06.09,166,20,AbdelsJourney,Wait3,,Delay Until - ,1942-05-14 00:09:00,1942-05-14T00:00:00
+14.06.09,167,20,AbdelsJourney,LookupMedsFromLHCR,,,,1942-05-14T00:09:00
+14.06.09,168,20,AbdelsJourney,MedsReconcile,,,,1942-05-14T00:09:00
+14.06.09,169,20,AbdelsJourney,Wait5,,Delay Until - ,1942-05-14 00:10:00,1942-05-14T00:09:00
+14.06.09,170,20,AbdelsJourney,MedsPrescribe,,,,1942-05-14T00:10:00
+14.06.09,171,20,AbdelsJourney,Wait6,,Delay Until - ,1942-05-14 00:29:00,1942-05-14T00:10:00
+14.06.09,172,20,AbdelsJourney,MedsReconcileForDigcharge,,,,1942-05-14T00:29:00
+14.06.09,173,20,AbdelsJourney,Wait7,,Delay Until - ,1942-05-14 00:45:00,1942-05-14T00:29:00
+14.06.09,174,20,AbdelsJourney,Discharge,,,,1942-05-14T00:45:00
+14.06.09,175,20,AbdelsJourney,Wait8,,Delay Until - ,1942-05-14 00:48:00,1942-05-14T00:45:00
+14.06.09,176,20,AbdelsJourney,SendDischarge2GP,,,,1942-05-14T00:48:00
+14.06.09,177,20,AbdelsJourney,Wait9,,Delay Until - ,1942-05-18 00:48:00,1942-05-14T00:48:00
+14.06.09,178,20,AbdelsJourney,GPMedsReconcile,,,,1942-05-18T00:48:00
+14.06.09,179,20,AbdelsJourney,Finish,,,,1942-05-18T00:48:00
+14.06.09,180,0,AbdelsJourney,Birth,,,,1949-12-23T00:00:00
+14.06.09,180,0,AbdelsJourney,Birth,,HasFirstChild,True,1949-12-23T00:00:00
+14.06.09,180,0,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 76, 'kg']",1949-12-23T00:00:00
+14.06.09,180,0,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm']",1949-12-23T00:00:00
+14.06.09,180,0,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.29757785467128, 'kg/m2']",1949-12-23T00:00:00
+14.06.09,181,0,AbdelsJourney,Wait1,,Delay Until - ,1950-02-23 00:00:00,1949-12-23T00:00:00
+14.06.09,182,0,AbdelsJourney,GPvisit,,,,1950-02-23T00:00:00
+14.06.09,182,0,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1950-02-23T00:00:00
+14.06.10,182,0,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1950-02-23T00:00:00
+14.06.10,183,0,AbdelsJourney,GPRefersToHospital,,,,1950-02-23T00:00:00
+14.06.10,184,0,AbdelsJourney,Wait2,,Delay Until - ,1950-03-03 00:00:00,1950-02-23T00:00:00
+14.06.10,185,0,AbdelsJourney,ArriveHospital,,,,1950-03-03T00:00:00
+14.06.10,186,0,AbdelsJourney,Wait3,,Delay Until - ,1950-03-03 00:17:00,1950-03-03T00:00:00
+14.06.10,187,0,AbdelsJourney,LookupMedsFromLHCR,,,,1950-03-03T00:17:00
+14.06.10,188,0,AbdelsJourney,MedsReconcile,,,,1950-03-03T00:17:00
+14.06.10,189,0,AbdelsJourney,Wait5,,Delay Until - ,1950-03-03 00:18:00,1950-03-03T00:17:00
+14.06.10,190,0,AbdelsJourney,MedsPrescribe,,,,1950-03-03T00:18:00
+14.06.10,191,0,AbdelsJourney,Wait6,,Delay Until - ,1950-03-03 00:24:00,1950-03-03T00:18:00
+14.06.10,192,0,AbdelsJourney,MedsReconcileForDigcharge,,,,1950-03-03T00:24:00
+14.06.10,193,0,AbdelsJourney,Wait7,,Delay Until - ,1950-03-03 00:27:00,1950-03-03T00:24:00
+14.06.10,194,0,AbdelsJourney,Discharge,,,,1950-03-03T00:27:00
+14.06.10,195,0,AbdelsJourney,Wait8,,Delay Until - ,1950-03-03 00:34:00,1950-03-03T00:27:00
+14.06.10,196,0,AbdelsJourney,SendDischarge2GP,,,,1950-03-03T00:34:00
+14.06.10,197,0,AbdelsJourney,Wait9,,Delay Until - ,1950-03-04 00:34:00,1950-03-03T00:34:00
+14.06.10,198,0,AbdelsJourney,GPMedsReconcile,,,,1950-03-04T00:34:00
+14.06.10,199,0,AbdelsJourney,Finish,,,,1950-03-04T00:34:00
+14.06.10,200,11,AbdelsJourney,Birth,,,,1951-10-04T00:00:00
+14.06.10,200,11,AbdelsJourney,Birth,,HasFirstChild,True,1951-10-04T00:00:00
+14.06.10,200,11,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 81, 'kg']",1951-10-04T00:00:00
+14.06.10,200,11,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']",1951-10-04T00:00:00
+14.06.10,200,11,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.655900410104593, 'kg/m2']",1951-10-04T00:00:00
+14.06.10,201,11,AbdelsJourney,Wait1,,Delay Until - ,1951-12-25 00:00:00,1951-10-04T00:00:00
+14.06.10,202,11,AbdelsJourney,GPvisit,,,,1951-12-25T00:00:00
+14.06.10,202,11,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1951-12-25T00:00:00
+14.06.10,203,11,AbdelsJourney,GPRefersToHospital,,,,1951-12-25T00:00:00
+14.06.10,204,11,AbdelsJourney,Wait2,,Delay Until - ,1951-12-31 00:00:00,1951-12-25T00:00:00
+14.06.10,205,11,AbdelsJourney,ArriveHospital,,,,1951-12-31T00:00:00
+14.06.10,206,11,AbdelsJourney,Wait3,,Delay Until - ,1951-12-31 00:19:00,1951-12-31T00:00:00
+14.06.10,207,11,AbdelsJourney,LookupMedsFromLHCR,,,,1951-12-31T00:19:00
+14.06.10,208,11,AbdelsJourney,MedsReconcile,,,,1951-12-31T00:19:00
+14.06.10,209,11,AbdelsJourney,Wait5,,Delay Until - ,1951-12-31 00:22:00,1951-12-31T00:19:00
+14.06.10,210,11,AbdelsJourney,MedsPrescribe,,,,1951-12-31T00:22:00
+14.06.10,211,11,AbdelsJourney,Wait6,,Delay Until - ,1951-12-31 00:42:00,1951-12-31T00:22:00
+14.06.10,212,11,AbdelsJourney,MedsReconcileForDigcharge,,,,1951-12-31T00:42:00
+14.06.10,213,11,AbdelsJourney,Wait7,,Delay Until - ,1951-12-31 00:56:00,1951-12-31T00:42:00
+14.06.10,214,11,AbdelsJourney,Discharge,,,,1951-12-31T00:56:00
+14.06.10,215,11,AbdelsJourney,Wait8,,Delay Until - ,1951-12-31 01:00:00,1951-12-31T00:56:00
+14.06.10,216,11,AbdelsJourney,SendDischarge2GP,,,,1951-12-31T01:00:00
+14.06.10,217,11,AbdelsJourney,Wait9,,Delay Until - ,1952-01-04 01:00:00,1951-12-31T01:00:00
+14.06.10,218,11,AbdelsJourney,GPMedsReconcile,,,,1952-01-04T01:00:00
+14.06.10,219,11,AbdelsJourney,Finish,,,,1952-01-04T01:00:00
+14.06.10,220,48,AbdelsJourney,Birth,,,,1953-11-02T00:00:00
+14.06.10,220,48,AbdelsJourney,Birth,,HasFirstChild,True,1953-11-02T00:00:00
+14.06.10,220,48,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1953-11-02T00:00:00
+14.06.10,220,48,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1953-11-02T00:00:00
+14.06.10,220,48,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.534632963814044, 'kg/m2']",1953-11-02T00:00:00
+14.06.10,221,48,AbdelsJourney,Wait1,,Delay Until - ,1954-01-06 00:00:00,1953-11-02T00:00:00
+14.06.10,222,48,AbdelsJourney,GPvisit,,,,1954-01-06T00:00:00
+14.06.10,222,48,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1954-01-06T00:00:00
+14.06.10,222,48,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1954-01-06T00:00:00
+14.06.10,223,48,AbdelsJourney,GPRefersToHospital,,,,1954-01-06T00:00:00
+14.06.10,224,48,AbdelsJourney,Wait2,,Delay Until - ,1954-01-26 00:00:00,1954-01-06T00:00:00
+14.06.10,225,48,AbdelsJourney,ArriveHospital,,,,1954-01-26T00:00:00
+14.06.10,226,48,AbdelsJourney,Wait3,,Delay Until - ,1954-01-26 00:04:00,1954-01-26T00:00:00
+14.06.10,227,48,AbdelsJourney,LookupMedsFromLHCR,,,,1954-01-26T00:04:00
+14.06.10,228,48,AbdelsJourney,MedsReconcile,,,,1954-01-26T00:04:00
+14.06.10,229,48,AbdelsJourney,Wait5,,Delay Until - ,1954-01-26 00:06:00,1954-01-26T00:04:00
+14.06.10,230,48,AbdelsJourney,MedsPrescribe,,,,1954-01-26T00:06:00
+14.06.10,231,48,AbdelsJourney,Wait6,,Delay Until - ,1954-01-26 00:23:00,1954-01-26T00:06:00
+14.06.10,232,48,AbdelsJourney,MedsReconcileForDigcharge,,,,1954-01-26T00:23:00
+14.06.10,233,48,AbdelsJourney,Wait7,,Delay Until - ,1954-01-26 00:30:00,1954-01-26T00:23:00
+14.06.10,234,48,AbdelsJourney,Discharge,,,,1954-01-26T00:30:00
+14.06.10,235,48,AbdelsJourney,Wait8,,Delay Until - ,1954-01-26 00:31:00,1954-01-26T00:30:00
+14.06.10,236,48,AbdelsJourney,SendDischarge2GP,,,,1954-01-26T00:31:00
+14.06.10,237,48,AbdelsJourney,Wait9,,Delay Until - ,1954-01-30 00:31:00,1954-01-26T00:31:00
+14.06.10,238,48,AbdelsJourney,GPMedsReconcile,,,,1954-01-30T00:31:00
+14.06.10,239,48,AbdelsJourney,Finish,,,,1954-01-30T00:31:00
+14.06.11,240,31,AbdelsJourney,Birth,,,,1956-01-31T00:00:00
+14.06.11,240,31,AbdelsJourney,Birth,,HasFirstChild,False,1956-01-31T00:00:00
+14.06.11,240,31,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']",1956-01-31T00:00:00
+14.06.11,240,31,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 191, 'cm']",1956-01-31T00:00:00
+14.06.11,240,31,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.558646966914285, 'kg/m2']",1956-01-31T00:00:00
+14.06.11,241,31,AbdelsJourney,Wait1,,Delay Until - ,1956-04-14 00:00:00,1956-01-31T00:00:00
+14.06.11,242,31,AbdelsJourney,GPvisit,,,,1956-04-14T00:00:00
+14.06.11,242,31,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1956-04-14T00:00:00
+14.06.11,243,31,AbdelsJourney,GPRefersToHospital,,,,1956-04-14T00:00:00
+14.06.11,244,31,AbdelsJourney,Wait2,,Delay Until - ,1956-04-15 00:00:00,1956-04-14T00:00:00
+14.06.11,245,31,AbdelsJourney,ArriveHospital,,,,1956-04-15T00:00:00
+14.06.11,246,31,AbdelsJourney,Wait3,,Delay Until - ,1956-04-15 00:04:00,1956-04-15T00:00:00
+14.06.11,247,31,AbdelsJourney,LookupMedsFromLHCR,,,,1956-04-15T00:04:00
+14.06.11,248,31,AbdelsJourney,MedsReconcile,,,,1956-04-15T00:04:00
+14.06.11,249,31,AbdelsJourney,Wait5,,Delay Until - ,1956-04-15 00:07:00,1956-04-15T00:04:00
+14.06.11,250,31,AbdelsJourney,MedsPrescribe,,,,1956-04-15T00:07:00
+14.06.11,251,31,AbdelsJourney,Wait6,,Delay Until - ,1956-04-15 00:11:00,1956-04-15T00:07:00
+14.06.11,252,31,AbdelsJourney,MedsReconcileForDigcharge,,,,1956-04-15T00:11:00
+14.06.11,253,31,AbdelsJourney,Wait7,,Delay Until - ,1956-04-15 00:31:00,1956-04-15T00:11:00
+14.06.11,254,31,AbdelsJourney,Discharge,,,,1956-04-15T00:31:00
+14.06.11,255,31,AbdelsJourney,Wait8,,Delay Until - ,1956-04-15 00:50:00,1956-04-15T00:31:00
+14.06.11,256,31,AbdelsJourney,SendDischarge2GP,,,,1956-04-15T00:50:00
+14.06.11,257,31,AbdelsJourney,Wait9,,Delay Until - ,1956-04-20 00:50:00,1956-04-15T00:50:00
+14.06.11,258,31,AbdelsJourney,GPMedsReconcile,,,,1956-04-20T00:50:00
+14.06.11,259,31,AbdelsJourney,Finish,,,,1956-04-20T00:50:00
+14.06.11,260,10,AbdelsJourney,Birth,,,,1956-09-04T00:00:00
+14.06.11,260,10,AbdelsJourney,Birth,,HasFirstChild,True,1956-09-04T00:00:00
+14.06.11,260,10,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg']",1956-09-04T00:00:00
+14.06.11,260,10,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm']",1956-09-04T00:00:00
+14.06.11,260,10,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 40.562466197944836, 'kg/m2']",1956-09-04T00:00:00
+14.06.11,260,10,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1956-09-04T00:00:00
+14.06.11,261,10,AbdelsJourney,Wait1,,Delay Until - ,1956-11-25 00:00:00,1956-09-04T00:00:00
+14.06.11,262,10,AbdelsJourney,GPvisit,,,,1956-11-25T00:00:00
+14.06.11,262,10,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.142591589181393, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1956-11-25T00:00:00
+14.06.11,262,10,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1956-11-25T00:00:00
+14.06.11,262,10,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1956-11-25T00:00:00
+14.06.11,262,10,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1956-11-25T00:00:00
+14.06.11,263,10,AbdelsJourney,GPRefersToHospital,,,,1956-11-25T00:00:00
+14.06.11,264,10,AbdelsJourney,Wait2,,Delay Until - ,1956-11-30 00:00:00,1956-11-25T00:00:00
+14.06.11,265,10,AbdelsJourney,ArriveHospital,,,,1956-11-30T00:00:00
+14.06.11,266,10,AbdelsJourney,Wait3,,Delay Until - ,1956-11-30 00:14:00,1956-11-30T00:00:00
+14.06.11,267,10,AbdelsJourney,LookupMedsFromLHCR,,,,1956-11-30T00:14:00
+14.06.11,268,10,AbdelsJourney,MedsReconcile,,,,1956-11-30T00:14:00
+14.06.11,269,10,AbdelsJourney,Wait5,,Delay Until - ,1956-11-30 00:15:00,1956-11-30T00:14:00
+14.06.11,270,10,AbdelsJourney,MedsPrescribe,,,,1956-11-30T00:15:00
+14.06.11,271,10,AbdelsJourney,Wait6,,Delay Until - ,1956-11-30 00:25:00,1956-11-30T00:15:00
+14.06.11,272,10,AbdelsJourney,MedsReconcileForDigcharge,,,,1956-11-30T00:25:00
+14.06.11,273,10,AbdelsJourney,Wait7,,Delay Until - ,1956-11-30 00:27:00,1956-11-30T00:25:00
+14.06.11,274,10,AbdelsJourney,Discharge,,,,1956-11-30T00:27:00
+14.06.11,275,10,AbdelsJourney,Wait8,,Delay Until - ,1956-11-30 00:42:00,1956-11-30T00:27:00
+14.06.11,276,10,AbdelsJourney,SendDischarge2GP,,,,1956-11-30T00:42:00
+14.06.11,277,10,AbdelsJourney,Wait9,,Delay Until - ,1956-12-05 00:42:00,1956-11-30T00:42:00
+14.06.11,278,10,AbdelsJourney,GPMedsReconcile,,,,1956-12-05T00:42:00
+14.06.12,279,10,AbdelsJourney,Finish,,,,1956-12-05T00:42:00
+14.06.12,280,2,AbdelsJourney,Birth,,,,1957-06-28T00:00:00
+14.06.12,280,2,AbdelsJourney,Birth,,HasFirstChild,False,1957-06-28T00:00:00
+14.06.12,280,2,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 72, 'kg']",1957-06-28T00:00:00
+14.06.12,280,2,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm']",1957-06-28T00:00:00
+14.06.12,280,2,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 24.913494809688583, 'kg/m2']",1957-06-28T00:00:00
+14.06.12,280,2,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1957-06-28T00:00:00
+14.06.12,281,2,AbdelsJourney,Wait1,,Delay Until - ,1957-09-14 00:00:00,1957-06-28T00:00:00
+14.06.12,282,33,AbdelsJourney,Birth,,,,1957-08-18T00:00:00
+14.06.12,282,33,AbdelsJourney,Birth,,HasFirstChild,False,1957-08-18T00:00:00
+14.06.12,282,33,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg']",1957-08-18T00:00:00
+14.06.12,282,33,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 198, 'cm']",1957-08-18T00:00:00
+14.06.12,282,33,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.527905315784103, 'kg/m2']",1957-08-18T00:00:00
+14.06.12,283,33,AbdelsJourney,Wait1,,Delay Until - ,1957-10-21 00:00:00,1957-08-18T00:00:00
+14.06.12,284,2,AbdelsJourney,GPvisit,,,,1957-09-14T00:00:00
+14.06.12,284,2,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.53428730239021, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1957-09-14T00:00:00
+14.06.12,284,2,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1957-09-14T00:00:00
+14.06.12,285,2,AbdelsJourney,GPRefersToHospital,,,,1957-09-14T00:00:00
+14.06.12,286,2,AbdelsJourney,Wait2,,Delay Until - ,1957-09-28 00:00:00,1957-09-14T00:00:00
+14.06.12,287,2,AbdelsJourney,ArriveHospital,,,,1957-09-28T00:00:00
+14.06.12,288,2,AbdelsJourney,Wait3,,Delay Until - ,1957-09-28 00:06:00,1957-09-28T00:00:00
+14.06.12,289,2,AbdelsJourney,LookupMedsFromLHCR,,,,1957-09-28T00:06:00
+14.06.12,290,2,AbdelsJourney,MedsReconcile,,,,1957-09-28T00:06:00
+14.06.12,291,2,AbdelsJourney,Wait5,,Delay Until - ,1957-09-28 00:09:00,1957-09-28T00:06:00
+14.06.12,292,2,AbdelsJourney,MedsPrescribe,,,,1957-09-28T00:09:00
+14.06.12,293,2,AbdelsJourney,Wait6,,Delay Until - ,1957-09-28 00:24:00,1957-09-28T00:09:00
+14.06.12,294,2,AbdelsJourney,MedsReconcileForDigcharge,,,,1957-09-28T00:24:00
+14.06.12,295,2,AbdelsJourney,Wait7,,Delay Until - ,1957-09-28 00:44:00,1957-09-28T00:24:00
+14.06.12,296,2,AbdelsJourney,Discharge,,,,1957-09-28T00:44:00
+14.06.12,297,2,AbdelsJourney,Wait8,,Delay Until - ,1957-09-28 00:48:00,1957-09-28T00:44:00
+14.06.12,298,2,AbdelsJourney,SendDischarge2GP,,,,1957-09-28T00:48:00
+14.06.12,299,2,AbdelsJourney,Wait9,,Delay Until - ,1957-10-02 00:48:00,1957-09-28T00:48:00
+14.06.12,300,2,AbdelsJourney,GPMedsReconcile,,,,1957-10-02T00:48:00
+14.06.12,301,2,AbdelsJourney,Finish,,,,1957-10-02T00:48:00
+14.06.12,302,33,AbdelsJourney,GPvisit,,,,1957-10-21T00:00:00
+14.06.12,302,33,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.857787260655251, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1957-10-21T00:00:00
+14.06.12,302,33,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1957-10-21T00:00:00
+14.06.12,302,33,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1957-10-21T00:00:00
+14.06.12,303,33,AbdelsJourney,GPRefersToHospital,,,,1957-10-21T00:00:00
+14.06.12,304,33,AbdelsJourney,Wait2,,Delay Until - ,1957-10-25 00:00:00,1957-10-21T00:00:00
+14.06.12,305,42,AbdelsJourney,Birth,,,,1957-10-24T00:00:00
+14.06.12,305,42,AbdelsJourney,Birth,,HasFirstChild,True,1957-10-24T00:00:00
+14.06.12,305,42,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg']",1957-10-24T00:00:00
+14.06.12,305,42,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']",1957-10-24T00:00:00
+14.06.12,305,42,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.718619869125526, 'kg/m2']",1957-10-24T00:00:00
+14.06.12,306,42,AbdelsJourney,Wait1,,Delay Until - ,1957-12-28 00:00:00,1957-10-24T00:00:00
+14.06.12,307,33,AbdelsJourney,ArriveHospital,,,,1957-10-25T00:00:00
+14.06.12,308,33,AbdelsJourney,Wait3,,Delay Until - ,1957-10-25 00:11:00,1957-10-25T00:00:00
+14.06.12,309,33,AbdelsJourney,LookupMedsFromLHCR,,,,1957-10-25T00:11:00
+14.06.12,310,33,AbdelsJourney,MedsReconcile,,,,1957-10-25T00:11:00
+14.06.12,311,33,AbdelsJourney,Wait5,,Delay Until - ,1957-10-25 00:13:00,1957-10-25T00:11:00
+14.06.12,312,33,AbdelsJourney,MedsPrescribe,,,,1957-10-25T00:13:00
+14.06.12,313,33,AbdelsJourney,Wait6,,Delay Until - ,1957-10-25 00:17:00,1957-10-25T00:13:00
+14.06.12,314,33,AbdelsJourney,MedsReconcileForDigcharge,,,,1957-10-25T00:17:00
+14.06.12,315,33,AbdelsJourney,Wait7,,Delay Until - ,1957-10-25 00:36:00,1957-10-25T00:17:00
+14.06.12,316,33,AbdelsJourney,Discharge,,,,1957-10-25T00:36:00
+14.06.12,317,33,AbdelsJourney,Wait8,,Delay Until - ,1957-10-25 00:53:00,1957-10-25T00:36:00
+14.06.12,318,33,AbdelsJourney,SendDischarge2GP,,,,1957-10-25T00:53:00
+14.06.12,319,33,AbdelsJourney,Wait9,,Delay Until - ,1957-10-30 00:53:00,1957-10-25T00:53:00
+14.06.12,320,33,AbdelsJourney,GPMedsReconcile,,,,1957-10-30T00:53:00
+14.06.13,321,33,AbdelsJourney,Finish,,,,1957-10-30T00:53:00
+14.06.13,322,42,AbdelsJourney,GPvisit,,,,1957-12-28T00:00:00
+14.06.13,322,42,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.17017800789783, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1957-12-28T00:00:00
+14.06.13,322,42,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1957-12-28T00:00:00
+14.06.13,322,42,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1957-12-28T00:00:00
+14.06.13,322,42,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1957-12-28T00:00:00
+14.06.13,323,42,AbdelsJourney,GPRefersToHospital,,,,1957-12-28T00:00:00
+14.06.13,324,42,AbdelsJourney,Wait2,,Delay Until - ,1958-01-12 00:00:00,1957-12-28T00:00:00
+14.06.13,325,42,AbdelsJourney,ArriveHospital,,,,1958-01-12T00:00:00
+14.06.13,326,42,AbdelsJourney,Wait3,,Delay Until - ,1958-01-12 00:17:00,1958-01-12T00:00:00
+14.06.13,327,42,AbdelsJourney,LookupMedsFromLHCR,,,,1958-01-12T00:17:00
+14.06.13,328,42,AbdelsJourney,MedsReconcile,,,,1958-01-12T00:17:00
+14.06.13,329,42,AbdelsJourney,Wait5,,Delay Until - ,1958-01-12 00:20:00,1958-01-12T00:17:00
+14.06.13,330,42,AbdelsJourney,MedsPrescribe,,,,1958-01-12T00:20:00
+14.06.13,331,42,AbdelsJourney,Wait6,,Delay Until - ,1958-01-12 00:30:00,1958-01-12T00:20:00
+14.06.13,332,42,AbdelsJourney,MedsReconcileForDigcharge,,,,1958-01-12T00:30:00
+14.06.13,333,42,AbdelsJourney,Wait7,,Delay Until - ,1958-01-12 00:43:00,1958-01-12T00:30:00
+14.06.13,334,42,AbdelsJourney,Discharge,,,,1958-01-12T00:43:00
+14.06.13,335,42,AbdelsJourney,Wait8,,Delay Until - ,1958-01-12 00:56:00,1958-01-12T00:43:00
+14.06.13,336,42,AbdelsJourney,SendDischarge2GP,,,,1958-01-12T00:56:00
+14.06.13,337,42,AbdelsJourney,Wait9,,Delay Until - ,1958-01-15 00:56:00,1958-01-12T00:56:00
+14.06.13,338,42,AbdelsJourney,GPMedsReconcile,,,,1958-01-15T00:56:00
+14.06.13,339,42,AbdelsJourney,Finish,,,,1958-01-15T00:56:00
+14.06.13,340,39,AbdelsJourney,Birth,,,,1960-01-03T00:00:00
+14.06.13,340,39,AbdelsJourney,Birth,,HasFirstChild,False,1960-01-03T00:00:00
+14.06.13,340,39,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 102, 'kg']",1960-01-03T00:00:00
+14.06.13,340,39,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 157, 'cm']",1960-01-03T00:00:00
+14.06.13,340,39,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 41.380989086778364, 'kg/m2']",1960-01-03T00:00:00
+14.06.13,341,39,AbdelsJourney,Wait1,,Delay Until - ,1960-03-09 00:00:00,1960-01-03T00:00:00
+14.06.13,342,39,AbdelsJourney,GPvisit,,,,1960-03-09T00:00:00
+14.06.13,342,39,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1960-03-09T00:00:00
+14.06.13,342,39,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1960-03-09T00:00:00
+14.06.13,342,39,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1960-03-09T00:00:00
+14.06.13,343,39,AbdelsJourney,GPRefersToHospital,,,,1960-03-09T00:00:00
+14.06.13,344,39,AbdelsJourney,Wait2,,Delay Until - ,1960-03-17 00:00:00,1960-03-09T00:00:00
+14.06.13,345,39,AbdelsJourney,ArriveHospital,,,,1960-03-17T00:00:00
+14.06.13,346,39,AbdelsJourney,Wait3,,Delay Until - ,1960-03-17 00:08:00,1960-03-17T00:00:00
+14.06.13,347,39,AbdelsJourney,LookupMedsFromLHCR,,,,1960-03-17T00:08:00
+14.06.13,348,39,AbdelsJourney,MedsReconcile,,,,1960-03-17T00:08:00
+14.06.13,349,39,AbdelsJourney,Wait5,,Delay Until - ,1960-03-17 00:10:00,1960-03-17T00:08:00
+14.06.13,350,39,AbdelsJourney,MedsPrescribe,,,,1960-03-17T00:10:00
+14.06.13,351,39,AbdelsJourney,Wait6,,Delay Until - ,1960-03-17 00:18:00,1960-03-17T00:10:00
+14.06.13,352,39,AbdelsJourney,MedsReconcileForDigcharge,,,,1960-03-17T00:18:00
+14.06.13,353,39,AbdelsJourney,Wait7,,Delay Until - ,1960-03-17 00:26:00,1960-03-17T00:18:00
+14.06.13,354,39,AbdelsJourney,Discharge,,,,1960-03-17T00:26:00
+14.06.13,355,39,AbdelsJourney,Wait8,,Delay Until - ,1960-03-17 00:30:00,1960-03-17T00:26:00
+14.06.13,356,39,AbdelsJourney,SendDischarge2GP,,,,1960-03-17T00:30:00
+14.06.13,357,39,AbdelsJourney,Wait9,,Delay Until - ,1960-03-20 00:30:00,1960-03-17T00:30:00
+14.06.13,358,39,AbdelsJourney,GPMedsReconcile,,,,1960-03-20T00:30:00
+14.06.13,359,39,AbdelsJourney,Finish,,,,1960-03-20T00:30:00
+14.06.13,360,24,AbdelsJourney,Birth,,,,1960-05-21T00:00:00
+14.06.13,360,24,AbdelsJourney,Birth,,HasFirstChild,True,1960-05-21T00:00:00
+14.06.13,360,24,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 116, 'kg']",1960-05-21T00:00:00
+14.06.13,360,24,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']",1960-05-21T00:00:00
+14.06.13,360,24,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 48.912126834204756, 'kg/m2']",1960-05-21T00:00:00
+14.06.13,360,24,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1960-05-21T00:00:00
+14.06.13,361,24,AbdelsJourney,Wait1,,Delay Until - ,1960-07-17 00:00:00,1960-05-21T00:00:00
+14.06.13,362,24,AbdelsJourney,GPvisit,,,,1960-07-17T00:00:00
+14.06.14,362,24,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.52337112777766, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1960-07-17T00:00:00
+14.06.14,362,24,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1960-07-17T00:00:00
+14.06.14,362,24,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1960-07-17T00:00:00
+14.06.14,362,24,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1960-07-17T00:00:00
+14.06.14,363,24,AbdelsJourney,GPRefersToHospital,,,,1960-07-17T00:00:00
+14.06.14,364,24,AbdelsJourney,Wait2,,Delay Until - ,1960-08-03 00:00:00,1960-07-17T00:00:00
+14.06.14,365,24,AbdelsJourney,ArriveHospital,,,,1960-08-03T00:00:00
+14.06.14,366,24,AbdelsJourney,Wait3,,Delay Until - ,1960-08-03 00:05:00,1960-08-03T00:00:00
+14.06.14,367,24,AbdelsJourney,LookupMedsFromLHCR,,,,1960-08-03T00:05:00
+14.06.14,368,24,AbdelsJourney,MedsReconcile,,,,1960-08-03T00:05:00
+14.06.14,369,24,AbdelsJourney,Wait5,,Delay Until - ,1960-08-03 00:07:00,1960-08-03T00:05:00
+14.06.14,370,24,AbdelsJourney,MedsPrescribe,,,,1960-08-03T00:07:00
+14.06.14,371,24,AbdelsJourney,Wait6,,Delay Until - ,1960-08-03 00:18:00,1960-08-03T00:07:00
+14.06.14,372,24,AbdelsJourney,MedsReconcileForDigcharge,,,,1960-08-03T00:18:00
+14.06.14,373,24,AbdelsJourney,Wait7,,Delay Until - ,1960-08-03 00:35:00,1960-08-03T00:18:00
+14.06.14,374,24,AbdelsJourney,Discharge,,,,1960-08-03T00:35:00
+14.06.14,375,24,AbdelsJourney,Wait8,,Delay Until - ,1960-08-03 00:52:00,1960-08-03T00:35:00
+14.06.14,376,24,AbdelsJourney,SendDischarge2GP,,,,1960-08-03T00:52:00
+14.06.14,377,24,AbdelsJourney,Wait9,,Delay Until - ,1960-08-06 00:52:00,1960-08-03T00:52:00
+14.06.14,378,24,AbdelsJourney,GPMedsReconcile,,,,1960-08-06T00:52:00
+14.06.14,379,24,AbdelsJourney,Finish,,,,1960-08-06T00:52:00
+14.06.14,380,16,AbdelsJourney,Birth,,,,1964-06-28T00:00:00
+14.06.14,380,16,AbdelsJourney,Birth,,HasFirstChild,True,1964-06-28T00:00:00
+14.06.14,380,16,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg']",1964-06-28T00:00:00
+14.06.14,380,16,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm']",1964-06-28T00:00:00
+14.06.14,380,16,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 23.12406058503873, 'kg/m2']",1964-06-28T00:00:00
+14.06.14,381,16,AbdelsJourney,Wait1,,Delay Until - ,1964-09-08 00:00:00,1964-06-28T00:00:00
+14.06.14,382,16,AbdelsJourney,GPvisit,,,,1964-09-08T00:00:00
+14.06.14,382,16,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.130585192416689, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1964-09-08T00:00:00
+14.06.14,382,16,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1964-09-08T00:00:00
+14.06.14,383,16,AbdelsJourney,GPRefersToHospital,,,,1964-09-08T00:00:00
+14.06.14,384,16,AbdelsJourney,Wait2,,Delay Until - ,1964-09-16 00:00:00,1964-09-08T00:00:00
+14.06.14,385,16,AbdelsJourney,ArriveHospital,,,,1964-09-16T00:00:00
+14.06.14,386,16,AbdelsJourney,Wait3,,Delay Until - ,1964-09-16 00:05:00,1964-09-16T00:00:00
+14.06.14,387,16,AbdelsJourney,LookupMedsFromLHCR,,,,1964-09-16T00:05:00
+14.06.14,388,16,AbdelsJourney,MedsReconcile,,,,1964-09-16T00:05:00
+14.06.14,389,16,AbdelsJourney,Wait5,,Delay Until - ,1964-09-16 00:07:00,1964-09-16T00:05:00
+14.06.14,390,16,AbdelsJourney,MedsPrescribe,,,,1964-09-16T00:07:00
+14.06.14,391,16,AbdelsJourney,Wait6,,Delay Until - ,1964-09-16 00:10:00,1964-09-16T00:07:00
+14.06.14,392,16,AbdelsJourney,MedsReconcileForDigcharge,,,,1964-09-16T00:10:00
+14.06.14,393,16,AbdelsJourney,Wait7,,Delay Until - ,1964-09-16 00:11:00,1964-09-16T00:10:00
+14.06.14,394,16,AbdelsJourney,Discharge,,,,1964-09-16T00:11:00
+14.06.14,395,16,AbdelsJourney,Wait8,,Delay Until - ,1964-09-16 00:23:00,1964-09-16T00:11:00
+14.06.14,396,16,AbdelsJourney,SendDischarge2GP,,,,1964-09-16T00:23:00
+14.06.14,397,16,AbdelsJourney,Wait9,,Delay Until - ,1964-09-17 00:23:00,1964-09-16T00:23:00
+14.06.14,398,16,AbdelsJourney,GPMedsReconcile,,,,1964-09-17T00:23:00
+14.06.14,399,16,AbdelsJourney,Finish,,,,1964-09-17T00:23:00
+14.06.14,400,9,AbdelsJourney,Birth,,,,1965-03-27T00:00:00
+14.06.14,400,9,AbdelsJourney,Birth,,HasFirstChild,False,1965-03-27T00:00:00
+14.06.14,400,9,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 66, 'kg']",1965-03-27T00:00:00
+14.06.14,400,9,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 160, 'cm']",1965-03-27T00:00:00
+14.06.14,400,9,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.781249999999996, 'kg/m2']",1965-03-27T00:00:00
+14.06.14,400,9,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1965-03-27T00:00:00
+14.06.14,401,9,AbdelsJourney,Wait1,,Delay Until - ,1965-06-11 00:00:00,1965-03-27T00:00:00
+14.06.14,402,9,AbdelsJourney,GPvisit,,,,1965-06-11T00:00:00
+14.06.15,402,9,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1965-06-11T00:00:00
+14.06.15,402,9,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1965-06-11T00:00:00
+14.06.15,403,9,AbdelsJourney,GPRefersToHospital,,,,1965-06-11T00:00:00
+14.06.15,404,9,AbdelsJourney,Wait2,,Delay Until - ,1965-06-23 00:00:00,1965-06-11T00:00:00
+14.06.15,405,9,AbdelsJourney,ArriveHospital,,,,1965-06-23T00:00:00
+14.06.15,406,9,AbdelsJourney,Wait3,,Delay Until - ,1965-06-23 00:04:00,1965-06-23T00:00:00
+14.06.15,407,9,AbdelsJourney,LookupMedsFromLHCR,,,,1965-06-23T00:04:00
+14.06.15,408,9,AbdelsJourney,MedsReconcile,,,,1965-06-23T00:04:00
+14.06.15,409,9,AbdelsJourney,Wait5,,Delay Until - ,1965-06-23 00:07:00,1965-06-23T00:04:00
+14.06.15,410,9,AbdelsJourney,MedsPrescribe,,,,1965-06-23T00:07:00
+14.06.15,411,9,AbdelsJourney,Wait6,,Delay Until - ,1965-06-23 00:22:00,1965-06-23T00:07:00
+14.06.15,412,9,AbdelsJourney,MedsReconcileForDigcharge,,,,1965-06-23T00:22:00
+14.06.15,413,9,AbdelsJourney,Wait7,,Delay Until - ,1965-06-23 00:23:00,1965-06-23T00:22:00
+14.06.15,414,9,AbdelsJourney,Discharge,,,,1965-06-23T00:23:00
+14.06.15,415,9,AbdelsJourney,Wait8,,Delay Until - ,1965-06-23 00:34:00,1965-06-23T00:23:00
+14.06.15,416,9,AbdelsJourney,SendDischarge2GP,,,,1965-06-23T00:34:00
+14.06.15,417,9,AbdelsJourney,Wait9,,Delay Until - ,1965-06-25 00:34:00,1965-06-23T00:34:00
+14.06.15,418,9,AbdelsJourney,GPMedsReconcile,,,,1965-06-25T00:34:00
+14.06.15,419,9,AbdelsJourney,Finish,,,,1965-06-25T00:34:00
+14.06.15,420,17,AbdelsJourney,Birth,,,,1965-07-31T00:00:00
+14.06.15,420,17,AbdelsJourney,Birth,,HasFirstChild,True,1965-07-31T00:00:00
+14.06.15,420,17,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 104, 'kg']",1965-07-31T00:00:00
+14.06.15,420,17,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1965-07-31T00:00:00
+14.06.15,420,17,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.261963081740358, 'kg/m2']",1965-07-31T00:00:00
+14.06.15,421,17,AbdelsJourney,Wait1,,Delay Until - ,1965-09-29 00:00:00,1965-07-31T00:00:00
+14.06.15,422,17,AbdelsJourney,GPvisit,,,,1965-09-29T00:00:00
+14.06.15,422,17,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.145318818973408, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1965-09-29T00:00:00
+14.06.15,422,17,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1965-09-29T00:00:00
+14.06.15,422,17,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1965-09-29T00:00:00
+14.06.15,423,17,AbdelsJourney,GPRefersToHospital,,,,1965-09-29T00:00:00
+14.06.15,424,17,AbdelsJourney,Wait2,,Delay Until - ,1965-10-09 00:00:00,1965-09-29T00:00:00
+14.06.15,425,17,AbdelsJourney,ArriveHospital,,,,1965-10-09T00:00:00
+14.06.15,426,17,AbdelsJourney,Wait3,,Delay Until - ,1965-10-09 00:12:00,1965-10-09T00:00:00
+14.06.15,427,17,AbdelsJourney,LookupMedsFromLHCR,,,,1965-10-09T00:12:00
+14.06.15,428,17,AbdelsJourney,MedsReconcile,,,,1965-10-09T00:12:00
+14.06.15,429,17,AbdelsJourney,Wait5,,Delay Until - ,1965-10-09 00:15:00,1965-10-09T00:12:00
+14.06.15,430,17,AbdelsJourney,MedsPrescribe,,,,1965-10-09T00:15:00
+14.06.15,431,17,AbdelsJourney,Wait6,,Delay Until - ,1965-10-09 00:31:00,1965-10-09T00:15:00
+14.06.15,432,17,AbdelsJourney,MedsReconcileForDigcharge,,,,1965-10-09T00:31:00
+14.06.15,433,17,AbdelsJourney,Wait7,,Delay Until - ,1965-10-09 00:45:00,1965-10-09T00:31:00
+14.06.15,434,17,AbdelsJourney,Discharge,,,,1965-10-09T00:45:00
+14.06.15,435,17,AbdelsJourney,Wait8,,Delay Until - ,1965-10-09 00:59:00,1965-10-09T00:45:00
+14.06.15,436,17,AbdelsJourney,SendDischarge2GP,,,,1965-10-09T00:59:00
+14.06.15,437,17,AbdelsJourney,Wait9,,Delay Until - ,1965-10-11 00:59:00,1965-10-09T00:59:00
+14.06.15,438,17,AbdelsJourney,GPMedsReconcile,,,,1965-10-11T00:59:00
+14.06.15,439,17,AbdelsJourney,Finish,,,,1965-10-11T00:59:00
+14.06.15,440,6,AbdelsJourney,Birth,,,,1971-10-01T00:00:00
+14.06.15,440,6,AbdelsJourney,Birth,,HasFirstChild,False,1971-10-01T00:00:00
+14.06.15,440,6,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 81, 'kg']",1971-10-01T00:00:00
+14.06.15,440,6,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 180, 'cm']",1971-10-01T00:00:00
+14.06.15,440,6,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.0, 'kg/m2']",1971-10-01T00:00:00
+14.06.15,441,6,AbdelsJourney,Wait1,,Delay Until - ,1971-12-24 00:00:00,1971-10-01T00:00:00
+14.06.15,442,13,AbdelsJourney,Birth,,,,1971-10-12T00:00:00
+14.06.15,442,13,AbdelsJourney,Birth,,HasFirstChild,True,1971-10-12T00:00:00
+14.06.16,442,13,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",1971-10-12T00:00:00
+14.06.16,442,13,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm']",1971-10-12T00:00:00
+14.06.16,442,13,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.643598615916957, 'kg/m2']",1971-10-12T00:00:00
+14.06.16,443,13,AbdelsJourney,Wait1,,Delay Until - ,1971-12-12 00:00:00,1971-10-12T00:00:00
+14.06.16,444,13,AbdelsJourney,GPvisit,,,,1971-12-12T00:00:00
+14.06.16,444,13,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.254330176833865, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1971-12-12T00:00:00
+14.06.16,444,13,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1971-12-12T00:00:00
+14.06.16,444,13,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1971-12-12T00:00:00
+14.06.16,445,13,AbdelsJourney,GPRefersToHospital,,,,1971-12-12T00:00:00
+14.06.16,446,13,AbdelsJourney,Wait2,,Delay Until - ,1971-12-19 00:00:00,1971-12-12T00:00:00
+14.06.16,447,13,AbdelsJourney,ArriveHospital,,,,1971-12-19T00:00:00
+14.06.16,448,13,AbdelsJourney,Wait3,,Delay Until - ,1971-12-19 00:15:00,1971-12-19T00:00:00
+14.06.16,449,13,AbdelsJourney,LookupMedsFromLHCR,,,,1971-12-19T00:15:00
+14.06.16,450,13,AbdelsJourney,MedsReconcile,,,,1971-12-19T00:15:00
+14.06.16,451,13,AbdelsJourney,Wait5,,Delay Until - ,1971-12-19 00:17:00,1971-12-19T00:15:00
+14.06.16,452,13,AbdelsJourney,MedsPrescribe,,,,1971-12-19T00:17:00
+14.06.16,453,13,AbdelsJourney,Wait6,,Delay Until - ,1971-12-19 00:18:00,1971-12-19T00:17:00
+14.06.16,454,13,AbdelsJourney,MedsReconcileForDigcharge,,,,1971-12-19T00:18:00
+14.06.16,455,13,AbdelsJourney,Wait7,,Delay Until - ,1971-12-19 00:26:00,1971-12-19T00:18:00
+14.06.16,456,13,AbdelsJourney,Discharge,,,,1971-12-19T00:26:00
+14.06.16,457,13,AbdelsJourney,Wait8,,Delay Until - ,1971-12-19 00:34:00,1971-12-19T00:26:00
+14.06.16,458,13,AbdelsJourney,SendDischarge2GP,,,,1971-12-19T00:34:00
+14.06.16,459,13,AbdelsJourney,Wait9,,Delay Until - ,1971-12-23 00:34:00,1971-12-19T00:34:00
+14.06.16,460,13,AbdelsJourney,GPMedsReconcile,,,,1971-12-23T00:34:00
+14.06.16,461,13,AbdelsJourney,Finish,,,,1971-12-23T00:34:00
+14.06.16,462,6,AbdelsJourney,GPvisit,,,,1971-12-24T00:00:00
+14.06.16,462,6,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.826923630046185, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1971-12-24T00:00:00
+14.06.16,462,6,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1971-12-24T00:00:00
+14.06.16,463,6,AbdelsJourney,GPRefersToHospital,,,,1971-12-24T00:00:00
+14.06.16,464,6,AbdelsJourney,Wait2,,Delay Until - ,1971-12-28 00:00:00,1971-12-24T00:00:00
+14.06.16,465,6,AbdelsJourney,ArriveHospital,,,,1971-12-28T00:00:00
+14.06.16,466,6,AbdelsJourney,Wait3,,Delay Until - ,1971-12-28 00:13:00,1971-12-28T00:00:00
+14.06.16,467,6,AbdelsJourney,LookupMedsFromLHCR,,,,1971-12-28T00:13:00
+14.06.16,468,6,AbdelsJourney,MedsReconcile,,,,1971-12-28T00:13:00
+14.06.16,469,6,AbdelsJourney,Wait5,,Delay Until - ,1971-12-28 00:16:00,1971-12-28T00:13:00
+14.06.16,470,6,AbdelsJourney,MedsPrescribe,,,,1971-12-28T00:16:00
+14.06.16,471,6,AbdelsJourney,Wait6,,Delay Until - ,1971-12-28 00:26:00,1971-12-28T00:16:00
+14.06.16,472,6,AbdelsJourney,MedsReconcileForDigcharge,,,,1971-12-28T00:26:00
+14.06.16,473,6,AbdelsJourney,Wait7,,Delay Until - ,1971-12-28 00:42:00,1971-12-28T00:26:00
+14.06.16,474,6,AbdelsJourney,Discharge,,,,1971-12-28T00:42:00
+14.06.16,475,6,AbdelsJourney,Wait8,,Delay Until - ,1971-12-28 00:50:00,1971-12-28T00:42:00
+14.06.16,476,6,AbdelsJourney,SendDischarge2GP,,,,1971-12-28T00:50:00
+14.06.16,477,6,AbdelsJourney,Wait9,,Delay Until - ,1972-01-02 00:50:00,1971-12-28T00:50:00
+14.06.16,478,6,AbdelsJourney,GPMedsReconcile,,,,1972-01-02T00:50:00
+14.06.16,479,6,AbdelsJourney,Finish,,,,1972-01-02T00:50:00
+14.06.16,480,43,AbdelsJourney,Birth,,,,1972-01-16T00:00:00
+14.06.16,480,43,AbdelsJourney,Birth,,HasFirstChild,False,1972-01-16T00:00:00
+14.06.16,480,43,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 118, 'kg']",1972-01-16T00:00:00
+14.06.16,480,43,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 174, 'cm']",1972-01-16T00:00:00
+14.06.16,480,43,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 38.97476549081781, 'kg/m2']",1972-01-16T00:00:00
+14.06.16,480,43,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1972-01-16T00:00:00
+14.06.16,481,43,AbdelsJourney,Wait1,,Delay Until - ,1972-03-14 00:00:00,1972-01-16T00:00:00
+14.06.16,482,43,AbdelsJourney,GPvisit,,,,1972-03-14T00:00:00
+14.06.16,482,43,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1972-03-14T00:00:00
+14.06.16,482,43,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1972-03-14T00:00:00
+14.06.16,482,43,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1972-03-14T00:00:00
+14.06.16,483,43,AbdelsJourney,GPRefersToHospital,,,,1972-03-14T00:00:00
+14.06.16,484,43,AbdelsJourney,Wait2,,Delay Until - ,1972-03-22 00:00:00,1972-03-14T00:00:00
+14.06.17,485,43,AbdelsJourney,ArriveHospital,,,,1972-03-22T00:00:00
+14.06.17,486,43,AbdelsJourney,Wait3,,Delay Until - ,1972-03-22 00:09:00,1972-03-22T00:00:00
+14.06.17,487,43,AbdelsJourney,LookupMedsFromLHCR,,,,1972-03-22T00:09:00
+14.06.17,488,43,AbdelsJourney,MedsReconcile,,,,1972-03-22T00:09:00
+14.06.17,489,43,AbdelsJourney,Wait5,,Delay Until - ,1972-03-22 00:12:00,1972-03-22T00:09:00
+14.06.17,490,43,AbdelsJourney,MedsPrescribe,,,,1972-03-22T00:12:00
+14.06.17,491,43,AbdelsJourney,Wait6,,Delay Until - ,1972-03-22 00:25:00,1972-03-22T00:12:00
+14.06.17,492,43,AbdelsJourney,MedsReconcileForDigcharge,,,,1972-03-22T00:25:00
+14.06.17,493,43,AbdelsJourney,Wait7,,Delay Until - ,1972-03-22 00:42:00,1972-03-22T00:25:00
+14.06.17,494,43,AbdelsJourney,Discharge,,,,1972-03-22T00:42:00
+14.06.17,495,43,AbdelsJourney,Wait8,,Delay Until - ,1972-03-22 00:49:00,1972-03-22T00:42:00
+14.06.17,496,43,AbdelsJourney,SendDischarge2GP,,,,1972-03-22T00:49:00
+14.06.17,497,43,AbdelsJourney,Wait9,,Delay Until - ,1972-03-23 00:49:00,1972-03-22T00:49:00
+14.06.17,498,43,AbdelsJourney,GPMedsReconcile,,,,1972-03-23T00:49:00
+14.06.17,499,43,AbdelsJourney,Finish,,,,1972-03-23T00:49:00
+14.06.17,500,36,AbdelsJourney,Birth,,,,1973-10-28T00:00:00
+14.06.17,500,36,AbdelsJourney,Birth,,HasFirstChild,True,1973-10-28T00:00:00
+14.06.17,500,36,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 57, 'kg']",1973-10-28T00:00:00
+14.06.17,500,36,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",1973-10-28T00:00:00
+14.06.17,500,36,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 14.393575919800005, 'kg/m2']",1973-10-28T00:00:00
+14.06.17,500,36,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1973-10-28T00:00:00
+14.06.17,501,36,AbdelsJourney,Wait1,,Delay Until - ,1974-01-19 00:00:00,1973-10-28T00:00:00
+14.06.17,502,44,AbdelsJourney,Birth,,,,1973-10-31T00:00:00
+14.06.17,502,44,AbdelsJourney,Birth,,HasFirstChild,False,1973-10-31T00:00:00
+14.06.17,502,44,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 116, 'kg']",1973-10-31T00:00:00
+14.06.17,502,44,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 188, 'cm']",1973-10-31T00:00:00
+14.06.17,502,44,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.820280669986424, 'kg/m2']",1973-10-31T00:00:00
+14.06.17,503,44,AbdelsJourney,Wait1,,Delay Until - ,1974-01-03 00:00:00,1973-10-31T00:00:00
+14.06.17,504,44,AbdelsJourney,GPvisit,,,,1974-01-03T00:00:00
+14.06.17,504,44,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.365754047534441, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1974-01-03T00:00:00
+14.06.17,504,44,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1974-01-03T00:00:00
+14.06.17,504,44,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1974-01-03T00:00:00
+14.06.17,504,44,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1974-01-03T00:00:00
+14.06.17,505,44,AbdelsJourney,GPRefersToHospital,,,,1974-01-03T00:00:00
+14.06.17,506,44,AbdelsJourney,Wait2,,Delay Until - ,1974-01-13 00:00:00,1974-01-03T00:00:00
+14.06.17,507,44,AbdelsJourney,ArriveHospital,,,,1974-01-13T00:00:00
+14.06.17,508,44,AbdelsJourney,Wait3,,Delay Until - ,1974-01-13 00:04:00,1974-01-13T00:00:00
+14.06.17,509,44,AbdelsJourney,LookupMedsFromLHCR,,,,1974-01-13T00:04:00
+14.06.17,510,44,AbdelsJourney,MedsReconcile,,,,1974-01-13T00:04:00
+14.06.17,511,44,AbdelsJourney,Wait5,,Delay Until - ,1974-01-13 00:05:00,1974-01-13T00:04:00
+14.06.17,512,44,AbdelsJourney,MedsPrescribe,,,,1974-01-13T00:05:00
+14.06.17,513,44,AbdelsJourney,Wait6,,Delay Until - ,1974-01-13 00:20:00,1974-01-13T00:05:00
+14.06.17,514,44,AbdelsJourney,MedsReconcileForDigcharge,,,,1974-01-13T00:20:00
+14.06.17,515,44,AbdelsJourney,Wait7,,Delay Until - ,1974-01-13 00:27:00,1974-01-13T00:20:00
+14.06.17,516,44,AbdelsJourney,Discharge,,,,1974-01-13T00:27:00
+14.06.17,517,44,AbdelsJourney,Wait8,,Delay Until - ,1974-01-13 00:33:00,1974-01-13T00:27:00
+14.06.17,518,44,AbdelsJourney,SendDischarge2GP,,,,1974-01-13T00:33:00
+14.06.17,519,44,AbdelsJourney,Wait9,,Delay Until - ,1974-01-14 00:33:00,1974-01-13T00:33:00
+14.06.17,520,44,AbdelsJourney,GPMedsReconcile,,,,1974-01-14T00:33:00
+14.06.17,521,44,AbdelsJourney,Finish,,,,1974-01-14T00:33:00
+14.06.17,522,36,AbdelsJourney,GPvisit,,,,1974-01-19T00:00:00
+14.06.17,522,36,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.720285500374816, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1974-01-19T00:00:00
+14.06.17,522,36,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1974-01-19T00:00:00
+14.06.17,523,36,AbdelsJourney,GPRefersToHospital,,,,1974-01-19T00:00:00
+14.06.17,524,36,AbdelsJourney,Wait2,,Delay Until - ,1974-02-04 00:00:00,1974-01-19T00:00:00
+14.06.17,525,36,AbdelsJourney,ArriveHospital,,,,1974-02-04T00:00:00
+14.06.17,526,36,AbdelsJourney,Wait3,,Delay Until - ,1974-02-04 00:05:00,1974-02-04T00:00:00
+14.06.17,527,36,AbdelsJourney,LookupMedsFromLHCR,,,,1974-02-04T00:05:00
+14.06.17,528,36,AbdelsJourney,MedsReconcile,,,,1974-02-04T00:05:00
+14.06.18,529,36,AbdelsJourney,Wait5,,Delay Until - ,1974-02-04 00:06:00,1974-02-04T00:05:00
+14.06.18,530,36,AbdelsJourney,MedsPrescribe,,,,1974-02-04T00:06:00
+14.06.18,531,36,AbdelsJourney,Wait6,,Delay Until - ,1974-02-04 00:22:00,1974-02-04T00:06:00
+14.06.18,532,36,AbdelsJourney,MedsReconcileForDigcharge,,,,1974-02-04T00:22:00
+14.06.18,533,36,AbdelsJourney,Wait7,,Delay Until - ,1974-02-04 00:40:00,1974-02-04T00:22:00
+14.06.18,534,36,AbdelsJourney,Discharge,,,,1974-02-04T00:40:00
+14.06.18,535,36,AbdelsJourney,Wait8,,Delay Until - ,1974-02-04 00:42:00,1974-02-04T00:40:00
+14.06.18,536,36,AbdelsJourney,SendDischarge2GP,,,,1974-02-04T00:42:00
+14.06.18,537,36,AbdelsJourney,Wait9,,Delay Until - ,1974-02-05 00:42:00,1974-02-04T00:42:00
+14.06.18,538,36,AbdelsJourney,GPMedsReconcile,,,,1974-02-05T00:42:00
+14.06.18,539,36,AbdelsJourney,Finish,,,,1974-02-05T00:42:00
+14.06.18,540,19,AbdelsJourney,Birth,,,,1975-06-23T00:00:00
+14.06.18,540,19,AbdelsJourney,Birth,,HasFirstChild,True,1975-06-23T00:00:00
+14.06.18,540,19,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 59, 'kg']",1975-06-23T00:00:00
+14.06.18,540,19,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']",1975-06-23T00:00:00
+14.06.18,540,19,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.936347412254616, 'kg/m2']",1975-06-23T00:00:00
+14.06.18,541,19,AbdelsJourney,Wait1,,Delay Until - ,1975-09-07 00:00:00,1975-06-23T00:00:00
+14.06.18,542,19,AbdelsJourney,GPvisit,,,,1975-09-07T00:00:00
+14.06.18,542,19,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.357462038269002, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1975-09-07T00:00:00
+14.06.18,542,19,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1975-09-07T00:00:00
+14.06.18,543,19,AbdelsJourney,GPRefersToHospital,,,,1975-09-07T00:00:00
+14.06.18,544,19,AbdelsJourney,Wait2,,Delay Until - ,1975-09-18 00:00:00,1975-09-07T00:00:00
+14.06.18,545,19,AbdelsJourney,ArriveHospital,,,,1975-09-18T00:00:00
+14.06.18,546,19,AbdelsJourney,Wait3,,Delay Until - ,1975-09-18 00:19:00,1975-09-18T00:00:00
+14.06.18,547,19,AbdelsJourney,LookupMedsFromLHCR,,,,1975-09-18T00:19:00
+14.06.18,548,19,AbdelsJourney,MedsReconcile,,,,1975-09-18T00:19:00
+14.06.18,549,19,AbdelsJourney,Wait5,,Delay Until - ,1975-09-18 00:22:00,1975-09-18T00:19:00
+14.06.18,550,19,AbdelsJourney,MedsPrescribe,,,,1975-09-18T00:22:00
+14.06.18,551,19,AbdelsJourney,Wait6,,Delay Until - ,1975-09-18 00:32:00,1975-09-18T00:22:00
+14.06.18,552,19,AbdelsJourney,MedsReconcileForDigcharge,,,,1975-09-18T00:32:00
+14.06.18,553,19,AbdelsJourney,Wait7,,Delay Until - ,1975-09-18 00:43:00,1975-09-18T00:32:00
+14.06.18,554,19,AbdelsJourney,Discharge,,,,1975-09-18T00:43:00
+14.06.18,555,19,AbdelsJourney,Wait8,,Delay Until - ,1975-09-18 00:56:00,1975-09-18T00:43:00
+14.06.18,556,19,AbdelsJourney,SendDischarge2GP,,,,1975-09-18T00:56:00
+14.06.18,557,19,AbdelsJourney,Wait9,,Delay Until - ,1975-09-23 00:56:00,1975-09-18T00:56:00
+14.06.18,558,19,AbdelsJourney,GPMedsReconcile,,,,1975-09-23T00:56:00
+14.06.18,559,19,AbdelsJourney,Finish,,,,1975-09-23T00:56:00
+14.06.18,560,15,AbdelsJourney,Birth,,,,1976-07-15T00:00:00
+14.06.18,560,15,AbdelsJourney,Birth,,HasFirstChild,True,1976-07-15T00:00:00
+14.06.18,560,15,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 73, 'kg']",1976-07-15T00:00:00
+14.06.18,560,15,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']",1976-07-15T00:00:00
+14.06.18,560,15,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.141582391433676, 'kg/m2']",1976-07-15T00:00:00
+14.06.18,561,15,AbdelsJourney,Wait1,,Delay Until - ,1976-09-14 00:00:00,1976-07-15T00:00:00
+14.06.18,562,15,AbdelsJourney,GPvisit,,,,1976-09-14T00:00:00
+14.06.18,562,15,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.06775153886408, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1976-09-14T00:00:00
+14.06.18,562,15,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1976-09-14T00:00:00
+14.06.18,562,15,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1976-09-14T00:00:00
+14.06.18,563,15,AbdelsJourney,GPRefersToHospital,,,,1976-09-14T00:00:00
+14.06.18,564,15,AbdelsJourney,Wait2,,Delay Until - ,1976-09-28 00:00:00,1976-09-14T00:00:00
+14.06.18,565,15,AbdelsJourney,ArriveHospital,,,,1976-09-28T00:00:00
+14.06.18,566,15,AbdelsJourney,Wait3,,Delay Until - ,1976-09-28 00:04:00,1976-09-28T00:00:00
+14.06.18,567,15,AbdelsJourney,LookupMedsFromLHCR,,,,1976-09-28T00:04:00
+14.06.18,568,15,AbdelsJourney,MedsReconcile,,,,1976-09-28T00:04:00
+14.06.18,569,15,AbdelsJourney,Wait5,,Delay Until - ,1976-09-28 00:05:00,1976-09-28T00:04:00
+14.06.18,570,15,AbdelsJourney,MedsPrescribe,,,,1976-09-28T00:05:00
+14.06.18,571,15,AbdelsJourney,Wait6,,Delay Until - ,1976-09-28 00:17:00,1976-09-28T00:05:00
+14.06.18,572,15,AbdelsJourney,MedsReconcileForDigcharge,,,,1976-09-28T00:17:00
+14.06.19,573,15,AbdelsJourney,Wait7,,Delay Until - ,1976-09-28 00:29:00,1976-09-28T00:17:00
+14.06.19,574,15,AbdelsJourney,Discharge,,,,1976-09-28T00:29:00
+14.06.19,575,15,AbdelsJourney,Wait8,,Delay Until - ,1976-09-28 00:33:00,1976-09-28T00:29:00
+14.06.19,576,15,AbdelsJourney,SendDischarge2GP,,,,1976-09-28T00:33:00
+14.06.19,577,15,AbdelsJourney,Wait9,,Delay Until - ,1976-10-03 00:33:00,1976-09-28T00:33:00
+14.06.19,578,15,AbdelsJourney,GPMedsReconcile,,,,1976-10-03T00:33:00
+14.06.19,579,15,AbdelsJourney,Finish,,,,1976-10-03T00:33:00
+14.06.19,580,49,AbdelsJourney,Birth,,,,1977-02-02T00:00:00
+14.06.19,580,49,AbdelsJourney,Birth,,HasFirstChild,True,1977-02-02T00:00:00
+14.06.19,580,49,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg']",1977-02-02T00:00:00
+14.06.19,580,49,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm']",1977-02-02T00:00:00
+14.06.19,580,49,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.756367762548894, 'kg/m2']",1977-02-02T00:00:00
+14.06.19,581,49,AbdelsJourney,Wait1,,Delay Until - ,1977-03-31 00:00:00,1977-02-02T00:00:00
+14.06.19,582,49,AbdelsJourney,GPvisit,,,,1977-03-31T00:00:00
+14.06.19,582,49,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1977-03-31T00:00:00
+14.06.19,582,49,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1977-03-31T00:00:00
+14.06.19,582,49,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1977-03-31T00:00:00
+14.06.19,583,49,AbdelsJourney,GPRefersToHospital,,,,1977-03-31T00:00:00
+14.06.19,584,49,AbdelsJourney,Wait2,,Delay Until - ,1977-04-16 00:00:00,1977-03-31T00:00:00
+14.06.19,585,49,AbdelsJourney,ArriveHospital,,,,1977-04-16T00:00:00
+14.06.19,586,49,AbdelsJourney,Wait3,,Delay Until - ,1977-04-16 00:07:00,1977-04-16T00:00:00
+14.06.19,587,49,AbdelsJourney,LookupMedsFromLHCR,,,,1977-04-16T00:07:00
+14.06.19,588,49,AbdelsJourney,MedsReconcile,,,,1977-04-16T00:07:00
+14.06.19,589,49,AbdelsJourney,Wait5,,Delay Until - ,1977-04-16 00:09:00,1977-04-16T00:07:00
+14.06.19,590,49,AbdelsJourney,MedsPrescribe,,,,1977-04-16T00:09:00
+14.06.19,591,49,AbdelsJourney,Wait6,,Delay Until - ,1977-04-16 00:12:00,1977-04-16T00:09:00
+14.06.19,592,49,AbdelsJourney,MedsReconcileForDigcharge,,,,1977-04-16T00:12:00
+14.06.19,593,49,AbdelsJourney,Wait7,,Delay Until - ,1977-04-16 00:26:00,1977-04-16T00:12:00
+14.06.19,594,49,AbdelsJourney,Discharge,,,,1977-04-16T00:26:00
+14.06.19,595,49,AbdelsJourney,Wait8,,Delay Until - ,1977-04-16 00:29:00,1977-04-16T00:26:00
+14.06.19,596,49,AbdelsJourney,SendDischarge2GP,,,,1977-04-16T00:29:00
+14.06.19,597,49,AbdelsJourney,Wait9,,Delay Until - ,1977-04-21 00:29:00,1977-04-16T00:29:00
+14.06.19,598,49,AbdelsJourney,GPMedsReconcile,,,,1977-04-21T00:29:00
+14.06.19,599,49,AbdelsJourney,Finish,,,,1977-04-21T00:29:00
+14.06.19,600,37,AbdelsJourney,Birth,,,,1978-05-14T00:00:00
+14.06.19,600,37,AbdelsJourney,Birth,,HasFirstChild,False,1978-05-14T00:00:00
+14.06.19,600,37,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1978-05-14T00:00:00
+14.06.19,600,37,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm']",1978-05-14T00:00:00
+14.06.19,600,37,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 33.74242288512645, 'kg/m2']",1978-05-14T00:00:00
+14.06.19,601,37,AbdelsJourney,Wait1,,Delay Until - ,1978-08-02 00:00:00,1978-05-14T00:00:00
+14.06.19,602,37,AbdelsJourney,GPvisit,,,,1978-08-02T00:00:00
+14.06.19,602,37,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1978-08-02T00:00:00
+14.06.19,602,37,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1978-08-02T00:00:00
+14.06.19,602,37,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1978-08-02T00:00:00
+14.06.19,603,37,AbdelsJourney,GPRefersToHospital,,,,1978-08-02T00:00:00
+14.06.19,604,37,AbdelsJourney,Wait2,,Delay Until - ,1978-08-21 00:00:00,1978-08-02T00:00:00
+14.06.19,605,37,AbdelsJourney,ArriveHospital,,,,1978-08-21T00:00:00
+14.06.19,606,37,AbdelsJourney,Wait3,,Delay Until - ,1978-08-21 00:02:00,1978-08-21T00:00:00
+14.06.19,607,37,AbdelsJourney,LookupMedsFromLHCR,,,,1978-08-21T00:02:00
+14.06.19,608,37,AbdelsJourney,MedsReconcile,,,,1978-08-21T00:02:00
+14.06.19,609,37,AbdelsJourney,Wait5,,Delay Until - ,1978-08-21 00:03:00,1978-08-21T00:02:00
+14.06.19,610,37,AbdelsJourney,MedsPrescribe,,,,1978-08-21T00:03:00
+14.06.19,611,37,AbdelsJourney,Wait6,,Delay Until - ,1978-08-21 00:18:00,1978-08-21T00:03:00
+14.06.19,612,37,AbdelsJourney,MedsReconcileForDigcharge,,,,1978-08-21T00:18:00
+14.06.19,613,37,AbdelsJourney,Wait7,,Delay Until - ,1978-08-21 00:36:00,1978-08-21T00:18:00
+14.06.19,614,37,AbdelsJourney,Discharge,,,,1978-08-21T00:36:00
+14.06.20,615,37,AbdelsJourney,Wait8,,Delay Until - ,1978-08-21 00:39:00,1978-08-21T00:36:00
+14.06.20,616,37,AbdelsJourney,SendDischarge2GP,,,,1978-08-21T00:39:00
+14.06.20,617,37,AbdelsJourney,Wait9,,Delay Until - ,1978-08-25 00:39:00,1978-08-21T00:39:00
+14.06.20,618,37,AbdelsJourney,GPMedsReconcile,,,,1978-08-25T00:39:00
+14.06.20,619,37,AbdelsJourney,Finish,,,,1978-08-25T00:39:00
+14.06.20,620,8,AbdelsJourney,Birth,,,,1979-01-25T00:00:00
+14.06.20,620,8,AbdelsJourney,Birth,,HasFirstChild,False,1979-01-25T00:00:00
+14.06.20,620,8,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 105, 'kg']",1979-01-25T00:00:00
+14.06.20,620,8,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 198, 'cm']",1979-01-25T00:00:00
+14.06.20,620,8,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.782981328435874, 'kg/m2']",1979-01-25T00:00:00
+14.06.20,620,8,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1979-01-25T00:00:00
+14.06.20,621,8,AbdelsJourney,Wait1,,Delay Until - ,1979-03-30 00:00:00,1979-01-25T00:00:00
+14.06.20,622,8,AbdelsJourney,GPvisit,,,,1979-03-30T00:00:00
+14.06.20,622,8,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.873507794910965, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1979-03-30T00:00:00
+14.06.20,622,8,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1979-03-30T00:00:00
+14.06.20,622,8,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1979-03-30T00:00:00
+14.06.20,623,8,AbdelsJourney,GPRefersToHospital,,,,1979-03-30T00:00:00
+14.06.20,624,8,AbdelsJourney,Wait2,,Delay Until - ,1979-04-08 00:00:00,1979-03-30T00:00:00
+14.06.20,625,8,AbdelsJourney,ArriveHospital,,,,1979-04-08T00:00:00
+14.06.20,626,8,AbdelsJourney,Wait3,,Delay Until - ,1979-04-08 00:13:00,1979-04-08T00:00:00
+14.06.20,627,8,AbdelsJourney,LookupMedsFromLHCR,,,,1979-04-08T00:13:00
+14.06.20,628,8,AbdelsJourney,MedsReconcile,,,,1979-04-08T00:13:00
+14.06.20,629,8,AbdelsJourney,Wait5,,Delay Until - ,1979-04-08 00:16:00,1979-04-08T00:13:00
+14.06.20,630,8,AbdelsJourney,MedsPrescribe,,,,1979-04-08T00:16:00
+14.06.20,631,8,AbdelsJourney,Wait6,,Delay Until - ,1979-04-08 00:26:00,1979-04-08T00:16:00
+14.06.20,632,8,AbdelsJourney,MedsReconcileForDigcharge,,,,1979-04-08T00:26:00
+14.06.20,633,8,AbdelsJourney,Wait7,,Delay Until - ,1979-04-08 00:45:00,1979-04-08T00:26:00
+14.06.20,634,8,AbdelsJourney,Discharge,,,,1979-04-08T00:45:00
+14.06.20,635,8,AbdelsJourney,Wait8,,Delay Until - ,1979-04-08 00:48:00,1979-04-08T00:45:00
+14.06.20,636,8,AbdelsJourney,SendDischarge2GP,,,,1979-04-08T00:48:00
+14.06.20,637,8,AbdelsJourney,Wait9,,Delay Until - ,1979-04-13 00:48:00,1979-04-08T00:48:00
+14.06.20,638,8,AbdelsJourney,GPMedsReconcile,,,,1979-04-13T00:48:00
+14.06.20,639,8,AbdelsJourney,Finish,,,,1979-04-13T00:48:00
+14.06.20,640,40,AbdelsJourney,Birth,,,,1980-08-16T00:00:00
+14.06.20,640,40,AbdelsJourney,Birth,,HasFirstChild,True,1980-08-16T00:00:00
+14.06.20,640,40,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 72, 'kg']",1980-08-16T00:00:00
+14.06.20,640,40,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 189, 'cm']",1980-08-16T00:00:00
+14.06.20,640,40,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.15621063240111, 'kg/m2']",1980-08-16T00:00:00
+14.06.20,640,40,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1980-08-16T00:00:00
+14.06.20,641,40,AbdelsJourney,Wait1,,Delay Until - ,1980-11-02 00:00:00,1980-08-16T00:00:00
+14.06.20,642,40,AbdelsJourney,GPvisit,,,,1980-11-02T00:00:00
+14.06.20,642,40,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 3.956737300801988, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1980-11-02T00:00:00
+14.06.20,642,40,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1980-11-02T00:00:00
+14.06.20,643,40,AbdelsJourney,GPRefersToHospital,,,,1980-11-02T00:00:00
+14.06.20,644,40,AbdelsJourney,Wait2,,Delay Until - ,1980-11-03 00:00:00,1980-11-02T00:00:00
+14.06.20,645,40,AbdelsJourney,ArriveHospital,,,,1980-11-03T00:00:00
+14.06.20,646,40,AbdelsJourney,Wait3,,Delay Until - ,1980-11-03 00:15:00,1980-11-03T00:00:00
+14.06.20,647,40,AbdelsJourney,LookupMedsFromLHCR,,,,1980-11-03T00:15:00
+14.06.20,648,40,AbdelsJourney,MedsReconcile,,,,1980-11-03T00:15:00
+14.06.21,649,40,AbdelsJourney,Wait5,,Delay Until - ,1980-11-03 00:16:00,1980-11-03T00:15:00
+14.06.21,650,40,AbdelsJourney,MedsPrescribe,,,,1980-11-03T00:16:00
+14.06.21,651,40,AbdelsJourney,Wait6,,Delay Until - ,1980-11-03 00:28:00,1980-11-03T00:16:00
+14.06.21,652,40,AbdelsJourney,MedsReconcileForDigcharge,,,,1980-11-03T00:28:00
+14.06.21,653,40,AbdelsJourney,Wait7,,Delay Until - ,1980-11-03 00:42:00,1980-11-03T00:28:00
+14.06.21,654,40,AbdelsJourney,Discharge,,,,1980-11-03T00:42:00
+14.06.21,655,40,AbdelsJourney,Wait8,,Delay Until - ,1980-11-03 00:43:00,1980-11-03T00:42:00
+14.06.21,656,40,AbdelsJourney,SendDischarge2GP,,,,1980-11-03T00:43:00
+14.06.21,657,40,AbdelsJourney,Wait9,,Delay Until - ,1980-11-05 00:43:00,1980-11-03T00:43:00
+14.06.21,658,40,AbdelsJourney,GPMedsReconcile,,,,1980-11-05T00:43:00
+14.06.21,659,40,AbdelsJourney,Finish,,,,1980-11-05T00:43:00
+14.06.21,660,4,AbdelsJourney,Birth,,,,1981-10-15T00:00:00
+14.06.21,660,4,AbdelsJourney,Birth,,HasFirstChild,False,1981-10-15T00:00:00
+14.06.21,660,4,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 106, 'kg']",1981-10-15T00:00:00
+14.06.21,660,4,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 189, 'cm']",1981-10-15T00:00:00
+14.06.21,660,4,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.674421208812745, 'kg/m2']",1981-10-15T00:00:00
+14.06.21,661,4,AbdelsJourney,Wait1,,Delay Until - ,1981-12-26 00:00:00,1981-10-15T00:00:00
+14.06.21,662,4,AbdelsJourney,GPvisit,,,,1981-12-26T00:00:00
+14.06.21,662,4,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.3418488950398455, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1981-12-26T00:00:00
+14.06.21,662,4,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1981-12-26T00:00:00
+14.06.21,662,4,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1981-12-26T00:00:00
+14.06.21,663,4,AbdelsJourney,GPRefersToHospital,,,,1981-12-26T00:00:00
+14.06.21,664,4,AbdelsJourney,Wait2,,Delay Until - ,1982-01-01 00:00:00,1981-12-26T00:00:00
+14.06.21,665,4,AbdelsJourney,ArriveHospital,,,,1982-01-01T00:00:00
+14.06.21,666,4,AbdelsJourney,Wait3,,Delay Until - ,1982-01-01 00:08:00,1982-01-01T00:00:00
+14.06.21,667,4,AbdelsJourney,LookupMedsFromLHCR,,,,1982-01-01T00:08:00
+14.06.21,668,4,AbdelsJourney,MedsReconcile,,,,1982-01-01T00:08:00
+14.06.21,669,4,AbdelsJourney,Wait5,,Delay Until - ,1982-01-01 00:09:00,1982-01-01T00:08:00
+14.06.21,670,4,AbdelsJourney,MedsPrescribe,,,,1982-01-01T00:09:00
+14.06.21,671,4,AbdelsJourney,Wait6,,Delay Until - ,1982-01-01 00:24:00,1982-01-01T00:09:00
+14.06.21,672,4,AbdelsJourney,MedsReconcileForDigcharge,,,,1982-01-01T00:24:00
+14.06.21,673,4,AbdelsJourney,Wait7,,Delay Until - ,1982-01-01 00:30:00,1982-01-01T00:24:00
+14.06.21,674,4,AbdelsJourney,Discharge,,,,1982-01-01T00:30:00
+14.06.21,675,4,AbdelsJourney,Wait8,,Delay Until - ,1982-01-01 00:38:00,1982-01-01T00:30:00
+14.06.21,676,4,AbdelsJourney,SendDischarge2GP,,,,1982-01-01T00:38:00
+14.06.21,677,4,AbdelsJourney,Wait9,,Delay Until - ,1982-01-06 00:38:00,1982-01-01T00:38:00
+14.06.21,678,4,AbdelsJourney,GPMedsReconcile,,,,1982-01-06T00:38:00
+14.06.21,679,4,AbdelsJourney,Finish,,,,1982-01-06T00:38:00
+14.06.21,680,45,AbdelsJourney,Birth,,,,1983-11-17T00:00:00
+14.06.21,680,45,AbdelsJourney,Birth,,HasFirstChild,True,1983-11-17T00:00:00
+14.06.21,680,45,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 85, 'kg']",1983-11-17T00:00:00
+14.06.21,680,45,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 167, 'cm']",1983-11-17T00:00:00
+14.06.21,680,45,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.477966223242138, 'kg/m2']",1983-11-17T00:00:00
+14.06.21,680,45,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1983-11-17T00:00:00
+14.06.21,681,45,AbdelsJourney,Wait1,,Delay Until - ,1984-02-07 00:00:00,1983-11-17T00:00:00
+14.06.21,682,45,AbdelsJourney,GPvisit,,,,1984-02-07T00:00:00
+14.06.21,682,45,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.032860878374989, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1984-02-07T00:00:00
+14.06.21,682,45,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1984-02-07T00:00:00
+14.06.21,682,45,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1984-02-07T00:00:00
+14.06.21,682,45,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1984-02-07T00:00:00
+14.06.22,683,45,AbdelsJourney,GPRefersToHospital,,,,1984-02-07T00:00:00
+14.06.22,684,45,AbdelsJourney,Wait2,,Delay Until - ,1984-02-23 00:00:00,1984-02-07T00:00:00
+14.06.22,685,45,AbdelsJourney,ArriveHospital,,,,1984-02-23T00:00:00
+14.06.22,686,45,AbdelsJourney,Wait3,,Delay Until - ,1984-02-23 00:10:00,1984-02-23T00:00:00
+14.06.22,687,45,AbdelsJourney,LookupMedsFromLHCR,,,,1984-02-23T00:10:00
+14.06.22,688,45,AbdelsJourney,MedsReconcile,,,,1984-02-23T00:10:00
+14.06.22,689,45,AbdelsJourney,Wait5,,Delay Until - ,1984-02-23 00:12:00,1984-02-23T00:10:00
+14.06.22,690,45,AbdelsJourney,MedsPrescribe,,,,1984-02-23T00:12:00
+14.06.22,691,45,AbdelsJourney,Wait6,,Delay Until - ,1984-02-23 00:22:00,1984-02-23T00:12:00
+14.06.22,692,45,AbdelsJourney,MedsReconcileForDigcharge,,,,1984-02-23T00:22:00
+14.06.22,693,45,AbdelsJourney,Wait7,,Delay Until - ,1984-02-23 00:35:00,1984-02-23T00:22:00
+14.06.22,694,45,AbdelsJourney,Discharge,,,,1984-02-23T00:35:00
+14.06.22,695,45,AbdelsJourney,Wait8,,Delay Until - ,1984-02-23 00:53:00,1984-02-23T00:35:00
+14.06.22,696,45,AbdelsJourney,SendDischarge2GP,,,,1984-02-23T00:53:00
+14.06.22,697,45,AbdelsJourney,Wait9,,Delay Until - ,1984-02-28 00:53:00,1984-02-23T00:53:00
+14.06.22,698,45,AbdelsJourney,GPMedsReconcile,,,,1984-02-28T00:53:00
+14.06.22,699,45,AbdelsJourney,Finish,,,,1984-02-28T00:53:00
+14.06.22,700,29,AbdelsJourney,Birth,,,,1984-09-12T00:00:00
+14.06.22,700,29,AbdelsJourney,Birth,,HasFirstChild,True,1984-09-12T00:00:00
+14.06.22,700,29,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 116, 'kg']",1984-09-12T00:00:00
+14.06.22,700,29,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 181, 'cm']",1984-09-12T00:00:00
+14.06.22,700,29,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.40795458014102, 'kg/m2']",1984-09-12T00:00:00
+14.06.22,700,29,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1984-09-12T00:00:00
+14.06.22,701,29,AbdelsJourney,Wait1,,Delay Until - ,1984-11-21 00:00:00,1984-09-12T00:00:00
+14.06.22,702,29,AbdelsJourney,GPvisit,,,,1984-11-21T00:00:00
+14.06.22,702,29,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.9862188779032275, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1984-11-21T00:00:00
+14.06.22,702,29,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1984-11-21T00:00:00
+14.06.22,702,29,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1984-11-21T00:00:00
+14.06.22,702,29,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1984-11-21T00:00:00
+14.06.22,703,29,AbdelsJourney,GPRefersToHospital,,,,1984-11-21T00:00:00
+14.06.22,704,29,AbdelsJourney,Wait2,,Delay Until - ,1984-11-23 00:00:00,1984-11-21T00:00:00
+14.06.22,705,29,AbdelsJourney,ArriveHospital,,,,1984-11-23T00:00:00
+14.06.22,706,29,AbdelsJourney,Wait3,,Delay Until - ,1984-11-23 00:04:00,1984-11-23T00:00:00
+14.06.22,707,29,AbdelsJourney,LookupMedsFromLHCR,,,,1984-11-23T00:04:00
+14.06.22,708,29,AbdelsJourney,MedsReconcile,,,,1984-11-23T00:04:00
+14.06.22,709,29,AbdelsJourney,Wait5,,Delay Until - ,1984-11-23 00:06:00,1984-11-23T00:04:00
+14.06.22,710,29,AbdelsJourney,MedsPrescribe,,,,1984-11-23T00:06:00
+14.06.22,711,29,AbdelsJourney,Wait6,,Delay Until - ,1984-11-23 00:14:00,1984-11-23T00:06:00
+14.06.22,712,29,AbdelsJourney,MedsReconcileForDigcharge,,,,1984-11-23T00:14:00
+14.06.22,713,29,AbdelsJourney,Wait7,,Delay Until - ,1984-11-23 00:26:00,1984-11-23T00:14:00
+14.06.22,714,29,AbdelsJourney,Discharge,,,,1984-11-23T00:26:00
+14.06.22,715,29,AbdelsJourney,Wait8,,Delay Until - ,1984-11-23 00:36:00,1984-11-23T00:26:00
+14.06.22,716,29,AbdelsJourney,SendDischarge2GP,,,,1984-11-23T00:36:00
+14.06.22,717,29,AbdelsJourney,Wait9,,Delay Until - ,1984-11-25 00:36:00,1984-11-23T00:36:00
+14.06.22,718,29,AbdelsJourney,GPMedsReconcile,,,,1984-11-25T00:36:00
+14.06.22,719,29,AbdelsJourney,Finish,,,,1984-11-25T00:36:00
+14.06.22,720,46,AbdelsJourney,Birth,,,,1988-01-24T00:00:00
+14.06.22,720,46,AbdelsJourney,Birth,,HasFirstChild,False,1988-01-24T00:00:00
+14.06.22,720,46,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 113, 'kg']",1988-01-24T00:00:00
+14.06.22,720,46,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 179, 'cm']",1988-01-24T00:00:00
+14.06.22,720,46,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 35.26731375425236, 'kg/m2']",1988-01-24T00:00:00
+14.06.22,721,46,AbdelsJourney,Wait1,,Delay Until - ,1988-04-11 00:00:00,1988-01-24T00:00:00
+14.06.22,722,46,AbdelsJourney,GPvisit,,,,1988-04-11T00:00:00
+14.06.23,722,46,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1988-04-11T00:00:00
+14.06.23,722,46,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",1988-04-11T00:00:00
+14.06.23,722,46,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1988-04-11T00:00:00
+14.06.23,723,46,AbdelsJourney,GPRefersToHospital,,,,1988-04-11T00:00:00
+14.06.23,724,46,AbdelsJourney,Wait2,,Delay Until - ,1988-04-26 00:00:00,1988-04-11T00:00:00
+14.06.23,725,46,AbdelsJourney,ArriveHospital,,,,1988-04-26T00:00:00
+14.06.23,726,46,AbdelsJourney,Wait3,,Delay Until - ,1988-04-26 00:07:00,1988-04-26T00:00:00
+14.06.23,727,46,AbdelsJourney,LookupMedsFromLHCR,,,,1988-04-26T00:07:00
+14.06.23,728,46,AbdelsJourney,MedsReconcile,,,,1988-04-26T00:07:00
+14.06.23,729,46,AbdelsJourney,Wait5,,Delay Until - ,1988-04-26 00:08:00,1988-04-26T00:07:00
+14.06.23,730,46,AbdelsJourney,MedsPrescribe,,,,1988-04-26T00:08:00
+14.06.23,731,46,AbdelsJourney,Wait6,,Delay Until - ,1988-04-26 00:10:00,1988-04-26T00:08:00
+14.06.23,732,46,AbdelsJourney,MedsReconcileForDigcharge,,,,1988-04-26T00:10:00
+14.06.23,733,46,AbdelsJourney,Wait7,,Delay Until - ,1988-04-26 00:24:00,1988-04-26T00:10:00
+14.06.23,734,46,AbdelsJourney,Discharge,,,,1988-04-26T00:24:00
+14.06.23,735,46,AbdelsJourney,Wait8,,Delay Until - ,1988-04-26 00:31:00,1988-04-26T00:24:00
+14.06.23,736,46,AbdelsJourney,SendDischarge2GP,,,,1988-04-26T00:31:00
+14.06.23,737,46,AbdelsJourney,Wait9,,Delay Until - ,1988-04-28 00:31:00,1988-04-26T00:31:00
+14.06.23,738,46,AbdelsJourney,GPMedsReconcile,,,,1988-04-28T00:31:00
+14.06.23,739,46,AbdelsJourney,Finish,,,,1988-04-28T00:31:00
+14.06.23,740,38,AbdelsJourney,Birth,,,,1996-12-21T00:00:00
+14.06.23,740,38,AbdelsJourney,Birth,,HasFirstChild,True,1996-12-21T00:00:00
+14.06.23,740,38,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 74, 'kg']",1996-12-21T00:00:00
+14.06.23,740,38,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 164, 'cm']",1996-12-21T00:00:00
+14.06.23,740,38,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.513384889946465, 'kg/m2']",1996-12-21T00:00:00
+14.06.23,741,38,AbdelsJourney,Wait1,,Delay Until - ,1997-02-21 00:00:00,1996-12-21T00:00:00
+14.06.23,742,38,AbdelsJourney,GPvisit,,,,1997-02-21T00:00:00
+14.06.23,742,38,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.259194758272872, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1997-02-21T00:00:00
+14.06.23,742,38,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1997-02-21T00:00:00
+14.06.23,742,38,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1997-02-21T00:00:00
+14.06.23,743,38,AbdelsJourney,GPRefersToHospital,,,,1997-02-21T00:00:00
+14.06.23,744,38,AbdelsJourney,Wait2,,Delay Until - ,1997-03-11 00:00:00,1997-02-21T00:00:00
+14.06.23,745,38,AbdelsJourney,ArriveHospital,,,,1997-03-11T00:00:00
+14.06.23,746,38,AbdelsJourney,Wait3,,Delay Until - ,1997-03-11 00:19:00,1997-03-11T00:00:00
+14.06.23,747,38,AbdelsJourney,LookupMedsFromLHCR,,,,1997-03-11T00:19:00
+14.06.23,748,38,AbdelsJourney,MedsReconcile,,,,1997-03-11T00:19:00
+14.06.23,749,38,AbdelsJourney,Wait5,,Delay Until - ,1997-03-11 00:22:00,1997-03-11T00:19:00
+14.06.23,750,38,AbdelsJourney,MedsPrescribe,,,,1997-03-11T00:22:00
+14.06.23,751,38,AbdelsJourney,Wait6,,Delay Until - ,1997-03-11 00:41:00,1997-03-11T00:22:00
+14.06.23,752,38,AbdelsJourney,MedsReconcileForDigcharge,,,,1997-03-11T00:41:00
+14.06.23,753,38,AbdelsJourney,Wait7,,Delay Until - ,1997-03-11 00:49:00,1997-03-11T00:41:00
+14.06.23,754,38,AbdelsJourney,Discharge,,,,1997-03-11T00:49:00
+14.06.23,755,38,AbdelsJourney,Wait8,,Delay Until - ,1997-03-11 01:01:00,1997-03-11T00:49:00
+14.06.23,756,38,AbdelsJourney,SendDischarge2GP,,,,1997-03-11T01:01:00
+14.06.23,757,38,AbdelsJourney,Wait9,,Delay Until - ,1997-03-13 01:01:00,1997-03-11T01:01:00
+14.06.23,758,38,AbdelsJourney,GPMedsReconcile,,,,1997-03-13T01:01:00
+14.06.23,759,38,AbdelsJourney,Finish,,,,1997-03-13T01:01:00
+14.06.23,760,3,AbdelsJourney,Birth,,,,1997-08-23T00:00:00
+14.06.23,760,3,AbdelsJourney,Birth,,HasFirstChild,True,1997-08-23T00:00:00
+14.06.23,760,3,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 59, 'kg']",1997-08-23T00:00:00
+14.06.23,760,3,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 185, 'cm']",1997-08-23T00:00:00
+14.06.23,760,3,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 17.238860482103725, 'kg/m2']",1997-08-23T00:00:00
+14.06.23,760,3,AbdelsJourney,Birth,,HistoryGestationalDiabetes,"['472971004', 'History of gestational diabetes mellitus']",1997-08-23T00:00:00
+14.06.23,761,3,AbdelsJourney,Wait1,,Delay Until - ,1997-11-09 00:00:00,1997-08-23T00:00:00
+14.06.23,762,3,AbdelsJourney,GPvisit,,,,1997-11-09T00:00:00
+14.06.24,762,3,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.2369185064733, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1997-11-09T00:00:00
+14.06.24,762,3,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",1997-11-09T00:00:00
+14.06.24,763,3,AbdelsJourney,GPRefersToHospital,,,,1997-11-09T00:00:00
+14.06.24,764,3,AbdelsJourney,Wait2,,Delay Until - ,1997-11-23 00:00:00,1997-11-09T00:00:00
+14.06.24,765,3,AbdelsJourney,ArriveHospital,,,,1997-11-23T00:00:00
+14.06.24,766,3,AbdelsJourney,Wait3,,Delay Until - ,1997-11-23 00:09:00,1997-11-23T00:00:00
+14.06.24,767,3,AbdelsJourney,LookupMedsFromLHCR,,,,1997-11-23T00:09:00
+14.06.24,768,3,AbdelsJourney,MedsReconcile,,,,1997-11-23T00:09:00
+14.06.24,769,3,AbdelsJourney,Wait5,,Delay Until - ,1997-11-23 00:11:00,1997-11-23T00:09:00
+14.06.24,770,3,AbdelsJourney,MedsPrescribe,,,,1997-11-23T00:11:00
+14.06.24,771,3,AbdelsJourney,Wait6,,Delay Until - ,1997-11-23 00:12:00,1997-11-23T00:11:00
+14.06.24,772,3,AbdelsJourney,MedsReconcileForDigcharge,,,,1997-11-23T00:12:00
+14.06.24,773,3,AbdelsJourney,Wait7,,Delay Until - ,1997-11-23 00:29:00,1997-11-23T00:12:00
+14.06.24,774,3,AbdelsJourney,Discharge,,,,1997-11-23T00:29:00
+14.06.24,775,3,AbdelsJourney,Wait8,,Delay Until - ,1997-11-23 00:48:00,1997-11-23T00:29:00
+14.06.24,776,3,AbdelsJourney,SendDischarge2GP,,,,1997-11-23T00:48:00
+14.06.24,777,3,AbdelsJourney,Wait9,,Delay Until - ,1997-11-24 00:48:00,1997-11-23T00:48:00
+14.06.24,778,3,AbdelsJourney,GPMedsReconcile,,,,1997-11-24T00:48:00
+14.06.24,779,3,AbdelsJourney,Finish,,,,1997-11-24T00:48:00
+14.06.24,780,32,AbdelsJourney,Birth,,,,2001-11-17T00:00:00
+14.06.24,780,32,AbdelsJourney,Birth,,HasFirstChild,True,2001-11-17T00:00:00
+14.06.24,780,32,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 78, 'kg']",2001-11-17T00:00:00
+14.06.24,780,32,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 170, 'cm']",2001-11-17T00:00:00
+14.06.24,780,32,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.989619377162633, 'kg/m2']",2001-11-17T00:00:00
+14.06.24,781,32,AbdelsJourney,Wait1,,Delay Until - ,2002-01-15 00:00:00,2001-11-17T00:00:00
+14.06.24,782,32,AbdelsJourney,GPvisit,,,,2002-01-15T00:00:00
+14.06.24,782,32,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.705371041014152, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2002-01-15T00:00:00
+14.06.24,782,32,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2002-01-15T00:00:00
+14.06.24,782,32,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2002-01-15T00:00:00
+14.06.24,783,32,AbdelsJourney,GPRefersToHospital,,,,2002-01-15T00:00:00
+14.06.24,784,32,AbdelsJourney,Wait2,,Delay Until - ,2002-01-22 00:00:00,2002-01-15T00:00:00
+14.06.24,785,32,AbdelsJourney,ArriveHospital,,,,2002-01-22T00:00:00
+14.06.24,786,32,AbdelsJourney,Wait3,,Delay Until - ,2002-01-22 00:11:00,2002-01-22T00:00:00
+14.06.24,787,32,AbdelsJourney,LookupMedsFromLHCR,,,,2002-01-22T00:11:00
+14.06.24,788,32,AbdelsJourney,MedsReconcile,,,,2002-01-22T00:11:00
+14.06.24,789,32,AbdelsJourney,Wait5,,Delay Until - ,2002-01-22 00:14:00,2002-01-22T00:11:00
+14.06.24,790,32,AbdelsJourney,MedsPrescribe,,,,2002-01-22T00:14:00
+14.06.24,791,32,AbdelsJourney,Wait6,,Delay Until - ,2002-01-22 00:19:00,2002-01-22T00:14:00
+14.06.24,792,32,AbdelsJourney,MedsReconcileForDigcharge,,,,2002-01-22T00:19:00
+14.06.24,793,32,AbdelsJourney,Wait7,,Delay Until - ,2002-01-22 00:25:00,2002-01-22T00:19:00
+14.06.24,794,32,AbdelsJourney,Discharge,,,,2002-01-22T00:25:00
+14.06.24,795,32,AbdelsJourney,Wait8,,Delay Until - ,2002-01-22 00:28:00,2002-01-22T00:25:00
+14.06.24,796,32,AbdelsJourney,SendDischarge2GP,,,,2002-01-22T00:28:00
+14.06.24,797,32,AbdelsJourney,Wait9,,Delay Until - ,2002-01-24 00:28:00,2002-01-22T00:28:00
+14.06.24,798,32,AbdelsJourney,GPMedsReconcile,,,,2002-01-24T00:28:00
+14.06.24,799,32,AbdelsJourney,Finish,,,,2002-01-24T00:28:00
+14.06.24,800,25,AbdelsJourney,Birth,,,,2002-05-27T00:00:00
+14.06.24,800,25,AbdelsJourney,Birth,,HasFirstChild,False,2002-05-27T00:00:00
+14.06.24,800,25,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 106, 'kg']",2002-05-27T00:00:00
+14.06.24,800,25,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm']",2002-05-27T00:00:00
+14.06.24,800,25,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 41.92872117400419, 'kg/m2']",2002-05-27T00:00:00
+14.06.24,801,25,AbdelsJourney,Wait1,,Delay Until - ,2002-08-01 00:00:00,2002-05-27T00:00:00
+14.06.24,802,25,AbdelsJourney,GPvisit,,,,2002-08-01T00:00:00
+14.06.24,802,25,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.150264662493895, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2002-08-01T00:00:00
+14.06.25,802,25,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2002-08-01T00:00:00
+14.06.25,802,25,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",2002-08-01T00:00:00
+14.06.25,802,25,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2002-08-01T00:00:00
+14.06.25,803,25,AbdelsJourney,GPRefersToHospital,,,,2002-08-01T00:00:00
+14.06.25,804,25,AbdelsJourney,Wait2,,Delay Until - ,2002-08-04 00:00:00,2002-08-01T00:00:00
+14.06.25,805,25,AbdelsJourney,ArriveHospital,,,,2002-08-04T00:00:00
+14.06.25,806,25,AbdelsJourney,Wait3,,Delay Until - ,2002-08-04 00:12:00,2002-08-04T00:00:00
+14.06.25,807,25,AbdelsJourney,LookupMedsFromLHCR,,,,2002-08-04T00:12:00
+14.06.25,808,25,AbdelsJourney,MedsReconcile,,,,2002-08-04T00:12:00
+14.06.25,809,25,AbdelsJourney,Wait5,,Delay Until - ,2002-08-04 00:13:00,2002-08-04T00:12:00
+14.06.25,810,25,AbdelsJourney,MedsPrescribe,,,,2002-08-04T00:13:00
+14.06.25,811,25,AbdelsJourney,Wait6,,Delay Until - ,2002-08-04 00:31:00,2002-08-04T00:13:00
+14.06.25,812,25,AbdelsJourney,MedsReconcileForDigcharge,,,,2002-08-04T00:31:00
+14.06.25,813,25,AbdelsJourney,Wait7,,Delay Until - ,2002-08-04 00:32:00,2002-08-04T00:31:00
+14.06.25,814,25,AbdelsJourney,Discharge,,,,2002-08-04T00:32:00
+14.06.25,815,25,AbdelsJourney,Wait8,,Delay Until - ,2002-08-04 00:35:00,2002-08-04T00:32:00
+14.06.25,816,25,AbdelsJourney,SendDischarge2GP,,,,2002-08-04T00:35:00
+14.06.25,817,25,AbdelsJourney,Wait9,,Delay Until - ,2002-08-05 00:35:00,2002-08-04T00:35:00
+14.06.25,818,25,AbdelsJourney,GPMedsReconcile,,,,2002-08-05T00:35:00
+14.06.25,819,25,AbdelsJourney,Finish,,,,2002-08-05T00:35:00
+14.06.25,820,41,AbdelsJourney,Birth,,,,2003-07-10T00:00:00
+14.06.25,820,41,AbdelsJourney,Birth,,HasFirstChild,True,2003-07-10T00:00:00
+14.06.25,820,41,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg']",2003-07-10T00:00:00
+14.06.25,820,41,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm']",2003-07-10T00:00:00
+14.06.25,820,41,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 21.75, 'kg/m2']",2003-07-10T00:00:00
+14.06.25,821,41,AbdelsJourney,Wait1,,Delay Until - ,2003-09-13 00:00:00,2003-07-10T00:00:00
+14.06.25,822,41,AbdelsJourney,GPvisit,,,,2003-09-13T00:00:00
+14.06.25,822,41,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 5.348099684926981, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2003-09-13T00:00:00
+14.06.25,822,41,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2003-09-13T00:00:00
+14.06.25,823,41,AbdelsJourney,GPRefersToHospital,,,,2003-09-13T00:00:00
+14.06.25,824,41,AbdelsJourney,Wait2,,Delay Until - ,2003-09-16 00:00:00,2003-09-13T00:00:00
+14.06.25,825,41,AbdelsJourney,ArriveHospital,,,,2003-09-16T00:00:00
+14.06.25,826,41,AbdelsJourney,Wait3,,Delay Until - ,2003-09-16 00:09:00,2003-09-16T00:00:00
+14.06.25,827,41,AbdelsJourney,LookupMedsFromLHCR,,,,2003-09-16T00:09:00
+14.06.25,828,41,AbdelsJourney,MedsReconcile,,,,2003-09-16T00:09:00
+14.06.25,829,41,AbdelsJourney,Wait5,,Delay Until - ,2003-09-16 00:10:00,2003-09-16T00:09:00
+14.06.25,830,41,AbdelsJourney,MedsPrescribe,,,,2003-09-16T00:10:00
+14.06.26,831,41,AbdelsJourney,Wait6,,Delay Until - ,2003-09-16 00:30:00,2003-09-16T00:10:00
+14.06.26,832,41,AbdelsJourney,MedsReconcileForDigcharge,,,,2003-09-16T00:30:00
+14.06.26,833,41,AbdelsJourney,Wait7,,Delay Until - ,2003-09-16 00:41:00,2003-09-16T00:30:00
+14.06.26,834,41,AbdelsJourney,Discharge,,,,2003-09-16T00:41:00
+14.06.26,835,41,AbdelsJourney,Wait8,,Delay Until - ,2003-09-16 00:50:00,2003-09-16T00:41:00
+14.06.26,836,41,AbdelsJourney,SendDischarge2GP,,,,2003-09-16T00:50:00
+14.06.26,837,41,AbdelsJourney,Wait9,,Delay Until - ,2003-09-21 00:50:00,2003-09-16T00:50:00
+14.06.26,838,41,AbdelsJourney,GPMedsReconcile,,,,2003-09-21T00:50:00
+14.06.26,839,41,AbdelsJourney,Finish,,,,2003-09-21T00:50:00
+14.06.26,840,22,AbdelsJourney,Birth,,,,2009-03-28T00:00:00
+14.06.26,840,22,AbdelsJourney,Birth,,HasFirstChild,False,2009-03-28T00:00:00
+14.06.26,840,22,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 111, 'kg']",2009-03-28T00:00:00
+14.06.26,840,22,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 195, 'cm']",2009-03-28T00:00:00
+14.06.26,840,22,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.19132149901381, 'kg/m2']",2009-03-28T00:00:00
+14.06.26,841,22,AbdelsJourney,Wait1,,Delay Until - ,2009-05-23 00:00:00,2009-03-28T00:00:00
+14.06.26,842,22,AbdelsJourney,GPvisit,,,,2009-05-23T00:00:00
+14.06.26,842,22,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.2285618306770765, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2009-05-23T00:00:00
+14.06.26,842,22,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2009-05-23T00:00:00
+14.06.26,842,22,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2009-05-23T00:00:00
+14.06.26,843,22,AbdelsJourney,GPRefersToHospital,,,,2009-05-23T00:00:00
+14.06.26,844,22,AbdelsJourney,Wait2,,Delay Until - ,2009-06-09 00:00:00,2009-05-23T00:00:00
+14.06.26,845,22,AbdelsJourney,ArriveHospital,,,,2009-06-09T00:00:00
+14.06.26,846,22,AbdelsJourney,Wait3,,Delay Until - ,2009-06-09 00:01:00,2009-06-09T00:00:00
+14.06.26,847,22,AbdelsJourney,LookupMedsFromLHCR,,,,2009-06-09T00:01:00
+14.06.26,848,22,AbdelsJourney,MedsReconcile,,,,2009-06-09T00:01:00
+14.06.26,849,22,AbdelsJourney,Wait5,,Delay Until - ,2009-06-09 00:02:00,2009-06-09T00:01:00
+14.06.26,850,22,AbdelsJourney,MedsPrescribe,,,,2009-06-09T00:02:00
+14.06.26,851,22,AbdelsJourney,Wait6,,Delay Until - ,2009-06-09 00:20:00,2009-06-09T00:02:00
+14.06.26,852,22,AbdelsJourney,MedsReconcileForDigcharge,,,,2009-06-09T00:20:00
+14.06.26,853,22,AbdelsJourney,Wait7,,Delay Until - ,2009-06-09 00:39:00,2009-06-09T00:20:00
+14.06.26,854,22,AbdelsJourney,Discharge,,,,2009-06-09T00:39:00
+14.06.26,855,22,AbdelsJourney,Wait8,,Delay Until - ,2009-06-09 00:57:00,2009-06-09T00:39:00
+14.06.26,856,22,AbdelsJourney,SendDischarge2GP,,,,2009-06-09T00:57:00
+14.06.26,857,22,AbdelsJourney,Wait9,,Delay Until - ,2009-06-11 00:57:00,2009-06-09T00:57:00
+14.06.26,858,22,AbdelsJourney,GPMedsReconcile,,,,2009-06-11T00:57:00
+14.06.26,859,22,AbdelsJourney,Finish,,,,2009-06-11T00:57:00
+14.06.26,860,26,AbdelsJourney,Birth,,,,2009-09-15T00:00:00
+14.06.26,860,26,AbdelsJourney,Birth,,HasFirstChild,False,2009-09-15T00:00:00
+14.06.26,860,26,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg']",2009-09-15T00:00:00
+14.06.26,860,26,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 155, 'cm']",2009-09-15T00:00:00
+14.06.26,860,26,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.04474505723204, 'kg/m2']",2009-09-15T00:00:00
+14.06.26,860,26,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2009-09-15T00:00:00
+14.06.26,861,26,AbdelsJourney,Wait1,,Delay Until - ,2009-11-13 00:00:00,2009-09-15T00:00:00
+14.06.26,862,23,AbdelsJourney,Birth,,,,2009-09-25T00:00:00
+14.06.26,862,23,AbdelsJourney,Birth,,HasFirstChild,False,2009-09-25T00:00:00
+14.06.26,862,23,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 77, 'kg']",2009-09-25T00:00:00
+14.06.26,862,23,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm']",2009-09-25T00:00:00
+14.06.26,862,23,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.99262444384723, 'kg/m2']",2009-09-25T00:00:00
+14.06.26,863,23,AbdelsJourney,Wait1,,Delay Until - ,2009-11-24 00:00:00,2009-09-25T00:00:00
+14.06.26,864,26,AbdelsJourney,GPvisit,,,,2009-11-13T00:00:00
+14.06.27,864,26,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.086237140566411, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2009-11-13T00:00:00
+14.06.27,864,26,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2009-11-13T00:00:00
+14.06.27,864,26,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",2009-11-13T00:00:00
+14.06.27,864,26,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2009-11-13T00:00:00
+14.06.27,865,26,AbdelsJourney,GPRefersToHospital,,,,2009-11-13T00:00:00
+14.06.27,866,26,AbdelsJourney,Wait2,,Delay Until - ,2009-11-18 00:00:00,2009-11-13T00:00:00
+14.06.27,867,26,AbdelsJourney,ArriveHospital,,,,2009-11-18T00:00:00
+14.06.27,868,26,AbdelsJourney,Wait3,,Delay Until - ,2009-11-18 00:09:00,2009-11-18T00:00:00
+14.06.27,869,26,AbdelsJourney,LookupMedsFromLHCR,,,,2009-11-18T00:09:00
+14.06.27,870,26,AbdelsJourney,MedsReconcile,,,,2009-11-18T00:09:00
+14.06.27,871,26,AbdelsJourney,Wait5,,Delay Until - ,2009-11-18 00:12:00,2009-11-18T00:09:00
+14.06.27,872,26,AbdelsJourney,MedsPrescribe,,,,2009-11-18T00:12:00
+14.06.27,873,26,AbdelsJourney,Wait6,,Delay Until - ,2009-11-18 00:27:00,2009-11-18T00:12:00
+14.06.27,874,26,AbdelsJourney,MedsReconcileForDigcharge,,,,2009-11-18T00:27:00
+14.06.27,875,26,AbdelsJourney,Wait7,,Delay Until - ,2009-11-18 00:43:00,2009-11-18T00:27:00
+14.06.27,876,26,AbdelsJourney,Discharge,,,,2009-11-18T00:43:00
+14.06.27,877,26,AbdelsJourney,Wait8,,Delay Until - ,2009-11-18 00:46:00,2009-11-18T00:43:00
+14.06.27,878,26,AbdelsJourney,SendDischarge2GP,,,,2009-11-18T00:46:00
+14.06.27,879,26,AbdelsJourney,Wait9,,Delay Until - ,2009-11-20 00:46:00,2009-11-18T00:46:00
+14.06.27,880,26,AbdelsJourney,GPMedsReconcile,,,,2009-11-20T00:46:00
+14.06.27,881,26,AbdelsJourney,Finish,,,,2009-11-20T00:46:00
+14.06.27,882,23,AbdelsJourney,GPvisit,,,,2009-11-24T00:00:00
+14.06.27,882,23,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2009-11-24T00:00:00
+14.06.27,883,23,AbdelsJourney,GPRefersToHospital,,,,2009-11-24T00:00:00
+14.06.27,884,23,AbdelsJourney,Wait2,,Delay Until - ,2009-12-11 00:00:00,2009-11-24T00:00:00
+14.06.27,885,23,AbdelsJourney,ArriveHospital,,,,2009-12-11T00:00:00
+14.06.27,886,23,AbdelsJourney,Wait3,,Delay Until - ,2009-12-11 00:14:00,2009-12-11T00:00:00
+14.06.27,887,23,AbdelsJourney,LookupMedsFromLHCR,,,,2009-12-11T00:14:00
+14.06.27,888,23,AbdelsJourney,MedsReconcile,,,,2009-12-11T00:14:00
+14.06.27,889,23,AbdelsJourney,Wait5,,Delay Until - ,2009-12-11 00:16:00,2009-12-11T00:14:00
+14.06.27,890,23,AbdelsJourney,MedsPrescribe,,,,2009-12-11T00:16:00
+14.06.27,891,23,AbdelsJourney,Wait6,,Delay Until - ,2009-12-11 00:36:00,2009-12-11T00:16:00
+14.06.27,892,23,AbdelsJourney,MedsReconcileForDigcharge,,,,2009-12-11T00:36:00
+14.06.27,893,23,AbdelsJourney,Wait7,,Delay Until - ,2009-12-11 00:47:00,2009-12-11T00:36:00
+14.06.27,894,23,AbdelsJourney,Discharge,,,,2009-12-11T00:47:00
+14.06.27,895,23,AbdelsJourney,Wait8,,Delay Until - ,2009-12-11 01:07:00,2009-12-11T00:47:00
+14.06.27,896,23,AbdelsJourney,SendDischarge2GP,,,,2009-12-11T01:07:00
+14.06.27,897,23,AbdelsJourney,Wait9,,Delay Until - ,2009-12-15 01:07:00,2009-12-11T01:07:00
+14.06.27,898,23,AbdelsJourney,GPMedsReconcile,,,,2009-12-15T01:07:00
+14.06.27,899,23,AbdelsJourney,Finish,,,,2009-12-15T01:07:00
+14.06.27,900,7,AbdelsJourney,Birth,,,,2010-07-25T00:00:00
+14.06.27,900,7,AbdelsJourney,Birth,,HasFirstChild,True,2010-07-25T00:00:00
+14.06.27,900,7,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']",2010-07-25T00:00:00
+14.06.27,900,7,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 192, 'cm']",2010-07-25T00:00:00
+14.06.27,900,7,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.345052083333332, 'kg/m2']",2010-07-25T00:00:00
+14.06.27,901,7,AbdelsJourney,Wait1,,Delay Until - ,2010-10-09 00:00:00,2010-07-25T00:00:00
+14.06.27,902,7,AbdelsJourney,GPvisit,,,,2010-10-09T00:00:00
+14.06.27,902,7,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.3440235467442365, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2010-10-09T00:00:00
+14.06.27,902,7,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2010-10-09T00:00:00
+14.06.27,903,7,AbdelsJourney,GPRefersToHospital,,,,2010-10-09T00:00:00
+14.06.27,904,7,AbdelsJourney,Wait2,,Delay Until - ,2010-10-26 00:00:00,2010-10-09T00:00:00
+14.06.27,905,7,AbdelsJourney,ArriveHospital,,,,2010-10-26T00:00:00
+14.06.27,906,7,AbdelsJourney,Wait3,,Delay Until - ,2010-10-26 00:01:00,2010-10-26T00:00:00
+14.06.27,907,7,AbdelsJourney,LookupMedsFromLHCR,,,,2010-10-26T00:01:00
+14.06.27,908,7,AbdelsJourney,MedsReconcile,,,,2010-10-26T00:01:00
+14.06.27,909,7,AbdelsJourney,Wait5,,Delay Until - ,2010-10-26 00:04:00,2010-10-26T00:01:00
+14.06.27,910,7,AbdelsJourney,MedsPrescribe,,,,2010-10-26T00:04:00
+14.06.27,911,7,AbdelsJourney,Wait6,,Delay Until - ,2010-10-26 00:15:00,2010-10-26T00:04:00
+14.06.27,912,7,AbdelsJourney,MedsReconcileForDigcharge,,,,2010-10-26T00:15:00
+14.06.27,913,7,AbdelsJourney,Wait7,,Delay Until - ,2010-10-26 00:32:00,2010-10-26T00:15:00
+14.06.27,914,7,AbdelsJourney,Discharge,,,,2010-10-26T00:32:00
+14.06.27,915,7,AbdelsJourney,Wait8,,Delay Until - ,2010-10-26 00:47:00,2010-10-26T00:32:00
+14.06.28,916,7,AbdelsJourney,SendDischarge2GP,,,,2010-10-26T00:47:00
+14.06.28,917,7,AbdelsJourney,Wait9,,Delay Until - ,2010-10-31 00:47:00,2010-10-26T00:47:00
+14.06.28,918,7,AbdelsJourney,GPMedsReconcile,,,,2010-10-31T00:47:00
+14.06.28,919,7,AbdelsJourney,Finish,,,,2010-10-31T00:47:00
+14.06.29,920,1,AbdelsJourney,Birth,,,,2011-01-19T00:00:00
+14.06.29,920,1,AbdelsJourney,Birth,,HasFirstChild,True,2011-01-19T00:00:00
+14.06.29,920,1,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 76, 'kg']",2011-01-19T00:00:00
+14.06.29,920,1,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 196, 'cm']",2011-01-19T00:00:00
+14.06.29,920,1,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.78342357351104, 'kg/m2']",2011-01-19T00:00:00
+14.06.29,920,1,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2011-01-19T00:00:00
+14.06.29,921,1,AbdelsJourney,Wait1,,Delay Until - ,2011-03-26 00:00:00,2011-01-19T00:00:00
+14.06.29,922,1,AbdelsJourney,GPvisit,,,,2011-03-26T00:00:00
+14.06.29,922,1,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.009938916959861, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2011-03-26T00:00:00
+14.06.29,922,1,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2011-03-26T00:00:00
+14.06.29,923,1,AbdelsJourney,GPRefersToHospital,,,,2011-03-26T00:00:00
+14.06.29,924,1,AbdelsJourney,Wait2,,Delay Until - ,2011-03-27 00:00:00,2011-03-26T00:00:00
+14.06.29,925,1,AbdelsJourney,ArriveHospital,,,,2011-03-27T00:00:00
+14.06.29,926,1,AbdelsJourney,Wait3,,Delay Until - ,2011-03-27 00:04:00,2011-03-27T00:00:00
+14.06.29,927,1,AbdelsJourney,LookupMedsFromLHCR,,,,2011-03-27T00:04:00
+14.06.29,928,1,AbdelsJourney,MedsReconcile,,,,2011-03-27T00:04:00
+14.06.29,929,1,AbdelsJourney,Wait5,,Delay Until - ,2011-03-27 00:05:00,2011-03-27T00:04:00
+14.06.29,930,1,AbdelsJourney,MedsPrescribe,,,,2011-03-27T00:05:00
+14.06.29,931,1,AbdelsJourney,Wait6,,Delay Until - ,2011-03-27 00:10:00,2011-03-27T00:05:00
+14.06.29,932,1,AbdelsJourney,MedsReconcileForDigcharge,,,,2011-03-27T00:10:00
+14.06.29,933,1,AbdelsJourney,Wait7,,Delay Until - ,2011-03-27 00:17:00,2011-03-27T00:10:00
+14.06.29,934,1,AbdelsJourney,Discharge,,,,2011-03-27T00:17:00
+14.06.29,935,1,AbdelsJourney,Wait8,,Delay Until - ,2011-03-27 00:22:00,2011-03-27T00:17:00
+14.06.29,936,1,AbdelsJourney,SendDischarge2GP,,,,2011-03-27T00:22:00
+14.06.29,937,1,AbdelsJourney,Wait9,,Delay Until - ,2011-03-31 00:22:00,2011-03-27T00:22:00
+14.06.29,938,1,AbdelsJourney,GPMedsReconcile,,,,2011-03-31T00:22:00
+14.06.29,939,1,AbdelsJourney,Finish,,,,2011-03-31T00:22:00
+14.06.29,940,30,AbdelsJourney,Birth,,,,2013-05-01T00:00:00
+14.06.29,940,30,AbdelsJourney,Birth,,HasFirstChild,True,2013-05-01T00:00:00
+14.06.29,940,30,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg']",2013-05-01T00:00:00
+14.06.29,940,30,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']",2013-05-01T00:00:00
+14.06.29,940,30,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.614821360939274, 'kg/m2']",2013-05-01T00:00:00
+14.06.29,941,30,AbdelsJourney,Wait1,,Delay Until - ,2013-07-22 00:00:00,2013-05-01T00:00:00
+14.06.29,942,30,AbdelsJourney,GPvisit,,,,2013-07-22T00:00:00
+14.06.29,942,30,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2013-07-22T00:00:00
+14.06.29,942,30,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",2013-07-22T00:00:00
+14.06.29,942,30,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2013-07-22T00:00:00
+14.06.29,943,30,AbdelsJourney,GPRefersToHospital,,,,2013-07-22T00:00:00
+14.06.29,944,30,AbdelsJourney,Wait2,,Delay Until - ,2013-07-27 00:00:00,2013-07-22T00:00:00
+14.06.29,945,30,AbdelsJourney,ArriveHospital,,,,2013-07-27T00:00:00
+14.06.29,946,30,AbdelsJourney,Wait3,,Delay Until - ,2013-07-27 00:16:00,2013-07-27T00:00:00
+14.06.29,947,30,AbdelsJourney,LookupMedsFromLHCR,,,,2013-07-27T00:16:00
+14.06.29,948,30,AbdelsJourney,MedsReconcile,,,,2013-07-27T00:16:00
+14.06.29,949,30,AbdelsJourney,Wait5,,Delay Until - ,2013-07-27 00:19:00,2013-07-27T00:16:00
+14.06.29,950,30,AbdelsJourney,MedsPrescribe,,,,2013-07-27T00:19:00
+14.06.29,951,30,AbdelsJourney,Wait6,,Delay Until - ,2013-07-27 00:22:00,2013-07-27T00:19:00
+14.06.29,952,30,AbdelsJourney,MedsReconcileForDigcharge,,,,2013-07-27T00:22:00
+14.06.29,953,30,AbdelsJourney,Wait7,,Delay Until - ,2013-07-27 00:42:00,2013-07-27T00:22:00
+14.06.29,954,30,AbdelsJourney,Discharge,,,,2013-07-27T00:42:00
+14.06.29,955,30,AbdelsJourney,Wait8,,Delay Until - ,2013-07-27 00:57:00,2013-07-27T00:42:00
+14.06.29,956,30,AbdelsJourney,SendDischarge2GP,,,,2013-07-27T00:57:00
+14.06.29,957,30,AbdelsJourney,Wait9,,Delay Until - ,2013-07-29 00:57:00,2013-07-27T00:57:00
+14.06.29,958,30,AbdelsJourney,GPMedsReconcile,,,,2013-07-29T00:57:00
+14.06.29,959,30,AbdelsJourney,Finish,,,,2013-07-29T00:57:00
+14.06.29,960,12,AbdelsJourney,Birth,,,,2017-08-08T00:00:00
+14.06.29,960,12,AbdelsJourney,Birth,,HasFirstChild,True,2017-08-08T00:00:00
+14.06.30,960,12,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 91, 'kg']",2017-08-08T00:00:00
+14.06.30,960,12,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']",2017-08-08T00:00:00
+14.06.30,960,12,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.082554781722447, 'kg/m2']",2017-08-08T00:00:00
+14.06.30,961,12,AbdelsJourney,Wait1,,Delay Until - ,2017-10-27 00:00:00,2017-08-08T00:00:00
+14.06.30,962,12,AbdelsJourney,GPvisit,,,,2017-10-27T00:00:00
+14.06.30,962,12,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.06981959060494, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2017-10-27T00:00:00
+14.06.30,962,12,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2017-10-27T00:00:00
+14.06.30,963,12,AbdelsJourney,GPRefersToHospital,,,,2017-10-27T00:00:00
+14.06.30,964,12,AbdelsJourney,Wait2,,Delay Until - ,2017-10-28 00:00:00,2017-10-27T00:00:00
+14.06.30,965,12,AbdelsJourney,ArriveHospital,,,,2017-10-28T00:00:00
+14.06.30,966,12,AbdelsJourney,Wait3,,Delay Until - ,2017-10-28 00:17:00,2017-10-28T00:00:00
+14.06.30,967,12,AbdelsJourney,LookupMedsFromLHCR,,,,2017-10-28T00:17:00
+14.06.30,968,12,AbdelsJourney,MedsReconcile,,,,2017-10-28T00:17:00
+14.06.30,969,12,AbdelsJourney,Wait5,,Delay Until - ,2017-10-28 00:19:00,2017-10-28T00:17:00
+14.06.30,970,12,AbdelsJourney,MedsPrescribe,,,,2017-10-28T00:19:00
+14.06.30,971,12,AbdelsJourney,Wait6,,Delay Until - ,2017-10-28 00:23:00,2017-10-28T00:19:00
+14.06.30,972,12,AbdelsJourney,MedsReconcileForDigcharge,,,,2017-10-28T00:23:00
+14.06.30,973,12,AbdelsJourney,Wait7,,Delay Until - ,2017-10-28 00:27:00,2017-10-28T00:23:00
+14.06.30,974,12,AbdelsJourney,Discharge,,,,2017-10-28T00:27:00
+14.06.30,975,12,AbdelsJourney,Wait8,,Delay Until - ,2017-10-28 00:46:00,2017-10-28T00:27:00
+14.06.30,976,12,AbdelsJourney,SendDischarge2GP,,,,2017-10-28T00:46:00
+14.06.30,977,12,AbdelsJourney,Wait9,,Delay Until - ,2017-10-31 00:46:00,2017-10-28T00:46:00
+14.06.30,978,12,AbdelsJourney,GPMedsReconcile,,,,2017-10-31T00:46:00
+14.06.30,979,12,AbdelsJourney,Finish,,,,2017-10-31T00:46:00
+14.06.30,980,28,AbdelsJourney,Birth,,,,2018-09-27T00:00:00
+14.06.30,980,28,AbdelsJourney,Birth,,HasFirstChild,False,2018-09-27T00:00:00
+14.06.30,980,28,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 114, 'kg']",2018-09-27T00:00:00
+14.06.30,980,28,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 199, 'cm']",2018-09-27T00:00:00
+14.06.30,980,28,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.78715183960001, 'kg/m2']",2018-09-27T00:00:00
+14.06.30,981,28,AbdelsJourney,Wait1,,Delay Until - ,2018-12-11 00:00:00,2018-09-27T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,,,2018-12-08T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,HasFirstChild,True,2018-12-08T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg']",2018-12-08T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']",2018-12-08T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.614821360939274, 'kg/m2']",2018-12-08T00:00:00
+14.06.30,982,35,AbdelsJourney,Birth,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",2018-12-08T00:00:00
+14.06.30,983,35,AbdelsJourney,Wait1,,Delay Until - ,2019-02-16 00:00:00,2018-12-08T00:00:00
+14.06.30,984,28,AbdelsJourney,GPvisit,,,,2018-12-11T00:00:00
+14.06.30,984,28,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2018-12-11T00:00:00
+14.06.30,984,28,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2018-12-11T00:00:00
+14.06.30,985,28,AbdelsJourney,GPRefersToHospital,,,,2018-12-11T00:00:00
+14.06.30,986,28,AbdelsJourney,Wait2,,Delay Until - ,2018-12-28 00:00:00,2018-12-11T00:00:00
+14.06.30,987,28,AbdelsJourney,ArriveHospital,,,,2018-12-28T00:00:00
+14.06.30,988,28,AbdelsJourney,Wait3,,Delay Until - ,2018-12-28 00:19:00,2018-12-28T00:00:00
+14.06.30,989,28,AbdelsJourney,LookupMedsFromLHCR,,,,2018-12-28T00:19:00
+14.06.30,990,28,AbdelsJourney,MedsReconcile,,,,2018-12-28T00:19:00
+14.06.30,991,28,AbdelsJourney,Wait5,,Delay Until - ,2018-12-28 00:22:00,2018-12-28T00:19:00
+14.06.30,992,28,AbdelsJourney,MedsPrescribe,,,,2018-12-28T00:22:00
+14.06.30,993,28,AbdelsJourney,Wait6,,Delay Until - ,2018-12-28 00:32:00,2018-12-28T00:22:00
+14.06.30,994,28,AbdelsJourney,MedsReconcileForDigcharge,,,,2018-12-28T00:32:00
+14.06.30,995,28,AbdelsJourney,Wait7,,Delay Until - ,2018-12-28 00:46:00,2018-12-28T00:32:00
+14.06.30,996,28,AbdelsJourney,Discharge,,,,2018-12-28T00:46:00
+14.06.30,997,28,AbdelsJourney,Wait8,,Delay Until - ,2018-12-28 00:49:00,2018-12-28T00:46:00
+14.06.30,998,28,AbdelsJourney,SendDischarge2GP,,,,2018-12-28T00:49:00
+14.06.30,999,28,AbdelsJourney,Wait9,,Delay Until - ,2018-12-29 00:49:00,2018-12-28T00:49:00
+14.06.31,1000,28,AbdelsJourney,GPMedsReconcile,,,,2018-12-29T00:49:00
+14.06.31,1001,28,AbdelsJourney,Finish,,,,2018-12-29T00:49:00
+14.06.31,1002,35,AbdelsJourney,GPvisit,,,,2019-02-16T00:00:00
+14.06.31,1002,35,AbdelsJourney,GPvisit,,BloodGlucose,"{'quantity': 4.591676555748393, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2019-02-16T00:00:00
+14.06.31,1002,35,AbdelsJourney,GPvisit,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2019-02-16T00:00:00
+14.06.31,1002,35,AbdelsJourney,GPvisit,,obese,"['414915002', 'obese']",2019-02-16T00:00:00
+14.06.31,1002,35,AbdelsJourney,GPvisit,,GPmed,"['27658006', 'Amoxicillin (product)']",2019-02-16T00:00:00
+14.06.31,1003,35,AbdelsJourney,GPRefersToHospital,,,,2019-02-16T00:00:00
+14.06.31,1004,35,AbdelsJourney,Wait2,,Delay Until - ,2019-02-26 00:00:00,2019-02-16T00:00:00
+14.06.31,1005,35,AbdelsJourney,ArriveHospital,,,,2019-02-26T00:00:00
+14.06.31,1006,35,AbdelsJourney,Wait3,,Delay Until - ,2019-02-26 00:10:00,2019-02-26T00:00:00
+14.06.31,1007,35,AbdelsJourney,LookupMedsFromLHCR,,,,2019-02-26T00:10:00
+14.06.31,1008,35,AbdelsJourney,MedsReconcile,,,,2019-02-26T00:10:00
+14.06.31,1009,35,AbdelsJourney,Wait5,,Delay Until - ,2019-02-26 00:12:00,2019-02-26T00:10:00
+14.06.31,1010,35,AbdelsJourney,MedsPrescribe,,,,2019-02-26T00:12:00
+14.06.31,1011,35,AbdelsJourney,Wait6,,Delay Until - ,2019-02-26 00:23:00,2019-02-26T00:12:00
+14.06.31,1012,35,AbdelsJourney,MedsReconcileForDigcharge,,,,2019-02-26T00:23:00
+14.06.31,1013,35,AbdelsJourney,Wait7,,Delay Until - ,2019-02-26 00:34:00,2019-02-26T00:23:00
+14.06.31,1014,35,AbdelsJourney,Discharge,,,,2019-02-26T00:34:00
+14.06.31,1015,35,AbdelsJourney,Wait8,,Delay Until - ,2019-02-26 00:47:00,2019-02-26T00:34:00
+14.06.31,1016,35,AbdelsJourney,SendDischarge2GP,,,,2019-02-26T00:47:00
+14.06.31,1017,35,AbdelsJourney,Wait9,,Delay Until - ,2019-02-28 00:47:00,2019-02-26T00:47:00
+14.06.31,1018,35,AbdelsJourney,GPMedsReconcile,,,,2019-02-28T00:47:00
+14.06.31,1019,35,AbdelsJourney,Finish,,,,2019-02-28T00:47:00

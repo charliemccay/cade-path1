@@ -1,0 +1,41 @@
+
+timestamp: 1920_06_24
+activity_time: 1920-06-24
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Female
+   DOB: 1965-03-27 00:00:00
+   Surname: Welch
+   GivenName: Alice
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 097a0f23-532d-4685-96ab-19f7e0b6de50
+   This: {'name': 'GPmed', 'value': ['27658006', 'Amoxicillin (product)'], 'date': '1965-06-11T00:00:00', 'id': UUID('6991bb18-e585-48cc-aa46-5f231014851e')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 66, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 160, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.781249999999996, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1965-03-27T00:00:00', 'id': UUID('227a9c62-644e-4bd0-b827-62dd834c331c')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 66, 'kg'], 'date': '1965-03-27T00:00:00', 'id': UUID('e6309503-8a46-4bbc-9bac-fe0a3a2d816c')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 160, 'cm'], 'date': '1965-03-27T00:00:00', 'id': UUID('01f3055e-6c9f-4838-8ffb-e7c9bf82557b')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.781249999999996, 'kg/m2'], 'date': '1965-03-27T00:00:00', 'id': UUID('fe84afba-e083-4899-9ef9-64c0b07de145')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1965-03-27T00:00:00', 'id': UUID('e9f684dd-8147-4106-9b43-3115bfa239d2')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-06-11T00:00:00', 'id': UUID('c27c05d3-bd73-4db5-b586-a5a6bc156a60')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1965-06-11T00:00:00', 'id': UUID('6991bb18-e585-48cc-aa46-5f231014851e')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1965-03-27T00:00:00', 'id': UUID('227a9c62-644e-4bd0-b827-62dd834c331c')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 66, 'kg'], 'date': '1965-03-27T00:00:00', 'id': UUID('e6309503-8a46-4bbc-9bac-fe0a3a2d816c')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 160, 'cm'], 'date': '1965-03-27T00:00:00', 'id': UUID('01f3055e-6c9f-4838-8ffb-e7c9bf82557b')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 25.781249999999996, 'kg/m2'], 'date': '1965-03-27T00:00:00', 'id': UUID('fe84afba-e083-4899-9ef9-64c0b07de145')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1965-03-27T00:00:00', 'id': UUID('e9f684dd-8147-4106-9b43-3115bfa239d2')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-06-11T00:00:00', 'id': UUID('c27c05d3-bd73-4db5-b586-a5a6bc156a60')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1965-06-11T00:00:00', 'id': UUID('6991bb18-e585-48cc-aa46-5f231014851e')}

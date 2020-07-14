@@ -1,0 +1,220 @@
+14:06:02 00001 INFO: Starting...
+14:06:02 00111 INFO: Creating 50 patients.
+14:06:02 00112 INFO: Reading file: FakeNameGeneratorShr.csv.
+14:06:03 00113 INFO: Found name generator file: FakeNameGeneratorShr.csv
+14:06:03 00112 INFO: Reading file: PopulationStatistics.csv.
+14:06:03 00113 INFO: Found domain statistics file: PopulationStatistics.csv
+14:06:03 00112 INFO: Reading file: ShrewsburyStats.csv.
+14:06:03 00113 INFO: Found area statistics file: ShrewsburyStats.csv
+14:06:03 00114 INFO: Dealing with area type: Ward
+14:06:05 00101 INFO: Adding pathway file 'AbdelsJourney.bpmn' to validation list
+14:06:05 00115 INFO: Files validated for information items. Checking files dependencies...
+14:06:05 00107 INFO: Validating pathways.
+14:06:05 00108 INFO: Importing pathway file Resources/Files/Pathway/BPMN/AbdelsJourney.bpmn
+14:06:05 00109 INFO: Pathways validated.
+14:06:05 00110 INFO: Importing pathways successful.
+14:06:05 NOTE  person being put onto pathway :50 : AbdelsJourney
+14:06:05 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:05 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:05 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  person being put onto pathway :27 : AbdelsJourney
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  person being put onto pathway :14 : AbdelsJourney
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:06 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  person being put onto pathway :34 : AbdelsJourney
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  person being put onto pathway :21 : AbdelsJourney
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:07 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  person being put onto pathway :18 : AbdelsJourney
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  person being put onto pathway :47 : AbdelsJourney
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:08 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  person being put onto pathway :5 : AbdelsJourney
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  person being put onto pathway :20 : AbdelsJourney
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  person being put onto pathway :0 : AbdelsJourney
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:09 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  person being put onto pathway :11 : AbdelsJourney
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  person being put onto pathway :48 : AbdelsJourney
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:10 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  person being put onto pathway :31 : AbdelsJourney
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  person being put onto pathway :10 : AbdelsJourney
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:11 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  person being put onto pathway :2 : AbdelsJourney
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  person being put onto pathway :33 : AbdelsJourney
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  person being put onto pathway :42 : AbdelsJourney
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:12 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  person being put onto pathway :39 : AbdelsJourney
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  person being put onto pathway :24 : AbdelsJourney
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:13 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  person being put onto pathway :16 : AbdelsJourney
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  person being put onto pathway :9 : AbdelsJourney
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:14 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  person being put onto pathway :17 : AbdelsJourney
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  person being put onto pathway :6 : AbdelsJourney
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:15 NOTE  person being put onto pathway :13 : AbdelsJourney
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:16 NOTE  person being put onto pathway :43 : AbdelsJourney
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:16 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  person being put onto pathway :36 : AbdelsJourney
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  person being put onto pathway :44 : AbdelsJourney
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:17 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  person being put onto pathway :19 : AbdelsJourney
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  person being put onto pathway :15 : AbdelsJourney
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:18 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  person being put onto pathway :49 : AbdelsJourney
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  person being put onto pathway :37 : AbdelsJourney
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:19 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  person being put onto pathway :8 : AbdelsJourney
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  person being put onto pathway :40 : AbdelsJourney
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:20 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  person being put onto pathway :4 : AbdelsJourney
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  person being put onto pathway :45 : AbdelsJourney
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:21 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  person being put onto pathway :29 : AbdelsJourney
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  person being put onto pathway :46 : AbdelsJourney
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:22 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  person being put onto pathway :38 : AbdelsJourney
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  person being put onto pathway :3 : AbdelsJourney
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:23 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  person being put onto pathway :32 : AbdelsJourney
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  person being put onto pathway :25 : AbdelsJourney
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:24 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:25 NOTE  person being put onto pathway :41 : AbdelsJourney
+14:06:25 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:25 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:25 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  person being put onto pathway :22 : AbdelsJourney
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  person being put onto pathway :26 : AbdelsJourney
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  person being put onto pathway :23 : AbdelsJourney
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:26 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:27 NOTE  person being put onto pathway :7 : AbdelsJourney
+14:06:27 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:27 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:27 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:28 NOTE  person being put onto pathway :1 : AbdelsJourney
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  person being put onto pathway :30 : AbdelsJourney
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:29 NOTE  person being put onto pathway :12 : AbdelsJourney
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  person being put onto pathway :28 : AbdelsJourney
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  person being put onto pathway :35 : AbdelsJourney
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:30 NOTE  Error rendering template KAFKA_Observation.txt : <class 'jinja2.exceptions.UndefinedError'> 'list object' has no attribute 'code'
+14:06:31 NOTE  Time elapsed: 28 seconds

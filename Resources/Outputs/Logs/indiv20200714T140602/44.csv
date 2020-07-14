@@ -1,0 +1,29 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+502,AbdelsJourney,Wait1,,,,1973-10-31T00:00:00
+502,AbdelsJourney,Wait1,,HasFirstChild,False,1973-10-31T00:00:00
+502,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 116, 'kg']",1973-10-31T00:00:00
+502,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 188, 'cm']",1973-10-31T00:00:00
+502,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.820280669986424, 'kg/m2']",1973-10-31T00:00:00
+503,AbdelsJourney,GPvisit,,,,1973-10-31T00:00:00
+504,AbdelsJourney,GPRefersToHospital,,,,1974-01-03T00:00:00
+504,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 5.365754047534441, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1974-01-03T00:00:00
+504,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1974-01-03T00:00:00
+504,AbdelsJourney,GPRefersToHospital,,obese,"['414915002', 'obese']",1974-01-03T00:00:00
+504,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1974-01-03T00:00:00
+505,AbdelsJourney,Wait2,,,,1974-01-03T00:00:00
+506,AbdelsJourney,ArriveHospital,,,,1974-01-03T00:00:00
+507,AbdelsJourney,Wait3,,,,1974-01-13T00:00:00
+508,AbdelsJourney,LookupMedsFromLHCR,,,,1974-01-13T00:00:00
+509,AbdelsJourney,MedsReconcile,,,,1974-01-13T00:04:00
+510,AbdelsJourney,Wait5,,,,1974-01-13T00:04:00
+511,AbdelsJourney,MedsPrescribe,,,,1974-01-13T00:04:00
+512,AbdelsJourney,Wait6,,,,1974-01-13T00:05:00
+513,AbdelsJourney,MedsReconcileForDigcharge,,,,1974-01-13T00:05:00
+514,AbdelsJourney,Wait7,,,,1974-01-13T00:20:00
+515,AbdelsJourney,Discharge,,,,1974-01-13T00:20:00
+516,AbdelsJourney,Wait8,,,,1974-01-13T00:27:00
+517,AbdelsJourney,SendDischarge2GP,,,,1974-01-13T00:27:00
+518,AbdelsJourney,Wait9,,,,1974-01-13T00:33:00
+519,AbdelsJourney,GPMedsReconcile,,,,1974-01-13T00:33:00
+520,AbdelsJourney,Finish,,,,1974-01-14T00:33:00
+521,AbdelsJourney,Finish,,,,1974-01-14T00:33:00

@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":607,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"73e9d2e7-0abb-4996-ad86-29f7d28a82ee","value":{"resourceType": "Patient",
+          "id": "73e9d2e7-0abb-4996-ad86-29f7d28a82ee",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "1",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Gilbert",
+              "given": [
+                "Abigail"
+              ]
+            }
+          ],
+          "birthDate": "2011-01-19"
+        }}]}

@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":588,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"35bbc174-2ed1-48c7-a7bc-526f92c52348","value":{"resourceType": "Patient",
+          "id": "35bbc174-2ed1-48c7-a7bc-526f92c52348",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "19",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Parker",
+              "given": [
+                "Tia"
+              ]
+            }
+          ],
+          "birthDate": "1975-06-23"
+        }}]}

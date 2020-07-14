@@ -1,0 +1,41 @@
+
+timestamp: 1920_06_24
+activity_time: 1920-06-24
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 4
+   Gender: Male
+   DOB: 1981-10-15 00:00:00
+   Surname: Bartlett
+   GivenName: Harley
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 0561ea16-9d31-4063-9765-91d0eb52820c
+   This: {'name': 'GPmed', 'value': ['27658006', 'Amoxicillin (product)'], 'date': '1981-12-26T00:00:00', 'id': UUID('74379302-a410-4781-a9b3-e09d5fcd9341')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 106, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 189, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.674421208812745, 'kg/m2']
+   BloodGlucose: {'quantity': 5.3418488950398455, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1981-10-15T00:00:00', 'id': UUID('3c3a2477-6ccb-4e76-89bf-beb0a4851e20')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 106, 'kg'], 'date': '1981-10-15T00:00:00', 'id': UUID('0743574b-43c0-41fa-a7f0-bd009d1ec6cb')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 189, 'cm'], 'date': '1981-10-15T00:00:00', 'id': UUID('cee52694-b52b-4f1d-8ac2-ee5924414e93')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.674421208812745, 'kg/m2'], 'date': '1981-10-15T00:00:00', 'id': UUID('3f3d7b95-65f1-491d-aa91-0c6db159d1a6')}]
+   BloodGlucose: [{'value': {'quantity': 5.3418488950398455, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1981-12-26T00:00:00', 'id': UUID('678a452a-79e9-4d5e-80b0-93330a84333e')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1981-12-26T00:00:00', 'id': UUID('bd0fe444-4992-4ebc-8f23-f9cfbb22befa')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1981-12-26T00:00:00', 'id': UUID('74379302-a410-4781-a9b3-e09d5fcd9341')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1981-10-15T00:00:00', 'id': UUID('3c3a2477-6ccb-4e76-89bf-beb0a4851e20')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 106, 'kg'], 'date': '1981-10-15T00:00:00', 'id': UUID('0743574b-43c0-41fa-a7f0-bd009d1ec6cb')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 189, 'cm'], 'date': '1981-10-15T00:00:00', 'id': UUID('cee52694-b52b-4f1d-8ac2-ee5924414e93')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.674421208812745, 'kg/m2'], 'date': '1981-10-15T00:00:00', 'id': UUID('3f3d7b95-65f1-491d-aa91-0c6db159d1a6')}
+   BloodGlucose: {'value': {'quantity': 5.3418488950398455, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1981-12-26T00:00:00', 'id': UUID('678a452a-79e9-4d5e-80b0-93330a84333e')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1981-12-26T00:00:00', 'id': UUID('bd0fe444-4992-4ebc-8f23-f9cfbb22befa')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1981-12-26T00:00:00', 'id': UUID('74379302-a410-4781-a9b3-e09d5fcd9341')}

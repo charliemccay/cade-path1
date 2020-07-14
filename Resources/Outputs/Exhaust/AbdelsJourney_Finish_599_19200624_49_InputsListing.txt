@@ -1,0 +1,41 @@
+
+timestamp: 1920_06_24
+activity_time: 1920-06-24
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 49
+   Gender: Male
+   DOB: 1977-02-02 00:00:00
+   Surname: Nicholls
+   GivenName: Kian
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 9ce17815-1756-4b22-a12e-7398050ca96d
+   This: {'name': 'GPmed', 'value': ['27658006', 'Amoxicillin (product)'], 'date': '1977-03-31T00:00:00', 'id': UUID('1dd1cc4d-0803-4331-b4f6-7ab045a8435d')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.756367762548894, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1977-02-02T00:00:00', 'id': UUID('6d49207a-aea5-4907-be2e-55af2f422041')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1977-02-02T00:00:00', 'id': UUID('2315bc30-0cbd-4bba-9e67-566db6127412')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm'], 'date': '1977-02-02T00:00:00', 'id': UUID('cc50dbd3-5660-4070-ae5c-9f7e299bf39b')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.756367762548894, 'kg/m2'], 'date': '1977-02-02T00:00:00', 'id': UUID('78bab103-ad14-4364-9abf-f2673b19aad1')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1977-03-31T00:00:00', 'id': UUID('4ce13bad-2977-4037-968e-a6b1f6f97663')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1977-03-31T00:00:00', 'id': UUID('3311417d-d3e9-4e6e-a749-f9d12ed838db')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1977-03-31T00:00:00', 'id': UUID('1dd1cc4d-0803-4331-b4f6-7ab045a8435d')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1977-02-02T00:00:00', 'id': UUID('6d49207a-aea5-4907-be2e-55af2f422041')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 103, 'kg'], 'date': '1977-02-02T00:00:00', 'id': UUID('2315bc30-0cbd-4bba-9e67-566db6127412')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 183, 'cm'], 'date': '1977-02-02T00:00:00', 'id': UUID('cc50dbd3-5660-4070-ae5c-9f7e299bf39b')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.756367762548894, 'kg/m2'], 'date': '1977-02-02T00:00:00', 'id': UUID('78bab103-ad14-4364-9abf-f2673b19aad1')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1977-03-31T00:00:00', 'id': UUID('4ce13bad-2977-4037-968e-a6b1f6f97663')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1977-03-31T00:00:00', 'id': UUID('3311417d-d3e9-4e6e-a749-f9d12ed838db')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1977-03-31T00:00:00', 'id': UUID('1dd1cc4d-0803-4331-b4f6-7ab045a8435d')}

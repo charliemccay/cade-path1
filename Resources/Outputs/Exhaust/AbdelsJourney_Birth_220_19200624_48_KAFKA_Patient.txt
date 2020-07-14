@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":572,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"e96fcf08-c030-40a3-9d5c-bfad701a53be","value":{"resourceType": "Patient",
+          "id": "e96fcf08-c030-40a3-9d5c-bfad701a53be",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "48",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Kerr",
+              "given": [
+                "Benjamin"
+              ]
+            }
+          ],
+          "birthDate": "1953-11-02"
+        }}]}
