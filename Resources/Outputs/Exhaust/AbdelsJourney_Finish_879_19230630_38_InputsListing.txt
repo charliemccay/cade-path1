@@ -1,0 +1,35 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 38
+   Gender: Male
+   DOB: 2002-11-13 00:00:00
+   Surname: Ward
+   GivenName: Jude
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 425ff4d1-5fb5-49a7-bb2a-527d026d0d86
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-01-13T00:00:00', 'id': UUID('fabaa6fd-418b-4177-9f65-b0e278aed469')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.084332107116012, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2002-11-13T00:00:00', 'id': UUID('11548b64-8b71-4960-8b5e-547f51ca9ee7')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg'], 'date': '2002-11-13T00:00:00', 'id': UUID('8ce0dea6-d259-44e9-82a4-2680eaa2bea7')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '2002-11-13T00:00:00', 'id': UUID('5c8087e0-7569-4d32-ae4e-b1718ad4682b')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.084332107116012, 'kg/m2'], 'date': '2002-11-13T00:00:00', 'id': UUID('8cec1df7-ba1a-43d8-9f5b-24461aaa9286')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-01-13T00:00:00', 'id': UUID('fabaa6fd-418b-4177-9f65-b0e278aed469')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2002-11-13T00:00:00', 'id': UUID('11548b64-8b71-4960-8b5e-547f51ca9ee7')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg'], 'date': '2002-11-13T00:00:00', 'id': UUID('8ce0dea6-d259-44e9-82a4-2680eaa2bea7')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '2002-11-13T00:00:00', 'id': UUID('5c8087e0-7569-4d32-ae4e-b1718ad4682b')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.084332107116012, 'kg/m2'], 'date': '2002-11-13T00:00:00', 'id': UUID('8cec1df7-ba1a-43d8-9f5b-24461aaa9286')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2003-01-13T00:00:00', 'id': UUID('fabaa6fd-418b-4177-9f65-b0e278aed469')}

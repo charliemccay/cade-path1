@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":428,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"0caa4ab9-23b7-4e5e-b4a4-d89d67f96b13","value":{"resourceType": "Patient",
+          "id": "0caa4ab9-23b7-4e5e-b4a4-d89d67f96b13",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "17",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Cole",
+              "given": [
+                "Jayden"
+              ]
+            }
+          ],
+          "birthDate": "1967-07-23"
+        }}]}

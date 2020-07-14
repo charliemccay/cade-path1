@@ -1,0 +1,38 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 10
+   Gender: Male
+   DOB: 1970-11-17 00:00:00
+   Surname: Wall
+   GivenName: Mason
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 3e203cad-5abf-4cb4-b54b-a94e02cad704
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1971-02-07T00:00:00', 'id': UUID('168500a4-cc02-43f7-8b1d-2c165a3b29f8')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 92, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 177, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.365763350250564, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1970-11-17T00:00:00', 'id': UUID('0d57f26b-3f95-475f-8ce8-6f160dfc1571')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 92, 'kg'], 'date': '1970-11-17T00:00:00', 'id': UUID('fa29f1c0-368d-4a0b-9423-8fdb11e1f746')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 177, 'cm'], 'date': '1970-11-17T00:00:00', 'id': UUID('36180c86-5450-4cb0-af6d-b2c7e7d296e2')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.365763350250564, 'kg/m2'], 'date': '1970-11-17T00:00:00', 'id': UUID('b1e91ee6-d8c8-439a-b5c9-8468adc01522')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1970-11-17T00:00:00', 'id': UUID('754363a1-8702-4284-adff-bba1c8ce8622')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1971-02-07T00:00:00', 'id': UUID('168500a4-cc02-43f7-8b1d-2c165a3b29f8')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1970-11-17T00:00:00', 'id': UUID('0d57f26b-3f95-475f-8ce8-6f160dfc1571')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 92, 'kg'], 'date': '1970-11-17T00:00:00', 'id': UUID('fa29f1c0-368d-4a0b-9423-8fdb11e1f746')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 177, 'cm'], 'date': '1970-11-17T00:00:00', 'id': UUID('36180c86-5450-4cb0-af6d-b2c7e7d296e2')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.365763350250564, 'kg/m2'], 'date': '1970-11-17T00:00:00', 'id': UUID('b1e91ee6-d8c8-439a-b5c9-8468adc01522')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1970-11-17T00:00:00', 'id': UUID('754363a1-8702-4284-adff-bba1c8ce8622')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1971-02-07T00:00:00', 'id': UUID('168500a4-cc02-43f7-8b1d-2c165a3b29f8')}

@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":454,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"eff34d62-1cc6-4772-9c75-53c56308245a","value":{"resourceType": "Patient",
+          "id": "eff34d62-1cc6-4772-9c75-53c56308245a",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "28",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Baxter",
+              "given": [
+                "Liam"
+              ]
+            }
+          ],
+          "birthDate": "2008-01-31"
+        }}]}

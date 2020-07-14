@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":409,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"25deb443-587f-4521-abe0-6003a1182469","value":{"resourceType": "Patient",
+          "id": "25deb443-587f-4521-abe0-6003a1182469",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "15",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Stephenson",
+              "given": [
+                "Ewan"
+              ]
+            }
+          ],
+          "birthDate": "1924-01-16"
+        }}]}

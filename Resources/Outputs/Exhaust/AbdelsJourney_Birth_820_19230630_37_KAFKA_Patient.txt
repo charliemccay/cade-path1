@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":449,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"75213931-6604-4657-84f6-4bc612451d49","value":{"resourceType": "Patient",
+          "id": "75213931-6604-4657-84f6-4bc612451d49",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "37",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Herbert",
+              "given": [
+                "Tilly"
+              ]
+            }
+          ],
+          "birthDate": "1997-03-11"
+        }}]}

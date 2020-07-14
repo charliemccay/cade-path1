@@ -1,0 +1,35 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Sundorne
+   Country: England
+   PersonID: 43
+   Gender: Female
+   DOB: 1949-02-20 00:00:00
+   Surname: Goodwin
+   GivenName: Poppy
+   School: Sundorne School
+   GP: Sundorne GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 3d221868-4393-49a4-8030-0b46291e2e0d
+   This: {'name': 'FamilyHistoryDiabetes', 'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1949-02-20T00:00:00', 'id': UUID('cd2cfb84-815a-4ef8-8a10-fc4eeb37c615')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 57, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 13.831929918221752, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1949-02-20T00:00:00', 'id': UUID('693f40ae-6f4b-48a0-9bd0-92fd2f58bb21')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 57, 'kg'], 'date': '1949-02-20T00:00:00', 'id': UUID('3557b1a2-2700-465b-aa51-ea442ea5a570')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '1949-02-20T00:00:00', 'id': UUID('01a41a8a-8ad6-4a5d-a62f-a854c745eceb')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 13.831929918221752, 'kg/m2'], 'date': '1949-02-20T00:00:00', 'id': UUID('09750640-46f7-4747-9b1f-d8ed3d3ededa')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1949-02-20T00:00:00', 'id': UUID('cd2cfb84-815a-4ef8-8a10-fc4eeb37c615')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1949-02-20T00:00:00', 'id': UUID('693f40ae-6f4b-48a0-9bd0-92fd2f58bb21')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 57, 'kg'], 'date': '1949-02-20T00:00:00', 'id': UUID('3557b1a2-2700-465b-aa51-ea442ea5a570')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '1949-02-20T00:00:00', 'id': UUID('01a41a8a-8ad6-4a5d-a62f-a854c745eceb')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 13.831929918221752, 'kg/m2'], 'date': '1949-02-20T00:00:00', 'id': UUID('09750640-46f7-4747-9b1f-d8ed3d3ededa')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1949-02-20T00:00:00', 'id': UUID('cd2cfb84-815a-4ef8-8a10-fc4eeb37c615')}

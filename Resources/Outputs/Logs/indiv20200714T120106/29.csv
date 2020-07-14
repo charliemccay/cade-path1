@@ -1,0 +1,27 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+700,AbdelsJourney,Wait1,,,,1989-09-08T00:00:00
+700,AbdelsJourney,Wait1,,HasFirstChild,False,1989-09-08T00:00:00
+700,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 61, 'kg']",1989-09-08T00:00:00
+700,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 165, 'cm']",1989-09-08T00:00:00
+700,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.4058769513315, 'kg/m2']",1989-09-08T00:00:00
+700,AbdelsJourney,Wait1,,FamilyHistoryDiabetes,"['430679000', 'Family history of diabetes mellitus type 2']",1989-09-08T00:00:00
+701,AbdelsJourney,GPvisit,,,,1989-09-08T00:00:00
+702,AbdelsJourney,GPRefersToHospital,,,,1989-11-18T00:00:00
+702,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 4.0681124724225795, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1989-11-18T00:00:00
+703,AbdelsJourney,Wait2,,,,1989-11-18T00:00:00
+704,AbdelsJourney,ArriveHospital,,,,1989-11-18T00:00:00
+705,AbdelsJourney,Wait3,,,,1989-11-19T00:00:00
+706,AbdelsJourney,LookupMedsFromLHCR,,,,1989-11-19T00:00:00
+707,AbdelsJourney,MedsReconcile,,,,1989-11-19T00:03:00
+708,AbdelsJourney,Wait5,,,,1989-11-19T00:03:00
+709,AbdelsJourney,MedsPrescribe,,,,1989-11-19T00:03:00
+710,AbdelsJourney,Wait6,,,,1989-11-19T00:04:00
+711,AbdelsJourney,MedsReconcileForDigcharge,,,,1989-11-19T00:04:00
+712,AbdelsJourney,Wait7,,,,1989-11-19T00:14:00
+713,AbdelsJourney,Discharge,,,,1989-11-19T00:14:00
+714,AbdelsJourney,Wait8,,,,1989-11-19T00:25:00
+715,AbdelsJourney,SendDischarge2GP,,,,1989-11-19T00:25:00
+716,AbdelsJourney,Wait9,,,,1989-11-19T00:32:00
+717,AbdelsJourney,GPMedsReconcile,,,,1989-11-19T00:32:00
+718,AbdelsJourney,Finish,,,,1989-11-21T00:32:00
+719,AbdelsJourney,Finish,,,,1989-11-21T00:32:00

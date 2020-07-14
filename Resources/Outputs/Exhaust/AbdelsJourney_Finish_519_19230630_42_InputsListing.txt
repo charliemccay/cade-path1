@@ -1,0 +1,41 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Sundorne
+   Country: England
+   PersonID: 42
+   Gender: Male
+   DOB: 1973-09-09 00:00:00
+   Surname: Russell
+   GivenName: Hayden
+   School: Sundorne School
+   GP: Sundorne GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: ef829a76-a910-4c81-8fb4-764e59a77647
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1973-11-29T00:00:00', 'id': UUID('3fea98d9-3406-45e4-8b9a-0b2ff0f41274')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.77427092538821, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   BloodGlucose: {'quantity': 5.016109459152839, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1973-09-09T00:00:00', 'id': UUID('786d65eb-3ea4-4913-b9e8-58f5227d13fd')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg'], 'date': '1973-09-09T00:00:00', 'id': UUID('6ff2658c-5917-41a8-a1f5-0a1411ada92a')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm'], 'date': '1973-09-09T00:00:00', 'id': UUID('6594dffa-1c2b-4a64-b1b0-54cfbbb0e0a5')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.77427092538821, 'kg/m2'], 'date': '1973-09-09T00:00:00', 'id': UUID('f5bae66f-6b13-456d-9e92-54544225e1f0')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1973-09-09T00:00:00', 'id': UUID('a45376aa-2de6-4a57-80ee-10149ad13f4e')}]
+   BloodGlucose: [{'value': {'quantity': 5.016109459152839, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1973-11-29T00:00:00', 'id': UUID('1ddb2007-fa07-4137-8ea1-e5564e381bb2')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1973-11-29T00:00:00', 'id': UUID('3fea98d9-3406-45e4-8b9a-0b2ff0f41274')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1973-09-09T00:00:00', 'id': UUID('786d65eb-3ea4-4913-b9e8-58f5227d13fd')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg'], 'date': '1973-09-09T00:00:00', 'id': UUID('6ff2658c-5917-41a8-a1f5-0a1411ada92a')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 178, 'cm'], 'date': '1973-09-09T00:00:00', 'id': UUID('6594dffa-1c2b-4a64-b1b0-54cfbbb0e0a5')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 27.77427092538821, 'kg/m2'], 'date': '1973-09-09T00:00:00', 'id': UUID('f5bae66f-6b13-456d-9e92-54544225e1f0')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1973-09-09T00:00:00', 'id': UUID('a45376aa-2de6-4a57-80ee-10149ad13f4e')}
+   BloodGlucose: {'value': {'quantity': 5.016109459152839, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1973-11-29T00:00:00', 'id': UUID('1ddb2007-fa07-4137-8ea1-e5564e381bb2')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1973-11-29T00:00:00', 'id': UUID('3fea98d9-3406-45e4-8b9a-0b2ff0f41274')}

@@ -1,0 +1,38 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Male
+   DOB: 1949-02-04 00:00:00
+   Surname: Short
+   GivenName: Anthony
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: ea29755e-e947-418c-aad5-7495dcd20775
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '1949-04-16T00:00:00', 'id': UUID('06c85bd0-ea2a-46ec-b2ae-3d0341abbac0')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 111, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 43.9064910407025, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1949-02-04T00:00:00', 'id': UUID('6c97a006-d16a-4794-afe4-58a3fefef583')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 111, 'kg'], 'date': '1949-02-04T00:00:00', 'id': UUID('751797e4-2d5b-4884-aa36-4e0a903c338f')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '1949-02-04T00:00:00', 'id': UUID('2f3d030e-1d0f-4031-9efa-00f6c7fdc9fc')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 43.9064910407025, 'kg/m2'], 'date': '1949-02-04T00:00:00', 'id': UUID('6a89d01e-b73b-4a1e-830b-80fd657974d9')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1949-04-16T00:00:00', 'id': UUID('5d811a42-8ef3-4824-b484-9e5d6d11a634')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1949-04-16T00:00:00', 'id': UUID('06c85bd0-ea2a-46ec-b2ae-3d0341abbac0')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1949-02-04T00:00:00', 'id': UUID('6c97a006-d16a-4794-afe4-58a3fefef583')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 111, 'kg'], 'date': '1949-02-04T00:00:00', 'id': UUID('751797e4-2d5b-4884-aa36-4e0a903c338f')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '1949-02-04T00:00:00', 'id': UUID('2f3d030e-1d0f-4031-9efa-00f6c7fdc9fc')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 43.9064910407025, 'kg/m2'], 'date': '1949-02-04T00:00:00', 'id': UUID('6a89d01e-b73b-4a1e-830b-80fd657974d9')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1949-04-16T00:00:00', 'id': UUID('5d811a42-8ef3-4824-b484-9e5d6d11a634')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1949-04-16T00:00:00', 'id': UUID('06c85bd0-ea2a-46ec-b2ae-3d0341abbac0')}

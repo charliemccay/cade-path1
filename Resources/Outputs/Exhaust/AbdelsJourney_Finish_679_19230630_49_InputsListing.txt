@@ -1,0 +1,38 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 49
+   Gender: Male
+   DOB: 1984-06-23 00:00:00
+   Surname: Barrett
+   GivenName: Muhammad
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 21ba0f11-17a6-42d6-a226-a92a38b497b7
+   This: {'name': 'overweight', 'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1984-09-07T00:00:00', 'id': UUID('02d395f9-657b-4239-bc95-c992e5f71c7b')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 74, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.854405574103644, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1984-06-23T00:00:00', 'id': UUID('c093ca53-ac0e-45da-af54-4c8970057096')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 74, 'kg'], 'date': '1984-06-23T00:00:00', 'id': UUID('fc5f3474-2252-4aa2-b8ef-cbaa0570cd10')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm'], 'date': '1984-06-23T00:00:00', 'id': UUID('e1fe9a71-93f2-4f96-ac63-5a526b17a8ea')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.854405574103644, 'kg/m2'], 'date': '1984-06-23T00:00:00', 'id': UUID('5d3c3ae7-7184-42f7-9b7a-f868532ce39a')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1984-06-23T00:00:00', 'id': UUID('724efe28-243c-4f84-94d8-b6605fd900bf')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1984-09-07T00:00:00', 'id': UUID('02d395f9-657b-4239-bc95-c992e5f71c7b')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1984-06-23T00:00:00', 'id': UUID('c093ca53-ac0e-45da-af54-4c8970057096')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 74, 'kg'], 'date': '1984-06-23T00:00:00', 'id': UUID('fc5f3474-2252-4aa2-b8ef-cbaa0570cd10')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm'], 'date': '1984-06-23T00:00:00', 'id': UUID('e1fe9a71-93f2-4f96-ac63-5a526b17a8ea')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 26.854405574103644, 'kg/m2'], 'date': '1984-06-23T00:00:00', 'id': UUID('5d3c3ae7-7184-42f7-9b7a-f868532ce39a')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1984-06-23T00:00:00', 'id': UUID('724efe28-243c-4f84-94d8-b6605fd900bf')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1984-09-07T00:00:00', 'id': UUID('02d395f9-657b-4239-bc95-c992e5f71c7b')}

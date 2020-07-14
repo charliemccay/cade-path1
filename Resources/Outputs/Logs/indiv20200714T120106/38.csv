@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+860,AbdelsJourney,Wait1,,,,2002-11-13T00:00:00
+860,AbdelsJourney,Wait1,,HasFirstChild,True,2002-11-13T00:00:00
+860,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 71, 'kg']",2002-11-13T00:00:00
+860,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm']",2002-11-13T00:00:00
+860,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.084332107116012, 'kg/m2']",2002-11-13T00:00:00
+861,AbdelsJourney,GPvisit,,,,2002-11-13T00:00:00
+862,AbdelsJourney,GPRefersToHospital,,,,2003-01-13T00:00:00
+862,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",2003-01-13T00:00:00
+863,AbdelsJourney,Wait2,,,,2003-01-13T00:00:00
+864,AbdelsJourney,ArriveHospital,,,,2003-01-13T00:00:00
+865,AbdelsJourney,Wait3,,,,2003-01-25T00:00:00
+866,AbdelsJourney,LookupMedsFromLHCR,,,,2003-01-25T00:00:00
+867,AbdelsJourney,MedsReconcile,,,,2003-01-25T00:05:00
+868,AbdelsJourney,Wait5,,,,2003-01-25T00:05:00
+869,AbdelsJourney,MedsPrescribe,,,,2003-01-25T00:05:00
+870,AbdelsJourney,Wait6,,,,2003-01-25T00:07:00
+871,AbdelsJourney,MedsReconcileForDigcharge,,,,2003-01-25T00:07:00
+872,AbdelsJourney,Wait7,,,,2003-01-25T00:15:00
+873,AbdelsJourney,Discharge,,,,2003-01-25T00:15:00
+874,AbdelsJourney,Wait8,,,,2003-01-25T00:20:00
+875,AbdelsJourney,SendDischarge2GP,,,,2003-01-25T00:20:00
+876,AbdelsJourney,Wait9,,,,2003-01-25T00:23:00
+877,AbdelsJourney,GPMedsReconcile,,,,2003-01-25T00:23:00
+878,AbdelsJourney,Finish,,,,2003-01-27T00:23:00
+879,AbdelsJourney,Finish,,,,2003-01-27T00:23:00

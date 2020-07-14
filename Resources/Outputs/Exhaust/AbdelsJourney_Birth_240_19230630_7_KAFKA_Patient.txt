@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":420,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"57a907e8-4853-49cb-8428-fe2f25878fdb","value":{"resourceType": "Patient",
+          "id": "57a907e8-4853-49cb-8428-fe2f25878fdb",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "7",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Richardson",
+              "given": [
+                "Eva"
+              ]
+            }
+          ],
+          "birthDate": "1954-08-09"
+        }}]}

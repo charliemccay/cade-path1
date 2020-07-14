@@ -1,0 +1,38 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Female
+   DOB: 1959-12-09 00:00:00
+   Surname: Evans
+   GivenName: Zoe
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 8b402ec6-f0c4-46a5-a31f-33ef4e237034
+   This: {'name': 'obese', 'value': ['414915002', 'obese'], 'date': '1960-02-15T00:00:00', 'id': UUID('121053bc-a0d3-4336-88ea-35c75963d3be')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 40.2244456462953, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1959-12-09T00:00:00', 'id': UUID('69815009-55c4-49db-b4d0-34a9d574d4e3')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '1959-12-09T00:00:00', 'id': UUID('0c1c88b1-7a57-4a5d-b494-e92855f2326c')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1959-12-09T00:00:00', 'id': UUID('ed700b92-6a60-459a-af1d-8809d95aeb5c')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 40.2244456462953, 'kg/m2'], 'date': '1959-12-09T00:00:00', 'id': UUID('97b81cce-214e-4a40-985c-b9fb8de4362f')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1960-02-15T00:00:00', 'id': UUID('c47829e7-448e-4ae4-b540-85742e7b475f')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1960-02-15T00:00:00', 'id': UUID('121053bc-a0d3-4336-88ea-35c75963d3be')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1959-12-09T00:00:00', 'id': UUID('69815009-55c4-49db-b4d0-34a9d574d4e3')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 119, 'kg'], 'date': '1959-12-09T00:00:00', 'id': UUID('0c1c88b1-7a57-4a5d-b494-e92855f2326c')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 172, 'cm'], 'date': '1959-12-09T00:00:00', 'id': UUID('ed700b92-6a60-459a-af1d-8809d95aeb5c')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 40.2244456462953, 'kg/m2'], 'date': '1959-12-09T00:00:00', 'id': UUID('97b81cce-214e-4a40-985c-b9fb8de4362f')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1960-02-15T00:00:00', 'id': UUID('c47829e7-448e-4ae4-b540-85742e7b475f')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1960-02-15T00:00:00', 'id': UUID('121053bc-a0d3-4336-88ea-35c75963d3be')}

@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":416,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"ea29755e-e947-418c-aad5-7495dcd20775","value":{"resourceType": "Patient",
+          "id": "ea29755e-e947-418c-aad5-7495dcd20775",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "31",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Short",
+              "given": [
+                "Anthony"
+              ]
+            }
+          ],
+          "birthDate": "1949-02-04"
+        }}]}

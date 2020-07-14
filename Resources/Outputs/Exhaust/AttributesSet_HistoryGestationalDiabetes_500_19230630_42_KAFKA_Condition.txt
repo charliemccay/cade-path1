@@ -1,0 +1,19 @@
+http://localhost:8082/topics/Condition/200{"offsets":[{"partition":0,"offset":186,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"a45376aa-2de6-4a57-80ee-10149ad13f4e","value":{"resourceType": "Condition",
+  "id": "a45376aa-2de6-4a57-80ee-10149ad13f4e",
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "472971004",
+        "display": "History of gestational diabetes mellitus"
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/ef829a76-a910-4c81-8fb4-764e59a77647"},
+  "dateRecorded": "1923-06-30"
+}}]}

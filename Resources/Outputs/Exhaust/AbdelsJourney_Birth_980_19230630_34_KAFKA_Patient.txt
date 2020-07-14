@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":457,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"50607170-b3fb-45b0-8020-5792966a96af","value":{"resourceType": "Patient",
+          "id": "50607170-b3fb-45b0-8020-5792966a96af",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "34",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Douglas",
+              "given": [
+                "Kayleigh"
+              ]
+            }
+          ],
+          "birthDate": "2019-06-08"
+        }}]}

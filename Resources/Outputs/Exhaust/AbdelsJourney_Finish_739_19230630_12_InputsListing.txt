@@ -1,0 +1,38 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 12
+   Gender: Male
+   DOB: 1990-04-28 00:00:00
+   Surname: Hardy
+   GivenName: Lewis
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: b819277f-9c40-42fd-bc43-d4aab0df085c
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.153769011680884, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1990-07-05T00:00:00', 'id': UUID('4da4b2b7-cd84-4429-acb7-c1751d57c965')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.5964581216432, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   BloodGlucose: {'quantity': 5.153769011680884, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1990-04-28T00:00:00', 'id': UUID('9b05c77b-27ca-4919-9962-179e48a82927')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg'], 'date': '1990-04-28T00:00:00', 'id': UUID('7e196186-cc40-4202-908f-851b2d322077')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm'], 'date': '1990-04-28T00:00:00', 'id': UUID('30cdb145-75b2-46b9-9bdd-b772c72f851f')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.5964581216432, 'kg/m2'], 'date': '1990-04-28T00:00:00', 'id': UUID('2392c48e-5898-4131-9221-a568a0ad5ee9')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1990-04-28T00:00:00', 'id': UUID('0d838d40-7102-4c41-a044-0ff942bf9c0a')}]
+   BloodGlucose: [{'value': {'quantity': 5.153769011680884, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1990-07-05T00:00:00', 'id': UUID('4da4b2b7-cd84-4429-acb7-c1751d57c965')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1990-04-28T00:00:00', 'id': UUID('9b05c77b-27ca-4919-9962-179e48a82927')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg'], 'date': '1990-04-28T00:00:00', 'id': UUID('7e196186-cc40-4202-908f-851b2d322077')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 166, 'cm'], 'date': '1990-04-28T00:00:00', 'id': UUID('30cdb145-75b2-46b9-9bdd-b772c72f851f')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.5964581216432, 'kg/m2'], 'date': '1990-04-28T00:00:00', 'id': UUID('2392c48e-5898-4131-9221-a568a0ad5ee9')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1990-04-28T00:00:00', 'id': UUID('0d838d40-7102-4c41-a044-0ff942bf9c0a')}
+   BloodGlucose: {'value': {'quantity': 5.153769011680884, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1990-07-05T00:00:00', 'id': UUID('4da4b2b7-cd84-4429-acb7-c1751d57c965')}

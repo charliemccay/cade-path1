@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+260,AbdelsJourney,Wait1,,,,1956-01-31T00:00:00
+260,AbdelsJourney,Wait1,,HasFirstChild,True,1956-01-31T00:00:00
+260,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 110, 'kg']",1956-01-31T00:00:00
+260,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 173, 'cm']",1956-01-31T00:00:00
+260,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 36.753650305723546, 'kg/m2']",1956-01-31T00:00:00
+261,AbdelsJourney,GPvisit,,,,1956-01-31T00:00:00
+262,AbdelsJourney,GPRefersToHospital,,,,1956-03-30T00:00:00
+262,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 4.624199549919323, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1956-03-30T00:00:00
+262,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1956-03-30T00:00:00
+262,AbdelsJourney,GPRefersToHospital,,obese,"['414915002', 'obese']",1956-03-30T00:00:00
+263,AbdelsJourney,Wait2,,,,1956-03-30T00:00:00
+264,AbdelsJourney,ArriveHospital,,,,1956-03-30T00:00:00
+265,AbdelsJourney,Wait3,,,,1956-04-18T00:00:00
+266,AbdelsJourney,LookupMedsFromLHCR,,,,1956-04-18T00:00:00
+267,AbdelsJourney,MedsReconcile,,,,1956-04-18T00:15:00
+268,AbdelsJourney,Wait5,,,,1956-04-18T00:15:00
+269,AbdelsJourney,MedsPrescribe,,,,1956-04-18T00:15:00
+270,AbdelsJourney,Wait6,,,,1956-04-18T00:17:00
+271,AbdelsJourney,MedsReconcileForDigcharge,,,,1956-04-18T00:17:00
+272,AbdelsJourney,Wait7,,,,1956-04-18T00:27:00
+273,AbdelsJourney,Discharge,,,,1956-04-18T00:27:00
+274,AbdelsJourney,Wait8,,,,1956-04-18T00:40:00
+275,AbdelsJourney,SendDischarge2GP,,,,1956-04-18T00:40:00
+276,AbdelsJourney,Wait9,,,,1956-04-18T00:55:00
+277,AbdelsJourney,GPMedsReconcile,,,,1956-04-18T00:55:00
+278,AbdelsJourney,Finish,,,,1956-04-19T00:55:00
+279,AbdelsJourney,Finish,,,,1956-04-19T00:55:00

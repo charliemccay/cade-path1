@@ -1,0 +1,35 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 47
+   Gender: Male
+   DOB: 1961-11-04 00:00:00
+   Surname: Wilkins
+   GivenName: Kieran
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 6bedb1b6-8dc5-4438-9848-46c57aeb41d9
+   This: {'name': 'HistoryGestationalDiabetes', 'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1961-11-04T00:00:00', 'id': UUID('dfc56e7f-30ed-48cb-a0b4-700557ae7e75')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.75, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1961-11-04T00:00:00', 'id': UUID('69efac9b-570c-4e1a-b6ed-0a057e45132d')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg'], 'date': '1961-11-04T00:00:00', 'id': UUID('8786db56-4e2c-4e87-99af-dedc58a21be9')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm'], 'date': '1961-11-04T00:00:00', 'id': UUID('b0010c84-aff7-4cd1-8df7-0013ef62ce8a')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.75, 'kg/m2'], 'date': '1961-11-04T00:00:00', 'id': UUID('7491240e-bcf0-4b5a-83a6-b51e2ac420d1')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1961-11-04T00:00:00', 'id': UUID('dfc56e7f-30ed-48cb-a0b4-700557ae7e75')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1961-11-04T00:00:00', 'id': UUID('69efac9b-570c-4e1a-b6ed-0a057e45132d')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 79, 'kg'], 'date': '1961-11-04T00:00:00', 'id': UUID('8786db56-4e2c-4e87-99af-dedc58a21be9')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm'], 'date': '1961-11-04T00:00:00', 'id': UUID('b0010c84-aff7-4cd1-8df7-0013ef62ce8a')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 19.75, 'kg/m2'], 'date': '1961-11-04T00:00:00', 'id': UUID('7491240e-bcf0-4b5a-83a6-b51e2ac420d1')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1961-11-04T00:00:00', 'id': UUID('dfc56e7f-30ed-48cb-a0b4-700557ae7e75')}

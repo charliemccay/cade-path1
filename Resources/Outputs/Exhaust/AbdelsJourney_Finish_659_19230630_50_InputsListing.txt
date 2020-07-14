@@ -1,0 +1,32 @@
+
+timestamp: 1923_06_30
+activity_time: 1923-06-30
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 50
+   Gender: Male
+   DOB: 1983-10-21 00:00:00
+   Surname: Sanders
+   GivenName: Morgan
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: e18b1363-9e60-4599-b8b9-178fccf27938
+   This: {'name': 'bmi', 'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.76943835385394, 'kg/m2'], 'date': '1983-10-21T00:00:00', 'id': UUID('b7372783-6c6a-4ee5-9680-da8338d049b0')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.76943835385394, 'kg/m2']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1983-10-21T00:00:00', 'id': UUID('a1dc516b-0e4d-4f64-81d5-7d4320e06169')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg'], 'date': '1983-10-21T00:00:00', 'id': UUID('988f433a-1079-4d51-951c-0e8d338f73cc')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm'], 'date': '1983-10-21T00:00:00', 'id': UUID('6bd8691e-f7a4-4591-9c25-ddd945c4298b')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.76943835385394, 'kg/m2'], 'date': '1983-10-21T00:00:00', 'id': UUID('b7372783-6c6a-4ee5-9680-da8338d049b0')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1983-10-21T00:00:00', 'id': UUID('a1dc516b-0e4d-4f64-81d5-7d4320e06169')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 54, 'kg'], 'date': '1983-10-21T00:00:00', 'id': UUID('988f433a-1079-4d51-951c-0e8d338f73cc')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 154, 'cm'], 'date': '1983-10-21T00:00:00', 'id': UUID('6bd8691e-f7a4-4591-9c25-ddd945c4298b')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.76943835385394, 'kg/m2'], 'date': '1983-10-21T00:00:00', 'id': UUID('b7372783-6c6a-4ee5-9680-da8338d049b0')}

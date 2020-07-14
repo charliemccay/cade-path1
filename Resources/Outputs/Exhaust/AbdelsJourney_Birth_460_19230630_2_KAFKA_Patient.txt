@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":431,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"d51f3ca2-c7df-4582-b4d3-a762b005458b","value":{"resourceType": "Patient",
+          "id": "d51f3ca2-c7df-4582-b4d3-a762b005458b",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "2",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Vaughan",
+              "given": [
+                "Erin"
+              ]
+            }
+          ],
+          "birthDate": "1971-10-13"
+        }}]}

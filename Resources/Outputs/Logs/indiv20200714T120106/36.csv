@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+320,AbdelsJourney,Wait1,,,,1961-01-27T00:00:00
+320,AbdelsJourney,Wait1,,HasFirstChild,False,1961-01-27T00:00:00
+320,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 62, 'kg']",1961-01-27T00:00:00
+320,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 165, 'cm']",1961-01-27T00:00:00
+320,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 22.77318640955005, 'kg/m2']",1961-01-27T00:00:00
+321,AbdelsJourney,GPvisit,,,,1961-01-27T00:00:00
+322,AbdelsJourney,GPRefersToHospital,,,,1961-03-31T00:00:00
+322,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 4.3104208808168725, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1961-03-31T00:00:00
+323,AbdelsJourney,Wait2,,,,1961-03-31T00:00:00
+324,AbdelsJourney,ArriveHospital,,,,1961-03-31T00:00:00
+325,AbdelsJourney,Wait3,,,,1961-04-16T00:00:00
+326,AbdelsJourney,LookupMedsFromLHCR,,,,1961-04-16T00:00:00
+327,AbdelsJourney,MedsReconcile,,,,1961-04-16T00:06:00
+328,AbdelsJourney,Wait5,,,,1961-04-16T00:06:00
+329,AbdelsJourney,MedsPrescribe,,,,1961-04-16T00:06:00
+330,AbdelsJourney,Wait6,,,,1961-04-16T00:09:00
+331,AbdelsJourney,MedsReconcileForDigcharge,,,,1961-04-16T00:09:00
+332,AbdelsJourney,Wait7,,,,1961-04-16T00:25:00
+333,AbdelsJourney,Discharge,,,,1961-04-16T00:25:00
+334,AbdelsJourney,Wait8,,,,1961-04-16T00:45:00
+335,AbdelsJourney,SendDischarge2GP,,,,1961-04-16T00:45:00
+336,AbdelsJourney,Wait9,,,,1961-04-16T01:04:00
+337,AbdelsJourney,GPMedsReconcile,,,,1961-04-16T01:04:00
+338,AbdelsJourney,Finish,,,,1961-04-19T01:04:00
+339,AbdelsJourney,Finish,,,,1961-04-19T01:04:00
