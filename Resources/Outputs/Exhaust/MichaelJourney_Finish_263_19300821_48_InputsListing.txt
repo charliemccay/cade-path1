@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 48
+   Gender: Male
+   DOB: 1953-10-04 00:00:00
+   Surname: Shah
+   GivenName: James
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 25a78072-3f53-4873-b4e7-c7633f104129
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1953-12-25T00:00:00', 'id': UUID('7140d350-987a-444f-9cd7-7888e6845094')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1953-12-25T00:00:00', 'id': UUID('7140d350-987a-444f-9cd7-7888e6845094')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1953-12-25T00:00:00', 'id': UUID('7140d350-987a-444f-9cd7-7888e6845094')}

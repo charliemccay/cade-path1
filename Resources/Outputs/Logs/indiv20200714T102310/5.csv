@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+888,MichaelJourney,WaitToSeeGP,,,,1992-02-21T00:00:00
+889,MichaelJourney,GPvisit,,,,1992-02-21T00:00:00
+890,MichaelJourney,GPvisit,GPVisit,Symptom,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg']",1992-05-11T00:00:00
+890,MichaelJourney,GPvisit,,,,1992-05-11T00:00:00
+891,MichaelJourney,PharmacyVisit,,,,1992-05-11T00:00:00
+892,MichaelJourney,Wait4Park,,,,1992-05-13T14:00:00
+893,MichaelJourney,ParrkVisit,,,,1992-05-13T14:00:00
+894,MichaelJourney,Wait4Ambulance,,,,1992-05-14T14:00:00
+895,MichaelJourney,AmbulanceTrip,,,,1992-05-14T14:00:00
+896,MichaelJourney,Wiat4ED,,,,1992-05-14T14:02:00
+897,MichaelJourney,EmergencyDept,,,,1992-05-14T14:02:00
+898,MichaelJourney,Wait4Ward,,,,1992-05-14T14:09:00
+899,MichaelJourney,Admit2Ward,,,,1992-05-14T14:09:00
+900,MichaelJourney,Wait4Prepare4Discharge,,,,1992-05-14T14:21:00
+901,MichaelJourney,Prepare4Discharge,,,,1992-05-14T14:21:00
+902,MichaelJourney,Wait4Discharge,,,,1992-05-14T14:29:00
+903,MichaelJourney,Discharge,,,,1992-05-14T14:29:00
+904,MichaelJourney,Wait4PHR,,,,1992-05-14T14:31:00
+905,MichaelJourney,UpdatePHR,,,,1992-05-14T14:31:00
+906,MichaelJourney,Wait4OPMakeAppt,,,,1992-05-14T14:45:00
+907,MichaelJourney,CreateOutpatientAppt,,,,1992-05-14T14:45:00
+908,MichaelJourney,Wait4OutpatientAppt,,,,1992-05-14T15:05:00
+909,MichaelJourney,AttendOutpatients,,,,1992-05-14T15:05:00
+910,MichaelJourney,Finish,,,,1992-05-14T15:15:00
+911,MichaelJourney,Finish,,,,1992-05-14T15:15:00

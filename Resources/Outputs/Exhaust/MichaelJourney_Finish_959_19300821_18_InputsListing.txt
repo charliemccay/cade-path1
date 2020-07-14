@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Column
+   Country: England
+   PersonID: 18
+   Gender: Female
+   DOB: 1993-04-30 00:00:00
+   Surname: Goddard
+   GivenName: Cerys
+   School: Column School
+   GP: Column GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: af8f8b5a-f185-47d7-9893-0a0f54adc436
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1993-07-06T00:00:00', 'id': UUID('eaac47be-2269-4a8f-a506-d1f6a0d2bba7')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1993-07-06T00:00:00', 'id': UUID('eaac47be-2269-4a8f-a506-d1f6a0d2bba7')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1993-07-06T00:00:00', 'id': UUID('eaac47be-2269-4a8f-a506-d1f6a0d2bba7')}

@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 47
+   Gender: Male
+   DOB: 2016-04-27 00:00:00
+   Surname: May
+   GivenName: Jack
+   School: Sutton School
+   GP: Sutton GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: a23aacec-d19a-4eea-8037-b32499a22865
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '2016-07-20T00:00:00', 'id': UUID('2d854d3b-e706-4069-a099-371058b1b979')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '2016-07-20T00:00:00', 'id': UUID('2d854d3b-e706-4069-a099-371058b1b979')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '2016-07-20T00:00:00', 'id': UUID('2d854d3b-e706-4069-a099-371058b1b979')}

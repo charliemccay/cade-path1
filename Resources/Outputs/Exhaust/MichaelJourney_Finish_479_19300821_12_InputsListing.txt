@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 12
+   Gender: Male
+   DOB: 1963-06-09 00:00:00
+   Surname: Hilton
+   GivenName: Muhammad
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: dcd6552f-6b34-4e5a-a5d0-4c4eea9157e5
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1963-08-31T00:00:00', 'id': UUID('d29ca3b8-5805-4723-8824-389848f50c1b')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1963-08-31T00:00:00', 'id': UUID('d29ca3b8-5805-4723-8824-389848f50c1b')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1963-08-31T00:00:00', 'id': UUID('d29ca3b8-5805-4723-8824-389848f50c1b')}

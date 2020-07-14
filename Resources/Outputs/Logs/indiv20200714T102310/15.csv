@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+432,MichaelJourney,WaitToSeeGP,,,,1963-03-07T00:00:00
+433,MichaelJourney,GPvisit,,,,1963-03-07T00:00:00
+434,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1963-05-28T00:00:00
+434,MichaelJourney,GPvisit,,,,1963-05-28T00:00:00
+435,MichaelJourney,PharmacyVisit,,,,1963-05-28T00:00:00
+436,MichaelJourney,Wait4Park,,,,1963-06-04T20:00:00
+437,MichaelJourney,ParrkVisit,,,,1963-06-04T20:00:00
+440,MichaelJourney,Wait4Ambulance,,,,1963-06-17T20:00:00
+441,MichaelJourney,AmbulanceTrip,,,,1963-06-17T20:00:00
+442,MichaelJourney,Wiat4ED,,,,1963-06-17T20:09:00
+443,MichaelJourney,EmergencyDept,,,,1963-06-17T20:09:00
+444,MichaelJourney,Wait4Ward,,,,1963-06-17T20:11:00
+445,MichaelJourney,Admit2Ward,,,,1963-06-17T20:11:00
+446,MichaelJourney,Wait4Prepare4Discharge,,,,1963-06-17T20:22:00
+447,MichaelJourney,Prepare4Discharge,,,,1963-06-17T20:22:00
+448,MichaelJourney,Wait4Discharge,,,,1963-06-17T20:37:00
+449,MichaelJourney,Discharge,,,,1963-06-17T20:37:00
+450,MichaelJourney,Wait4PHR,,,,1963-06-17T20:41:00
+451,MichaelJourney,UpdatePHR,,,,1963-06-17T20:41:00
+452,MichaelJourney,Wait4OPMakeAppt,,,,1963-06-17T20:44:00
+453,MichaelJourney,CreateOutpatientAppt,,,,1963-06-17T20:44:00
+454,MichaelJourney,Wait4OutpatientAppt,,,,1963-06-17T20:54:00
+455,MichaelJourney,AttendOutpatients,,,,1963-06-17T20:54:00
+456,MichaelJourney,Finish,,,,1963-06-17T21:02:00
+457,MichaelJourney,Finish,,,,1963-06-17T21:02:00

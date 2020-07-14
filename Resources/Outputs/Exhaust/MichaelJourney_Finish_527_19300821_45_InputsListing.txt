@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 45
+   Gender: Female
+   DOB: 1967-06-28 00:00:00
+   Surname: Hooper
+   GivenName: Demi
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 2154f94b-c345-4d20-9c1f-d58528ae52ee
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1967-09-19T00:00:00', 'id': UUID('34b60b1d-6ad0-4d13-ba16-c4d715813a5c')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1967-09-19T00:00:00', 'id': UUID('34b60b1d-6ad0-4d13-ba16-c4d715813a5c')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1967-09-19T00:00:00', 'id': UUID('34b60b1d-6ad0-4d13-ba16-c4d715813a5c')}

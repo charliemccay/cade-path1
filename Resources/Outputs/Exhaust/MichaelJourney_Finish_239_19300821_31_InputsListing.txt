@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Female
+   DOB: 1951-09-25 00:00:00
+   Surname: Williams
+   GivenName: Georgia
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: aef78a04-015f-4e2a-94e0-0ef72851238f
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1951-11-25T00:00:00', 'id': UUID('7294a5c2-7262-4c69-836a-4571c579cb29')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1951-11-25T00:00:00', 'id': UUID('7294a5c2-7262-4c69-836a-4571c579cb29')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1951-11-25T00:00:00', 'id': UUID('7294a5c2-7262-4c69-836a-4571c579cb29')}

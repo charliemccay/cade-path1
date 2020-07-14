@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 2
+   Gender: Female
+   DOB: 1942-12-25 00:00:00
+   Surname: Coles
+   GivenName: Demi
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 02ec4852-a5ee-4682-862b-7e068fcd12fb
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 82, 'kg'], 'date': '1943-03-08T00:00:00', 'id': UUID('93e96a50-7339-4bca-8564-9ea2c817518b')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 82, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 82, 'kg'], 'date': '1943-03-08T00:00:00', 'id': UUID('93e96a50-7339-4bca-8564-9ea2c817518b')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 82, 'kg'], 'date': '1943-03-08T00:00:00', 'id': UUID('93e96a50-7339-4bca-8564-9ea2c817518b')}

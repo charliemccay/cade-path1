@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 6
+   Gender: Female
+   DOB: 1975-03-21 00:00:00
+   Surname: Wilson
+   GivenName: Laura
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: d1b66e6d-b951-4ad4-9abd-555443091e2b
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg'], 'date': '1975-05-28T00:00:00', 'id': UUID('7eb04477-fc33-45c6-ac5f-ca57b14fa15a')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg'], 'date': '1975-05-28T00:00:00', 'id': UUID('7eb04477-fc33-45c6-ac5f-ca57b14fa15a')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 89, 'kg'], 'date': '1975-05-28T00:00:00', 'id': UUID('7eb04477-fc33-45c6-ac5f-ca57b14fa15a')}

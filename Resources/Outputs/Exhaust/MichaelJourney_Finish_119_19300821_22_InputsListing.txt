@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 22
+   Gender: Female
+   DOB: 1942-06-06 00:00:00
+   Surname: Black
+   GivenName: Amy
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: b5bc34a8-be50-4d57-adc5-1b69399a6551
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1942-08-06T00:00:00', 'id': UUID('b03fa39b-cb2c-4941-936d-99cb770449b5')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1942-08-06T00:00:00', 'id': UUID('b03fa39b-cb2c-4941-936d-99cb770449b5')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1942-08-06T00:00:00', 'id': UUID('b03fa39b-cb2c-4941-936d-99cb770449b5')}

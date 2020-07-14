@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Male
+   DOB: 1956-07-21 00:00:00
+   Surname: Gould
+   GivenName: Daniel
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: ce0ffa6e-c93f-4dbe-aabc-3927250929ed
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg'], 'date': '1956-09-16T00:00:00', 'id': UUID('c6bb6bf5-354a-4b29-b3d7-7010067b6022')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg'], 'date': '1956-09-16T00:00:00', 'id': UUID('c6bb6bf5-354a-4b29-b3d7-7010067b6022')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 80, 'kg'], 'date': '1956-09-16T00:00:00', 'id': UUID('c6bb6bf5-354a-4b29-b3d7-7010067b6022')}

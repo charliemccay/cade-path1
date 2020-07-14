@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 13
+   Gender: Male
+   DOB: 1997-11-29 00:00:00
+   Surname: Wells
+   GivenName: Corey
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: d6748577-fade-47ee-9914-0ad3ef15e644
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1998-02-21T00:00:00', 'id': UUID('a001c818-20eb-47fa-a957-37cd3c2d4b55')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1998-02-21T00:00:00', 'id': UUID('a001c818-20eb-47fa-a957-37cd3c2d4b55')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1998-02-21T00:00:00', 'id': UUID('a001c818-20eb-47fa-a957-37cd3c2d4b55')}

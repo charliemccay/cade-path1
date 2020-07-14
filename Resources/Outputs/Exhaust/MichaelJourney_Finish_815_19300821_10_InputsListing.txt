@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 10
+   Gender: Female
+   DOB: 1983-12-18 00:00:00
+   Surname: Leonard
+   GivenName: Laura
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 2bd289c7-3e84-4cd7-97f5-642d561ccf78
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg'], 'date': '1984-03-11T00:00:00', 'id': UUID('f1c982e3-b490-4d0f-8dfd-1fa8f91488d1')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg'], 'date': '1984-03-11T00:00:00', 'id': UUID('f1c982e3-b490-4d0f-8dfd-1fa8f91488d1')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 88, 'kg'], 'date': '1984-03-11T00:00:00', 'id': UUID('f1c982e3-b490-4d0f-8dfd-1fa8f91488d1')}

@@ -7,10 +7,12 @@ This is a demo Resouces folder for the CADE2 pathway-based simulation tool
 ```sh
 	git clone https://github.com/charliemccay/cade-meds1
 ```
-To run a simulation you need to mount the Resources folder in this project in the CADE2 Docker container.  Note that you need to provide the absolute path for your local copy of the Resources folder.  
+To run kafka you need to run to following from the project directory that contains the docker-compose.yml file:
+
+docker-compose up
 
 
-Once the kafka server is running, open another terminal window.  From there you can then run the CADE container which will post the patients and observations to the kafka server.  Having each container running in its own terminal will allow you to see what is happening more easily.  Note that you need to provide an absolute path for the Resources folder, hence the $(pwd).
+Once the kafka server is running (wait until the messages stop scrolling), open another terminal window.  From there you can then run the CADE container which will post the patients and observations to the kafka server.  Having each container running in its own terminal will allow you to see what is happening more easily.  Note that you need to provide an absolute path for the Resources folder, hence the $(pwd).
 
 docker run -v $(pwd)/Resources:/app/Resources --network="host" ramseysys/cade2r3 start.py
 

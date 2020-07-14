@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 0
+   Gender: Male
+   DOB: 1978-07-23 00:00:00
+   Surname: Page
+   GivenName: Jamie
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 8a79102c-ec66-4d85-87be-435a76570799
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg'], 'date': '1978-10-06T00:00:00', 'id': UUID('f95e4977-a369-4678-b891-b0ec2c29b871')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg'], 'date': '1978-10-06T00:00:00', 'id': UUID('f95e4977-a369-4678-b891-b0ec2c29b871')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 65, 'kg'], 'date': '1978-10-06T00:00:00', 'id': UUID('f95e4977-a369-4678-b891-b0ec2c29b871')}

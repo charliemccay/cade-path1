@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 39
+   Gender: Male
+   DOB: 2009-07-07 00:00:00
+   Surname: Miah
+   GivenName: Christopher
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 24f3c6c2-8bd0-473b-aa5d-b8b8eac3dc42
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '2009-09-15T00:00:00', 'id': UUID('208304bd-47a4-4f81-a72e-8f546d40206c')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '2009-09-15T00:00:00', 'id': UUID('208304bd-47a4-4f81-a72e-8f546d40206c')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '2009-09-15T00:00:00', 'id': UUID('208304bd-47a4-4f81-a72e-8f546d40206c')}

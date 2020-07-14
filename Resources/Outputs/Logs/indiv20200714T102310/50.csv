@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+576,MichaelJourney,WaitToSeeGP,,,,1973-06-01T00:00:00
+577,MichaelJourney,GPvisit,,,,1973-06-01T00:00:00
+578,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,1973-08-07T00:00:00
+578,MichaelJourney,GPvisit,,,,1973-08-07T00:00:00
+579,MichaelJourney,PharmacyVisit,,,,1973-08-07T00:00:00
+580,MichaelJourney,Wait4Park,,,,1973-08-10T09:00:00
+581,MichaelJourney,ParrkVisit,,,,1973-08-10T09:00:00
+582,MichaelJourney,Wait4Ambulance,,,,1973-08-13T09:00:00
+583,MichaelJourney,AmbulanceTrip,,,,1973-08-13T09:00:00
+584,MichaelJourney,Wiat4ED,,,,1973-08-13T09:01:00
+585,MichaelJourney,EmergencyDept,,,,1973-08-13T09:01:00
+586,MichaelJourney,Wait4Ward,,,,1973-08-13T09:05:00
+587,MichaelJourney,Admit2Ward,,,,1973-08-13T09:05:00
+588,MichaelJourney,Wait4Prepare4Discharge,,,,1973-08-13T09:10:00
+589,MichaelJourney,Prepare4Discharge,,,,1973-08-13T09:10:00
+590,MichaelJourney,Wait4Discharge,,,,1973-08-13T09:25:00
+591,MichaelJourney,Discharge,,,,1973-08-13T09:25:00
+592,MichaelJourney,Wait4PHR,,,,1973-08-13T09:29:00
+593,MichaelJourney,UpdatePHR,,,,1973-08-13T09:29:00
+594,MichaelJourney,Wait4OPMakeAppt,,,,1973-08-13T09:47:00
+595,MichaelJourney,CreateOutpatientAppt,,,,1973-08-13T09:47:00
+596,MichaelJourney,Wait4OutpatientAppt,,,,1973-08-13T10:03:00
+597,MichaelJourney,AttendOutpatients,,,,1973-08-13T10:03:00
+598,MichaelJourney,Finish,,,,1973-08-13T10:04:00
+599,MichaelJourney,Finish,,,,1973-08-13T10:04:00

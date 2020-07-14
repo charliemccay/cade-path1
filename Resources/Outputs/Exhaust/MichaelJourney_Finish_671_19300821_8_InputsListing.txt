@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 8
+   Gender: Male
+   DOB: 1975-09-05 00:00:00
+   Surname: Joyce
+   GivenName: Jonathan
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: f1a53d7b-9881-48be-920d-993942155958
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1975-11-28T00:00:00', 'id': UUID('daa4f60b-7050-4594-8376-900183b6757e')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1975-11-28T00:00:00', 'id': UUID('daa4f60b-7050-4594-8376-900183b6757e')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 60, 'kg'], 'date': '1975-11-28T00:00:00', 'id': UUID('daa4f60b-7050-4594-8376-900183b6757e')}

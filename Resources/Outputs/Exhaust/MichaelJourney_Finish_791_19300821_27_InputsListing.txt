@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 27
+   Gender: Male
+   DOB: 1982-08-30 00:00:00
+   Surname: Briggs
+   GivenName: Nicholas
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 39249a6c-8691-439b-8c26-333caff4db2b
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1982-11-06T00:00:00', 'id': UUID('40b28b8e-641f-4311-8d9e-9b49d57e4f11')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1982-11-06T00:00:00', 'id': UUID('40b28b8e-641f-4311-8d9e-9b49d57e4f11')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1982-11-06T00:00:00', 'id': UUID('40b28b8e-641f-4311-8d9e-9b49d57e4f11')}

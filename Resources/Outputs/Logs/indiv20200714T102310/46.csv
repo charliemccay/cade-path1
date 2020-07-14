@@ -1,0 +1,26 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+1200,MichaelJourney,WaitToSeeGP,,,,2019-08-08T00:00:00
+1201,MichaelJourney,GPvisit,,,,2019-08-08T00:00:00
+1202,MichaelJourney,GPvisit,GPVisit,Symptom,all the rest,2019-10-03T00:00:00
+1202,MichaelJourney,GPvisit,,,,2019-10-03T00:00:00
+1203,MichaelJourney,PharmacyVisit,,,,2019-10-03T00:00:00
+1204,MichaelJourney,Wait4Park,,,,2019-10-06T19:00:00
+1205,MichaelJourney,ParrkVisit,,,,2019-10-06T19:00:00
+1206,MichaelJourney,Wait4Ambulance,,,,2019-10-19T19:00:00
+1207,MichaelJourney,AmbulanceTrip,,,,2019-10-19T19:00:00
+1208,MichaelJourney,Wiat4ED,,,,2019-10-19T19:11:00
+1209,MichaelJourney,EmergencyDept,,,,2019-10-19T19:11:00
+1210,MichaelJourney,Wait4Ward,,,,2019-10-19T19:18:00
+1211,MichaelJourney,Admit2Ward,,,,2019-10-19T19:18:00
+1212,MichaelJourney,Wait4Prepare4Discharge,,,,2019-10-19T19:21:00
+1213,MichaelJourney,Prepare4Discharge,,,,2019-10-19T19:21:00
+1214,MichaelJourney,Wait4Discharge,,,,2019-10-19T19:36:00
+1215,MichaelJourney,Discharge,,,,2019-10-19T19:36:00
+1216,MichaelJourney,Wait4PHR,,,,2019-10-19T19:53:00
+1217,MichaelJourney,UpdatePHR,,,,2019-10-19T19:53:00
+1218,MichaelJourney,Wait4OPMakeAppt,,,,2019-10-19T20:11:00
+1219,MichaelJourney,CreateOutpatientAppt,,,,2019-10-19T20:11:00
+1220,MichaelJourney,Wait4OutpatientAppt,,,,2019-10-19T20:16:00
+1221,MichaelJourney,AttendOutpatients,,,,2019-10-19T20:16:00
+1222,MichaelJourney,Finish,,,,2019-10-19T20:34:00
+1223,MichaelJourney,Finish,,,,2019-10-19T20:34:00

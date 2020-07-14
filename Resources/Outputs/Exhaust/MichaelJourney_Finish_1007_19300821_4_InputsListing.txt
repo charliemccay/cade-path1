@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 4
+   Gender: Male
+   DOB: 1997-04-21 00:00:00
+   Surname: Walsh
+   GivenName: Kieran
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: c2f8250a-5cfb-467c-a652-900baddfe39f
+   This: {'name': 'Symptom', 'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 63, 'kg'], 'date': '1997-06-27T00:00:00', 'id': UUID('62bc3144-05f6-495b-aa5e-9d8d439f9fc6')}
+   Symptom: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 63, 'kg']
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 63, 'kg'], 'date': '1997-06-27T00:00:00', 'id': UUID('62bc3144-05f6-495b-aa5e-9d8d439f9fc6')}]
+person['Last']':  
+   Symptom: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 63, 'kg'], 'date': '1997-06-27T00:00:00', 'id': UUID('62bc3144-05f6-495b-aa5e-9d8d439f9fc6')}

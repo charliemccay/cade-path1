@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 15
+   Gender: Male
+   DOB: 1963-03-07 00:00:00
+   Surname: Burgess
+   GivenName: Andrew
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 22b5fca8-8207-44e6-bd09-77205315d8b6
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1963-05-28T00:00:00', 'id': UUID('cd9f6209-db06-43a1-9f14-23393ab02a2d')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1963-05-28T00:00:00', 'id': UUID('cd9f6209-db06-43a1-9f14-23393ab02a2d')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1963-05-28T00:00:00', 'id': UUID('cd9f6209-db06-43a1-9f14-23393ab02a2d')}

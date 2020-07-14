@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 40
+   Gender: Male
+   DOB: 2011-09-08 00:00:00
+   Surname: Cross
+   GivenName: Corey
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 6c814b06-dbc0-4357-b345-04f33f77e4a8
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '2011-11-16T00:00:00', 'id': UUID('de936da9-8751-437c-a9e2-02ae32445346')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '2011-11-16T00:00:00', 'id': UUID('de936da9-8751-437c-a9e2-02ae32445346')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '2011-11-16T00:00:00', 'id': UUID('de936da9-8751-437c-a9e2-02ae32445346')}

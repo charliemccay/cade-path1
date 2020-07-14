@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 29
+   Gender: Female
+   DOB: 1950-05-01 00:00:00
+   Surname: Gibbons
+   GivenName: Lauren
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 26cb1d04-c7f3-4e43-87b5-47fddfa2abd5
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1950-06-28T00:00:00', 'id': UUID('61de14cd-855a-4093-9288-100ef583cc5d')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1950-06-28T00:00:00', 'id': UUID('61de14cd-855a-4093-9288-100ef583cc5d')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1950-06-28T00:00:00', 'id': UUID('61de14cd-855a-4093-9288-100ef583cc5d')}

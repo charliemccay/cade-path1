@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 1960-06-07 00:00:00
+   Surname: Barnes
+   GivenName: Mollie
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 75358bd1-0c46-4559-a4ad-8cceaf2c6f1a
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1960-08-07T00:00:00', 'id': UUID('113b3d25-d758-46ec-9b84-a23a4f98f192')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1960-08-07T00:00:00', 'id': UUID('113b3d25-d758-46ec-9b84-a23a4f98f192')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1960-08-07T00:00:00', 'id': UUID('113b3d25-d758-46ec-9b84-a23a4f98f192')}

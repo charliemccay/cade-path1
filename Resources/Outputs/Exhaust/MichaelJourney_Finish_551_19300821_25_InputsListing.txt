@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Harlescott
+   Country: England
+   PersonID: 25
+   Gender: Female
+   DOB: 1969-08-10 00:00:00
+   Surname: North
+   GivenName: Kayleigh
+   School: Harlescott School
+   GP: Harlescott GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 9b4328ea-4446-48c1-b9a3-754d4aacbc7f
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1969-10-07T00:00:00', 'id': UUID('9fdc2cb3-2984-4b28-b924-873f95748098')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1969-10-07T00:00:00', 'id': UUID('9fdc2cb3-2984-4b28-b924-873f95748098')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1969-10-07T00:00:00', 'id': UUID('9fdc2cb3-2984-4b28-b924-873f95748098')}

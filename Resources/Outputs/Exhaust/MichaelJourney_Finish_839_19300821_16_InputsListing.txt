@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 16
+   Gender: Male
+   DOB: 1985-02-09 00:00:00
+   Surname: Russell
+   GivenName: Christopher
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: f3900548-2928-4446-b449-5ed4da4ba7f2
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1985-04-20T00:00:00', 'id': UUID('cf736831-4715-40f1-b144-41befdae5a32')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1985-04-20T00:00:00', 'id': UUID('cf736831-4715-40f1-b144-41befdae5a32')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1985-04-20T00:00:00', 'id': UUID('cf736831-4715-40f1-b144-41befdae5a32')}

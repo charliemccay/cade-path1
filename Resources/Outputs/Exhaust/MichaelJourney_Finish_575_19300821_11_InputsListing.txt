@@ -1,0 +1,23 @@
+
+timestamp: 1930_08_21
+activity_time: 1930-08-21
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 11
+   Gender: Female
+   DOB: 1972-09-22 00:00:00
+   Surname: Fitzgerald
+   GivenName: Alicia
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   MichaelJourneyStatus: Finish
+   patient_id: 8c3ffab2-99d7-41d2-a17c-6a9fd45a2dfc
+   This: {'name': 'Symptom', 'value': 'all the rest', 'date': '1972-11-28T00:00:00', 'id': UUID('9164f9c9-c084-4826-8e9c-e09618d16fb7')}
+   Symptom: all the rest
+----------------------------
+person['Hist']':  
+   Symptom: [{'value': 'all the rest', 'date': '1972-11-28T00:00:00', 'id': UUID('9164f9c9-c084-4826-8e9c-e09618d16fb7')}]
+person['Last']':  
+   Symptom: {'value': 'all the rest', 'date': '1972-11-28T00:00:00', 'id': UUID('9164f9c9-c084-4826-8e9c-e09618d16fb7')}
