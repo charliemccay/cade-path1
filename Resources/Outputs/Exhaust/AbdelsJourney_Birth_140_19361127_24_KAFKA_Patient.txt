@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":772,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"d761382b-ad19-49d7-bed0-9ed24d12a4cd","value":{"resourceType": "Patient",
+          "id": "d761382b-ad19-49d7-bed0-9ed24d12a4cd",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "24",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Hayes",
+              "given": [
+                "Tegan"
+              ]
+            }
+          ],
+          "birthDate": "1959-11-28"
+        }}]}

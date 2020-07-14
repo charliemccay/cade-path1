@@ -1,0 +1,19 @@
+http://localhost:8082/topics/Condition/200{"offsets":[{"partition":0,"offset":652,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"da4ec810-eeda-4ff6-bb4b-a536bbcafc5a","value":{"resourceType": "Condition",
+  "id": "da4ec810-eeda-4ff6-bb4b-a536bbcafc5a",
+  "clinicalStatus": "active",
+  "category": [{
+        "coding": [
+        {"system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item"}]
+        }],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "162863004",
+        "display": "Body mass index 25-29 - overweight"
+      }
+    ]
+  },
+  "patient": {"reference":  "Patient/2e31e3aa-d1ee-4c77-8088-80d40cb5ae57"},
+  "dateRecorded": "1936-11-27"
+}}]}

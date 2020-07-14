@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":789,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"f0db4382-64d4-4a6d-bc52-13bb5124d72f","value":{"resourceType": "Patient",
+          "id": "f0db4382-64d4-4a6d-bc52-13bb5124d72f",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "32",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Armstrong",
+              "given": [
+                "Scott"
+              ]
+            }
+          ],
+          "birthDate": "1982-01-06"
+        }}]}

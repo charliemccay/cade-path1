@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":775,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"e3a2bb5d-a3e7-48f8-845f-0a8c109e1450","value":{"resourceType": "Patient",
+          "id": "e3a2bb5d-a3e7-48f8-845f-0a8c109e1450",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "23",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Slater",
+              "given": [
+                "Elizabeth"
+              ]
+            }
+          ],
+          "birthDate": "1970-04-10"
+        }}]}

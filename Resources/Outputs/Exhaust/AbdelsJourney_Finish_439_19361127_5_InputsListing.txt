@@ -1,0 +1,38 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 5
+   Gender: Female
+   DOB: 1980-03-03 00:00:00
+   Surname: Graham
+   GivenName: Zoe
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: c47984b4-3511-4d1d-9e57-4011fb37a825
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1980-05-27T00:15:00', 'id': UUID('81dcc7fb-ad91-4a66-a93c-33138d99a31e')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.75, 'kg/m2']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1980-03-03T00:00:00', 'id': UUID('b0d925ac-bbc2-41ba-93db-9ab3330de392')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '1980-03-03T00:00:00', 'id': UUID('2ea9c513-9058-4908-b26b-ca562186ca64')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm'], 'date': '1980-03-03T00:00:00', 'id': UUID('908d7bed-d5e6-4c6b-b0f0-a53c756b21b9')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.75, 'kg/m2'], 'date': '1980-03-03T00:00:00', 'id': UUID('eb520211-719d-4236-aa6b-02c830605800')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1980-05-24T00:00:00', 'id': UUID('a220955e-3293-43b5-8820-684297f0c79d')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1980-05-27T00:15:00', 'id': UUID('81dcc7fb-ad91-4a66-a93c-33138d99a31e')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1980-03-03T00:00:00', 'id': UUID('b0d925ac-bbc2-41ba-93db-9ab3330de392')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 75, 'kg'], 'date': '1980-03-03T00:00:00', 'id': UUID('2ea9c513-9058-4908-b26b-ca562186ca64')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 200, 'cm'], 'date': '1980-03-03T00:00:00', 'id': UUID('908d7bed-d5e6-4c6b-b0f0-a53c756b21b9')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 18.75, 'kg/m2'], 'date': '1980-03-03T00:00:00', 'id': UUID('eb520211-719d-4236-aa6b-02c830605800')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1980-05-24T00:00:00', 'id': UUID('a220955e-3293-43b5-8820-684297f0c79d')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1980-05-27T00:15:00', 'id': UUID('81dcc7fb-ad91-4a66-a93c-33138d99a31e')}

@@ -1,0 +1,74 @@
+16:02:15 00102 INFO: Converting BPMN pathway AbdelsJourney.bpmn to json...
+16:02:15 00103 INFO: Initial node created: Birth
+16:02:15 00103 INFO: Simple node created: GPRefersToHospital
+16:02:15 00103 INFO: Simple node created: ArriveHospital
+16:02:15 00103 INFO: Simple node created: LookupMedsFromLHCR
+16:02:15 00103 INFO: Simple node created: MedsReconcile
+16:02:15 00103 INFO: Simple node created: MedsPrescribe
+16:02:15 00103 INFO: Simple node created: MedsReconcileForDigcharge
+16:02:15 00103 INFO: Simple node created: Discharge
+16:02:15 00103 INFO: Simple node created: SendDischarge2GP
+16:02:15 00103 INFO: Simple node created: GPMedsReconcile
+16:02:15 00103 INFO: Simple node created: GPvisit
+16:02:15 NOTE  missing delay name 'W' 'a' 'i' 't' '1' (message argument count missmatch)
+16:02:15 00103 INFO: Delay node created: Wait1
+16:02:15 NOTE  missing delay name 'W' 'a' 'i' 't' '2' (message argument count missmatch)
+16:02:15 00103 INFO: Delay node created: Wait2
+16:02:15 00103 INFO: Delay node created: Wait3 ""
+16:02:15 NOTE  missing delay name 'W' 'a' 'i' 't' '5' (message argument count missmatch)
+16:02:15 00103 INFO: Delay node created: Wait5
+16:02:15 NOTE  missing delay name 'W' 'a' 'i' 't' '6' (message argument count missmatch)
+16:02:15 00103 INFO: Delay node created: Wait6
+16:02:15 NOTE  missing delay name 'W' 'a' 'i' 't' '7' (message argument count missmatch)
+16:02:15 00103 INFO: Delay node created: Wait7
+16:02:15 00103 INFO: Delay node created: Wait8 "
+
+"
+16:02:15 00103 INFO: Delay node created: Wait9 "
+
+"
+16:02:15 00103 INFO: Terminal node created: Finish
+16:02:15 00105 INFO: Direct Transition for Wait1 added: GPvisit
+16:02:15 00105 INFO: Direct Transition for GPvisit added: GPRefersToHospital
+16:02:15 00105 INFO: Direct Transition for GPRefersToHospital added: Wait2
+16:02:15 00105 INFO: Direct Transition for Birth added: Wait1
+16:02:15 00105 INFO: Direct Transition for Wait2 added: ArriveHospital
+16:02:15 00105 INFO: Direct Transition for ArriveHospital added: Wait3
+16:02:15 00105 INFO: Direct Transition for Wait3 added: LookupMedsFromLHCR
+16:02:15 00105 INFO: Direct Transition for LookupMedsFromLHCR added: MedsReconcile
+16:02:15 00105 INFO: Direct Transition for MedsReconcile added: Wait5
+16:02:15 00105 INFO: Direct Transition for MedsPrescribe added: Wait6
+16:02:15 00105 INFO: Direct Transition for MedsReconcileForDigcharge added: Wait7
+16:02:15 00105 INFO: Direct Transition for Discharge added: Wait8
+16:02:15 00105 INFO: Direct Transition for SendDischarge2GP added: Wait9
+16:02:15 00105 INFO: Direct Transition for GPMedsReconcile added: Finish
+16:02:15 00105 INFO: Direct Transition for Wait6 added: MedsReconcileForDigcharge
+16:02:15 00105 INFO: Direct Transition for Wait7 added: Discharge
+16:02:15 00105 INFO: Direct Transition for Wait8 added: SendDischarge2GP
+16:02:15 00105 INFO: Direct Transition for Wait9 added: GPMedsReconcile
+16:02:15 00105 INFO: Direct Transition for Wait5 added: MedsPrescribe
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney GPvisit
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney MedsPrescribe
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney MedsPrescribe
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Looking for attributes from setAttribute for AbdelsJourney Birth
+16:02:15 NOTE  Adding attribute from setAttribute for AbdelsJourney Birth
+16:02:15 00106 INFO: Pathway AbdelsJourney.json has been converted to json successfully.

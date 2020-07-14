@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+562,AbdelsJourney,Wait1,,,,1989-06-04T00:00:00
+562,AbdelsJourney,Wait1,,HasFirstChild,True,1989-06-04T00:00:00
+562,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 62, 'kg']",1989-06-04T00:00:00
+562,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 191, 'cm']",1989-06-04T00:00:00
+562,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 16.995148159315807, 'kg/m2']",1989-06-04T00:00:00
+563,AbdelsJourney,GPvisit,,,,1989-06-04T00:00:00
+582,AbdelsJourney,GPRefersToHospital,,,,1989-08-14T00:00:00
+582,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 5.137132703185281, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1989-08-14T00:00:00
+582,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1989-08-14T00:00:00
+583,AbdelsJourney,Wait2,,,,1989-08-14T00:00:00
+584,AbdelsJourney,ArriveHospital,,,,1989-08-14T00:00:00
+585,AbdelsJourney,Wait3,,,,1989-09-03T00:00:00
+586,AbdelsJourney,LookupMedsFromLHCR,,,,1989-09-03T00:00:00
+587,AbdelsJourney,MedsReconcile,,,,1989-09-03T00:09:00
+588,AbdelsJourney,Wait5,,,,1989-09-03T00:09:00
+589,AbdelsJourney,MedsPrescribe,,,,1989-09-03T00:09:00
+590,AbdelsJourney,Wait6,,,,1989-09-03T00:12:00
+590,AbdelsJourney,Wait6,,HospMed,"['430127000', 'Oral Form Oxycodone (product)']",1989-09-03T00:12:00
+591,AbdelsJourney,MedsReconcileForDigcharge,,,,1989-09-03T00:12:00
+592,AbdelsJourney,Wait7,,,,1989-09-03T00:21:00
+593,AbdelsJourney,Discharge,,,,1989-09-03T00:21:00
+594,AbdelsJourney,Wait8,,,,1989-09-03T00:22:00
+595,AbdelsJourney,SendDischarge2GP,,,,1989-09-03T00:22:00
+596,AbdelsJourney,Wait9,,,,1989-09-03T00:35:00
+597,AbdelsJourney,GPMedsReconcile,,,,1989-09-03T00:35:00
+598,AbdelsJourney,Finish,,,,1989-09-05T00:35:00
+599,AbdelsJourney,Finish,,,,1989-09-05T00:35:00

@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+100,AbdelsJourney,Wait1,,,,1951-09-18T00:00:00
+100,AbdelsJourney,Wait1,,HasFirstChild,False,1951-09-18T00:00:00
+100,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 107, 'kg']",1951-09-18T00:00:00
+100,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm']",1951-09-18T00:00:00
+100,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 28.7256033719026, 'kg/m2']",1951-09-18T00:00:00
+101,AbdelsJourney,GPvisit,,,,1951-09-18T00:00:00
+102,AbdelsJourney,GPRefersToHospital,,,,1951-11-24T00:00:00
+102,AbdelsJourney,GPRefersToHospital,,overweight,"['162863004', 'Body mass index 25-29 - overweight']",1951-11-24T00:00:00
+102,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1951-11-24T00:00:00
+103,AbdelsJourney,Wait2,,,,1951-11-24T00:00:00
+104,AbdelsJourney,ArriveHospital,,,,1951-11-24T00:00:00
+105,AbdelsJourney,Wait3,,,,1951-12-09T00:00:00
+106,AbdelsJourney,LookupMedsFromLHCR,,,,1951-12-09T00:00:00
+107,AbdelsJourney,MedsReconcile,,,,1951-12-09T00:15:00
+108,AbdelsJourney,Wait5,,,,1951-12-09T00:15:00
+109,AbdelsJourney,MedsPrescribe,,,,1951-12-09T00:15:00
+110,AbdelsJourney,Wait6,,,,1951-12-09T00:17:00
+110,AbdelsJourney,Wait6,,HospMed,"['430127000', 'Oral Form Oxycodone (product)']",1951-12-09T00:17:00
+111,AbdelsJourney,MedsReconcileForDigcharge,,,,1951-12-09T00:17:00
+112,AbdelsJourney,Wait7,,,,1951-12-09T00:25:00
+113,AbdelsJourney,Discharge,,,,1951-12-09T00:25:00
+114,AbdelsJourney,Wait8,,,,1951-12-09T00:41:00
+115,AbdelsJourney,SendDischarge2GP,,,,1951-12-09T00:41:00
+116,AbdelsJourney,Wait9,,,,1951-12-09T00:45:00
+117,AbdelsJourney,GPMedsReconcile,,,,1951-12-09T00:45:00
+118,AbdelsJourney,Finish,,,,1951-12-10T00:45:00
+119,AbdelsJourney,Finish,,,,1951-12-10T00:45:00

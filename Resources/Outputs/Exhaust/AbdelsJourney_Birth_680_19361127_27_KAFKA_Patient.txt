@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":799,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"794b31af-ff88-4a51-8490-a48a17e7decd","value":{"resourceType": "Patient",
+          "id": "794b31af-ff88-4a51-8490-a48a17e7decd",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "27",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Weston",
+              "given": [
+                "Lily"
+              ]
+            }
+          ],
+          "birthDate": "1995-07-07"
+        }}]}

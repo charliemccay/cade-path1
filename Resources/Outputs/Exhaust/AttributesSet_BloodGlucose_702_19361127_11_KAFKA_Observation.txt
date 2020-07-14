@@ -1,0 +1,16 @@
+http://localhost:8082/topics/Observation/200{"offsets":[{"partition":0,"offset":242,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"2eab133c-990c-4c24-8ec8-b698ba375ac2","value":{"resourceType": "Observation",
+  "id": "2eab133c-990c-4c24-8ec8-b698ba375ac2",
+  "status": "final",
+  "code": {"coding": [{ "system" : "http://snomed.info/sct", "code" : "1003131000000101", "display": "Serum fasting glucose level"}]},
+  "subject": {
+    "reference": "Patient/380bbbcf-798b-4379-b4c1-56b326fb70f3"
+  },
+  "effectiveDateTime": "1936-11-27",
+  "valueQuantity": {
+    "value": "4.825535669900601",
+    "unit": "mmol/l",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/l"
+  }
+}
+}]}

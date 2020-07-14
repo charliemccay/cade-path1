@@ -8,5 +8,6 @@ AbdelsJourney,Birth,,KAFKA_Observation.txt,Observation/,,bmi,Integer,"['39156-5'
 AbdelsJourney,GPvisit,person['bmi'][4]>25,KAFKA_Condition.txt,Condition/,,overweight,Integer,"['162863004','Body mass index 25-29 - overweight']"
 AbdelsJourney,GPvisit,person['bmi'][4]>30,KAFKA_Condition.txt,Condition/,,obese,Integer,"['414915002','obese']"
 AbdelsJourney,GPvisit,,KAFKA_MedicationStatement.txt,MedicationStatement/,,GPmed,Integer,"['27658006','Amoxicillin (product)']"
+AbdelsJourney,MedsPrescribe,,KAFKA_MedicationRequest.txt,MedicationRequest/,,HospMed,Integer,"['430127000','Oral Form Oxycodone (product)']"
 AbdelsJourney,Birth,,KAFKA_Condition.txt,Condition/,0.2,HistoryGestationalDiabetes,Integer,"['472971004','History of gestational diabetes mellitus']"
 AbdelsJourney,Birth,,KAFKA_Condition.txt,Condition/,0.2,FamilyHistoryDiabetes,Integer,"['430679000','Family history of diabetes mellitus type 2']"

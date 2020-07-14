@@ -1,0 +1,50 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Female
+   DOB: 1976-04-17 00:00:00
+   Surname: Lloyd
+   GivenName: Harriet
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: bf73b9c2-6d46-4c4e-b9b1-48463ca9104d
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1976-07-17T00:14:00', 'id': UUID('abcc50e7-10ac-42c8-9848-b4ffa36b73fa')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 162, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 38.48498704465782, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   BloodGlucose: {'quantity': 3.981471633642307, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1976-04-17T00:00:00', 'id': UUID('5ee0a4bf-7f94-4978-ba5f-f4a4cb7d8a7f')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg'], 'date': '1976-04-17T00:00:00', 'id': UUID('986c5d69-18dd-4ed8-9470-5a8fb1bac01c')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 162, 'cm'], 'date': '1976-04-17T00:00:00', 'id': UUID('5fe2a3b5-8687-49f2-9870-a439167866a7')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 38.48498704465782, 'kg/m2'], 'date': '1976-04-17T00:00:00', 'id': UUID('cada407c-5a78-4683-af82-f4c9730cc72e')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1976-04-17T00:00:00', 'id': UUID('a40bec72-1c91-4841-88e5-f00b40f0ef9e')}]
+   BloodGlucose: [{'value': {'quantity': 3.981471633642307, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-06-28T00:00:00', 'id': UUID('5f919917-536d-44b2-ba83-f603420e7e87')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1976-06-28T00:00:00', 'id': UUID('c684a7e6-e02d-46d1-a303-fae43eb87501')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1976-06-28T00:00:00', 'id': UUID('e3f4f85f-0380-4646-959b-5f89a159ea72')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1976-06-28T00:00:00', 'id': UUID('11e11fc3-f286-4771-921b-74c243fe23c9')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1976-07-17T00:14:00', 'id': UUID('abcc50e7-10ac-42c8-9848-b4ffa36b73fa')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1976-04-17T00:00:00', 'id': UUID('5ee0a4bf-7f94-4978-ba5f-f4a4cb7d8a7f')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 101, 'kg'], 'date': '1976-04-17T00:00:00', 'id': UUID('986c5d69-18dd-4ed8-9470-5a8fb1bac01c')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 162, 'cm'], 'date': '1976-04-17T00:00:00', 'id': UUID('5fe2a3b5-8687-49f2-9870-a439167866a7')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 38.48498704465782, 'kg/m2'], 'date': '1976-04-17T00:00:00', 'id': UUID('cada407c-5a78-4683-af82-f4c9730cc72e')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1976-04-17T00:00:00', 'id': UUID('a40bec72-1c91-4841-88e5-f00b40f0ef9e')}
+   BloodGlucose: {'value': {'quantity': 3.981471633642307, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-06-28T00:00:00', 'id': UUID('5f919917-536d-44b2-ba83-f603420e7e87')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1976-06-28T00:00:00', 'id': UUID('c684a7e6-e02d-46d1-a303-fae43eb87501')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1976-06-28T00:00:00', 'id': UUID('e3f4f85f-0380-4646-959b-5f89a159ea72')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1976-06-28T00:00:00', 'id': UUID('11e11fc3-f286-4771-921b-74c243fe23c9')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1976-07-17T00:14:00', 'id': UUID('abcc50e7-10ac-42c8-9848-b4ffa36b73fa')}

@@ -86,6 +86,8 @@ visLog = None
 
 ### FHIR exhaust ###
 # fhir_base = ""
+
+# fhir_base = "http://healthsim.ukwest.cloudapp.azure.com:8082/topics/"
 fhir_base = "http://localhost:8082/topics/"
 # fhir_base = 'http://localhost:8080/baseDstu2/'
 # fhir_base = 'http://localhost:8080/baseDstu3/'

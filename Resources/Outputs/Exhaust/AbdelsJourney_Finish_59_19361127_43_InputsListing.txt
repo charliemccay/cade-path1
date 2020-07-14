@@ -1,0 +1,41 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Sundorne
+   Country: England
+   PersonID: 43
+   Gender: Female
+   DOB: 1944-05-17 00:00:00
+   Surname: Field
+   GivenName: Francesca
+   School: Sundorne School
+   GP: Sundorne GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 34f84b95-ee43-484b-bfe4-9e1671dc7e69
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1944-08-12T00:19:00', 'id': UUID('097c16ea-7230-4c39-99c0-58e96e02df9e')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1944-05-17T00:00:00', 'id': UUID('c5c0b5dc-9cad-427a-9ef1-0bc188dfe91a')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg'], 'date': '1944-05-17T00:00:00', 'id': UUID('9d3175ff-e545-4a9b-b57b-b43abf2af71f')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm'], 'date': '1944-05-17T00:00:00', 'id': UUID('5c2c66d2-081e-44cd-bce1-f6d27fd2a752')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2'], 'date': '1944-05-17T00:00:00', 'id': UUID('a901e8a7-feb5-487e-8c60-68d2731cf44f')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1944-05-17T00:00:00', 'id': UUID('c741b735-cd28-4b25-8172-07b8ffda910f')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1944-07-25T00:00:00', 'id': UUID('4a2a7840-544b-4593-8f1d-914ce5773012')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1944-08-12T00:19:00', 'id': UUID('097c16ea-7230-4c39-99c0-58e96e02df9e')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1944-05-17T00:00:00', 'id': UUID('c5c0b5dc-9cad-427a-9ef1-0bc188dfe91a')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 83, 'kg'], 'date': '1944-05-17T00:00:00', 'id': UUID('9d3175ff-e545-4a9b-b57b-b43abf2af71f')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 202, 'cm'], 'date': '1944-05-17T00:00:00', 'id': UUID('5c2c66d2-081e-44cd-bce1-f6d27fd2a752')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 20.34114302519361, 'kg/m2'], 'date': '1944-05-17T00:00:00', 'id': UUID('a901e8a7-feb5-487e-8c60-68d2731cf44f')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1944-05-17T00:00:00', 'id': UUID('c741b735-cd28-4b25-8172-07b8ffda910f')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1944-07-25T00:00:00', 'id': UUID('4a2a7840-544b-4593-8f1d-914ce5773012')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1944-08-12T00:19:00', 'id': UUID('097c16ea-7230-4c39-99c0-58e96e02df9e')}

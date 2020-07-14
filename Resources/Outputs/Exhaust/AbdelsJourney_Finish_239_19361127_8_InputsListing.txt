@@ -1,0 +1,41 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 8
+   Gender: Female
+   DOB: 1970-06-19 00:00:00
+   Surname: Parry
+   GivenName: Elise
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 438c92cc-ee06-413f-9451-2c83b77f9e2d
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1970-09-03T00:10:00', 'id': UUID('3f06c2e2-af3a-4306-8453-c0d80cfe4d15')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 56, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.033960643238744, 'kg/m2']
+   BloodGlucose: {'quantity': 4.457036307801748, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1970-06-19T00:00:00', 'id': UUID('43ac262e-7de8-4423-8694-9d5c4adc354f')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 56, 'kg'], 'date': '1970-06-19T00:00:00', 'id': UUID('f975edcb-6387-45fe-8731-037674dabd81')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm'], 'date': '1970-06-19T00:00:00', 'id': UUID('71c96db2-b2c5-49f8-b24c-a61f25140d13')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.033960643238744, 'kg/m2'], 'date': '1970-06-19T00:00:00', 'id': UUID('54015490-3144-4e5d-9c31-5e95d56cf72a')}]
+   BloodGlucose: [{'value': {'quantity': 4.457036307801748, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1970-08-31T00:00:00', 'id': UUID('48388697-e5b9-40d0-a643-431b35f8bbc9')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1970-08-31T00:00:00', 'id': UUID('36ac53a5-56f9-4dd1-9d4c-88b40c6d604d')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1970-09-03T00:10:00', 'id': UUID('3f06c2e2-af3a-4306-8453-c0d80cfe4d15')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1970-06-19T00:00:00', 'id': UUID('43ac262e-7de8-4423-8694-9d5c4adc354f')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 56, 'kg'], 'date': '1970-06-19T00:00:00', 'id': UUID('f975edcb-6387-45fe-8731-037674dabd81')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm'], 'date': '1970-06-19T00:00:00', 'id': UUID('71c96db2-b2c5-49f8-b24c-a61f25140d13')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.033960643238744, 'kg/m2'], 'date': '1970-06-19T00:00:00', 'id': UUID('54015490-3144-4e5d-9c31-5e95d56cf72a')}
+   BloodGlucose: {'value': {'quantity': 4.457036307801748, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1970-08-31T00:00:00', 'id': UUID('48388697-e5b9-40d0-a643-431b35f8bbc9')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1970-08-31T00:00:00', 'id': UUID('36ac53a5-56f9-4dd1-9d4c-88b40c6d604d')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1970-09-03T00:10:00', 'id': UUID('3f06c2e2-af3a-4306-8453-c0d80cfe4d15')}

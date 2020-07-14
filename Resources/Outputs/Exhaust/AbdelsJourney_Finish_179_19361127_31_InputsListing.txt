@@ -1,0 +1,50 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Male
+   DOB: 1964-10-24 00:00:00
+   Surname: Holmes
+   GivenName: Billy
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 477ba8e4-84bc-4abf-9c6b-d860ce1ffe76
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1965-01-20T00:10:00', 'id': UUID('fb24f2f4-dddc-4c62-a12c-a70407f53f9e')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 33.1726001162751, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '1964-10-24T00:00:00', 'id': UUID('846260a5-df75-4131-9df6-fba32e01582f')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg'], 'date': '1964-10-24T00:00:00', 'id': UUID('ac05117f-d968-4b32-87a0-64ffd0cf8ac6')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm'], 'date': '1964-10-24T00:00:00', 'id': UUID('d6cb785c-6cfe-4236-b061-d4c93d9d881d')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 33.1726001162751, 'kg/m2'], 'date': '1964-10-24T00:00:00', 'id': UUID('c7524472-0184-49a7-bc73-79a86472ce7b')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1964-10-24T00:00:00', 'id': UUID('ac7db8d8-535c-423b-8237-c55a22520a87')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1964-10-24T00:00:00', 'id': UUID('08d42e36-2581-460a-9d62-3c71e6dc0637')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-01-04T00:00:00', 'id': UUID('75db4097-2919-4e22-9ca5-f7181a72e505')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1965-01-04T00:00:00', 'id': UUID('e71f57c9-7c1b-4de9-b67c-da0195ee6e07')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1965-01-04T00:00:00', 'id': UUID('d876a70c-6197-4f80-86df-f79fb325daf0')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1965-01-20T00:10:00', 'id': UUID('fb24f2f4-dddc-4c62-a12c-a70407f53f9e')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '1964-10-24T00:00:00', 'id': UUID('846260a5-df75-4131-9df6-fba32e01582f')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 97, 'kg'], 'date': '1964-10-24T00:00:00', 'id': UUID('ac05117f-d968-4b32-87a0-64ffd0cf8ac6')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 171, 'cm'], 'date': '1964-10-24T00:00:00', 'id': UUID('d6cb785c-6cfe-4236-b061-d4c93d9d881d')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 33.1726001162751, 'kg/m2'], 'date': '1964-10-24T00:00:00', 'id': UUID('c7524472-0184-49a7-bc73-79a86472ce7b')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1964-10-24T00:00:00', 'id': UUID('ac7db8d8-535c-423b-8237-c55a22520a87')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '1964-10-24T00:00:00', 'id': UUID('08d42e36-2581-460a-9d62-3c71e6dc0637')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1965-01-04T00:00:00', 'id': UUID('75db4097-2919-4e22-9ca5-f7181a72e505')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1965-01-04T00:00:00', 'id': UUID('e71f57c9-7c1b-4de9-b67c-da0195ee6e07')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1965-01-04T00:00:00', 'id': UUID('d876a70c-6197-4f80-86df-f79fb325daf0')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1965-01-20T00:10:00', 'id': UUID('fb24f2f4-dddc-4c62-a12c-a70407f53f9e')}

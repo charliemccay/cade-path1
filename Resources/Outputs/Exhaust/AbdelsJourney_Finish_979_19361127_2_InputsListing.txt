@@ -1,0 +1,44 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 2
+   Gender: Male
+   DOB: 2017-02-26 00:00:00
+   Surname: Hayes
+   GivenName: Anthony
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 99e76a81-b0f6-4b31-81cf-1945547510e0
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2017-06-07T00:18:00', 'id': UUID('3b355063-5804-4c3a-9fde-b1f81219bd95')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.119852459414215, 'kg/m2']
+   FamilyHistoryDiabetes: ['430679000', 'Family history of diabetes mellitus type 2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '2017-02-26T00:00:00', 'id': UUID('b0356c2a-1048-4602-8d7b-78ca1e52b60d')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg'], 'date': '2017-02-26T00:00:00', 'id': UUID('af013f4d-3a08-458a-9e61-e1b5cf9c5978')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '2017-02-26T00:00:00', 'id': UUID('2163898d-1727-4a49-9984-8f4b147c6d37')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.119852459414215, 'kg/m2'], 'date': '2017-02-26T00:00:00', 'id': UUID('730b8987-afc4-42d7-8896-51ad3f9d42a6')}]
+   FamilyHistoryDiabetes: [{'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2017-02-26T00:00:00', 'id': UUID('01420732-e85b-4c07-a612-9d8019c7bf21')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2017-05-18T00:00:00', 'id': UUID('f12c9b01-4722-48fe-947d-9161952bd4b7')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '2017-05-18T00:00:00', 'id': UUID('8bf57ad8-10f2-4ccd-b83a-4afc89035f82')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2017-06-07T00:18:00', 'id': UUID('3b355063-5804-4c3a-9fde-b1f81219bd95')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '2017-02-26T00:00:00', 'id': UUID('b0356c2a-1048-4602-8d7b-78ca1e52b60d')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 120, 'kg'], 'date': '2017-02-26T00:00:00', 'id': UUID('af013f4d-3a08-458a-9e61-e1b5cf9c5978')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 203, 'cm'], 'date': '2017-02-26T00:00:00', 'id': UUID('2163898d-1727-4a49-9984-8f4b147c6d37')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 29.119852459414215, 'kg/m2'], 'date': '2017-02-26T00:00:00', 'id': UUID('730b8987-afc4-42d7-8896-51ad3f9d42a6')}
+   FamilyHistoryDiabetes: {'value': ['430679000', 'Family history of diabetes mellitus type 2'], 'date': '2017-02-26T00:00:00', 'id': UUID('01420732-e85b-4c07-a612-9d8019c7bf21')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2017-05-18T00:00:00', 'id': UUID('f12c9b01-4722-48fe-947d-9161952bd4b7')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '2017-05-18T00:00:00', 'id': UUID('8bf57ad8-10f2-4ccd-b83a-4afc89035f82')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2017-06-07T00:18:00', 'id': UUID('3b355063-5804-4c3a-9fde-b1f81219bd95')}

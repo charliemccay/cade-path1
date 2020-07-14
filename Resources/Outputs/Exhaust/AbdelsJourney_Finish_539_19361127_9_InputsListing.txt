@@ -1,0 +1,47 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Female
+   DOB: 1985-07-09 00:00:00
+   Surname: Mitchell
+   GivenName: Jessica
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: 241a275e-4200-4ac3-815d-596967e67eb6
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1985-10-11T00:07:00', 'id': UUID('510a0fad-1233-4c68-96f4-02beaa69e254')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 112, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.37368481905422, 'kg/m2']
+   HistoryGestationalDiabetes: ['472971004', 'History of gestational diabetes mellitus']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1985-07-09T00:00:00', 'id': UUID('3befbed8-d47d-4a11-a37f-862dfc534ef1')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 112, 'kg'], 'date': '1985-07-09T00:00:00', 'id': UUID('9149d8fd-cf00-4d1f-9c2d-f6456669442d')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm'], 'date': '1985-07-09T00:00:00', 'id': UUID('d7d9c356-668f-4ea1-b355-8287ab520e49')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.37368481905422, 'kg/m2'], 'date': '1985-07-09T00:00:00', 'id': UUID('707b331a-c845-4865-a7e3-ef8d38bc3d40')}]
+   HistoryGestationalDiabetes: [{'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1985-07-09T00:00:00', 'id': UUID('0ddcf162-9a02-4667-b0eb-13c0188de94b')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1985-09-26T00:00:00', 'id': UUID('e4797984-b079-451e-ab8b-06c888027557')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1985-09-26T00:00:00', 'id': UUID('981dcfe0-1a93-4a5b-8d54-d177cd39893d')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1985-09-26T00:00:00', 'id': UUID('00ea43d4-3057-4ec0-a4ca-f04b3b0efd6c')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1985-10-11T00:07:00', 'id': UUID('510a0fad-1233-4c68-96f4-02beaa69e254')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1985-07-09T00:00:00', 'id': UUID('3befbed8-d47d-4a11-a37f-862dfc534ef1')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 112, 'kg'], 'date': '1985-07-09T00:00:00', 'id': UUID('9149d8fd-cf00-4d1f-9c2d-f6456669442d')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 186, 'cm'], 'date': '1985-07-09T00:00:00', 'id': UUID('d7d9c356-668f-4ea1-b355-8287ab520e49')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 32.37368481905422, 'kg/m2'], 'date': '1985-07-09T00:00:00', 'id': UUID('707b331a-c845-4865-a7e3-ef8d38bc3d40')}
+   HistoryGestationalDiabetes: {'value': ['472971004', 'History of gestational diabetes mellitus'], 'date': '1985-07-09T00:00:00', 'id': UUID('0ddcf162-9a02-4667-b0eb-13c0188de94b')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1985-09-26T00:00:00', 'id': UUID('e4797984-b079-451e-ab8b-06c888027557')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1985-09-26T00:00:00', 'id': UUID('981dcfe0-1a93-4a5b-8d54-d177cd39893d')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1985-09-26T00:00:00', 'id': UUID('00ea43d4-3057-4ec0-a4ca-f04b3b0efd6c')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1985-10-11T00:07:00', 'id': UUID('510a0fad-1233-4c68-96f4-02beaa69e254')}

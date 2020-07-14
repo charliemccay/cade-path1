@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":801,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"40d9c619-f76d-4eb8-8c14-2b6008c7d4ca","value":{"resourceType": "Patient",
+          "id": "40d9c619-f76d-4eb8-8c14-2b6008c7d4ca",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "50",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Goodwin",
+              "given": [
+                "Brooke"
+              ]
+            }
+          ],
+          "birthDate": "1996-06-10"
+        }}]}

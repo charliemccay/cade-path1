@@ -1,0 +1,79 @@
+http://localhost:8082/topics/MedicationStatement/200{"offsets":[{"partition":0,"offset":175,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"36ac53a5-56f9-4dd1-9d4c-88b40c6d604d","value":{
+  "resourceType": "MedicationStatement",
+  "id": "36ac53a5-56f9-4dd1-9d4c-88b40c6d604d",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 36ac53a5-56f9-4dd1-9d4c-88b40c6d604d</p><p><b>status</b>: active</p><p><b>medication</b>: Amoxicillin (product) <span>(Details : {SNOMED CT code '27658006' = 'Amoxicillin (product)', given as 'Amoxicillin (product)'})</span></p><p><b>subject</b>: <a>438c92cc-ee06-413f-9451-2c83b77f9e2d</a></p><p><b>effective</b>: 1936-11-27</p><p><b>dateAsserted</b>: 1936-11-27</p><p><b>informationSource</b>: <a>Peter Chalmers</a></p><p><b>note</b>: Father indicates they miss the occasional dose</p><p><b>dosage</b>: </p></div>"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27658006",
+        "display": "Amoxicillin (product)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/438c92cc-ee06-413f-9451-2c83b77f9e2d",
+    "display": "Elise Parry"
+  },
+  "effectiveDateTime": "1936-11-27",
+  "dateAsserted": "1936-11-27",
+  "informationSource": {
+    "reference": "RelatedPerson/peter",
+    "display": "Peter Chalmers"
+  },
+  "note": [
+    {
+      "text": "Father indicates they miss the occasional dose"
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "5ml three times daily",
+      "asNeededBoolean": false,
+      "route": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "260548002",
+            "display": "Oral"
+          }
+        ]
+      },
+      "doseAndRate": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                "code": "ordered",
+                "display": "Ordered"
+              }
+            ]
+          },
+          "doseQuantity": {
+            "value": 5,
+            "unit": "mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mL"
+          }
+        }
+      ],
+      "maxDosePerPeriod": {
+        "numerator": {
+          "value": 3
+        },
+        "denominator": {
+          "value": 1,
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        }
+      }
+    }
+  ]
+}
+}]}

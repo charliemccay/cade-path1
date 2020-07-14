@@ -1,0 +1,44 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 6
+   Gender: Female
+   DOB: 1981-08-14 00:00:00
+   Surname: Cole
+   GivenName: Ava
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: f2806c2e-f26b-45b6-a31b-cfed4d82c1ac
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1981-10-22T00:04:00', 'id': UUID('e79d93a6-d720-4834-aff1-2022d892c455')}
+   HasFirstChild: True
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 96, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.97318144060757, 'kg/m2']
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1981-08-14T00:00:00', 'id': UUID('41567004-b98f-48ab-af32-2dcf9e22e549')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 96, 'kg'], 'date': '1981-08-14T00:00:00', 'id': UUID('4ddcf9ef-a27c-40ff-a463-5ea955fcc105')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '1981-08-14T00:00:00', 'id': UUID('009477c2-6674-4e66-a3ef-e7162a0b6a02')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.97318144060757, 'kg/m2'], 'date': '1981-08-14T00:00:00', 'id': UUID('d7ed6f99-ae88-4cec-9d9a-ad8035c0c418')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1981-10-16T00:00:00', 'id': UUID('980a6fdf-9b90-4fc4-8a51-1f689350feac')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '1981-10-16T00:00:00', 'id': UUID('9c22aae2-43db-4ee5-8001-ece76a7236e4')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '1981-10-16T00:00:00', 'id': UUID('7d190a06-34b3-463c-b0a1-ccf17584c760')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1981-10-22T00:04:00', 'id': UUID('e79d93a6-d720-4834-aff1-2022d892c455')}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1981-08-14T00:00:00', 'id': UUID('41567004-b98f-48ab-af32-2dcf9e22e549')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 96, 'kg'], 'date': '1981-08-14T00:00:00', 'id': UUID('4ddcf9ef-a27c-40ff-a463-5ea955fcc105')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 159, 'cm'], 'date': '1981-08-14T00:00:00', 'id': UUID('009477c2-6674-4e66-a3ef-e7162a0b6a02')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 37.97318144060757, 'kg/m2'], 'date': '1981-08-14T00:00:00', 'id': UUID('d7ed6f99-ae88-4cec-9d9a-ad8035c0c418')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '1981-10-16T00:00:00', 'id': UUID('980a6fdf-9b90-4fc4-8a51-1f689350feac')}
+   obese: {'value': ['414915002', 'obese'], 'date': '1981-10-16T00:00:00', 'id': UUID('9c22aae2-43db-4ee5-8001-ece76a7236e4')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '1981-10-16T00:00:00', 'id': UUID('7d190a06-34b3-463c-b0a1-ccf17584c760')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '1981-10-22T00:04:00', 'id': UUID('e79d93a6-d720-4834-aff1-2022d892c455')}

@@ -1,0 +1,28 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+202,AbdelsJourney,Wait1,,,,1970-06-19T00:00:00
+202,AbdelsJourney,Wait1,,HasFirstChild,True,1970-06-19T00:00:00
+202,AbdelsJourney,Wait1,,Weight,"['3141-9', 'Weight Measured', '27113001', 'Body weight', 56, 'kg']",1970-06-19T00:00:00
+202,AbdelsJourney,Wait1,,Height,"['8302-2', 'Body height', '50373000', 'Body height', 193, 'cm']",1970-06-19T00:00:00
+202,AbdelsJourney,Wait1,,bmi,"['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 15.033960643238744, 'kg/m2']",1970-06-19T00:00:00
+203,AbdelsJourney,GPvisit,,,,1970-06-19T00:00:00
+222,AbdelsJourney,GPRefersToHospital,,,,1970-08-31T00:00:00
+222,AbdelsJourney,GPRefersToHospital,,BloodGlucose,"{'quantity': 4.457036307801748, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1970-08-31T00:00:00
+222,AbdelsJourney,GPRefersToHospital,,GPmed,"['27658006', 'Amoxicillin (product)']",1970-08-31T00:00:00
+223,AbdelsJourney,Wait2,,,,1970-08-31T00:00:00
+224,AbdelsJourney,ArriveHospital,,,,1970-08-31T00:00:00
+225,AbdelsJourney,Wait3,,,,1970-09-03T00:00:00
+226,AbdelsJourney,LookupMedsFromLHCR,,,,1970-09-03T00:00:00
+227,AbdelsJourney,MedsReconcile,,,,1970-09-03T00:09:00
+228,AbdelsJourney,Wait5,,,,1970-09-03T00:09:00
+229,AbdelsJourney,MedsPrescribe,,,,1970-09-03T00:09:00
+230,AbdelsJourney,Wait6,,,,1970-09-03T00:10:00
+230,AbdelsJourney,Wait6,,HospMed,"['430127000', 'Oral Form Oxycodone (product)']",1970-09-03T00:10:00
+231,AbdelsJourney,MedsReconcileForDigcharge,,,,1970-09-03T00:10:00
+232,AbdelsJourney,Wait7,,,,1970-09-03T00:23:00
+233,AbdelsJourney,Discharge,,,,1970-09-03T00:23:00
+234,AbdelsJourney,Wait8,,,,1970-09-03T00:27:00
+235,AbdelsJourney,SendDischarge2GP,,,,1970-09-03T00:27:00
+236,AbdelsJourney,Wait9,,,,1970-09-03T00:38:00
+237,AbdelsJourney,GPMedsReconcile,,,,1970-09-03T00:38:00
+238,AbdelsJourney,Finish,,,,1970-09-07T00:38:00
+239,AbdelsJourney,Finish,,,,1970-09-07T00:38:00

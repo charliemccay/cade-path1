@@ -1,0 +1,32 @@
+http://localhost:8082/topics/Patient/200{"offsets":[{"partition":0,"offset":814,"error_code":null,"error":null}],"key_schema_id":null,"value_schema_id":null} {"records":[{"key":"cacb85f8-4dbb-42cc-a731-c2843ac0dab5","value":{"resourceType": "Patient",
+          "id": "cacb85f8-4dbb-42cc-a731-c2843ac0dab5",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "35",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Frost",
+              "given": [
+                "Danielle"
+              ]
+            }
+          ],
+          "birthDate": "2018-02-21"
+        }}]}

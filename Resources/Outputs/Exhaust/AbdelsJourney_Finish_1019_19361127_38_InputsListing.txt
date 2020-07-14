@@ -1,0 +1,47 @@
+
+timestamp: 1936_11_27
+activity_time: 1936-11-27
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 38
+   Gender: Male
+   DOB: 2018-04-25 00:00:00
+   Surname: Willis
+   GivenName: Taylor
+   School: Quarry School
+   GP: Quarry GP
+   Terminal: False
+   AbdelsJourneyStatus: Finish
+   patient_id: c1bf6423-5b51-48c8-b914-497dc078c00d
+   This: {'name': 'HospMed', 'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2018-07-19T00:09:00', 'id': UUID('952238fe-1a6c-4fc7-99f7-88b3c69d17ae')}
+   HasFirstChild: False
+   Weight: ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg']
+   Height: ['8302-2', 'Body height', '50373000', 'Body height', 169, 'cm']
+   bmi: ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.461118308182492, 'kg/m2']
+   BloodGlucose: {'quantity': 5.09470187217729, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   overweight: ['162863004', 'Body mass index 25-29 - overweight']
+   obese: ['414915002', 'obese']
+   GPmed: ['27658006', 'Amoxicillin (product)']
+   HospMed: ['430127000', 'Oral Form Oxycodone (product)']
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': False, 'date': '2018-04-25T00:00:00', 'id': UUID('64363b20-7963-4aca-88e8-163ad8c7e7f1')}]
+   Weight: [{'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg'], 'date': '2018-04-25T00:00:00', 'id': UUID('55155c08-a680-4298-9be7-adc116712fd2')}]
+   Height: [{'value': ['8302-2', 'Body height', '50373000', 'Body height', 169, 'cm'], 'date': '2018-04-25T00:00:00', 'id': UUID('0913f689-def8-4282-97d2-a60752700937')}]
+   bmi: [{'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.461118308182492, 'kg/m2'], 'date': '2018-04-25T00:00:00', 'id': UUID('1823e742-ee5b-4fb9-9d40-4aa0aa612869')}]
+   BloodGlucose: [{'value': {'quantity': 5.09470187217729, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2018-06-30T00:00:00', 'id': UUID('4cd2fe4d-bf84-49c3-9291-4e239056e07b')}]
+   overweight: [{'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2018-06-30T00:00:00', 'id': UUID('989c4191-d2e3-49ae-99c7-eba06f02ae62')}]
+   obese: [{'value': ['414915002', 'obese'], 'date': '2018-06-30T00:00:00', 'id': UUID('f4cb4820-d488-4df5-98e0-ace8e1f97d27')}]
+   GPmed: [{'value': ['27658006', 'Amoxicillin (product)'], 'date': '2018-06-30T00:00:00', 'id': UUID('72703400-5778-4153-8d57-ba2242a89dfe')}]
+   HospMed: [{'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2018-07-19T00:09:00', 'id': UUID('952238fe-1a6c-4fc7-99f7-88b3c69d17ae')}]
+person['Last']':  
+   HasFirstChild: {'value': False, 'date': '2018-04-25T00:00:00', 'id': UUID('64363b20-7963-4aca-88e8-163ad8c7e7f1')}
+   Weight: {'value': ['3141-9', 'Weight Measured', '27113001', 'Body weight', 87, 'kg'], 'date': '2018-04-25T00:00:00', 'id': UUID('55155c08-a680-4298-9be7-adc116712fd2')}
+   Height: {'value': ['8302-2', 'Body height', '50373000', 'Body height', 169, 'cm'], 'date': '2018-04-25T00:00:00', 'id': UUID('0913f689-def8-4282-97d2-a60752700937')}
+   bmi: {'value': ['39156-5', 'Body Mass Index', '60621009', 'Body mass index', 30.461118308182492, 'kg/m2'], 'date': '2018-04-25T00:00:00', 'id': UUID('1823e742-ee5b-4fb9-9d40-4aa0aa612869')}
+   BloodGlucose: {'value': {'quantity': 5.09470187217729, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2018-06-30T00:00:00', 'id': UUID('4cd2fe4d-bf84-49c3-9291-4e239056e07b')}
+   overweight: {'value': ['162863004', 'Body mass index 25-29 - overweight'], 'date': '2018-06-30T00:00:00', 'id': UUID('989c4191-d2e3-49ae-99c7-eba06f02ae62')}
+   obese: {'value': ['414915002', 'obese'], 'date': '2018-06-30T00:00:00', 'id': UUID('f4cb4820-d488-4df5-98e0-ace8e1f97d27')}
+   GPmed: {'value': ['27658006', 'Amoxicillin (product)'], 'date': '2018-06-30T00:00:00', 'id': UUID('72703400-5778-4153-8d57-ba2242a89dfe')}
+   HospMed: {'value': ['430127000', 'Oral Form Oxycodone (product)'], 'date': '2018-07-19T00:09:00', 'id': UUID('952238fe-1a6c-4fc7-99f7-88b3c69d17ae')}
