@@ -85,15 +85,28 @@ nodesListFile = 'Resources/Files/Visualisations/NodesList.csv'
 visLog = None
 
 ### FHIR exhaust ###
-# fhir_base = ""
 
-# fhir_base = "http://healthsim.ukwest.cloudapp.azure.com:8082/topics/"
-fhir_base = "http://localhost:8082/topics/"
-# fhir_base = 'http://localhost:8080/baseDstu2/'
-# fhir_base = 'http://localhost:8080/baseDstu3/'
-# fhir_base = 'https://nhs.smilecdr.com/fhir-request/'
-# fhir_headers = {'Content-Type': 'application/json'}
-fhir_headers = {'Content-Type': 'application/vnd.kafka.json.v2+json'}
+### FHIR exhaust  for kafka ###
+#fhir_base = "http://localhost:8082/topics/"
+#fhir_headers = {'Content-Type': 'application/vnd.kafka.json.v2+json'}
+# if this is set to true then there will be a check to see if the FHIR server is available by
+# checking for a connection to an endpoint in the fire server
+#fhir_metadata_test = False
+# this is is endpoint that is used to establish whether the FHIR resrver is up and available. This
+# will be retried 10 times
+#fhir_metadata_endpoint = "metadata"
+# this is a default setting for whether item_id should be included at the end of the FHIR URL
+#fhir_include_id = False
+# this is to determine whether PUT or POST method request should be used (default to PUT)
+#fhir_method_request = "POST"
+
+
+fhir_base = ''
+## fhir_base = 'http://localhost:8080/baseDstu2/'
+## fhir_base = 'http://localhost:8080/baseDstu3/'
+## fhir_base = 'https://nhs.smilecdr.com/fhir-request/'
+#fhir_headers = {'Content-Type': 'application/json'}
+
 # if this is set to true then there will be a check to see if the FHIR server is available by
 # checking for a connection to an endpoint in the fire server
 fhir_metadata_test = False
@@ -101,6 +114,6 @@ fhir_metadata_test = False
 # will be retried 10 times
 fhir_metadata_endpoint = "metadata"
 # this is a default setting for whether item_id should be included at the end of the FHIR URL
-fhir_include_id = False
+fhir_include_id = True
 # this is to determine whether PUT or POST method request should be used (default to PUT)
-fhir_method_request = "POST"
+fhir_method_request = "PUT"

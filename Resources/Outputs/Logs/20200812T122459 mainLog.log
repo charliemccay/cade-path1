@@ -1,0 +1,67 @@
+12:25:00 00001 INFO: Starting...
+12:25:00 00111 INFO: Creating 50 patients.
+12:25:00 00112 INFO: Reading file: FakeNameGeneratorShr.csv.
+12:25:00 00113 INFO: Found name generator file: FakeNameGeneratorShr.csv
+12:25:00 00112 INFO: Reading file: PopulationStatistics.csv.
+12:25:00 00113 INFO: Found domain statistics file: PopulationStatistics.csv
+12:25:00 00112 INFO: Reading file: ShrewsburyStats.csv.
+12:25:00 00113 INFO: Found area statistics file: ShrewsburyStats.csv
+12:25:00 00114 INFO: Dealing with area type: Ward
+12:25:03 00101 INFO: Adding pathway file 'Camunda diagram_2 Pathology Test and reporting process.bpmn' to validation list
+12:25:03 00115 INFO: Files validated for information items. Checking files dependencies...
+12:25:03 00107 INFO: Validating pathways.
+12:25:03 00108 INFO: Importing pathway file Resources/Files/Pathway/BPMN/Camunda diagram_2 Pathology Test and reporting process.bpmn
+12:25:03 00109 INFO: Pathways validated.
+12:25:03 00110 INFO: Importing pathways successful.
+12:25:03 NOTE  person being put onto pathway :17 : Camunda diagram_2 Pathology Test and reporting process
+12:25:03 NOTE  person being put onto pathway :22 : Camunda diagram_2 Pathology Test and reporting process
+12:25:03 NOTE  person being put onto pathway :14 : Camunda diagram_2 Pathology Test and reporting process
+12:25:03 NOTE  person being put onto pathway :40 : Camunda diagram_2 Pathology Test and reporting process
+12:25:03 NOTE  person being put onto pathway :18 : Camunda diagram_2 Pathology Test and reporting process
+12:25:03 NOTE  person being put onto pathway :21 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :24 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :30 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :26 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :35 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :27 : Camunda diagram_2 Pathology Test and reporting process
+12:25:04 NOTE  person being put onto pathway :49 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :38 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :47 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :19 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :2 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :45 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :3 : Camunda diagram_2 Pathology Test and reporting process
+12:25:05 NOTE  person being put onto pathway :31 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :13 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :7 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :42 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :25 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :23 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :12 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :1 : Camunda diagram_2 Pathology Test and reporting process
+12:25:06 NOTE  person being put onto pathway :0 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :6 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :48 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :29 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :4 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :28 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :20 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :32 : Camunda diagram_2 Pathology Test and reporting process
+12:25:07 NOTE  person being put onto pathway :15 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :11 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :44 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :50 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :43 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :16 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :46 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :41 : Camunda diagram_2 Pathology Test and reporting process
+12:25:08 NOTE  person being put onto pathway :5 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :34 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :39 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :8 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :33 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :9 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :36 : Camunda diagram_2 Pathology Test and reporting process
+12:25:09 NOTE  person being put onto pathway :37 : Camunda diagram_2 Pathology Test and reporting process
+12:25:10 NOTE  person being put onto pathway :10 : Camunda diagram_2 Pathology Test and reporting process
+12:25:10 NOTE  Time elapsed: 9 seconds

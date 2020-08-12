@@ -14,6 +14,6 @@
       }
     ]
   },
-  "patient": {"reference":  "Patient/{{ person.patient_id }}"},
+  "subject": {"reference":  "Patient/{{ person.patient_id }}"},
   "dateRecorded": "{{ activity_time }}"
 }}]}

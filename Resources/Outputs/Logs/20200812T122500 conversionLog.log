@@ -1,0 +1,40 @@
+12:25:03 00102 INFO: Converting BPMN pathway Camunda diagram_2 Pathology Test and reporting process.bpmn to json...
+12:25:03 00103 INFO: Initial node created: Event_057ir1f
+12:25:03 00103 INFO: Simple node created: patient_assessment
+12:25:03 00103 INFO: Simple node created: test_request
+12:25:03 00103 INFO: Simple node created: Specimen_check
+12:25:03 00103 INFO: Simple node created: lab_test
+12:25:03 00103 INFO: Simple node created: test_report
+12:25:03 00103 INFO: Simple node created: send_report
+12:25:03 00103 INFO: Simple node created: receive_report
+12:25:03 00103 INFO: Simple node created: inform_patient
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '0' '7' 'i' 'p' 's' 'x' 'b' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_07ipsxb
+12:25:03 00103 INFO: Delay node created: Event_0xjfra5 "Diagnosis"
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '0' '4' 'c' 'n' '5' 'y' 'k' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_04cn5yk
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '1' 'x' 'd' '5' 'k' 'r' '2' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_1xd5kr2
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '0' 'w' 'j' '3' '4' '4' '1' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_0wj3441
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '0' '1' 'v' 'b' '5' 'y' 'f' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_01vb5yf
+12:25:03 NOTE  missing delay name 'E' 'v' 'e' 'n' 't' '_' '1' 'q' '7' '9' 'k' 'c' 'm' (message argument count missmatch)
+12:25:03 00103 INFO: Delay node created: Event_1q79kcm
+12:25:03 00103 INFO: Delay node created: Event_04b3crt "Wait to see GP
+
+"
+12:25:03 00103 INFO: Terminal node created: Event_0ns5a8k
+12:25:03 00105 INFO: Direct Transition for lab_test added: test_report
+12:25:03 00105 INFO: Direct Transition for receive_report added: Event_1q79kcm
+12:25:03 00105 INFO: Direct Transition for Event_057ir1f added: Event_04b3crt
+12:25:03 00105 INFO: Direct Transition for test_report added: send_report
+12:25:03 00105 INFO: Direct Transition for Specimen_check added: Event_04cn5yk
+12:25:03 00105 INFO: Direct Transition for test_request added: Specimen_check
+12:25:03 00105 INFO: Direct Transition for Event_1q79kcm added: inform_patient
+12:25:03 00105 INFO: Direct Transition for inform_patient added: Event_0ns5a8k
+12:25:03 00105 INFO: Direct Transition for send_report added: receive_report
+12:25:03 00105 INFO: Direct Transition for Event_04b3crt added: patient_assessment
+12:25:03 00105 INFO: Direct Transition for Event_04cn5yk added: lab_test
+12:25:03 00105 INFO: Direct Transition for patient_assessment added: test_request
+12:25:03 00106 INFO: Pathway Camunda diagram_2 Pathology Test and reporting process.json has been converted to json successfully.

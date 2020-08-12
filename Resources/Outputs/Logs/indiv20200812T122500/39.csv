@@ -1,0 +1,14 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+572,Camunda diagram_2 Pathology Test and reporting process,Event_04b3crt,,,,2004-04-03T00:00:00
+573,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2004-04-03T00:00:00
+574,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2004-04-03T00:23:00
+575,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2004-04-03T00:23:00
+576,Camunda diagram_2 Pathology Test and reporting process,Event_04cn5yk,,,,2004-04-03T00:23:00
+577,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2004-04-03T00:23:00
+578,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2004-04-03T00:25:00
+579,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2004-04-03T00:25:00
+580,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2004-04-03T00:25:00
+581,Camunda diagram_2 Pathology Test and reporting process,Event_1q79kcm,,,,2004-04-03T00:25:00
+582,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2004-04-03T00:25:00
+583,Camunda diagram_2 Pathology Test and reporting process,Event_0ns5a8k,,,,2004-04-03T09:25:00
+584,Camunda diagram_2 Pathology Test and reporting process,Event_0ns5a8k,,,,2004-04-03T09:25:00
