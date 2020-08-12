@@ -1,0 +1,14 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+364,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,,,1988-03-17T00:00:00
+365,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1988-03-17T00:00:00
+366,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1988-03-17T00:34:00
+367,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1988-03-17T00:34:00
+368,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,,,1988-03-17T00:34:00
+369,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1988-03-17T00:34:00
+370,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1988-03-17T00:39:00
+371,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1988-03-17T00:39:00
+372,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1988-03-17T00:39:00
+373,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,,,1988-03-17T00:39:00
+374,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1988-03-17T00:39:00
+375,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1988-03-17T04:39:00
+376,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1988-03-17T04:39:00

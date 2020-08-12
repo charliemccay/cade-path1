@@ -1,0 +1,11 @@
+13:50:52 00102 INFO: Converting BPMN pathway Camunda diagram_2 Pathology Test and reporting process.bpmn to json...
+13:50:52 20025 ERROR: Start Node Start in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node patient_assessment in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node test_request in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node Specimen_check in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node lab_test in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node test_report in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node send_report in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node receive_report in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: Simple Node inform_patient in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.
+13:50:52 20025 ERROR: TerminalNode Receive_results in Camunda diagram_2 Pathology Test and reporting process.bpmn is not a defined information item.

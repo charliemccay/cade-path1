@@ -1,0 +1,664 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+13.50.52,0,46,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1929-03-13T00:00:00
+13.50.52,1,46,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1929-03-13 00:19:00,1929-03-13T00:00:00
+13.50.52,2,46,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1929-03-13T00:19:00
+13.50.52,3,46,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1929-03-13T00:19:00
+13.50.52,4,46,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1929-03-13T00:19:00
+13.50.52,5,46,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1929-03-13 00:26:00,1929-03-13T00:19:00
+13.50.52,6,46,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1929-03-13T00:26:00
+13.50.52,7,46,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1929-03-13T00:26:00
+13.50.52,8,46,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1929-03-13T00:26:00
+13.50.52,9,46,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1929-03-13T00:26:00
+13.50.52,10,46,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1929-03-13 12:26:00,1929-03-13T00:26:00
+13.50.52,11,46,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1929-03-13T12:26:00
+13.50.52,12,46,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1929-03-13T12:26:00
+13.50.52,13,29,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1940-06-04T00:00:00
+13.50.52,14,29,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1940-06-04 00:33:00,1940-06-04T00:00:00
+13.50.52,15,29,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1940-06-04T00:33:00
+13.50.52,16,29,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1940-06-04T00:33:00
+13.50.52,17,29,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1940-06-04T00:33:00
+13.50.52,18,29,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1940-06-04 00:35:00,1940-06-04T00:33:00
+13.50.52,19,29,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1940-06-04T00:35:00
+13.50.52,20,29,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1940-06-04T00:35:00
+13.50.52,21,29,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1940-06-04T00:35:00
+13.50.52,22,29,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1940-06-04T00:35:00
+13.50.52,23,29,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1940-06-04 16:35:00,1940-06-04T00:35:00
+13.50.52,24,29,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1940-06-04T16:35:00
+13.50.52,25,29,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1940-06-04T16:35:00
+13.50.52,26,19,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1940-12-08T00:00:00
+13.50.52,27,19,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1940-12-08 00:15:00,1940-12-08T00:00:00
+13.50.52,28,19,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1940-12-08T00:15:00
+13.50.52,29,19,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1940-12-08T00:15:00
+13.50.52,30,19,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1940-12-08T00:15:00
+13.50.52,31,19,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1940-12-08 00:23:00,1940-12-08T00:15:00
+13.50.52,32,19,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1940-12-08T00:23:00
+13.50.52,33,19,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1940-12-08T00:23:00
+13.50.52,34,19,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1940-12-08T00:23:00
+13.50.52,35,19,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1940-12-08T00:23:00
+13.50.52,36,19,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1940-12-08 23:23:00,1940-12-08T00:23:00
+13.50.52,37,19,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1940-12-08T23:23:00
+13.50.52,38,19,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1940-12-08T23:23:00
+13.50.52,39,18,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1946-02-01T00:00:00
+13.50.52,40,18,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1946-02-01 00:22:00,1946-02-01T00:00:00
+13.50.52,41,18,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1946-02-01T00:22:00
+13.50.52,42,18,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1946-02-01T00:22:00
+13.50.52,43,18,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1946-02-01T00:22:00
+13.50.52,44,18,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1946-02-01 00:50:00,1946-02-01T00:22:00
+13.50.52,45,18,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1946-02-01T00:50:00
+13.50.52,46,18,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1946-02-01T00:50:00
+13.50.52,47,18,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1946-02-01T00:50:00
+13.50.52,48,18,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1946-02-01T00:50:00
+13.50.52,49,18,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1946-02-01 13:50:00,1946-02-01T00:50:00
+13.50.52,50,18,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1946-02-01T13:50:00
+13.50.52,51,18,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1946-02-01T13:50:00
+13.50.52,52,27,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1946-03-15T00:00:00
+13.50.52,53,27,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1946-03-15 00:21:00,1946-03-15T00:00:00
+13.50.52,54,27,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1946-03-15T00:21:00
+13.50.52,55,27,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1946-03-15T00:21:00
+13.50.52,56,27,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1946-03-15T00:21:00
+13.50.52,57,27,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1946-03-15 00:26:00,1946-03-15T00:21:00
+13.50.52,58,27,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1946-03-15T00:26:00
+13.50.52,59,27,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1946-03-15T00:26:00
+13.50.52,60,27,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1946-03-15T00:26:00
+13.50.52,61,27,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1946-03-15T00:26:00
+13.50.52,62,27,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1946-03-15 04:26:00,1946-03-15T00:26:00
+13.50.52,63,27,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1946-03-15T04:26:00
+13.50.52,64,27,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1946-03-15T04:26:00
+13.50.52,65,30,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1949-08-22T00:00:00
+13.50.52,66,30,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1949-08-22 00:10:00,1949-08-22T00:00:00
+13.50.52,67,30,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1949-08-22T00:10:00
+13.50.52,68,30,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1949-08-22T00:10:00
+13.50.53,69,30,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1949-08-22T00:10:00
+13.50.53,70,30,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1949-08-22 00:30:00,1949-08-22T00:10:00
+13.50.53,71,30,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1949-08-22T00:30:00
+13.50.53,72,30,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1949-08-22T00:30:00
+13.50.53,73,30,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1949-08-22T00:30:00
+13.50.53,74,30,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1949-08-22T00:30:00
+13.50.53,75,30,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1949-08-22 10:30:00,1949-08-22T00:30:00
+13.50.53,76,30,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1949-08-22T10:30:00
+13.50.53,77,30,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1949-08-22T10:30:00
+13.50.53,78,49,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1954-07-28T00:00:00
+13.50.53,79,49,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1954-07-28 00:35:00,1954-07-28T00:00:00
+13.50.53,80,49,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1954-07-28T00:35:00
+13.50.53,81,49,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1954-07-28T00:35:00
+13.50.53,82,49,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1954-07-28T00:35:00
+13.50.53,83,49,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1954-07-28 00:49:00,1954-07-28T00:35:00
+13.50.53,84,49,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1954-07-28T00:49:00
+13.50.53,85,49,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1954-07-28T00:49:00
+13.50.53,86,49,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1954-07-28T00:49:00
+13.50.53,87,49,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1954-07-28T00:49:00
+13.50.53,88,49,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1954-07-28 17:49:00,1954-07-28T00:49:00
+13.50.53,89,49,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1954-07-28T17:49:00
+13.50.53,90,49,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1954-07-28T17:49:00
+13.50.53,91,21,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1958-02-26T00:00:00
+13.50.53,92,21,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1958-02-26 00:50:00,1958-02-26T00:00:00
+13.50.53,93,21,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1958-02-26T00:50:00
+13.50.53,94,21,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1958-02-26T00:50:00
+13.50.53,95,21,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1958-02-26T00:50:00
+13.50.53,96,21,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1958-02-26 01:07:00,1958-02-26T00:50:00
+13.50.53,97,21,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1958-02-26T01:07:00
+13.50.53,98,21,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1958-02-26T01:07:00
+13.50.53,99,21,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1958-02-26T01:07:00
+13.50.53,100,21,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1958-02-26T01:07:00
+13.50.53,101,21,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1958-02-26 16:07:00,1958-02-26T01:07:00
+13.50.53,102,21,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1958-02-26T16:07:00
+13.50.53,103,21,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1958-02-26T16:07:00
+13.50.53,104,24,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1958-08-19T00:00:00
+13.50.53,105,24,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1958-08-19 00:46:00,1958-08-19T00:00:00
+13.50.53,106,24,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1958-08-19T00:46:00
+13.50.53,107,24,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1958-08-19T00:46:00
+13.50.53,108,24,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1958-08-19T00:46:00
+13.50.53,109,24,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1958-08-19 00:55:00,1958-08-19T00:46:00
+13.50.53,110,24,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1958-08-19T00:55:00
+13.50.53,111,24,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1958-08-19T00:55:00
+13.50.53,112,24,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1958-08-19T00:55:00
+13.50.53,113,24,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1958-08-19T00:55:00
+13.50.53,114,24,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1958-08-19 10:55:00,1958-08-19T00:55:00
+13.50.53,115,24,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1958-08-19T10:55:00
+13.50.53,116,24,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1958-08-19T10:55:00
+13.50.53,117,31,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1960-08-02T00:00:00
+13.50.53,118,31,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1960-08-02 00:43:00,1960-08-02T00:00:00
+13.50.53,119,31,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1960-08-02T00:43:00
+13.50.53,120,31,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1960-08-02T00:43:00
+13.50.53,121,31,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1960-08-02T00:43:00
+13.50.53,122,31,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1960-08-02 00:44:00,1960-08-02T00:43:00
+13.50.53,123,31,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1960-08-02T00:44:00
+13.50.53,124,31,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1960-08-02T00:44:00
+13.50.53,125,31,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1960-08-02T00:44:00
+13.50.53,126,31,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1960-08-02T00:44:00
+13.50.53,127,31,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1960-08-02 16:44:00,1960-08-02T00:44:00
+13.50.53,128,31,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1960-08-02T16:44:00
+13.50.53,129,31,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1960-08-02T16:44:00
+13.50.53,130,2,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1961-04-25T00:00:00
+13.50.53,131,2,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1961-04-25 00:28:00,1961-04-25T00:00:00
+13.50.53,132,2,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1961-04-25T00:28:00
+13.50.53,133,2,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1961-04-25T00:28:00
+13.50.53,134,2,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1961-04-25T00:28:00
+13.50.53,135,2,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1961-04-25 00:50:00,1961-04-25T00:28:00
+13.50.53,136,2,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1961-04-25T00:50:00
+13.50.53,137,2,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1961-04-25T00:50:00
+13.50.53,138,2,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1961-04-25T00:50:00
+13.50.53,139,2,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1961-04-25T00:50:00
+13.50.53,140,2,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1961-04-25 21:50:00,1961-04-25T00:50:00
+13.50.53,141,2,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1961-04-25T21:50:00
+13.50.53,142,2,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1961-04-25T21:50:00
+13.50.53,143,37,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1964-01-17T00:00:00
+13.50.53,144,37,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1964-01-17 00:23:00,1964-01-17T00:00:00
+13.50.53,145,37,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1964-01-17T00:23:00
+13.50.53,146,37,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1964-01-17T00:23:00
+13.50.53,147,37,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1964-01-17T00:23:00
+13.50.53,148,37,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1964-01-17 00:31:00,1964-01-17T00:23:00
+13.50.53,149,37,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1964-01-17T00:31:00
+13.50.53,150,37,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1964-01-17T00:31:00
+13.50.53,151,37,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1964-01-17T00:31:00
+13.50.53,152,37,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1964-01-17T00:31:00
+13.50.53,153,37,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1964-01-17 03:31:00,1964-01-17T00:31:00
+13.50.53,154,37,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1964-01-17T03:31:00
+13.50.53,155,37,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1964-01-17T03:31:00
+13.50.53,156,42,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1964-12-24T00:00:00
+13.50.53,157,42,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1964-12-24 00:44:00,1964-12-24T00:00:00
+13.50.53,158,42,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1964-12-24T00:44:00
+13.50.53,159,42,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1964-12-24T00:44:00
+13.50.53,160,42,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1964-12-24T00:44:00
+13.50.53,161,42,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1964-12-24 00:48:00,1964-12-24T00:44:00
+13.50.53,162,42,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1964-12-24T00:48:00
+13.50.53,163,42,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1964-12-24T00:48:00
+13.50.53,164,42,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1964-12-24T00:48:00
+13.50.53,165,42,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1964-12-24T00:48:00
+13.50.53,166,42,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1964-12-24 23:48:00,1964-12-24T00:48:00
+13.50.53,167,42,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1964-12-24T23:48:00
+13.50.53,168,42,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1964-12-24T23:48:00
+13.50.53,169,20,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1965-07-04T00:00:00
+13.50.53,170,20,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1965-07-04 00:46:00,1965-07-04T00:00:00
+13.50.53,171,20,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1965-07-04T00:46:00
+13.50.53,172,20,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1965-07-04T00:46:00
+13.50.53,173,20,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1965-07-04T00:46:00
+13.50.53,174,20,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1965-07-04 01:04:00,1965-07-04T00:46:00
+13.50.53,175,20,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1965-07-04T01:04:00
+13.50.53,176,20,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1965-07-04T01:04:00
+13.50.53,177,20,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1965-07-04T01:04:00
+13.50.53,178,20,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1965-07-04T01:04:00
+13.50.53,179,20,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1965-07-04 09:04:00,1965-07-04T01:04:00
+13.50.53,180,20,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1965-07-04T09:04:00
+13.50.53,181,20,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1965-07-04T09:04:00
+13.50.53,182,13,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1965-08-26T00:00:00
+13.50.53,183,13,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1965-08-26 00:43:00,1965-08-26T00:00:00
+13.50.53,184,13,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1965-08-26T00:43:00
+13.50.53,185,13,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1965-08-26T00:43:00
+13.50.53,186,13,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1965-08-26T00:43:00
+13.50.53,187,13,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1965-08-26 01:10:00,1965-08-26T00:43:00
+13.50.53,188,13,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1965-08-26T01:10:00
+13.50.53,189,13,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1965-08-26T01:10:00
+13.50.53,190,13,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1965-08-26T01:10:00
+13.50.53,191,13,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1965-08-26T01:10:00
+13.50.53,192,13,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1965-08-26 02:10:00,1965-08-26T01:10:00
+13.50.53,193,13,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1965-08-26T02:10:00
+13.50.53,194,13,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1965-08-26T02:10:00
+13.50.53,195,15,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1969-05-17T00:00:00
+13.50.53,196,15,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1969-05-17 00:15:00,1969-05-17T00:00:00
+13.50.53,197,15,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1969-05-17T00:15:00
+13.50.53,198,15,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1969-05-17T00:15:00
+13.50.53,199,15,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1969-05-17T00:15:00
+13.50.53,200,15,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1969-05-17 00:45:00,1969-05-17T00:15:00
+13.50.53,201,15,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1969-05-17T00:45:00
+13.50.53,202,15,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1969-05-17T00:45:00
+13.50.53,203,15,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1969-05-17T00:45:00
+13.50.53,204,15,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1969-05-17T00:45:00
+13.50.53,205,15,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1969-05-17 17:45:00,1969-05-17T00:45:00
+13.50.53,206,15,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1969-05-17T17:45:00
+13.50.53,207,15,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1969-05-17T17:45:00
+13.50.53,208,33,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1972-06-10T00:00:00
+13.50.53,209,33,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1972-06-10 00:22:00,1972-06-10T00:00:00
+13.50.53,210,33,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1972-06-10T00:22:00
+13.50.53,211,33,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1972-06-10T00:22:00
+13.50.53,212,33,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1972-06-10T00:22:00
+13.50.53,213,33,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1972-06-10 00:31:00,1972-06-10T00:22:00
+13.50.53,214,33,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1972-06-10T00:31:00
+13.50.53,215,33,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1972-06-10T00:31:00
+13.50.53,216,33,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1972-06-10T00:31:00
+13.50.53,217,33,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1972-06-10T00:31:00
+13.50.53,218,33,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1972-06-10 23:31:00,1972-06-10T00:31:00
+13.50.53,219,33,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1972-06-10T23:31:00
+13.50.53,220,33,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1972-06-10T23:31:00
+13.50.53,221,12,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1974-04-25T00:00:00
+13.50.53,222,12,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1974-04-25 00:31:00,1974-04-25T00:00:00
+13.50.53,223,12,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1974-04-25T00:31:00
+13.50.53,224,12,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1974-04-25T00:31:00
+13.50.53,225,12,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1974-04-25T00:31:00
+13.50.53,226,12,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1974-04-25 01:00:00,1974-04-25T00:31:00
+13.50.53,227,12,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1974-04-25T01:00:00
+13.50.53,228,12,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1974-04-25T01:00:00
+13.50.53,229,12,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1974-04-25T01:00:00
+13.50.53,230,12,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1974-04-25T01:00:00
+13.50.53,231,12,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1974-04-25 03:00:00,1974-04-25T01:00:00
+13.50.53,232,12,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1974-04-25T03:00:00
+13.50.53,233,12,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1974-04-25T03:00:00
+13.50.53,234,17,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1978-01-09T00:00:00
+13.50.53,235,17,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1978-01-09 00:38:00,1978-01-09T00:00:00
+13.50.53,236,17,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1978-01-09T00:38:00
+13.50.53,237,17,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1978-01-09T00:38:00
+13.50.53,238,17,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1978-01-09T00:38:00
+13.50.53,239,17,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1978-01-09 00:44:00,1978-01-09T00:38:00
+13.50.53,240,17,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1978-01-09T00:44:00
+13.50.53,241,17,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1978-01-09T00:44:00
+13.50.53,242,17,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1978-01-09T00:44:00
+13.50.53,243,17,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1978-01-09T00:44:00
+13.50.53,244,17,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1978-01-10 00:44:00,1978-01-09T00:44:00
+13.50.53,245,17,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1978-01-10T00:44:00
+13.50.53,246,17,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1978-01-10T00:44:00
+13.50.53,247,47,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1979-12-03T00:00:00
+13.50.53,248,47,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1979-12-03 00:32:00,1979-12-03T00:00:00
+13.50.53,249,47,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1979-12-03T00:32:00
+13.50.53,250,47,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1979-12-03T00:32:00
+13.50.53,251,47,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1979-12-03T00:32:00
+13.50.53,252,47,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1979-12-03 00:42:00,1979-12-03T00:32:00
+13.50.53,253,47,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1979-12-03T00:42:00
+13.50.53,254,47,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1979-12-03T00:42:00
+13.50.53,255,47,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1979-12-03T00:42:00
+13.50.53,256,47,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1979-12-03T00:42:00
+13.50.53,257,47,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1979-12-03 17:42:00,1979-12-03T00:42:00
+13.50.53,258,47,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1979-12-03T17:42:00
+13.50.53,259,47,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1979-12-03T17:42:00
+13.50.53,260,38,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1980-06-02T00:00:00
+13.50.53,261,38,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1980-06-02 00:34:00,1980-06-02T00:00:00
+13.50.53,262,38,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1980-06-02T00:34:00
+13.50.53,263,38,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1980-06-02T00:34:00
+13.50.54,264,38,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1980-06-02T00:34:00
+13.50.54,265,38,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1980-06-02 01:00:00,1980-06-02T00:34:00
+13.50.54,266,38,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1980-06-02T01:00:00
+13.50.54,267,38,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1980-06-02T01:00:00
+13.50.54,268,38,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1980-06-02T01:00:00
+13.50.54,269,38,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1980-06-02T01:00:00
+13.50.54,270,38,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1980-06-02 23:00:00,1980-06-02T01:00:00
+13.50.54,271,38,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1980-06-02T23:00:00
+13.50.54,272,38,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1980-06-02T23:00:00
+13.50.54,273,35,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1980-09-18T00:00:00
+13.50.54,274,35,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1980-09-18 00:15:00,1980-09-18T00:00:00
+13.50.54,275,35,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1980-09-18T00:15:00
+13.50.54,276,35,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1980-09-18T00:15:00
+13.50.54,277,35,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1980-09-18T00:15:00
+13.50.54,278,35,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1980-09-18 00:31:00,1980-09-18T00:15:00
+13.50.54,279,35,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1980-09-18T00:31:00
+13.50.54,280,35,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1980-09-18T00:31:00
+13.50.54,281,35,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1980-09-18T00:31:00
+13.50.54,282,35,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1980-09-18T00:31:00
+13.50.54,283,35,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1980-09-18 09:31:00,1980-09-18T00:31:00
+13.50.54,284,35,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1980-09-18T09:31:00
+13.50.54,285,35,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1980-09-18T09:31:00
+13.50.54,286,50,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1981-11-19T00:00:00
+13.50.54,287,50,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1981-11-19 00:22:00,1981-11-19T00:00:00
+13.50.54,288,50,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1981-11-19T00:22:00
+13.50.54,289,50,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1981-11-19T00:22:00
+13.50.54,290,50,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1981-11-19T00:22:00
+13.50.54,291,50,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1981-11-19 00:24:00,1981-11-19T00:22:00
+13.50.54,292,50,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1981-11-19T00:24:00
+13.50.54,293,50,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1981-11-19T00:24:00
+13.50.54,294,50,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1981-11-19T00:24:00
+13.50.54,295,50,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1981-11-19T00:24:00
+13.50.54,296,50,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1981-11-19 10:24:00,1981-11-19T00:24:00
+13.50.54,297,50,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1981-11-19T10:24:00
+13.50.54,298,50,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1981-11-19T10:24:00
+13.50.54,299,14,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1984-03-11T00:00:00
+13.50.54,300,14,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1984-03-11 00:24:00,1984-03-11T00:00:00
+13.50.54,301,14,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1984-03-11T00:24:00
+13.50.54,302,14,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1984-03-11T00:24:00
+13.50.54,303,14,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1984-03-11T00:24:00
+13.50.54,304,14,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1984-03-11 00:39:00,1984-03-11T00:24:00
+13.50.54,305,14,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1984-03-11T00:39:00
+13.50.54,306,14,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1984-03-11T00:39:00
+13.50.54,307,14,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1984-03-11T00:39:00
+13.50.54,308,14,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1984-03-11T00:39:00
+13.50.54,309,14,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1984-03-11 08:39:00,1984-03-11T00:39:00
+13.50.54,310,14,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1984-03-11T08:39:00
+13.50.54,311,14,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1984-03-11T08:39:00
+13.50.54,312,9,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1984-11-25T00:00:00
+13.50.54,313,9,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1984-11-25 00:15:00,1984-11-25T00:00:00
+13.50.54,314,9,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1984-11-25T00:15:00
+13.50.54,315,9,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1984-11-25T00:15:00
+13.50.54,316,9,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1984-11-25T00:15:00
+13.50.54,317,9,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1984-11-25 00:30:00,1984-11-25T00:15:00
+13.50.54,318,9,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1984-11-25T00:30:00
+13.50.54,319,9,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1984-11-25T00:30:00
+13.50.54,320,9,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1984-11-25T00:30:00
+13.50.54,321,9,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1984-11-25T00:30:00
+13.50.54,322,9,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1984-11-25 09:30:00,1984-11-25T00:30:00
+13.50.54,323,9,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1984-11-25T09:30:00
+13.50.54,324,9,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1984-11-25T09:30:00
+13.50.54,325,43,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1985-05-04T00:00:00
+13.50.54,326,43,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1985-05-04 00:11:00,1985-05-04T00:00:00
+13.50.54,327,43,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1985-05-04T00:11:00
+13.50.54,328,43,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1985-05-04T00:11:00
+13.50.54,329,43,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1985-05-04T00:11:00
+13.50.54,330,43,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1985-05-04 00:13:00,1985-05-04T00:11:00
+13.50.54,331,43,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1985-05-04T00:13:00
+13.50.54,332,43,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1985-05-04T00:13:00
+13.50.54,333,43,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1985-05-04T00:13:00
+13.50.54,334,43,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1985-05-04T00:13:00
+13.50.54,335,43,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1985-05-04 21:13:00,1985-05-04T00:13:00
+13.50.54,336,43,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1985-05-04T21:13:00
+13.50.54,337,43,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1985-05-04T21:13:00
+13.50.54,338,7,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1987-01-02T00:00:00
+13.50.54,339,7,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1987-01-02 00:50:00,1987-01-02T00:00:00
+13.50.54,340,7,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1987-01-02T00:50:00
+13.50.54,341,7,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1987-01-02T00:50:00
+13.50.54,342,7,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1987-01-02T00:50:00
+13.50.54,343,7,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1987-01-02 01:13:00,1987-01-02T00:50:00
+13.50.54,344,7,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1987-01-02T01:13:00
+13.50.54,345,7,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1987-01-02T01:13:00
+13.50.54,346,7,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1987-01-02T01:13:00
+13.50.54,347,7,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1987-01-02T01:13:00
+13.50.54,348,7,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1987-01-03 00:13:00,1987-01-02T01:13:00
+13.50.54,349,7,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1987-01-03T00:13:00
+13.50.54,350,7,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1987-01-03T00:13:00
+13.50.54,351,48,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1987-06-12T00:00:00
+13.50.54,352,48,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1987-06-12 00:38:00,1987-06-12T00:00:00
+13.50.54,353,48,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1987-06-12T00:38:00
+13.50.54,354,48,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1987-06-12T00:38:00
+13.50.54,355,48,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1987-06-12T00:38:00
+13.50.54,356,48,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1987-06-12 01:08:00,1987-06-12T00:38:00
+13.50.54,357,48,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1987-06-12T01:08:00
+13.50.54,358,48,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1987-06-12T01:08:00
+13.50.54,359,48,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1987-06-12T01:08:00
+13.50.54,360,48,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1987-06-12T01:08:00
+13.50.54,361,48,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1987-06-12 18:08:00,1987-06-12T01:08:00
+13.50.54,362,48,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1987-06-12T18:08:00
+13.50.54,363,48,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1987-06-12T18:08:00
+13.50.54,364,6,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1988-03-17T00:00:00
+13.50.54,365,6,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1988-03-17 00:34:00,1988-03-17T00:00:00
+13.50.54,366,6,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1988-03-17T00:34:00
+13.50.54,367,6,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1988-03-17T00:34:00
+13.50.54,368,6,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1988-03-17T00:34:00
+13.50.54,369,6,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1988-03-17 00:39:00,1988-03-17T00:34:00
+13.50.54,370,6,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1988-03-17T00:39:00
+13.50.54,371,6,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1988-03-17T00:39:00
+13.50.54,372,6,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1988-03-17T00:39:00
+13.50.54,373,6,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1988-03-17T00:39:00
+13.50.54,374,6,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1988-03-17 04:39:00,1988-03-17T00:39:00
+13.50.54,375,6,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1988-03-17T04:39:00
+13.50.54,376,6,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1988-03-17T04:39:00
+13.50.54,377,4,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1989-07-01T00:00:00
+13.50.54,378,4,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1989-07-01 00:37:00,1989-07-01T00:00:00
+13.50.54,379,4,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1989-07-01T00:37:00
+13.50.54,380,4,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1989-07-01T00:37:00
+13.50.54,381,4,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1989-07-01T00:37:00
+13.50.54,382,4,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1989-07-01 00:49:00,1989-07-01T00:37:00
+13.50.54,383,4,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1989-07-01T00:49:00
+13.50.54,384,4,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1989-07-01T00:49:00
+13.50.54,385,4,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1989-07-01T00:49:00
+13.50.54,386,4,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1989-07-01T00:49:00
+13.50.54,387,4,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1989-07-01 16:49:00,1989-07-01T00:49:00
+13.50.54,388,4,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1989-07-01T16:49:00
+13.50.54,389,4,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1989-07-01T16:49:00
+13.50.54,390,8,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1989-07-09T00:00:00
+13.50.54,391,8,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1989-07-09 00:21:00,1989-07-09T00:00:00
+13.50.54,392,8,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1989-07-09T00:21:00
+13.50.54,393,8,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1989-07-09T00:21:00
+13.50.54,394,8,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1989-07-09T00:21:00
+13.50.54,395,8,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1989-07-09 00:36:00,1989-07-09T00:21:00
+13.50.54,396,8,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1989-07-09T00:36:00
+13.50.54,397,8,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1989-07-09T00:36:00
+13.50.54,398,8,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1989-07-09T00:36:00
+13.50.54,399,8,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1989-07-09T00:36:00
+13.50.54,400,8,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1989-07-09 21:36:00,1989-07-09T00:36:00
+13.50.54,401,8,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1989-07-09T21:36:00
+13.50.54,402,8,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1989-07-09T21:36:00
+13.50.54,403,40,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1990-06-06T00:00:00
+13.50.54,404,40,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1990-06-06 00:36:00,1990-06-06T00:00:00
+13.50.54,405,40,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1990-06-06T00:36:00
+13.50.54,406,40,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1990-06-06T00:36:00
+13.50.54,407,40,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1990-06-06T00:36:00
+13.50.54,408,40,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1990-06-06 01:05:00,1990-06-06T00:36:00
+13.50.54,409,40,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1990-06-06T01:05:00
+13.50.54,410,40,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1990-06-06T01:05:00
+13.50.54,411,40,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1990-06-06T01:05:00
+13.50.54,412,40,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1990-06-06T01:05:00
+13.50.54,413,40,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1990-06-06 03:05:00,1990-06-06T01:05:00
+13.50.54,414,40,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1990-06-06T03:05:00
+13.50.54,415,40,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1990-06-06T03:05:00
+13.50.54,416,23,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1993-09-01T00:00:00
+13.50.54,417,23,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1993-09-01 00:48:00,1993-09-01T00:00:00
+13.50.54,418,23,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1993-09-01T00:48:00
+13.50.54,419,23,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1993-09-01T00:48:00
+13.50.54,420,23,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1993-09-01T00:48:00
+13.50.54,421,23,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1993-09-01 00:53:00,1993-09-01T00:48:00
+13.50.54,422,23,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1993-09-01T00:53:00
+13.50.54,423,23,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1993-09-01T00:53:00
+13.50.54,424,23,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1993-09-01T00:53:00
+13.50.54,425,23,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1993-09-01T00:53:00
+13.50.54,426,23,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1993-09-01 04:53:00,1993-09-01T00:53:00
+13.50.54,427,23,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1993-09-01T04:53:00
+13.50.54,428,23,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1993-09-01T04:53:00
+13.50.54,429,39,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1994-05-04T00:00:00
+13.50.54,430,39,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1994-05-04 00:37:00,1994-05-04T00:00:00
+13.50.54,431,39,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1994-05-04T00:37:00
+13.50.54,432,39,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1994-05-04T00:37:00
+13.50.54,433,39,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1994-05-04T00:37:00
+13.50.54,434,39,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1994-05-04 01:02:00,1994-05-04T00:37:00
+13.50.54,435,39,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1994-05-04T01:02:00
+13.50.54,436,39,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1994-05-04T01:02:00
+13.50.54,437,39,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1994-05-04T01:02:00
+13.50.54,438,39,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1994-05-04T01:02:00
+13.50.54,439,39,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1994-05-04 08:02:00,1994-05-04T01:02:00
+13.50.54,440,39,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1994-05-04T08:02:00
+13.50.54,441,39,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1994-05-04T08:02:00
+13.50.54,442,28,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1994-12-14T00:00:00
+13.50.54,443,28,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1994-12-14 00:32:00,1994-12-14T00:00:00
+13.50.54,444,28,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1994-12-14T00:32:00
+13.50.54,445,28,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1994-12-14T00:32:00
+13.50.54,446,28,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1994-12-14T00:32:00
+13.50.54,447,28,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1994-12-14 00:33:00,1994-12-14T00:32:00
+13.50.54,448,28,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1994-12-14T00:33:00
+13.50.54,449,28,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1994-12-14T00:33:00
+13.50.54,450,28,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1994-12-14T00:33:00
+13.50.54,451,28,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1994-12-14T00:33:00
+13.50.54,452,28,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1994-12-14 19:33:00,1994-12-14T00:33:00
+13.50.54,453,28,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1994-12-14T19:33:00
+13.50.54,454,28,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1994-12-14T19:33:00
+13.50.55,455,10,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1995-08-06T00:00:00
+13.50.55,456,10,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1995-08-06 00:43:00,1995-08-06T00:00:00
+13.50.55,457,10,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1995-08-06T00:43:00
+13.50.55,458,10,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1995-08-06T00:43:00
+13.50.55,459,10,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1995-08-06T00:43:00
+13.50.55,460,10,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1995-08-06 01:09:00,1995-08-06T00:43:00
+13.50.55,461,10,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1995-08-06T01:09:00
+13.50.55,462,10,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1995-08-06T01:09:00
+13.50.55,463,10,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1995-08-06T01:09:00
+13.50.55,464,10,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1995-08-06T01:09:00
+13.50.55,465,10,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1995-08-07 00:09:00,1995-08-06T01:09:00
+13.50.55,466,10,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1995-08-07T00:09:00
+13.50.55,467,10,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1995-08-07T00:09:00
+13.50.55,468,11,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1996-01-17T00:00:00
+13.50.55,469,11,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1996-01-17 00:42:00,1996-01-17T00:00:00
+13.50.55,470,11,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1996-01-17T00:42:00
+13.50.55,471,11,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1996-01-17T00:42:00
+13.50.55,472,11,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1996-01-17T00:42:00
+13.50.55,473,11,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1996-01-17 00:43:00,1996-01-17T00:42:00
+13.50.55,474,11,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1996-01-17T00:43:00
+13.50.55,475,11,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1996-01-17T00:43:00
+13.50.55,476,11,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1996-01-17T00:43:00
+13.50.55,477,11,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1996-01-17T00:43:00
+13.50.55,478,11,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1996-01-17 09:43:00,1996-01-17T00:43:00
+13.50.55,479,11,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1996-01-17T09:43:00
+13.50.55,480,11,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1996-01-17T09:43:00
+13.50.55,481,32,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1996-03-07T00:00:00
+13.50.55,482,32,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1996-03-07 00:25:00,1996-03-07T00:00:00
+13.50.55,483,32,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1996-03-07T00:25:00
+13.50.55,484,32,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1996-03-07T00:25:00
+13.50.55,485,32,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1996-03-07T00:25:00
+13.50.55,486,32,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1996-03-07 00:54:00,1996-03-07T00:25:00
+13.50.55,487,32,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1996-03-07T00:54:00
+13.50.55,488,32,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1996-03-07T00:54:00
+13.50.55,489,32,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1996-03-07T00:54:00
+13.50.55,490,32,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1996-03-07T00:54:00
+13.50.55,491,32,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1996-03-07 11:54:00,1996-03-07T00:54:00
+13.50.55,492,32,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1996-03-07T11:54:00
+13.50.55,493,32,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1996-03-07T11:54:00
+13.50.55,494,26,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1996-06-14T00:00:00
+13.50.55,495,26,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1996-06-14 00:32:00,1996-06-14T00:00:00
+13.50.55,496,26,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1996-06-14T00:32:00
+13.50.55,497,26,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1996-06-14T00:32:00
+13.50.55,498,26,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1996-06-14T00:32:00
+13.50.55,499,26,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1996-06-14 00:37:00,1996-06-14T00:32:00
+13.50.55,500,26,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1996-06-14T00:37:00
+13.50.55,501,26,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1996-06-14T00:37:00
+13.50.55,502,26,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1996-06-14T00:37:00
+13.50.55,503,26,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1996-06-14T00:37:00
+13.50.55,504,26,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1996-06-14 10:37:00,1996-06-14T00:37:00
+13.50.55,505,26,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1996-06-14T10:37:00
+13.50.55,506,26,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1996-06-14T10:37:00
+13.50.55,507,1,Camunda diagram_2 Pathology Test and reporting process,Start,,,,1999-02-22T00:00:00
+13.50.55,508,1,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,1999-02-22 00:31:00,1999-02-22T00:00:00
+13.50.55,509,1,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,1999-02-22T00:31:00
+13.50.55,510,1,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,1999-02-22T00:31:00
+13.50.55,511,1,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,1999-02-22T00:31:00
+13.50.55,512,1,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,1999-02-22 00:33:00,1999-02-22T00:31:00
+13.50.55,513,1,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,1999-02-22T00:33:00
+13.50.55,514,1,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,1999-02-22T00:33:00
+13.50.55,515,1,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,1999-02-22T00:33:00
+13.50.55,516,1,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,1999-02-22T00:33:00
+13.50.55,517,1,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,1999-02-22 18:33:00,1999-02-22T00:33:00
+13.50.55,518,1,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,1999-02-22T18:33:00
+13.50.55,519,1,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,1999-02-22T18:33:00
+13.50.55,520,36,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2002-11-25T00:00:00
+13.50.55,521,36,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2002-11-25 00:29:00,2002-11-25T00:00:00
+13.50.55,522,36,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2002-11-25T00:29:00
+13.50.55,523,36,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2002-11-25T00:29:00
+13.50.55,524,36,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2002-11-25T00:29:00
+13.50.55,525,36,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2002-11-25 00:47:00,2002-11-25T00:29:00
+13.50.55,526,36,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2002-11-25T00:47:00
+13.50.55,527,36,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2002-11-25T00:47:00
+13.50.55,528,36,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2002-11-25T00:47:00
+13.50.55,529,36,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2002-11-25T00:47:00
+13.50.55,530,36,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2002-11-25 04:47:00,2002-11-25T00:47:00
+13.50.55,531,36,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2002-11-25T04:47:00
+13.50.55,532,36,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2002-11-25T04:47:00
+13.50.55,533,22,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2005-08-14T00:00:00
+13.50.55,534,22,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2005-08-14 00:29:00,2005-08-14T00:00:00
+13.50.55,535,22,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2005-08-14T00:29:00
+13.50.55,536,22,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2005-08-14T00:29:00
+13.50.55,537,22,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2005-08-14T00:29:00
+13.50.55,538,22,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2005-08-14 00:33:00,2005-08-14T00:29:00
+13.50.55,539,22,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2005-08-14T00:33:00
+13.50.55,540,22,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2005-08-14T00:33:00
+13.50.55,541,22,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2005-08-14T00:33:00
+13.50.55,542,22,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2005-08-14T00:33:00
+13.50.55,543,22,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2005-08-14 05:33:00,2005-08-14T00:33:00
+13.50.55,544,22,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2005-08-14T05:33:00
+13.50.55,545,22,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2005-08-14T05:33:00
+13.50.55,546,0,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2006-02-13T00:00:00
+13.50.55,547,0,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2006-02-13 00:24:00,2006-02-13T00:00:00
+13.50.55,548,0,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2006-02-13T00:24:00
+13.50.55,549,0,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2006-02-13T00:24:00
+13.50.55,550,0,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2006-02-13T00:24:00
+13.50.55,551,0,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2006-02-13 00:42:00,2006-02-13T00:24:00
+13.50.55,552,0,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2006-02-13T00:42:00
+13.50.55,553,0,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2006-02-13T00:42:00
+13.50.55,554,0,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2006-02-13T00:42:00
+13.50.55,555,0,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2006-02-13T00:42:00
+13.50.55,556,0,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2006-02-13 10:42:00,2006-02-13T00:42:00
+13.50.55,557,0,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2006-02-13T10:42:00
+13.50.55,558,0,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2006-02-13T10:42:00
+13.50.55,559,34,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2008-10-17T00:00:00
+13.50.55,560,34,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2008-10-17 00:23:00,2008-10-17T00:00:00
+13.50.55,561,34,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2008-10-17T00:23:00
+13.50.55,562,34,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2008-10-17T00:23:00
+13.50.55,563,34,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2008-10-17T00:23:00
+13.50.55,564,34,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2008-10-17 00:27:00,2008-10-17T00:23:00
+13.50.55,565,34,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2008-10-17T00:27:00
+13.50.55,566,34,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2008-10-17T00:27:00
+13.50.55,567,34,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2008-10-17T00:27:00
+13.50.55,568,34,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2008-10-17T00:27:00
+13.50.55,569,34,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2008-10-17 12:27:00,2008-10-17T00:27:00
+13.50.55,570,34,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2008-10-17T12:27:00
+13.50.55,571,34,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2008-10-17T12:27:00
+13.50.55,572,16,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2008-12-30T00:00:00
+13.50.55,573,16,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2008-12-30 00:35:00,2008-12-30T00:00:00
+13.50.55,574,16,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2008-12-30T00:35:00
+13.50.55,575,16,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2008-12-30T00:35:00
+13.50.55,576,16,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2008-12-30T00:35:00
+13.50.55,577,16,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2008-12-30 00:45:00,2008-12-30T00:35:00
+13.50.55,578,16,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2008-12-30T00:45:00
+13.50.55,579,16,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2008-12-30T00:45:00
+13.50.55,580,16,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2008-12-30T00:45:00
+13.50.55,581,16,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2008-12-30T00:45:00
+13.50.55,582,16,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2008-12-30 03:45:00,2008-12-30T00:45:00
+13.50.55,583,16,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2008-12-30T03:45:00
+13.50.55,584,16,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2008-12-30T03:45:00
+13.50.55,585,25,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2009-01-31T00:00:00
+13.50.55,586,25,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2009-01-31 00:28:00,2009-01-31T00:00:00
+13.50.55,587,25,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2009-01-31T00:28:00
+13.50.55,588,25,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2009-01-31T00:28:00
+13.50.55,589,25,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2009-01-31T00:28:00
+13.50.55,590,25,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2009-01-31 00:44:00,2009-01-31T00:28:00
+13.50.55,591,25,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2009-01-31T00:44:00
+13.50.55,592,25,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2009-01-31T00:44:00
+13.50.55,593,25,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2009-01-31T00:44:00
+13.50.55,594,25,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2009-01-31T00:44:00
+13.50.55,595,25,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2009-01-31 11:44:00,2009-01-31T00:44:00
+13.50.55,596,25,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2009-01-31T11:44:00
+13.50.55,597,25,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2009-01-31T11:44:00
+13.50.55,598,44,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2011-09-08T00:00:00
+13.50.55,599,44,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2011-09-08 00:17:00,2011-09-08T00:00:00
+13.50.55,600,44,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2011-09-08T00:17:00
+13.50.55,601,44,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2011-09-08T00:17:00
+13.50.55,602,44,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2011-09-08T00:17:00
+13.50.55,603,44,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2011-09-08 00:30:00,2011-09-08T00:17:00
+13.50.55,604,44,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2011-09-08T00:30:00
+13.50.55,605,44,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2011-09-08T00:30:00
+13.50.55,606,44,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2011-09-08T00:30:00
+13.50.55,607,44,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2011-09-08T00:30:00
+13.50.55,608,44,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2011-09-08 03:30:00,2011-09-08T00:30:00
+13.50.55,609,44,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2011-09-08T03:30:00
+13.50.55,610,44,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2011-09-08T03:30:00
+13.50.55,611,5,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2014-07-26T00:00:00
+13.50.55,612,5,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2014-07-26 00:49:00,2014-07-26T00:00:00
+13.50.55,613,5,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2014-07-26T00:49:00
+13.50.55,614,5,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2014-07-26T00:49:00
+13.50.55,615,5,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2014-07-26T00:49:00
+13.50.55,616,5,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2014-07-26 01:00:00,2014-07-26T00:49:00
+13.50.55,617,5,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2014-07-26T01:00:00
+13.50.55,618,5,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2014-07-26T01:00:00
+13.50.55,619,5,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2014-07-26T01:00:00
+13.50.55,620,5,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2014-07-26T01:00:00
+13.50.55,621,5,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2014-07-26 12:00:00,2014-07-26T01:00:00
+13.50.55,622,5,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2014-07-26T12:00:00
+13.50.55,623,5,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2014-07-26T12:00:00
+13.50.55,624,41,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2017-07-30T00:00:00
+13.50.55,625,41,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2017-07-30 00:30:00,2017-07-30T00:00:00
+13.50.55,626,41,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2017-07-30T00:30:00
+13.50.55,627,41,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2017-07-30T00:30:00
+13.50.55,628,41,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2017-07-30T00:30:00
+13.50.55,629,41,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2017-07-30 00:40:00,2017-07-30T00:30:00
+13.50.55,630,41,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2017-07-30T00:40:00
+13.50.55,631,41,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2017-07-30T00:40:00
+13.50.55,632,41,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2017-07-30T00:40:00
+13.50.55,633,41,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2017-07-30T00:40:00
+13.50.55,634,41,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2017-07-30 17:40:00,2017-07-30T00:40:00
+13.50.55,635,41,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2017-07-30T17:40:00
+13.50.55,636,41,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2017-07-30T17:40:00
+13.50.55,637,3,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2018-04-21T00:00:00
+13.50.55,638,3,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2018-04-21 00:33:00,2018-04-21T00:00:00
+13.50.55,639,3,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2018-04-21T00:33:00
+13.50.55,640,3,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2018-04-21T00:33:00
+13.50.55,641,3,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2018-04-21T00:33:00
+13.50.55,642,3,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2018-04-21 00:44:00,2018-04-21T00:33:00
+13.50.55,643,3,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2018-04-21T00:44:00
+13.50.55,644,3,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2018-04-21T00:44:00
+13.50.55,645,3,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2018-04-21T00:44:00
+13.50.55,646,3,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2018-04-21T00:44:00
+13.50.55,647,3,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2018-04-21 13:44:00,2018-04-21T00:44:00
+13.50.55,648,3,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2018-04-21T13:44:00
+13.50.55,649,3,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2018-04-21T13:44:00
+13.50.55,650,45,Camunda diagram_2 Pathology Test and reporting process,Start,,,,2018-04-23T00:00:00
+13.50.56,651,45,Camunda diagram_2 Pathology Test and reporting process,Initial_patient_GP_Visit,,Delay Until - ,2018-04-23 00:24:00,2018-04-23T00:00:00
+13.50.56,652,45,Camunda diagram_2 Pathology Test and reporting process,patient_assessment,,,,2018-04-23T00:24:00
+13.50.56,653,45,Camunda diagram_2 Pathology Test and reporting process,test_request,,,,2018-04-23T00:24:00
+13.50.56,654,45,Camunda diagram_2 Pathology Test and reporting process,Specimen_check,,,,2018-04-23T00:24:00
+13.50.56,655,45,Camunda diagram_2 Pathology Test and reporting process,specimen_ready_for_test,,Delay Until - ,2018-04-23 00:45:00,2018-04-23T00:24:00
+13.50.56,656,45,Camunda diagram_2 Pathology Test and reporting process,lab_test,,,,2018-04-23T00:45:00
+13.50.56,657,45,Camunda diagram_2 Pathology Test and reporting process,test_report,,,,2018-04-23T00:45:00
+13.50.56,658,45,Camunda diagram_2 Pathology Test and reporting process,send_report,,,,2018-04-23T00:45:00
+13.50.56,659,45,Camunda diagram_2 Pathology Test and reporting process,receive_report,,,,2018-04-23T00:45:00
+13.50.56,660,45,Camunda diagram_2 Pathology Test and reporting process,GP_checks_report,,Delay Until - ,2018-04-23 13:45:00,2018-04-23T00:45:00
+13.50.56,661,45,Camunda diagram_2 Pathology Test and reporting process,inform_patient,,,,2018-04-23T13:45:00
+13.50.56,662,45,Camunda diagram_2 Pathology Test and reporting process,Receive_results,,,,2018-04-23T13:45:00
