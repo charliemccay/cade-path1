@@ -1,5 +1,5 @@
-# cade-meds1
-This is a demo Resouces folder for the CADE2 pathway-based simulation tool
+# cade-path1
+This is a demo Resources folder for the CADE2 pathway-based simulation tool
 
 1. If you don't already have Docker on your system, download and install it from https://store.docker.com/search?type=edition&offering=community
 2. If you don't already have Git on your system, download and install it from https://git-scm.com/downloads
