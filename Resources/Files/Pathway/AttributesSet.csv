@@ -1,6 +1,6 @@
 Pathway,Node,GivenAttribute,TemplateName,EndPoint,Percentage,Attribute,DataType,Value
-AbdelsJourney,Birth,,,,0.4,HasFirstChild,Boolean,False
-AbdelsJourney,Birth,,,,0.6,HasFirstChild,Boolean,True
+Path1,Start,,,,0.4,HasFirstChild,Integer,1
+Path1,Start,,,,0.6,HasFirstChild,Integer,0
 AbdelsJourney,GPvisit,,FHIR_Observation.txt,Observation/,0.6,BloodGlucose,Observation,"{'quantity':uniform(3.9, 5.4),'unit':'mmol/l','code': {'coding':[{'system': 'http://snomed.info/sct','code': '1003131000000101','display': 'Serum fasting glucose level'}]},}"
 AbdelsJourney,Birth,,FHIR_Observation.txt,Observation/,,Weight,Integer,"['3141-9','Weight Measured','27113001','Body weight',randint(54,120),'kg']"
 AbdelsJourney,Birth,,FHIR_Observation.txt,Observation/,,Height,Integer,"['8302-2','Body height','50373000','Body height',randint(154,204),'cm']"

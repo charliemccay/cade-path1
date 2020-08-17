@@ -1,0 +1,715 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+09.38.46,0,7,Path1,Start,,,,1937-06-01T00:00:00
+09.38.46,0,7,Path1,Start,,HasFirstChild,0,1937-06-01T00:00:00
+09.38.46,1,7,Path1,Initial_patient_GP_Visit,,Delay Until - ,1937-06-01 00:42:00,1937-06-01T00:00:00
+09.38.46,2,7,Path1,patient_assessment,,,,1937-06-01T00:42:00
+09.38.46,3,7,Path1,test_request,,,,1937-06-01T00:42:00
+09.38.46,4,7,Path1,Specimen_check,,,,1937-06-01T00:42:00
+09.38.46,5,7,Path1,specimen_ready_for_test,,Delay Until - ,1937-06-01 01:11:00,1937-06-01T00:42:00
+09.38.46,6,7,Path1,lab_test,,,,1937-06-01T01:11:00
+09.38.46,7,7,Path1,test_report,,,,1937-06-01T01:11:00
+09.38.46,8,7,Path1,send_report,,,,1937-06-01T01:11:00
+09.38.46,9,7,Path1,receive_report,,,,1937-06-01T01:11:00
+09.38.46,10,7,Path1,GP_checks_report,,Delay Until - ,1937-06-01 20:11:00,1937-06-01T01:11:00
+09.38.47,11,7,Path1,inform_patient,,,,1937-06-01T20:11:00
+09.38.47,12,7,Path1,Finish,,,,1937-06-01T20:11:00
+09.38.47,13,41,Path1,Start,,,,1942-03-25T00:00:00
+09.38.47,13,41,Path1,Start,,HasFirstChild,0,1942-03-25T00:00:00
+09.38.47,14,41,Path1,Initial_patient_GP_Visit,,Delay Until - ,1942-03-25 00:40:00,1942-03-25T00:00:00
+09.38.47,15,41,Path1,patient_assessment,,,,1942-03-25T00:40:00
+09.38.47,16,41,Path1,test_request,,,,1942-03-25T00:40:00
+09.38.47,17,41,Path1,Specimen_check,,,,1942-03-25T00:40:00
+09.38.47,18,41,Path1,specimen_ready_for_test,,Delay Until - ,1942-03-25 00:41:00,1942-03-25T00:40:00
+09.38.47,19,41,Path1,lab_test,,,,1942-03-25T00:41:00
+09.38.47,20,41,Path1,test_report,,,,1942-03-25T00:41:00
+09.38.47,21,41,Path1,send_report,,,,1942-03-25T00:41:00
+09.38.47,22,41,Path1,receive_report,,,,1942-03-25T00:41:00
+09.38.47,23,41,Path1,GP_checks_report,,Delay Until - ,1942-03-25 12:41:00,1942-03-25T00:41:00
+09.38.47,24,41,Path1,inform_patient,,,,1942-03-25T12:41:00
+09.38.47,25,41,Path1,Finish,,,,1942-03-25T12:41:00
+09.38.47,26,15,Path1,Start,,,,1942-08-01T00:00:00
+09.38.47,26,15,Path1,Start,,HasFirstChild,1,1942-08-01T00:00:00
+09.38.47,27,15,Path1,Initial_patient_GP_Visit,,Delay Until - ,1942-08-01 00:38:00,1942-08-01T00:00:00
+09.38.47,28,15,Path1,patient_assessment,,,,1942-08-01T00:38:00
+09.38.47,29,15,Path1,test_request,,,,1942-08-01T00:38:00
+09.38.47,30,15,Path1,Specimen_check,,,,1942-08-01T00:38:00
+09.38.47,31,15,Path1,specimen_ready_for_test,,Delay Until - ,1942-08-01 00:52:00,1942-08-01T00:38:00
+09.38.47,32,15,Path1,lab_test,,,,1942-08-01T00:52:00
+09.38.47,33,15,Path1,test_report,,,,1942-08-01T00:52:00
+09.38.47,34,15,Path1,send_report,,,,1942-08-01T00:52:00
+09.38.47,35,15,Path1,receive_report,,,,1942-08-01T00:52:00
+09.38.47,36,15,Path1,GP_checks_report,,Delay Until - ,1942-08-01 05:52:00,1942-08-01T00:52:00
+09.38.47,37,15,Path1,inform_patient,,,,1942-08-01T05:52:00
+09.38.47,38,15,Path1,Finish,,,,1942-08-01T05:52:00
+09.38.47,39,46,Path1,Start,,,,1942-08-20T00:00:00
+09.38.47,39,46,Path1,Start,,HasFirstChild,1,1942-08-20T00:00:00
+09.38.47,40,46,Path1,Initial_patient_GP_Visit,,Delay Until - ,1942-08-20 00:16:00,1942-08-20T00:00:00
+09.38.47,41,46,Path1,patient_assessment,,,,1942-08-20T00:16:00
+09.38.47,42,46,Path1,test_request,,,,1942-08-20T00:16:00
+09.38.47,43,46,Path1,Specimen_check,,,,1942-08-20T00:16:00
+09.38.47,44,46,Path1,specimen_ready_for_test,,Delay Until - ,1942-08-20 00:29:00,1942-08-20T00:16:00
+09.38.47,45,46,Path1,lab_test,,,,1942-08-20T00:29:00
+09.38.47,46,46,Path1,test_report,,,,1942-08-20T00:29:00
+09.38.47,47,46,Path1,send_report,,,,1942-08-20T00:29:00
+09.38.47,48,46,Path1,receive_report,,,,1942-08-20T00:29:00
+09.38.47,49,46,Path1,GP_checks_report,,Delay Until - ,1942-08-20 17:29:00,1942-08-20T00:29:00
+09.38.47,50,46,Path1,inform_patient,,,,1942-08-20T17:29:00
+09.38.47,51,46,Path1,Finish,,,,1942-08-20T17:29:00
+09.38.47,52,17,Path1,Start,,,,1948-01-11T00:00:00
+09.38.47,52,17,Path1,Start,,HasFirstChild,1,1948-01-11T00:00:00
+09.38.47,53,17,Path1,Initial_patient_GP_Visit,,Delay Until - ,1948-01-11 00:16:00,1948-01-11T00:00:00
+09.38.47,54,17,Path1,patient_assessment,,,,1948-01-11T00:16:00
+09.38.47,55,17,Path1,test_request,,,,1948-01-11T00:16:00
+09.38.47,56,17,Path1,Specimen_check,,,,1948-01-11T00:16:00
+09.38.47,57,17,Path1,specimen_ready_for_test,,Delay Until - ,1948-01-11 00:18:00,1948-01-11T00:16:00
+09.38.47,58,17,Path1,lab_test,,,,1948-01-11T00:18:00
+09.38.47,59,17,Path1,test_report,,,,1948-01-11T00:18:00
+09.38.47,60,17,Path1,send_report,,,,1948-01-11T00:18:00
+09.38.47,61,17,Path1,receive_report,,,,1948-01-11T00:18:00
+09.38.47,62,17,Path1,GP_checks_report,,Delay Until - ,1948-01-11 03:18:00,1948-01-11T00:18:00
+09.38.47,63,17,Path1,inform_patient,,,,1948-01-11T03:18:00
+09.38.47,64,17,Path1,Finish,,,,1948-01-11T03:18:00
+09.38.47,65,2,Path1,Start,,,,1953-05-29T00:00:00
+09.38.47,65,2,Path1,Start,,HasFirstChild,1,1953-05-29T00:00:00
+09.38.47,66,2,Path1,Initial_patient_GP_Visit,,Delay Until - ,1953-05-29 00:32:00,1953-05-29T00:00:00
+09.38.47,67,2,Path1,patient_assessment,,,,1953-05-29T00:32:00
+09.38.47,68,2,Path1,test_request,,,,1953-05-29T00:32:00
+09.38.47,69,2,Path1,Specimen_check,,,,1953-05-29T00:32:00
+09.38.47,70,2,Path1,specimen_ready_for_test,,Delay Until - ,1953-05-29 00:42:00,1953-05-29T00:32:00
+09.38.47,71,2,Path1,lab_test,,,,1953-05-29T00:42:00
+09.38.47,72,2,Path1,test_report,,,,1953-05-29T00:42:00
+09.38.47,73,2,Path1,send_report,,,,1953-05-29T00:42:00
+09.38.47,74,2,Path1,receive_report,,,,1953-05-29T00:42:00
+09.38.47,75,2,Path1,GP_checks_report,,Delay Until - ,1953-05-29 01:42:00,1953-05-29T00:42:00
+09.38.47,76,2,Path1,inform_patient,,,,1953-05-29T01:42:00
+09.38.47,77,2,Path1,Finish,,,,1953-05-29T01:42:00
+09.38.47,78,6,Path1,Start,,,,1956-07-08T00:00:00
+09.38.47,78,6,Path1,Start,,HasFirstChild,1,1956-07-08T00:00:00
+09.38.47,79,6,Path1,Initial_patient_GP_Visit,,Delay Until - ,1956-07-08 00:17:00,1956-07-08T00:00:00
+09.38.47,80,6,Path1,patient_assessment,,,,1956-07-08T00:17:00
+09.38.47,81,6,Path1,test_request,,,,1956-07-08T00:17:00
+09.38.47,82,6,Path1,Specimen_check,,,,1956-07-08T00:17:00
+09.38.47,83,6,Path1,specimen_ready_for_test,,Delay Until - ,1956-07-08 00:24:00,1956-07-08T00:17:00
+09.38.47,84,6,Path1,lab_test,,,,1956-07-08T00:24:00
+09.38.47,85,6,Path1,test_report,,,,1956-07-08T00:24:00
+09.38.47,86,6,Path1,send_report,,,,1956-07-08T00:24:00
+09.38.47,87,6,Path1,receive_report,,,,1956-07-08T00:24:00
+09.38.47,88,6,Path1,GP_checks_report,,Delay Until - ,1956-07-08 15:24:00,1956-07-08T00:24:00
+09.38.47,89,6,Path1,inform_patient,,,,1956-07-08T15:24:00
+09.38.47,90,6,Path1,Finish,,,,1956-07-08T15:24:00
+09.38.47,91,1,Path1,Start,,,,1957-01-16T00:00:00
+09.38.47,91,1,Path1,Start,,HasFirstChild,1,1957-01-16T00:00:00
+09.38.47,92,1,Path1,Initial_patient_GP_Visit,,Delay Until - ,1957-01-16 00:44:00,1957-01-16T00:00:00
+09.38.47,93,1,Path1,patient_assessment,,,,1957-01-16T00:44:00
+09.38.47,94,1,Path1,test_request,,,,1957-01-16T00:44:00
+09.38.47,95,1,Path1,Specimen_check,,,,1957-01-16T00:44:00
+09.38.47,96,1,Path1,specimen_ready_for_test,,Delay Until - ,1957-01-16 01:06:00,1957-01-16T00:44:00
+09.38.47,97,1,Path1,lab_test,,,,1957-01-16T01:06:00
+09.38.47,98,1,Path1,test_report,,,,1957-01-16T01:06:00
+09.38.47,99,1,Path1,send_report,,,,1957-01-16T01:06:00
+09.38.47,100,1,Path1,receive_report,,,,1957-01-16T01:06:00
+09.38.47,101,1,Path1,GP_checks_report,,Delay Until - ,1957-01-16 05:06:00,1957-01-16T01:06:00
+09.38.47,102,1,Path1,inform_patient,,,,1957-01-16T05:06:00
+09.38.47,103,1,Path1,Finish,,,,1957-01-16T05:06:00
+09.38.47,104,32,Path1,Start,,,,1957-12-14T00:00:00
+09.38.47,104,32,Path1,Start,,HasFirstChild,0,1957-12-14T00:00:00
+09.38.47,105,32,Path1,Initial_patient_GP_Visit,,Delay Until - ,1957-12-14 00:21:00,1957-12-14T00:00:00
+09.38.47,106,32,Path1,patient_assessment,,,,1957-12-14T00:21:00
+09.38.47,107,32,Path1,test_request,,,,1957-12-14T00:21:00
+09.38.47,108,32,Path1,Specimen_check,,,,1957-12-14T00:21:00
+09.38.47,109,32,Path1,specimen_ready_for_test,,Delay Until - ,1957-12-14 00:48:00,1957-12-14T00:21:00
+09.38.47,110,32,Path1,lab_test,,,,1957-12-14T00:48:00
+09.38.47,111,32,Path1,test_report,,,,1957-12-14T00:48:00
+09.38.47,112,32,Path1,send_report,,,,1957-12-14T00:48:00
+09.38.47,113,32,Path1,receive_report,,,,1957-12-14T00:48:00
+09.38.47,114,32,Path1,GP_checks_report,,Delay Until - ,1957-12-14 08:48:00,1957-12-14T00:48:00
+09.38.47,115,32,Path1,inform_patient,,,,1957-12-14T08:48:00
+09.38.47,116,32,Path1,Finish,,,,1957-12-14T08:48:00
+09.38.47,117,31,Path1,Start,,,,1958-08-23T00:00:00
+09.38.47,117,31,Path1,Start,,HasFirstChild,1,1958-08-23T00:00:00
+09.38.47,118,31,Path1,Initial_patient_GP_Visit,,Delay Until - ,1958-08-23 00:33:00,1958-08-23T00:00:00
+09.38.47,119,31,Path1,patient_assessment,,,,1958-08-23T00:33:00
+09.38.47,120,31,Path1,test_request,,,,1958-08-23T00:33:00
+09.38.47,121,31,Path1,Specimen_check,,,,1958-08-23T00:33:00
+09.38.47,122,31,Path1,specimen_ready_for_test,,Delay Until - ,1958-08-23 00:45:00,1958-08-23T00:33:00
+09.38.47,123,31,Path1,lab_test,,,,1958-08-23T00:45:00
+09.38.47,124,31,Path1,test_report,,,,1958-08-23T00:45:00
+09.38.47,125,31,Path1,send_report,,,,1958-08-23T00:45:00
+09.38.47,126,31,Path1,receive_report,,,,1958-08-23T00:45:00
+09.38.47,127,31,Path1,GP_checks_report,,Delay Until - ,1958-08-23 11:45:00,1958-08-23T00:45:00
+09.38.47,128,31,Path1,inform_patient,,,,1958-08-23T11:45:00
+09.38.47,129,31,Path1,Finish,,,,1958-08-23T11:45:00
+09.38.47,130,13,Path1,Start,,,,1959-04-18T00:00:00
+09.38.47,130,13,Path1,Start,,HasFirstChild,0,1959-04-18T00:00:00
+09.38.47,131,13,Path1,Initial_patient_GP_Visit,,Delay Until - ,1959-04-18 00:14:00,1959-04-18T00:00:00
+09.38.47,132,13,Path1,patient_assessment,,,,1959-04-18T00:14:00
+09.38.47,133,13,Path1,test_request,,,,1959-04-18T00:14:00
+09.38.47,134,13,Path1,Specimen_check,,,,1959-04-18T00:14:00
+09.38.47,135,13,Path1,specimen_ready_for_test,,Delay Until - ,1959-04-18 00:15:00,1959-04-18T00:14:00
+09.38.47,136,13,Path1,lab_test,,,,1959-04-18T00:15:00
+09.38.47,137,13,Path1,test_report,,,,1959-04-18T00:15:00
+09.38.47,138,13,Path1,send_report,,,,1959-04-18T00:15:00
+09.38.47,139,13,Path1,receive_report,,,,1959-04-18T00:15:00
+09.38.47,140,13,Path1,GP_checks_report,,Delay Until - ,1959-04-18 21:15:00,1959-04-18T00:15:00
+09.38.47,141,13,Path1,inform_patient,,,,1959-04-18T21:15:00
+09.38.47,142,13,Path1,Finish,,,,1959-04-18T21:15:00
+09.38.47,143,3,Path1,Start,,,,1959-06-15T00:00:00
+09.38.47,143,3,Path1,Start,,HasFirstChild,1,1959-06-15T00:00:00
+09.38.47,144,3,Path1,Initial_patient_GP_Visit,,Delay Until - ,1959-06-15 00:17:00,1959-06-15T00:00:00
+09.38.47,145,3,Path1,patient_assessment,,,,1959-06-15T00:17:00
+09.38.47,146,3,Path1,test_request,,,,1959-06-15T00:17:00
+09.38.47,147,3,Path1,Specimen_check,,,,1959-06-15T00:17:00
+09.38.47,148,3,Path1,specimen_ready_for_test,,Delay Until - ,1959-06-15 00:45:00,1959-06-15T00:17:00
+09.38.47,149,3,Path1,lab_test,,,,1959-06-15T00:45:00
+09.38.47,150,3,Path1,test_report,,,,1959-06-15T00:45:00
+09.38.47,151,3,Path1,send_report,,,,1959-06-15T00:45:00
+09.38.47,152,3,Path1,receive_report,,,,1959-06-15T00:45:00
+09.38.47,153,3,Path1,GP_checks_report,,Delay Until - ,1959-06-15 16:45:00,1959-06-15T00:45:00
+09.38.47,154,3,Path1,inform_patient,,,,1959-06-15T16:45:00
+09.38.47,155,3,Path1,Finish,,,,1959-06-15T16:45:00
+09.38.47,156,28,Path1,Start,,,,1961-08-02T00:00:00
+09.38.47,156,28,Path1,Start,,HasFirstChild,1,1961-08-02T00:00:00
+09.38.47,157,28,Path1,Initial_patient_GP_Visit,,Delay Until - ,1961-08-02 00:21:00,1961-08-02T00:00:00
+09.38.47,158,28,Path1,patient_assessment,,,,1961-08-02T00:21:00
+09.38.47,159,28,Path1,test_request,,,,1961-08-02T00:21:00
+09.38.47,160,28,Path1,Specimen_check,,,,1961-08-02T00:21:00
+09.38.47,161,28,Path1,specimen_ready_for_test,,Delay Until - ,1961-08-02 00:34:00,1961-08-02T00:21:00
+09.38.47,162,28,Path1,lab_test,,,,1961-08-02T00:34:00
+09.38.47,163,28,Path1,test_report,,,,1961-08-02T00:34:00
+09.38.47,164,28,Path1,send_report,,,,1961-08-02T00:34:00
+09.38.47,165,28,Path1,receive_report,,,,1961-08-02T00:34:00
+09.38.47,166,28,Path1,GP_checks_report,,Delay Until - ,1961-08-03 00:34:00,1961-08-02T00:34:00
+09.38.47,167,28,Path1,inform_patient,,,,1961-08-03T00:34:00
+09.38.47,168,28,Path1,Finish,,,,1961-08-03T00:34:00
+09.38.47,169,42,Path1,Start,,,,1963-10-10T00:00:00
+09.38.47,169,42,Path1,Start,,HasFirstChild,0,1963-10-10T00:00:00
+09.38.47,170,42,Path1,Initial_patient_GP_Visit,,Delay Until - ,1963-10-10 00:17:00,1963-10-10T00:00:00
+09.38.47,171,42,Path1,patient_assessment,,,,1963-10-10T00:17:00
+09.38.47,172,42,Path1,test_request,,,,1963-10-10T00:17:00
+09.38.47,173,42,Path1,Specimen_check,,,,1963-10-10T00:17:00
+09.38.47,174,42,Path1,specimen_ready_for_test,,Delay Until - ,1963-10-10 00:33:00,1963-10-10T00:17:00
+09.38.47,175,42,Path1,lab_test,,,,1963-10-10T00:33:00
+09.38.47,176,42,Path1,test_report,,,,1963-10-10T00:33:00
+09.38.47,177,42,Path1,send_report,,,,1963-10-10T00:33:00
+09.38.47,178,42,Path1,receive_report,,,,1963-10-10T00:33:00
+09.38.47,179,42,Path1,GP_checks_report,,Delay Until - ,1963-10-10 14:33:00,1963-10-10T00:33:00
+09.38.47,180,42,Path1,inform_patient,,,,1963-10-10T14:33:00
+09.38.47,181,42,Path1,Finish,,,,1963-10-10T14:33:00
+09.38.47,182,30,Path1,Start,,,,1966-12-22T00:00:00
+09.38.47,182,30,Path1,Start,,HasFirstChild,0,1966-12-22T00:00:00
+09.38.47,183,30,Path1,Initial_patient_GP_Visit,,Delay Until - ,1966-12-22 00:41:00,1966-12-22T00:00:00
+09.38.47,184,30,Path1,patient_assessment,,,,1966-12-22T00:41:00
+09.38.47,185,30,Path1,test_request,,,,1966-12-22T00:41:00
+09.38.47,186,30,Path1,Specimen_check,,,,1966-12-22T00:41:00
+09.38.47,187,30,Path1,specimen_ready_for_test,,Delay Until - ,1966-12-22 01:11:00,1966-12-22T00:41:00
+09.38.47,188,30,Path1,lab_test,,,,1966-12-22T01:11:00
+09.38.48,189,30,Path1,test_report,,,,1966-12-22T01:11:00
+09.38.48,190,30,Path1,send_report,,,,1966-12-22T01:11:00
+09.38.48,191,30,Path1,receive_report,,,,1966-12-22T01:11:00
+09.38.48,192,30,Path1,GP_checks_report,,Delay Until - ,1966-12-22 20:11:00,1966-12-22T01:11:00
+09.38.48,193,30,Path1,inform_patient,,,,1966-12-22T20:11:00
+09.38.48,194,30,Path1,Finish,,,,1966-12-22T20:11:00
+09.38.48,195,26,Path1,Start,,,,1967-03-05T00:00:00
+09.38.48,195,26,Path1,Start,,HasFirstChild,0,1967-03-05T00:00:00
+09.38.48,196,26,Path1,Initial_patient_GP_Visit,,Delay Until - ,1967-03-05 00:11:00,1967-03-05T00:00:00
+09.38.48,197,26,Path1,patient_assessment,,,,1967-03-05T00:11:00
+09.38.48,198,26,Path1,test_request,,,,1967-03-05T00:11:00
+09.38.48,199,26,Path1,Specimen_check,,,,1967-03-05T00:11:00
+09.38.48,200,26,Path1,specimen_ready_for_test,,Delay Until - ,1967-03-05 00:24:00,1967-03-05T00:11:00
+09.38.48,201,26,Path1,lab_test,,,,1967-03-05T00:24:00
+09.38.48,202,26,Path1,test_report,,,,1967-03-05T00:24:00
+09.38.48,203,26,Path1,send_report,,,,1967-03-05T00:24:00
+09.38.48,204,26,Path1,receive_report,,,,1967-03-05T00:24:00
+09.38.48,205,26,Path1,GP_checks_report,,Delay Until - ,1967-03-05 12:24:00,1967-03-05T00:24:00
+09.38.48,206,26,Path1,inform_patient,,,,1967-03-05T12:24:00
+09.38.48,207,26,Path1,Finish,,,,1967-03-05T12:24:00
+09.38.48,208,20,Path1,Start,,,,1967-10-14T00:00:00
+09.38.48,208,20,Path1,Start,,HasFirstChild,0,1967-10-14T00:00:00
+09.38.48,209,20,Path1,Initial_patient_GP_Visit,,Delay Until - ,1967-10-14 00:20:00,1967-10-14T00:00:00
+09.38.48,210,20,Path1,patient_assessment,,,,1967-10-14T00:20:00
+09.38.48,211,20,Path1,test_request,,,,1967-10-14T00:20:00
+09.38.48,212,20,Path1,Specimen_check,,,,1967-10-14T00:20:00
+09.38.48,213,20,Path1,specimen_ready_for_test,,Delay Until - ,1967-10-14 00:41:00,1967-10-14T00:20:00
+09.38.48,214,20,Path1,lab_test,,,,1967-10-14T00:41:00
+09.38.48,215,20,Path1,test_report,,,,1967-10-14T00:41:00
+09.38.48,216,20,Path1,send_report,,,,1967-10-14T00:41:00
+09.38.48,217,20,Path1,receive_report,,,,1967-10-14T00:41:00
+09.38.48,218,20,Path1,GP_checks_report,,Delay Until - ,1967-10-14 20:41:00,1967-10-14T00:41:00
+09.38.48,219,20,Path1,inform_patient,,,,1967-10-14T20:41:00
+09.38.48,220,20,Path1,Finish,,,,1967-10-14T20:41:00
+09.38.48,221,33,Path1,Start,,,,1969-03-30T00:00:00
+09.38.48,221,33,Path1,Start,,HasFirstChild,0,1969-03-30T00:00:00
+09.38.48,222,33,Path1,Initial_patient_GP_Visit,,Delay Until - ,1969-03-30 00:11:00,1969-03-30T00:00:00
+09.38.48,223,33,Path1,patient_assessment,,,,1969-03-30T00:11:00
+09.38.48,224,33,Path1,test_request,,,,1969-03-30T00:11:00
+09.38.48,225,33,Path1,Specimen_check,,,,1969-03-30T00:11:00
+09.38.48,226,33,Path1,specimen_ready_for_test,,Delay Until - ,1969-03-30 00:32:00,1969-03-30T00:11:00
+09.38.48,227,33,Path1,lab_test,,,,1969-03-30T00:32:00
+09.38.48,228,33,Path1,test_report,,,,1969-03-30T00:32:00
+09.38.48,229,33,Path1,send_report,,,,1969-03-30T00:32:00
+09.38.48,230,33,Path1,receive_report,,,,1969-03-30T00:32:00
+09.38.48,231,33,Path1,GP_checks_report,,Delay Until - ,1969-03-30 13:32:00,1969-03-30T00:32:00
+09.38.48,232,33,Path1,inform_patient,,,,1969-03-30T13:32:00
+09.38.48,233,33,Path1,Finish,,,,1969-03-30T13:32:00
+09.38.48,234,37,Path1,Start,,,,1969-06-10T00:00:00
+09.38.48,234,37,Path1,Start,,HasFirstChild,1,1969-06-10T00:00:00
+09.38.48,235,37,Path1,Initial_patient_GP_Visit,,Delay Until - ,1969-06-10 00:33:00,1969-06-10T00:00:00
+09.38.48,236,37,Path1,patient_assessment,,,,1969-06-10T00:33:00
+09.38.48,237,37,Path1,test_request,,,,1969-06-10T00:33:00
+09.38.48,238,37,Path1,Specimen_check,,,,1969-06-10T00:33:00
+09.38.48,239,37,Path1,specimen_ready_for_test,,Delay Until - ,1969-06-10 00:35:00,1969-06-10T00:33:00
+09.38.48,240,37,Path1,lab_test,,,,1969-06-10T00:35:00
+09.38.48,241,37,Path1,test_report,,,,1969-06-10T00:35:00
+09.38.48,242,37,Path1,send_report,,,,1969-06-10T00:35:00
+09.38.48,243,37,Path1,receive_report,,,,1969-06-10T00:35:00
+09.38.48,244,37,Path1,GP_checks_report,,Delay Until - ,1969-06-10 14:35:00,1969-06-10T00:35:00
+09.38.48,245,37,Path1,inform_patient,,,,1969-06-10T14:35:00
+09.38.48,246,37,Path1,Finish,,,,1969-06-10T14:35:00
+09.38.48,247,14,Path1,Start,,,,1970-09-17T00:00:00
+09.38.48,247,14,Path1,Start,,HasFirstChild,1,1970-09-17T00:00:00
+09.38.48,248,14,Path1,Initial_patient_GP_Visit,,Delay Until - ,1970-09-17 00:48:00,1970-09-17T00:00:00
+09.38.48,249,14,Path1,patient_assessment,,,,1970-09-17T00:48:00
+09.38.48,250,14,Path1,test_request,,,,1970-09-17T00:48:00
+09.38.48,251,14,Path1,Specimen_check,,,,1970-09-17T00:48:00
+09.38.48,252,14,Path1,specimen_ready_for_test,,Delay Until - ,1970-09-17 00:51:00,1970-09-17T00:48:00
+09.38.48,253,14,Path1,lab_test,,,,1970-09-17T00:51:00
+09.38.48,254,14,Path1,test_report,,,,1970-09-17T00:51:00
+09.38.48,255,14,Path1,send_report,,,,1970-09-17T00:51:00
+09.38.48,256,14,Path1,receive_report,,,,1970-09-17T00:51:00
+09.38.48,257,14,Path1,GP_checks_report,,Delay Until - ,1970-09-17 06:51:00,1970-09-17T00:51:00
+09.38.48,258,14,Path1,inform_patient,,,,1970-09-17T06:51:00
+09.38.48,259,14,Path1,Finish,,,,1970-09-17T06:51:00
+09.38.48,260,27,Path1,Start,,,,1971-09-17T00:00:00
+09.38.48,260,27,Path1,Start,,HasFirstChild,1,1971-09-17T00:00:00
+09.38.48,261,27,Path1,Initial_patient_GP_Visit,,Delay Until - ,1971-09-17 00:48:00,1971-09-17T00:00:00
+09.38.48,262,27,Path1,patient_assessment,,,,1971-09-17T00:48:00
+09.38.48,263,27,Path1,test_request,,,,1971-09-17T00:48:00
+09.38.48,264,27,Path1,Specimen_check,,,,1971-09-17T00:48:00
+09.38.48,265,27,Path1,specimen_ready_for_test,,Delay Until - ,1971-09-17 00:50:00,1971-09-17T00:48:00
+09.38.48,266,27,Path1,lab_test,,,,1971-09-17T00:50:00
+09.38.48,267,27,Path1,test_report,,,,1971-09-17T00:50:00
+09.38.48,268,27,Path1,send_report,,,,1971-09-17T00:50:00
+09.38.48,269,27,Path1,receive_report,,,,1971-09-17T00:50:00
+09.38.48,270,27,Path1,GP_checks_report,,Delay Until - ,1971-09-17 17:50:00,1971-09-17T00:50:00
+09.38.48,271,27,Path1,inform_patient,,,,1971-09-17T17:50:00
+09.38.48,272,27,Path1,Finish,,,,1971-09-17T17:50:00
+09.38.48,273,11,Path1,Start,,,,1973-08-30T00:00:00
+09.38.48,273,11,Path1,Start,,HasFirstChild,0,1973-08-30T00:00:00
+09.38.48,274,11,Path1,Initial_patient_GP_Visit,,Delay Until - ,1973-08-30 00:10:00,1973-08-30T00:00:00
+09.38.48,275,11,Path1,patient_assessment,,,,1973-08-30T00:10:00
+09.38.48,276,11,Path1,test_request,,,,1973-08-30T00:10:00
+09.38.48,277,11,Path1,Specimen_check,,,,1973-08-30T00:10:00
+09.38.48,278,11,Path1,specimen_ready_for_test,,Delay Until - ,1973-08-30 00:30:00,1973-08-30T00:10:00
+09.38.48,279,11,Path1,lab_test,,,,1973-08-30T00:30:00
+09.38.48,280,11,Path1,test_report,,,,1973-08-30T00:30:00
+09.38.48,281,11,Path1,send_report,,,,1973-08-30T00:30:00
+09.38.48,282,11,Path1,receive_report,,,,1973-08-30T00:30:00
+09.38.48,283,11,Path1,GP_checks_report,,Delay Until - ,1973-08-30 12:30:00,1973-08-30T00:30:00
+09.38.48,284,11,Path1,inform_patient,,,,1973-08-30T12:30:00
+09.38.48,285,11,Path1,Finish,,,,1973-08-30T12:30:00
+09.38.48,286,8,Path1,Start,,,,1974-10-27T00:00:00
+09.38.48,286,8,Path1,Start,,HasFirstChild,1,1974-10-27T00:00:00
+09.38.48,287,8,Path1,Initial_patient_GP_Visit,,Delay Until - ,1974-10-27 00:36:00,1974-10-27T00:00:00
+09.38.48,288,8,Path1,patient_assessment,,,,1974-10-27T00:36:00
+09.38.48,289,8,Path1,test_request,,,,1974-10-27T00:36:00
+09.38.48,290,8,Path1,Specimen_check,,,,1974-10-27T00:36:00
+09.38.48,291,8,Path1,specimen_ready_for_test,,Delay Until - ,1974-10-27 00:44:00,1974-10-27T00:36:00
+09.38.48,292,8,Path1,lab_test,,,,1974-10-27T00:44:00
+09.38.48,293,8,Path1,test_report,,,,1974-10-27T00:44:00
+09.38.48,294,8,Path1,send_report,,,,1974-10-27T00:44:00
+09.38.48,295,8,Path1,receive_report,,,,1974-10-27T00:44:00
+09.38.48,296,8,Path1,GP_checks_report,,Delay Until - ,1974-10-27 05:44:00,1974-10-27T00:44:00
+09.38.48,297,8,Path1,inform_patient,,,,1974-10-27T05:44:00
+09.38.48,298,8,Path1,Finish,,,,1974-10-27T05:44:00
+09.38.48,299,44,Path1,Start,,,,1976-07-07T00:00:00
+09.38.48,299,44,Path1,Start,,HasFirstChild,1,1976-07-07T00:00:00
+09.38.48,300,44,Path1,Initial_patient_GP_Visit,,Delay Until - ,1976-07-07 00:21:00,1976-07-07T00:00:00
+09.38.48,301,44,Path1,patient_assessment,,,,1976-07-07T00:21:00
+09.38.48,302,44,Path1,test_request,,,,1976-07-07T00:21:00
+09.38.48,303,44,Path1,Specimen_check,,,,1976-07-07T00:21:00
+09.38.48,304,44,Path1,specimen_ready_for_test,,Delay Until - ,1976-07-07 00:24:00,1976-07-07T00:21:00
+09.38.48,305,44,Path1,lab_test,,,,1976-07-07T00:24:00
+09.38.48,306,44,Path1,test_report,,,,1976-07-07T00:24:00
+09.38.48,307,44,Path1,send_report,,,,1976-07-07T00:24:00
+09.38.48,308,44,Path1,receive_report,,,,1976-07-07T00:24:00
+09.38.48,309,44,Path1,GP_checks_report,,Delay Until - ,1976-07-07 03:24:00,1976-07-07T00:24:00
+09.38.48,310,44,Path1,inform_patient,,,,1976-07-07T03:24:00
+09.38.48,311,44,Path1,Finish,,,,1976-07-07T03:24:00
+09.38.48,312,5,Path1,Start,,,,1977-01-07T00:00:00
+09.38.48,312,5,Path1,Start,,HasFirstChild,0,1977-01-07T00:00:00
+09.38.48,313,5,Path1,Initial_patient_GP_Visit,,Delay Until - ,1977-01-07 00:45:00,1977-01-07T00:00:00
+09.38.48,314,5,Path1,patient_assessment,,,,1977-01-07T00:45:00
+09.38.48,315,5,Path1,test_request,,,,1977-01-07T00:45:00
+09.38.48,316,5,Path1,Specimen_check,,,,1977-01-07T00:45:00
+09.38.48,317,5,Path1,specimen_ready_for_test,,Delay Until - ,1977-01-07 00:55:00,1977-01-07T00:45:00
+09.38.48,318,5,Path1,lab_test,,,,1977-01-07T00:55:00
+09.38.48,319,5,Path1,test_report,,,,1977-01-07T00:55:00
+09.38.48,320,5,Path1,send_report,,,,1977-01-07T00:55:00
+09.38.48,321,5,Path1,receive_report,,,,1977-01-07T00:55:00
+09.38.48,322,5,Path1,GP_checks_report,,Delay Until - ,1977-01-07 06:55:00,1977-01-07T00:55:00
+09.38.48,323,5,Path1,inform_patient,,,,1977-01-07T06:55:00
+09.38.48,324,5,Path1,Finish,,,,1977-01-07T06:55:00
+09.38.48,325,48,Path1,Start,,,,1977-06-20T00:00:00
+09.38.48,325,48,Path1,Start,,HasFirstChild,0,1977-06-20T00:00:00
+09.38.48,326,48,Path1,Initial_patient_GP_Visit,,Delay Until - ,1977-06-20 00:40:00,1977-06-20T00:00:00
+09.38.48,327,48,Path1,patient_assessment,,,,1977-06-20T00:40:00
+09.38.48,328,48,Path1,test_request,,,,1977-06-20T00:40:00
+09.38.48,329,48,Path1,Specimen_check,,,,1977-06-20T00:40:00
+09.38.48,330,48,Path1,specimen_ready_for_test,,Delay Until - ,1977-06-20 01:03:00,1977-06-20T00:40:00
+09.38.48,331,48,Path1,lab_test,,,,1977-06-20T01:03:00
+09.38.48,332,48,Path1,test_report,,,,1977-06-20T01:03:00
+09.38.48,333,48,Path1,send_report,,,,1977-06-20T01:03:00
+09.38.48,334,48,Path1,receive_report,,,,1977-06-20T01:03:00
+09.38.48,335,48,Path1,GP_checks_report,,Delay Until - ,1977-06-20 04:03:00,1977-06-20T01:03:00
+09.38.48,336,48,Path1,inform_patient,,,,1977-06-20T04:03:00
+09.38.48,337,48,Path1,Finish,,,,1977-06-20T04:03:00
+09.38.48,338,12,Path1,Start,,,,1980-08-19T00:00:00
+09.38.48,338,12,Path1,Start,,HasFirstChild,0,1980-08-19T00:00:00
+09.38.48,339,12,Path1,Initial_patient_GP_Visit,,Delay Until - ,1980-08-19 00:39:00,1980-08-19T00:00:00
+09.38.48,340,12,Path1,patient_assessment,,,,1980-08-19T00:39:00
+09.38.48,341,12,Path1,test_request,,,,1980-08-19T00:39:00
+09.38.48,342,12,Path1,Specimen_check,,,,1980-08-19T00:39:00
+09.38.48,343,12,Path1,specimen_ready_for_test,,Delay Until - ,1980-08-19 00:59:00,1980-08-19T00:39:00
+09.38.48,344,12,Path1,lab_test,,,,1980-08-19T00:59:00
+09.38.48,345,12,Path1,test_report,,,,1980-08-19T00:59:00
+09.38.48,346,12,Path1,send_report,,,,1980-08-19T00:59:00
+09.38.48,347,12,Path1,receive_report,,,,1980-08-19T00:59:00
+09.38.48,348,12,Path1,GP_checks_report,,Delay Until - ,1980-08-19 14:59:00,1980-08-19T00:59:00
+09.38.48,349,12,Path1,inform_patient,,,,1980-08-19T14:59:00
+09.38.48,350,12,Path1,Finish,,,,1980-08-19T14:59:00
+09.38.48,351,34,Path1,Start,,,,1982-09-23T00:00:00
+09.38.48,351,34,Path1,Start,,HasFirstChild,0,1982-09-23T00:00:00
+09.38.48,352,34,Path1,Initial_patient_GP_Visit,,Delay Until - ,1982-09-23 00:47:00,1982-09-23T00:00:00
+09.38.48,353,34,Path1,patient_assessment,,,,1982-09-23T00:47:00
+09.38.48,354,34,Path1,test_request,,,,1982-09-23T00:47:00
+09.38.48,355,34,Path1,Specimen_check,,,,1982-09-23T00:47:00
+09.38.48,356,34,Path1,specimen_ready_for_test,,Delay Until - ,1982-09-23 01:02:00,1982-09-23T00:47:00
+09.38.48,357,34,Path1,lab_test,,,,1982-09-23T01:02:00
+09.38.48,358,34,Path1,test_report,,,,1982-09-23T01:02:00
+09.38.48,359,34,Path1,send_report,,,,1982-09-23T01:02:00
+09.38.48,360,34,Path1,receive_report,,,,1982-09-23T01:02:00
+09.38.48,361,34,Path1,GP_checks_report,,Delay Until - ,1982-09-24 01:02:00,1982-09-23T01:02:00
+09.38.48,362,34,Path1,inform_patient,,,,1982-09-24T01:02:00
+09.38.48,363,34,Path1,Finish,,,,1982-09-24T01:02:00
+09.38.49,364,38,Path1,Start,,,,1984-02-20T00:00:00
+09.38.49,364,38,Path1,Start,,HasFirstChild,0,1984-02-20T00:00:00
+09.38.49,365,39,Path1,Start,,,,1984-02-20T00:00:00
+09.38.49,365,39,Path1,Start,,HasFirstChild,0,1984-02-20T00:00:00
+09.38.49,366,38,Path1,Initial_patient_GP_Visit,,Delay Until - ,1984-02-20 00:24:00,1984-02-20T00:00:00
+09.38.49,367,39,Path1,Initial_patient_GP_Visit,,Delay Until - ,1984-02-20 00:24:00,1984-02-20T00:00:00
+09.38.49,368,38,Path1,patient_assessment,,,,1984-02-20T00:24:00
+09.38.49,369,39,Path1,patient_assessment,,,,1984-02-20T00:24:00
+09.38.49,370,38,Path1,test_request,,,,1984-02-20T00:24:00
+09.38.49,371,39,Path1,test_request,,,,1984-02-20T00:24:00
+09.38.49,372,38,Path1,Specimen_check,,,,1984-02-20T00:24:00
+09.38.49,373,39,Path1,Specimen_check,,,,1984-02-20T00:24:00
+09.38.49,374,38,Path1,specimen_ready_for_test,,Delay Until - ,1984-02-20 00:38:00,1984-02-20T00:24:00
+09.38.49,375,39,Path1,specimen_ready_for_test,,Delay Until - ,1984-02-20 00:49:00,1984-02-20T00:24:00
+09.38.49,376,38,Path1,lab_test,,,,1984-02-20T00:38:00
+09.38.49,377,38,Path1,test_report,,,,1984-02-20T00:38:00
+09.38.49,378,38,Path1,send_report,,,,1984-02-20T00:38:00
+09.38.49,379,38,Path1,receive_report,,,,1984-02-20T00:38:00
+09.38.49,380,38,Path1,GP_checks_report,,Delay Until - ,1984-02-20 15:38:00,1984-02-20T00:38:00
+09.38.49,381,39,Path1,lab_test,,,,1984-02-20T00:49:00
+09.38.49,382,39,Path1,test_report,,,,1984-02-20T00:49:00
+09.38.49,383,39,Path1,send_report,,,,1984-02-20T00:49:00
+09.38.49,384,39,Path1,receive_report,,,,1984-02-20T00:49:00
+09.38.49,385,39,Path1,GP_checks_report,,Delay Until - ,1984-02-20 04:49:00,1984-02-20T00:49:00
+09.38.49,386,39,Path1,inform_patient,,,,1984-02-20T04:49:00
+09.38.49,387,39,Path1,Finish,,,,1984-02-20T04:49:00
+09.38.49,388,38,Path1,inform_patient,,,,1984-02-20T15:38:00
+09.38.49,389,38,Path1,Finish,,,,1984-02-20T15:38:00
+09.38.49,390,23,Path1,Start,,,,1986-10-17T00:00:00
+09.38.49,390,23,Path1,Start,,HasFirstChild,0,1986-10-17T00:00:00
+09.38.49,391,23,Path1,Initial_patient_GP_Visit,,Delay Until - ,1986-10-17 00:43:00,1986-10-17T00:00:00
+09.38.49,392,23,Path1,patient_assessment,,,,1986-10-17T00:43:00
+09.38.49,393,23,Path1,test_request,,,,1986-10-17T00:43:00
+09.38.49,394,23,Path1,Specimen_check,,,,1986-10-17T00:43:00
+09.38.49,395,23,Path1,specimen_ready_for_test,,Delay Until - ,1986-10-17 00:47:00,1986-10-17T00:43:00
+09.38.49,396,23,Path1,lab_test,,,,1986-10-17T00:47:00
+09.38.49,397,23,Path1,test_report,,,,1986-10-17T00:47:00
+09.38.49,398,23,Path1,send_report,,,,1986-10-17T00:47:00
+09.38.49,399,23,Path1,receive_report,,,,1986-10-17T00:47:00
+09.38.49,400,23,Path1,GP_checks_report,,Delay Until - ,1986-10-17 01:47:00,1986-10-17T00:47:00
+09.38.49,401,23,Path1,inform_patient,,,,1986-10-17T01:47:00
+09.38.49,402,23,Path1,Finish,,,,1986-10-17T01:47:00
+09.38.49,403,9,Path1,Start,,,,1988-03-09T00:00:00
+09.38.49,403,9,Path1,Start,,HasFirstChild,0,1988-03-09T00:00:00
+09.38.49,404,9,Path1,Initial_patient_GP_Visit,,Delay Until - ,1988-03-09 00:44:00,1988-03-09T00:00:00
+09.38.49,405,9,Path1,patient_assessment,,,,1988-03-09T00:44:00
+09.38.49,406,9,Path1,test_request,,,,1988-03-09T00:44:00
+09.38.49,407,9,Path1,Specimen_check,,,,1988-03-09T00:44:00
+09.38.49,408,9,Path1,specimen_ready_for_test,,Delay Until - ,1988-03-09 00:57:00,1988-03-09T00:44:00
+09.38.49,409,9,Path1,lab_test,,,,1988-03-09T00:57:00
+09.38.49,410,9,Path1,test_report,,,,1988-03-09T00:57:00
+09.38.49,411,9,Path1,send_report,,,,1988-03-09T00:57:00
+09.38.49,412,9,Path1,receive_report,,,,1988-03-09T00:57:00
+09.38.49,413,9,Path1,GP_checks_report,,Delay Until - ,1988-03-09 15:57:00,1988-03-09T00:57:00
+09.38.49,414,9,Path1,inform_patient,,,,1988-03-09T15:57:00
+09.38.49,415,9,Path1,Finish,,,,1988-03-09T15:57:00
+09.38.49,416,47,Path1,Start,,,,1988-06-05T00:00:00
+09.38.49,416,47,Path1,Start,,HasFirstChild,0,1988-06-05T00:00:00
+09.38.49,417,47,Path1,Initial_patient_GP_Visit,,Delay Until - ,1988-06-05 00:29:00,1988-06-05T00:00:00
+09.38.49,418,47,Path1,patient_assessment,,,,1988-06-05T00:29:00
+09.38.49,419,47,Path1,test_request,,,,1988-06-05T00:29:00
+09.38.49,420,47,Path1,Specimen_check,,,,1988-06-05T00:29:00
+09.38.49,421,47,Path1,specimen_ready_for_test,,Delay Until - ,1988-06-05 00:45:00,1988-06-05T00:29:00
+09.38.49,422,47,Path1,lab_test,,,,1988-06-05T00:45:00
+09.38.49,423,47,Path1,test_report,,,,1988-06-05T00:45:00
+09.38.49,424,47,Path1,send_report,,,,1988-06-05T00:45:00
+09.38.49,425,47,Path1,receive_report,,,,1988-06-05T00:45:00
+09.38.49,426,47,Path1,GP_checks_report,,Delay Until - ,1988-06-05 07:45:00,1988-06-05T00:45:00
+09.38.49,427,47,Path1,inform_patient,,,,1988-06-05T07:45:00
+09.38.49,428,47,Path1,Finish,,,,1988-06-05T07:45:00
+09.38.49,429,18,Path1,Start,,,,1990-04-18T00:00:00
+09.38.49,429,18,Path1,Start,,HasFirstChild,0,1990-04-18T00:00:00
+09.38.49,430,18,Path1,Initial_patient_GP_Visit,,Delay Until - ,1990-04-18 00:47:00,1990-04-18T00:00:00
+09.38.49,431,18,Path1,patient_assessment,,,,1990-04-18T00:47:00
+09.38.49,432,18,Path1,test_request,,,,1990-04-18T00:47:00
+09.38.49,433,18,Path1,Specimen_check,,,,1990-04-18T00:47:00
+09.38.49,434,18,Path1,specimen_ready_for_test,,Delay Until - ,1990-04-18 01:10:00,1990-04-18T00:47:00
+09.38.49,435,18,Path1,lab_test,,,,1990-04-18T01:10:00
+09.38.49,436,18,Path1,test_report,,,,1990-04-18T01:10:00
+09.38.49,437,18,Path1,send_report,,,,1990-04-18T01:10:00
+09.38.49,438,18,Path1,receive_report,,,,1990-04-18T01:10:00
+09.38.49,439,18,Path1,GP_checks_report,,Delay Until - ,1990-04-18 07:10:00,1990-04-18T01:10:00
+09.38.49,440,18,Path1,inform_patient,,,,1990-04-18T07:10:00
+09.38.49,441,18,Path1,Finish,,,,1990-04-18T07:10:00
+09.38.49,442,45,Path1,Start,,,,1990-09-18T00:00:00
+09.38.49,442,45,Path1,Start,,HasFirstChild,1,1990-09-18T00:00:00
+09.38.49,443,45,Path1,Initial_patient_GP_Visit,,Delay Until - ,1990-09-18 00:13:00,1990-09-18T00:00:00
+09.38.49,444,45,Path1,patient_assessment,,,,1990-09-18T00:13:00
+09.38.49,445,45,Path1,test_request,,,,1990-09-18T00:13:00
+09.38.49,446,45,Path1,Specimen_check,,,,1990-09-18T00:13:00
+09.38.49,447,45,Path1,specimen_ready_for_test,,Delay Until - ,1990-09-18 00:31:00,1990-09-18T00:13:00
+09.38.49,448,45,Path1,lab_test,,,,1990-09-18T00:31:00
+09.38.49,449,45,Path1,test_report,,,,1990-09-18T00:31:00
+09.38.49,450,45,Path1,send_report,,,,1990-09-18T00:31:00
+09.38.49,451,45,Path1,receive_report,,,,1990-09-18T00:31:00
+09.38.49,452,45,Path1,GP_checks_report,,Delay Until - ,1990-09-18 23:31:00,1990-09-18T00:31:00
+09.38.49,453,45,Path1,inform_patient,,,,1990-09-18T23:31:00
+09.38.49,454,45,Path1,Finish,,,,1990-09-18T23:31:00
+09.38.49,455,40,Path1,Start,,,,1992-01-13T00:00:00
+09.38.49,455,40,Path1,Start,,HasFirstChild,0,1992-01-13T00:00:00
+09.38.49,456,40,Path1,Initial_patient_GP_Visit,,Delay Until - ,1992-01-13 00:16:00,1992-01-13T00:00:00
+09.38.49,457,40,Path1,patient_assessment,,,,1992-01-13T00:16:00
+09.38.49,458,40,Path1,test_request,,,,1992-01-13T00:16:00
+09.38.49,459,40,Path1,Specimen_check,,,,1992-01-13T00:16:00
+09.38.49,460,40,Path1,specimen_ready_for_test,,Delay Until - ,1992-01-13 00:45:00,1992-01-13T00:16:00
+09.38.49,461,40,Path1,lab_test,,,,1992-01-13T00:45:00
+09.38.49,462,40,Path1,test_report,,,,1992-01-13T00:45:00
+09.38.49,463,40,Path1,send_report,,,,1992-01-13T00:45:00
+09.38.49,464,40,Path1,receive_report,,,,1992-01-13T00:45:00
+09.38.49,465,40,Path1,GP_checks_report,,Delay Until - ,1992-01-13 01:45:00,1992-01-13T00:45:00
+09.38.49,466,40,Path1,inform_patient,,,,1992-01-13T01:45:00
+09.38.49,467,40,Path1,Finish,,,,1992-01-13T01:45:00
+09.38.49,468,16,Path1,Start,,,,1992-05-20T00:00:00
+09.38.49,468,16,Path1,Start,,HasFirstChild,1,1992-05-20T00:00:00
+09.38.49,469,16,Path1,Initial_patient_GP_Visit,,Delay Until - ,1992-05-20 00:28:00,1992-05-20T00:00:00
+09.38.49,470,16,Path1,patient_assessment,,,,1992-05-20T00:28:00
+09.38.49,471,16,Path1,test_request,,,,1992-05-20T00:28:00
+09.38.49,472,16,Path1,Specimen_check,,,,1992-05-20T00:28:00
+09.38.49,473,16,Path1,specimen_ready_for_test,,Delay Until - ,1992-05-20 00:54:00,1992-05-20T00:28:00
+09.38.49,474,16,Path1,lab_test,,,,1992-05-20T00:54:00
+09.38.49,475,16,Path1,test_report,,,,1992-05-20T00:54:00
+09.38.49,476,16,Path1,send_report,,,,1992-05-20T00:54:00
+09.38.49,477,16,Path1,receive_report,,,,1992-05-20T00:54:00
+09.38.49,478,16,Path1,GP_checks_report,,Delay Until - ,1992-05-20 05:54:00,1992-05-20T00:54:00
+09.38.49,479,16,Path1,inform_patient,,,,1992-05-20T05:54:00
+09.38.49,480,16,Path1,Finish,,,,1992-05-20T05:54:00
+09.38.49,481,49,Path1,Start,,,,1994-12-02T00:00:00
+09.38.49,481,49,Path1,Start,,HasFirstChild,0,1994-12-02T00:00:00
+09.38.49,482,49,Path1,Initial_patient_GP_Visit,,Delay Until - ,1994-12-02 00:42:00,1994-12-02T00:00:00
+09.38.49,483,49,Path1,patient_assessment,,,,1994-12-02T00:42:00
+09.38.49,484,49,Path1,test_request,,,,1994-12-02T00:42:00
+09.38.49,485,49,Path1,Specimen_check,,,,1994-12-02T00:42:00
+09.38.49,486,49,Path1,specimen_ready_for_test,,Delay Until - ,1994-12-02 01:12:00,1994-12-02T00:42:00
+09.38.49,487,49,Path1,lab_test,,,,1994-12-02T01:12:00
+09.38.49,488,49,Path1,test_report,,,,1994-12-02T01:12:00
+09.38.49,489,49,Path1,send_report,,,,1994-12-02T01:12:00
+09.38.49,490,49,Path1,receive_report,,,,1994-12-02T01:12:00
+09.38.49,491,49,Path1,GP_checks_report,,Delay Until - ,1994-12-02 17:12:00,1994-12-02T01:12:00
+09.38.49,492,49,Path1,inform_patient,,,,1994-12-02T17:12:00
+09.38.49,493,49,Path1,Finish,,,,1994-12-02T17:12:00
+09.38.49,494,4,Path1,Start,,,,1995-04-25T00:00:00
+09.38.49,494,4,Path1,Start,,HasFirstChild,0,1995-04-25T00:00:00
+09.38.49,495,4,Path1,Initial_patient_GP_Visit,,Delay Until - ,1995-04-25 00:33:00,1995-04-25T00:00:00
+09.38.49,496,4,Path1,patient_assessment,,,,1995-04-25T00:33:00
+09.38.49,497,4,Path1,test_request,,,,1995-04-25T00:33:00
+09.38.49,498,4,Path1,Specimen_check,,,,1995-04-25T00:33:00
+09.38.49,499,4,Path1,specimen_ready_for_test,,Delay Until - ,1995-04-25 00:43:00,1995-04-25T00:33:00
+09.38.49,500,4,Path1,lab_test,,,,1995-04-25T00:43:00
+09.38.49,501,4,Path1,test_report,,,,1995-04-25T00:43:00
+09.38.49,502,4,Path1,send_report,,,,1995-04-25T00:43:00
+09.38.49,503,4,Path1,receive_report,,,,1995-04-25T00:43:00
+09.38.49,504,4,Path1,GP_checks_report,,Delay Until - ,1995-04-25 03:43:00,1995-04-25T00:43:00
+09.38.49,505,4,Path1,inform_patient,,,,1995-04-25T03:43:00
+09.38.49,506,4,Path1,Finish,,,,1995-04-25T03:43:00
+09.38.49,507,19,Path1,Start,,,,1995-07-15T00:00:00
+09.38.49,507,19,Path1,Start,,HasFirstChild,0,1995-07-15T00:00:00
+09.38.49,508,19,Path1,Initial_patient_GP_Visit,,Delay Until - ,1995-07-15 00:42:00,1995-07-15T00:00:00
+09.38.49,509,19,Path1,patient_assessment,,,,1995-07-15T00:42:00
+09.38.49,510,19,Path1,test_request,,,,1995-07-15T00:42:00
+09.38.49,511,19,Path1,Specimen_check,,,,1995-07-15T00:42:00
+09.38.49,512,19,Path1,specimen_ready_for_test,,Delay Until - ,1995-07-15 00:55:00,1995-07-15T00:42:00
+09.38.49,513,19,Path1,lab_test,,,,1995-07-15T00:55:00
+09.38.49,514,19,Path1,test_report,,,,1995-07-15T00:55:00
+09.38.49,515,19,Path1,send_report,,,,1995-07-15T00:55:00
+09.38.49,516,19,Path1,receive_report,,,,1995-07-15T00:55:00
+09.38.49,517,19,Path1,GP_checks_report,,Delay Until - ,1995-07-15 17:55:00,1995-07-15T00:55:00
+09.38.49,518,19,Path1,inform_patient,,,,1995-07-15T17:55:00
+09.38.49,519,19,Path1,Finish,,,,1995-07-15T17:55:00
+09.38.49,520,22,Path1,Start,,,,1995-12-28T00:00:00
+09.38.49,520,22,Path1,Start,,HasFirstChild,1,1995-12-28T00:00:00
+09.38.49,521,22,Path1,Initial_patient_GP_Visit,,Delay Until - ,1995-12-28 00:37:00,1995-12-28T00:00:00
+09.38.49,522,22,Path1,patient_assessment,,,,1995-12-28T00:37:00
+09.38.49,523,22,Path1,test_request,,,,1995-12-28T00:37:00
+09.38.49,524,22,Path1,Specimen_check,,,,1995-12-28T00:37:00
+09.38.49,525,22,Path1,specimen_ready_for_test,,Delay Until - ,1995-12-28 00:46:00,1995-12-28T00:37:00
+09.38.49,526,22,Path1,lab_test,,,,1995-12-28T00:46:00
+09.38.49,527,22,Path1,test_report,,,,1995-12-28T00:46:00
+09.38.49,528,22,Path1,send_report,,,,1995-12-28T00:46:00
+09.38.49,529,22,Path1,receive_report,,,,1995-12-28T00:46:00
+09.38.49,530,22,Path1,GP_checks_report,,Delay Until - ,1995-12-28 16:46:00,1995-12-28T00:46:00
+09.38.49,531,22,Path1,inform_patient,,,,1995-12-28T16:46:00
+09.38.49,532,22,Path1,Finish,,,,1995-12-28T16:46:00
+09.38.49,533,35,Path1,Start,,,,1996-05-15T00:00:00
+09.38.49,533,35,Path1,Start,,HasFirstChild,0,1996-05-15T00:00:00
+09.38.49,534,35,Path1,Initial_patient_GP_Visit,,Delay Until - ,1996-05-15 00:21:00,1996-05-15T00:00:00
+09.38.49,535,35,Path1,patient_assessment,,,,1996-05-15T00:21:00
+09.38.49,536,35,Path1,test_request,,,,1996-05-15T00:21:00
+09.38.49,537,35,Path1,Specimen_check,,,,1996-05-15T00:21:00
+09.38.49,538,35,Path1,specimen_ready_for_test,,Delay Until - ,1996-05-15 00:32:00,1996-05-15T00:21:00
+09.38.49,539,35,Path1,lab_test,,,,1996-05-15T00:32:00
+09.38.49,540,35,Path1,test_report,,,,1996-05-15T00:32:00
+09.38.49,541,35,Path1,send_report,,,,1996-05-15T00:32:00
+09.38.49,542,35,Path1,receive_report,,,,1996-05-15T00:32:00
+09.38.49,543,35,Path1,GP_checks_report,,Delay Until - ,1996-05-15 21:32:00,1996-05-15T00:32:00
+09.38.49,544,35,Path1,inform_patient,,,,1996-05-15T21:32:00
+09.38.49,545,35,Path1,Finish,,,,1996-05-15T21:32:00
+09.38.50,546,25,Path1,Start,,,,1996-07-08T00:00:00
+09.38.50,546,25,Path1,Start,,HasFirstChild,0,1996-07-08T00:00:00
+09.38.50,547,25,Path1,Initial_patient_GP_Visit,,Delay Until - ,1996-07-08 00:46:00,1996-07-08T00:00:00
+09.38.50,548,25,Path1,patient_assessment,,,,1996-07-08T00:46:00
+09.38.50,549,25,Path1,test_request,,,,1996-07-08T00:46:00
+09.38.50,550,25,Path1,Specimen_check,,,,1996-07-08T00:46:00
+09.38.50,551,25,Path1,specimen_ready_for_test,,Delay Until - ,1996-07-08 01:11:00,1996-07-08T00:46:00
+09.38.50,552,25,Path1,lab_test,,,,1996-07-08T01:11:00
+09.38.50,553,25,Path1,test_report,,,,1996-07-08T01:11:00
+09.38.50,554,25,Path1,send_report,,,,1996-07-08T01:11:00
+09.38.50,555,25,Path1,receive_report,,,,1996-07-08T01:11:00
+09.38.50,556,25,Path1,GP_checks_report,,Delay Until - ,1996-07-08 07:11:00,1996-07-08T01:11:00
+09.38.50,557,25,Path1,inform_patient,,,,1996-07-08T07:11:00
+09.38.50,558,25,Path1,Finish,,,,1996-07-08T07:11:00
+09.38.50,559,50,Path1,Start,,,,1997-05-11T00:00:00
+09.38.50,559,50,Path1,Start,,HasFirstChild,0,1997-05-11T00:00:00
+09.38.50,560,50,Path1,Initial_patient_GP_Visit,,Delay Until - ,1997-05-11 00:27:00,1997-05-11T00:00:00
+09.38.50,561,50,Path1,patient_assessment,,,,1997-05-11T00:27:00
+09.38.50,562,50,Path1,test_request,,,,1997-05-11T00:27:00
+09.38.50,563,50,Path1,Specimen_check,,,,1997-05-11T00:27:00
+09.38.50,564,50,Path1,specimen_ready_for_test,,Delay Until - ,1997-05-11 00:33:00,1997-05-11T00:27:00
+09.38.50,565,50,Path1,lab_test,,,,1997-05-11T00:33:00
+09.38.50,566,50,Path1,test_report,,,,1997-05-11T00:33:00
+09.38.50,567,50,Path1,send_report,,,,1997-05-11T00:33:00
+09.38.50,568,50,Path1,receive_report,,,,1997-05-11T00:33:00
+09.38.50,569,50,Path1,GP_checks_report,,Delay Until - ,1997-05-11 15:33:00,1997-05-11T00:33:00
+09.38.50,570,50,Path1,inform_patient,,,,1997-05-11T15:33:00
+09.38.50,571,50,Path1,Finish,,,,1997-05-11T15:33:00
+09.38.50,572,36,Path1,Start,,,,2001-10-31T00:00:00
+09.38.50,572,36,Path1,Start,,HasFirstChild,1,2001-10-31T00:00:00
+09.38.50,573,36,Path1,Initial_patient_GP_Visit,,Delay Until - ,2001-10-31 00:20:00,2001-10-31T00:00:00
+09.38.50,574,36,Path1,patient_assessment,,,,2001-10-31T00:20:00
+09.38.50,575,36,Path1,test_request,,,,2001-10-31T00:20:00
+09.38.50,576,36,Path1,Specimen_check,,,,2001-10-31T00:20:00
+09.38.50,577,36,Path1,specimen_ready_for_test,,Delay Until - ,2001-10-31 00:31:00,2001-10-31T00:20:00
+09.38.50,578,36,Path1,lab_test,,,,2001-10-31T00:31:00
+09.38.50,579,36,Path1,test_report,,,,2001-10-31T00:31:00
+09.38.50,580,36,Path1,send_report,,,,2001-10-31T00:31:00
+09.38.50,581,36,Path1,receive_report,,,,2001-10-31T00:31:00
+09.38.50,582,36,Path1,GP_checks_report,,Delay Until - ,2001-10-31 09:31:00,2001-10-31T00:31:00
+09.38.50,583,36,Path1,inform_patient,,,,2001-10-31T09:31:00
+09.38.50,584,36,Path1,Finish,,,,2001-10-31T09:31:00
+09.38.50,585,43,Path1,Start,,,,2004-09-10T00:00:00
+09.38.50,585,43,Path1,Start,,HasFirstChild,0,2004-09-10T00:00:00
+09.38.50,586,43,Path1,Initial_patient_GP_Visit,,Delay Until - ,2004-09-10 00:33:00,2004-09-10T00:00:00
+09.38.50,587,43,Path1,patient_assessment,,,,2004-09-10T00:33:00
+09.38.50,588,43,Path1,test_request,,,,2004-09-10T00:33:00
+09.38.50,589,43,Path1,Specimen_check,,,,2004-09-10T00:33:00
+09.38.50,590,43,Path1,specimen_ready_for_test,,Delay Until - ,2004-09-10 00:58:00,2004-09-10T00:33:00
+09.38.50,591,43,Path1,lab_test,,,,2004-09-10T00:58:00
+09.38.50,592,43,Path1,test_report,,,,2004-09-10T00:58:00
+09.38.50,593,43,Path1,send_report,,,,2004-09-10T00:58:00
+09.38.50,594,43,Path1,receive_report,,,,2004-09-10T00:58:00
+09.38.50,595,43,Path1,GP_checks_report,,Delay Until - ,2004-09-10 14:58:00,2004-09-10T00:58:00
+09.38.50,596,43,Path1,inform_patient,,,,2004-09-10T14:58:00
+09.38.50,597,43,Path1,Finish,,,,2004-09-10T14:58:00
+09.38.50,598,29,Path1,Start,,,,2008-01-12T00:00:00
+09.38.50,598,29,Path1,Start,,HasFirstChild,1,2008-01-12T00:00:00
+09.38.50,599,29,Path1,Initial_patient_GP_Visit,,Delay Until - ,2008-01-12 00:13:00,2008-01-12T00:00:00
+09.38.50,600,29,Path1,patient_assessment,,,,2008-01-12T00:13:00
+09.38.50,601,29,Path1,test_request,,,,2008-01-12T00:13:00
+09.38.50,602,29,Path1,Specimen_check,,,,2008-01-12T00:13:00
+09.38.50,603,29,Path1,specimen_ready_for_test,,Delay Until - ,2008-01-12 00:24:00,2008-01-12T00:13:00
+09.38.50,604,29,Path1,lab_test,,,,2008-01-12T00:24:00
+09.38.50,605,29,Path1,test_report,,,,2008-01-12T00:24:00
+09.38.50,606,29,Path1,send_report,,,,2008-01-12T00:24:00
+09.38.50,607,29,Path1,receive_report,,,,2008-01-12T00:24:00
+09.38.50,608,29,Path1,GP_checks_report,,Delay Until - ,2008-01-12 01:24:00,2008-01-12T00:24:00
+09.38.50,609,29,Path1,inform_patient,,,,2008-01-12T01:24:00
+09.38.50,610,29,Path1,Finish,,,,2008-01-12T01:24:00
+09.38.50,611,0,Path1,Start,,,,2010-05-02T00:00:00
+09.38.50,611,0,Path1,Start,,HasFirstChild,1,2010-05-02T00:00:00
+09.38.50,612,0,Path1,Initial_patient_GP_Visit,,Delay Until - ,2010-05-02 00:39:00,2010-05-02T00:00:00
+09.38.50,613,0,Path1,patient_assessment,,,,2010-05-02T00:39:00
+09.38.50,614,0,Path1,test_request,,,,2010-05-02T00:39:00
+09.38.50,615,0,Path1,Specimen_check,,,,2010-05-02T00:39:00
+09.38.50,616,0,Path1,specimen_ready_for_test,,Delay Until - ,2010-05-02 00:59:00,2010-05-02T00:39:00
+09.38.50,617,0,Path1,lab_test,,,,2010-05-02T00:59:00
+09.38.50,618,0,Path1,test_report,,,,2010-05-02T00:59:00
+09.38.50,619,0,Path1,send_report,,,,2010-05-02T00:59:00
+09.38.50,620,0,Path1,receive_report,,,,2010-05-02T00:59:00
+09.38.50,621,0,Path1,GP_checks_report,,Delay Until - ,2010-05-02 18:59:00,2010-05-02T00:59:00
+09.38.50,622,0,Path1,inform_patient,,,,2010-05-02T18:59:00
+09.38.50,623,0,Path1,Finish,,,,2010-05-02T18:59:00
+09.38.50,624,10,Path1,Start,,,,2012-12-20T00:00:00
+09.38.50,624,10,Path1,Start,,HasFirstChild,1,2012-12-20T00:00:00
+09.38.50,625,10,Path1,Initial_patient_GP_Visit,,Delay Until - ,2012-12-20 00:39:00,2012-12-20T00:00:00
+09.38.50,626,10,Path1,patient_assessment,,,,2012-12-20T00:39:00
+09.38.50,627,10,Path1,test_request,,,,2012-12-20T00:39:00
+09.38.50,628,10,Path1,Specimen_check,,,,2012-12-20T00:39:00
+09.38.50,629,10,Path1,specimen_ready_for_test,,Delay Until - ,2012-12-20 01:08:00,2012-12-20T00:39:00
+09.38.50,630,10,Path1,lab_test,,,,2012-12-20T01:08:00
+09.38.50,631,10,Path1,test_report,,,,2012-12-20T01:08:00
+09.38.50,632,10,Path1,send_report,,,,2012-12-20T01:08:00
+09.38.50,633,10,Path1,receive_report,,,,2012-12-20T01:08:00
+09.38.50,634,10,Path1,GP_checks_report,,Delay Until - ,2012-12-20 05:08:00,2012-12-20T01:08:00
+09.38.50,635,10,Path1,inform_patient,,,,2012-12-20T05:08:00
+09.38.50,636,10,Path1,Finish,,,,2012-12-20T05:08:00
+09.38.50,637,24,Path1,Start,,,,2014-12-26T00:00:00
+09.38.50,637,24,Path1,Start,,HasFirstChild,1,2014-12-26T00:00:00
+09.38.50,638,24,Path1,Initial_patient_GP_Visit,,Delay Until - ,2014-12-26 00:33:00,2014-12-26T00:00:00
+09.38.50,639,24,Path1,patient_assessment,,,,2014-12-26T00:33:00
+09.38.50,640,24,Path1,test_request,,,,2014-12-26T00:33:00
+09.38.50,641,24,Path1,Specimen_check,,,,2014-12-26T00:33:00
+09.38.50,642,24,Path1,specimen_ready_for_test,,Delay Until - ,2014-12-26 00:52:00,2014-12-26T00:33:00
+09.38.50,643,24,Path1,lab_test,,,,2014-12-26T00:52:00
+09.38.50,644,24,Path1,test_report,,,,2014-12-26T00:52:00
+09.38.50,645,24,Path1,send_report,,,,2014-12-26T00:52:00
+09.38.50,646,24,Path1,receive_report,,,,2014-12-26T00:52:00
+09.38.50,647,24,Path1,GP_checks_report,,Delay Until - ,2014-12-26 07:52:00,2014-12-26T00:52:00
+09.38.50,648,24,Path1,inform_patient,,,,2014-12-26T07:52:00
+09.38.50,649,24,Path1,Finish,,,,2014-12-26T07:52:00
+09.38.50,650,21,Path1,Start,,,,2018-08-01T00:00:00
+09.38.50,650,21,Path1,Start,,HasFirstChild,0,2018-08-01T00:00:00
+09.38.50,651,21,Path1,Initial_patient_GP_Visit,,Delay Until - ,2018-08-01 00:32:00,2018-08-01T00:00:00
+09.38.50,652,21,Path1,patient_assessment,,,,2018-08-01T00:32:00
+09.38.50,653,21,Path1,test_request,,,,2018-08-01T00:32:00
+09.38.50,654,21,Path1,Specimen_check,,,,2018-08-01T00:32:00
+09.38.50,655,21,Path1,specimen_ready_for_test,,Delay Until - ,2018-08-01 00:57:00,2018-08-01T00:32:00
+09.38.50,656,21,Path1,lab_test,,,,2018-08-01T00:57:00
+09.38.50,657,21,Path1,test_report,,,,2018-08-01T00:57:00
+09.38.50,658,21,Path1,send_report,,,,2018-08-01T00:57:00
+09.38.50,659,21,Path1,receive_report,,,,2018-08-01T00:57:00
+09.38.50,660,21,Path1,GP_checks_report,,Delay Until - ,2018-08-01 04:57:00,2018-08-01T00:57:00
+09.38.50,661,21,Path1,inform_patient,,,,2018-08-01T04:57:00
+09.38.50,662,21,Path1,Finish,,,,2018-08-01T04:57:00
