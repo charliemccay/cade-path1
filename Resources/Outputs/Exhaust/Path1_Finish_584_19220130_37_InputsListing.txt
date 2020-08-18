@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 37
+   Gender: Male
+   DOB: 2003-12-20 00:00:00
+   Surname: Stephens
+   GivenName: Jonathan
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.044030699540471, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2003-12-20T01:04:00', 'id': UUID('7d49ca85-32a2-4f9e-b1e3-bc965827c31f')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 5.044030699540471, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '2003-12-20T00:00:00', 'id': UUID('4727f369-2c89-4036-82e4-bca7f143243f')}]
+   BloodGlucose: [{'value': {'quantity': 5.044030699540471, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2003-12-20T01:04:00', 'id': UUID('7d49ca85-32a2-4f9e-b1e3-bc965827c31f')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '2003-12-20T00:00:00', 'id': UUID('4727f369-2c89-4036-82e4-bca7f143243f')}
+   BloodGlucose: {'value': {'quantity': 5.044030699540471, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2003-12-20T01:04:00', 'id': UUID('7d49ca85-32a2-4f9e-b1e3-bc965827c31f')}

@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 21
+   Gender: Male
+   DOB: 1948-04-04 00:00:00
+   Surname: Mills
+   GivenName: Harvey
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1948-04-04T00:40:00', 'id': UUID('efe512da-3e33-403e-8cf3-4c509ee82b3d')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1948-04-04T00:00:00', 'id': UUID('9fd84144-5ce2-4114-8c2b-0c119b96fba5')}]
+   BloodGlucose: [{'value': {'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1948-04-04T00:40:00', 'id': UUID('efe512da-3e33-403e-8cf3-4c509ee82b3d')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1948-04-04T00:00:00', 'id': UUID('9fd84144-5ce2-4114-8c2b-0c119b96fba5')}
+   BloodGlucose: {'value': {'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1948-04-04T00:40:00', 'id': UUID('efe512da-3e33-403e-8cf3-4c509ee82b3d')}

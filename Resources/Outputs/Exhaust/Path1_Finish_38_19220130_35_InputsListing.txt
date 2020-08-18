@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Porthill
+   Country: England
+   PersonID: 35
+   Gender: Female
+   DOB: 1927-09-07 00:00:00
+   Surname: Franklin
+   GivenName: Isabel
+   School: Porthill School
+   GP: Porthill GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 3.9415609465652066, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1927-09-07T01:10:00', 'id': UUID('a4803c7b-3abc-44d7-a31b-70a3bdfa8cd3')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 3.9415609465652066, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1927-09-07T00:00:00', 'id': UUID('21433daf-9ac9-437d-a6d4-9e8204836fa0')}]
+   BloodGlucose: [{'value': {'quantity': 3.9415609465652066, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1927-09-07T01:10:00', 'id': UUID('a4803c7b-3abc-44d7-a31b-70a3bdfa8cd3')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1927-09-07T00:00:00', 'id': UUID('21433daf-9ac9-437d-a6d4-9e8204836fa0')}
+   BloodGlucose: {'value': {'quantity': 3.9415609465652066, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1927-09-07T01:10:00', 'id': UUID('a4803c7b-3abc-44d7-a31b-70a3bdfa8cd3')}

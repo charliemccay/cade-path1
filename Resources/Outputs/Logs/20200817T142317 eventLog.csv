@@ -1,0 +1,766 @@
+TimeStamp,EventID,PersonID,Pathway,Node,DecisionTable,Attribute,Value,DateTime
+14.23.21,0,10,Path1,Start,,,,1922-01-30T00:00:00
+14.23.21,0,10,Path1,Start,,HasFirstChild,'goodbye world',1922-01-30T00:00:00
+14.23.21,1,10,Path1,Initial_patient_GP_Visit,,Delay Until - ,1922-01-30 00:31:00,1922-01-30T00:00:00
+14.23.21,2,10,Path1,patient_assessment,,,,1922-01-30T00:31:00
+14.23.21,3,10,Path1,test_request,,,,1922-01-30T00:31:00
+14.23.21,4,10,Path1,Specimen_check,,,,1922-01-30T00:31:00
+14.23.21,5,10,Path1,specimen_ready_for_test,,Delay Until - ,1922-01-30 00:42:00,1922-01-30T00:31:00
+14.23.21,6,10,Path1,lab_test,,,,1922-01-30T00:42:00
+14.23.21,7,10,Path1,test_report,,,,1922-01-30T00:42:00
+14.23.21,8,10,Path1,send_report,,,,1922-01-30T00:42:00
+14.23.21,8,10,Path1,send_report,,BloodGlucose,"{'quantity': 5.231230086265955, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1922-01-30T00:42:00
+14.23.21,9,10,Path1,receive_report,,,,1922-01-30T00:42:00
+14.23.21,10,10,Path1,GP_checks_report,,Delay Until - ,1922-01-30 06:42:00,1922-01-30T00:42:00
+14.23.21,11,10,Path1,inform_patient,,,,1922-01-30T06:42:00
+14.23.21,12,10,Path1,Finish,,,,1922-01-30T06:42:00
+14.23.21,13,18,Path1,Start,,,,1922-04-13T00:00:00
+14.23.21,13,18,Path1,Start,,HasFirstChild,'hello-world',1922-04-13T00:00:00
+14.23.21,14,18,Path1,Initial_patient_GP_Visit,,Delay Until - ,1922-04-13 00:46:00,1922-04-13T00:00:00
+14.23.21,15,18,Path1,patient_assessment,,,,1922-04-13T00:46:00
+14.23.21,16,18,Path1,test_request,,,,1922-04-13T00:46:00
+14.23.21,17,18,Path1,Specimen_check,,,,1922-04-13T00:46:00
+14.23.21,18,18,Path1,specimen_ready_for_test,,Delay Until - ,1922-04-13 00:49:00,1922-04-13T00:46:00
+14.23.21,19,18,Path1,lab_test,,,,1922-04-13T00:49:00
+14.23.21,20,18,Path1,test_report,,,,1922-04-13T00:49:00
+14.23.21,21,18,Path1,send_report,,,,1922-04-13T00:49:00
+14.23.21,21,18,Path1,send_report,,BloodGlucose,"{'quantity': 4.997872461870121, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1922-04-13T00:49:00
+14.23.21,22,18,Path1,receive_report,,,,1922-04-13T00:49:00
+14.23.21,23,18,Path1,GP_checks_report,,Delay Until - ,1922-04-13 22:49:00,1922-04-13T00:49:00
+14.23.21,24,18,Path1,inform_patient,,,,1922-04-13T22:49:00
+14.23.21,25,18,Path1,Finish,,,,1922-04-13T22:49:00
+14.23.21,26,35,Path1,Start,,,,1927-09-07T00:00:00
+14.23.21,26,35,Path1,Start,,HasFirstChild,'hello-world',1927-09-07T00:00:00
+14.23.21,27,35,Path1,Initial_patient_GP_Visit,,Delay Until - ,1927-09-07 00:42:00,1927-09-07T00:00:00
+14.23.21,28,35,Path1,patient_assessment,,,,1927-09-07T00:42:00
+14.23.21,29,35,Path1,test_request,,,,1927-09-07T00:42:00
+14.23.21,30,35,Path1,Specimen_check,,,,1927-09-07T00:42:00
+14.23.21,31,35,Path1,specimen_ready_for_test,,Delay Until - ,1927-09-07 01:10:00,1927-09-07T00:42:00
+14.23.21,32,35,Path1,lab_test,,,,1927-09-07T01:10:00
+14.23.21,33,35,Path1,test_report,,,,1927-09-07T01:10:00
+14.23.21,34,35,Path1,send_report,,,,1927-09-07T01:10:00
+14.23.22,34,35,Path1,send_report,,BloodGlucose,"{'quantity': 3.9415609465652066, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1927-09-07T01:10:00
+14.23.22,35,35,Path1,receive_report,,,,1927-09-07T01:10:00
+14.23.22,36,35,Path1,GP_checks_report,,Delay Until - ,1927-09-07 08:10:00,1927-09-07T01:10:00
+14.23.22,37,35,Path1,inform_patient,,,,1927-09-07T08:10:00
+14.23.22,38,35,Path1,Finish,,,,1927-09-07T08:10:00
+14.23.22,39,49,Path1,Start,,,,1937-08-25T00:00:00
+14.23.22,39,49,Path1,Start,,HasFirstChild,'hello-world',1937-08-25T00:00:00
+14.23.22,40,49,Path1,Initial_patient_GP_Visit,,Delay Until - ,1937-08-25 00:28:00,1937-08-25T00:00:00
+14.23.22,41,49,Path1,patient_assessment,,,,1937-08-25T00:28:00
+14.23.22,42,49,Path1,test_request,,,,1937-08-25T00:28:00
+14.23.22,43,49,Path1,Specimen_check,,,,1937-08-25T00:28:00
+14.23.22,44,49,Path1,specimen_ready_for_test,,Delay Until - ,1937-08-25 00:45:00,1937-08-25T00:28:00
+14.23.22,45,49,Path1,lab_test,,,,1937-08-25T00:45:00
+14.23.22,46,49,Path1,test_report,,,,1937-08-25T00:45:00
+14.23.22,47,49,Path1,send_report,,,,1937-08-25T00:45:00
+14.23.22,47,49,Path1,send_report,,BloodGlucose,"{'quantity': 4.163981264813311, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1937-08-25T00:45:00
+14.23.22,48,49,Path1,receive_report,,,,1937-08-25T00:45:00
+14.23.22,49,49,Path1,GP_checks_report,,Delay Until - ,1937-08-25 17:45:00,1937-08-25T00:45:00
+14.23.22,50,49,Path1,inform_patient,,,,1937-08-25T17:45:00
+14.23.22,51,49,Path1,Finish,,,,1937-08-25T17:45:00
+14.23.22,52,14,Path1,Start,,,,1938-10-29T00:00:00
+14.23.22,52,14,Path1,Start,,HasFirstChild,'goodbye world',1938-10-29T00:00:00
+14.23.22,53,14,Path1,Initial_patient_GP_Visit,,Delay Until - ,1938-10-29 00:12:00,1938-10-29T00:00:00
+14.23.22,54,14,Path1,patient_assessment,,,,1938-10-29T00:12:00
+14.23.22,55,14,Path1,test_request,,,,1938-10-29T00:12:00
+14.23.22,56,14,Path1,Specimen_check,,,,1938-10-29T00:12:00
+14.23.22,57,14,Path1,specimen_ready_for_test,,Delay Until - ,1938-10-29 00:23:00,1938-10-29T00:12:00
+14.23.22,58,14,Path1,lab_test,,,,1938-10-29T00:23:00
+14.23.22,59,14,Path1,test_report,,,,1938-10-29T00:23:00
+14.23.22,60,14,Path1,send_report,,,,1938-10-29T00:23:00
+14.23.22,60,14,Path1,send_report,,BloodGlucose,"{'quantity': 5.101960853311681, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1938-10-29T00:23:00
+14.23.22,61,14,Path1,receive_report,,,,1938-10-29T00:23:00
+14.23.22,62,14,Path1,GP_checks_report,,Delay Until - ,1938-10-29 19:23:00,1938-10-29T00:23:00
+14.23.22,63,14,Path1,inform_patient,,,,1938-10-29T19:23:00
+14.23.22,64,14,Path1,Finish,,,,1938-10-29T19:23:00
+14.23.22,65,9,Path1,Start,,,,1941-10-21T00:00:00
+14.23.22,65,9,Path1,Start,,HasFirstChild,'hello-world',1941-10-21T00:00:00
+14.23.22,66,9,Path1,Initial_patient_GP_Visit,,Delay Until - ,1941-10-21 00:33:00,1941-10-21T00:00:00
+14.23.22,67,9,Path1,patient_assessment,,,,1941-10-21T00:33:00
+14.23.22,68,9,Path1,test_request,,,,1941-10-21T00:33:00
+14.23.22,69,9,Path1,Specimen_check,,,,1941-10-21T00:33:00
+14.23.22,70,9,Path1,specimen_ready_for_test,,Delay Until - ,1941-10-21 00:47:00,1941-10-21T00:33:00
+14.23.22,71,9,Path1,lab_test,,,,1941-10-21T00:47:00
+14.23.22,72,9,Path1,test_report,,,,1941-10-21T00:47:00
+14.23.22,73,9,Path1,send_report,,,,1941-10-21T00:47:00
+14.23.22,73,9,Path1,send_report,,BloodGlucose,"{'quantity': 4.514046273229658, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1941-10-21T00:47:00
+14.23.22,74,9,Path1,receive_report,,,,1941-10-21T00:47:00
+14.23.22,75,9,Path1,GP_checks_report,,Delay Until - ,1941-10-21 09:47:00,1941-10-21T00:47:00
+14.23.22,76,9,Path1,inform_patient,,,,1941-10-21T09:47:00
+14.23.22,77,9,Path1,Finish,,,,1941-10-21T09:47:00
+14.23.22,78,44,Path1,Start,,,,1947-05-28T00:00:00
+14.23.22,78,44,Path1,Start,,HasFirstChild,'hello-world',1947-05-28T00:00:00
+14.23.22,79,44,Path1,Initial_patient_GP_Visit,,Delay Until - ,1947-05-28 00:12:00,1947-05-28T00:00:00
+14.23.22,80,44,Path1,patient_assessment,,,,1947-05-28T00:12:00
+14.23.22,81,44,Path1,test_request,,,,1947-05-28T00:12:00
+14.23.22,82,44,Path1,Specimen_check,,,,1947-05-28T00:12:00
+14.23.22,83,44,Path1,specimen_ready_for_test,,Delay Until - ,1947-05-28 00:31:00,1947-05-28T00:12:00
+14.23.22,84,44,Path1,lab_test,,,,1947-05-28T00:31:00
+14.23.22,85,44,Path1,test_report,,,,1947-05-28T00:31:00
+14.23.22,86,44,Path1,send_report,,,,1947-05-28T00:31:00
+14.23.22,86,44,Path1,send_report,,BloodGlucose,"{'quantity': 4.292290578577623, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1947-05-28T00:31:00
+14.23.22,87,44,Path1,receive_report,,,,1947-05-28T00:31:00
+14.23.22,88,44,Path1,GP_checks_report,,Delay Until - ,1947-05-28 13:31:00,1947-05-28T00:31:00
+14.23.22,89,44,Path1,inform_patient,,,,1947-05-28T13:31:00
+14.23.22,90,44,Path1,Finish,,,,1947-05-28T13:31:00
+14.23.22,91,21,Path1,Start,,,,1948-04-04T00:00:00
+14.23.22,91,21,Path1,Start,,HasFirstChild,'goodbye world',1948-04-04T00:00:00
+14.23.22,92,21,Path1,Initial_patient_GP_Visit,,Delay Until - ,1948-04-04 00:37:00,1948-04-04T00:00:00
+14.23.22,93,21,Path1,patient_assessment,,,,1948-04-04T00:37:00
+14.23.22,94,21,Path1,test_request,,,,1948-04-04T00:37:00
+14.23.22,95,21,Path1,Specimen_check,,,,1948-04-04T00:37:00
+14.23.22,96,21,Path1,specimen_ready_for_test,,Delay Until - ,1948-04-04 00:40:00,1948-04-04T00:37:00
+14.23.22,97,21,Path1,lab_test,,,,1948-04-04T00:40:00
+14.23.22,98,21,Path1,test_report,,,,1948-04-04T00:40:00
+14.23.22,99,21,Path1,send_report,,,,1948-04-04T00:40:00
+14.23.22,99,21,Path1,send_report,,BloodGlucose,"{'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1948-04-04T00:40:00
+14.23.22,100,21,Path1,receive_report,,,,1948-04-04T00:40:00
+14.23.22,101,21,Path1,GP_checks_report,,Delay Until - ,1948-04-04 14:40:00,1948-04-04T00:40:00
+14.23.22,102,21,Path1,inform_patient,,,,1948-04-04T14:40:00
+14.23.22,103,21,Path1,Finish,,,,1948-04-04T14:40:00
+14.23.22,104,40,Path1,Start,,,,1949-02-27T00:00:00
+14.23.22,104,40,Path1,Start,,HasFirstChild,'hello-world',1949-02-27T00:00:00
+14.23.22,105,40,Path1,Initial_patient_GP_Visit,,Delay Until - ,1949-02-27 00:45:00,1949-02-27T00:00:00
+14.23.22,106,40,Path1,patient_assessment,,,,1949-02-27T00:45:00
+14.23.22,107,40,Path1,test_request,,,,1949-02-27T00:45:00
+14.23.22,108,40,Path1,Specimen_check,,,,1949-02-27T00:45:00
+14.23.22,109,40,Path1,specimen_ready_for_test,,Delay Until - ,1949-02-27 00:53:00,1949-02-27T00:45:00
+14.23.22,110,40,Path1,lab_test,,,,1949-02-27T00:53:00
+14.23.22,111,40,Path1,test_report,,,,1949-02-27T00:53:00
+14.23.22,112,40,Path1,send_report,,,,1949-02-27T00:53:00
+14.23.22,112,40,Path1,send_report,,BloodGlucose,"{'quantity': 4.837299259071755, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1949-02-27T00:53:00
+14.23.22,113,40,Path1,receive_report,,,,1949-02-27T00:53:00
+14.23.22,114,40,Path1,GP_checks_report,,Delay Until - ,1949-02-27 17:53:00,1949-02-27T00:53:00
+14.23.22,115,40,Path1,inform_patient,,,,1949-02-27T17:53:00
+14.23.22,116,40,Path1,Finish,,,,1949-02-27T17:53:00
+14.23.22,117,26,Path1,Start,,,,1949-05-09T00:00:00
+14.23.22,117,26,Path1,Start,,HasFirstChild,'hello-world',1949-05-09T00:00:00
+14.23.22,118,26,Path1,Initial_patient_GP_Visit,,Delay Until - ,1949-05-09 00:17:00,1949-05-09T00:00:00
+14.23.22,119,26,Path1,patient_assessment,,,,1949-05-09T00:17:00
+14.23.22,120,26,Path1,test_request,,,,1949-05-09T00:17:00
+14.23.22,121,26,Path1,Specimen_check,,,,1949-05-09T00:17:00
+14.23.22,122,26,Path1,specimen_ready_for_test,,Delay Until - ,1949-05-09 00:27:00,1949-05-09T00:17:00
+14.23.22,123,26,Path1,lab_test,,,,1949-05-09T00:27:00
+14.23.22,124,26,Path1,test_report,,,,1949-05-09T00:27:00
+14.23.22,125,26,Path1,send_report,,,,1949-05-09T00:27:00
+14.23.22,125,26,Path1,send_report,,BloodGlucose,"{'quantity': 4.529748484878258, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1949-05-09T00:27:00
+14.23.22,126,26,Path1,receive_report,,,,1949-05-09T00:27:00
+14.23.22,127,26,Path1,GP_checks_report,,Delay Until - ,1949-05-09 01:27:00,1949-05-09T00:27:00
+14.23.22,128,26,Path1,inform_patient,,,,1949-05-09T01:27:00
+14.23.22,129,26,Path1,Finish,,,,1949-05-09T01:27:00
+14.23.22,130,27,Path1,Start,,,,1949-08-04T00:00:00
+14.23.22,130,27,Path1,Start,,HasFirstChild,'goodbye world',1949-08-04T00:00:00
+14.23.22,131,27,Path1,Initial_patient_GP_Visit,,Delay Until - ,1949-08-04 00:12:00,1949-08-04T00:00:00
+14.23.22,132,27,Path1,patient_assessment,,,,1949-08-04T00:12:00
+14.23.22,133,27,Path1,test_request,,,,1949-08-04T00:12:00
+14.23.22,134,27,Path1,Specimen_check,,,,1949-08-04T00:12:00
+14.23.22,135,27,Path1,specimen_ready_for_test,,Delay Until - ,1949-08-04 00:28:00,1949-08-04T00:12:00
+14.23.22,136,27,Path1,lab_test,,,,1949-08-04T00:28:00
+14.23.22,137,27,Path1,test_report,,,,1949-08-04T00:28:00
+14.23.22,138,27,Path1,send_report,,,,1949-08-04T00:28:00
+14.23.22,138,27,Path1,send_report,,BloodGlucose,"{'quantity': 4.51862047248319, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1949-08-04T00:28:00
+14.23.22,139,27,Path1,receive_report,,,,1949-08-04T00:28:00
+14.23.22,140,27,Path1,GP_checks_report,,Delay Until - ,1949-08-04 11:28:00,1949-08-04T00:28:00
+14.23.22,141,27,Path1,inform_patient,,,,1949-08-04T11:28:00
+14.23.22,142,27,Path1,Finish,,,,1949-08-04T11:28:00
+14.23.22,143,25,Path1,Start,,,,1951-10-02T00:00:00
+14.23.22,143,25,Path1,Start,,HasFirstChild,'goodbye world',1951-10-02T00:00:00
+14.23.22,144,25,Path1,Initial_patient_GP_Visit,,Delay Until - ,1951-10-02 00:26:00,1951-10-02T00:00:00
+14.23.22,145,25,Path1,patient_assessment,,,,1951-10-02T00:26:00
+14.23.22,146,25,Path1,test_request,,,,1951-10-02T00:26:00
+14.23.22,147,25,Path1,Specimen_check,,,,1951-10-02T00:26:00
+14.23.22,148,25,Path1,specimen_ready_for_test,,Delay Until - ,1951-10-02 00:44:00,1951-10-02T00:26:00
+14.23.22,149,25,Path1,lab_test,,,,1951-10-02T00:44:00
+14.23.22,150,25,Path1,test_report,,,,1951-10-02T00:44:00
+14.23.22,151,25,Path1,send_report,,,,1951-10-02T00:44:00
+14.23.22,151,25,Path1,send_report,,BloodGlucose,"{'quantity': 4.404929602689311, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1951-10-02T00:44:00
+14.23.22,152,25,Path1,receive_report,,,,1951-10-02T00:44:00
+14.23.22,153,25,Path1,GP_checks_report,,Delay Until - ,1951-10-02 14:44:00,1951-10-02T00:44:00
+14.23.22,154,25,Path1,inform_patient,,,,1951-10-02T14:44:00
+14.23.22,155,25,Path1,Finish,,,,1951-10-02T14:44:00
+14.23.22,156,20,Path1,Start,,,,1953-07-30T00:00:00
+14.23.22,156,20,Path1,Start,,HasFirstChild,'goodbye world',1953-07-30T00:00:00
+14.23.22,157,20,Path1,Initial_patient_GP_Visit,,Delay Until - ,1953-07-30 00:28:00,1953-07-30T00:00:00
+14.23.22,158,20,Path1,patient_assessment,,,,1953-07-30T00:28:00
+14.23.22,159,20,Path1,test_request,,,,1953-07-30T00:28:00
+14.23.22,160,20,Path1,Specimen_check,,,,1953-07-30T00:28:00
+14.23.22,161,20,Path1,specimen_ready_for_test,,Delay Until - ,1953-07-30 00:54:00,1953-07-30T00:28:00
+14.23.22,162,20,Path1,lab_test,,,,1953-07-30T00:54:00
+14.23.22,163,20,Path1,test_report,,,,1953-07-30T00:54:00
+14.23.22,164,20,Path1,send_report,,,,1953-07-30T00:54:00
+14.23.22,164,20,Path1,send_report,,BloodGlucose,"{'quantity': 4.701747967746721, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1953-07-30T00:54:00
+14.23.22,165,20,Path1,receive_report,,,,1953-07-30T00:54:00
+14.23.22,166,20,Path1,GP_checks_report,,Delay Until - ,1953-07-30 05:54:00,1953-07-30T00:54:00
+14.23.22,167,20,Path1,inform_patient,,,,1953-07-30T05:54:00
+14.23.22,168,20,Path1,Finish,,,,1953-07-30T05:54:00
+14.23.22,169,29,Path1,Start,,,,1954-08-08T00:00:00
+14.23.22,169,29,Path1,Start,,HasFirstChild,'goodbye world',1954-08-08T00:00:00
+14.23.22,170,29,Path1,Initial_patient_GP_Visit,,Delay Until - ,1954-08-08 00:22:00,1954-08-08T00:00:00
+14.23.22,171,29,Path1,patient_assessment,,,,1954-08-08T00:22:00
+14.23.22,172,29,Path1,test_request,,,,1954-08-08T00:22:00
+14.23.22,173,29,Path1,Specimen_check,,,,1954-08-08T00:22:00
+14.23.22,174,29,Path1,specimen_ready_for_test,,Delay Until - ,1954-08-08 00:38:00,1954-08-08T00:22:00
+14.23.22,175,29,Path1,lab_test,,,,1954-08-08T00:38:00
+14.23.22,176,29,Path1,test_report,,,,1954-08-08T00:38:00
+14.23.22,177,29,Path1,send_report,,,,1954-08-08T00:38:00
+14.23.22,177,29,Path1,send_report,,BloodGlucose,"{'quantity': 4.8886228759523895, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1954-08-08T00:38:00
+14.23.22,178,29,Path1,receive_report,,,,1954-08-08T00:38:00
+14.23.22,179,29,Path1,GP_checks_report,,Delay Until - ,1954-08-08 01:38:00,1954-08-08T00:38:00
+14.23.22,180,29,Path1,inform_patient,,,,1954-08-08T01:38:00
+14.23.22,181,29,Path1,Finish,,,,1954-08-08T01:38:00
+14.23.22,182,50,Path1,Start,,,,1958-09-11T00:00:00
+14.23.22,182,50,Path1,Start,,HasFirstChild,'hello-world',1958-09-11T00:00:00
+14.23.22,183,50,Path1,Initial_patient_GP_Visit,,Delay Until - ,1958-09-11 00:21:00,1958-09-11T00:00:00
+14.23.22,184,50,Path1,patient_assessment,,,,1958-09-11T00:21:00
+14.23.22,185,50,Path1,test_request,,,,1958-09-11T00:21:00
+14.23.22,186,50,Path1,Specimen_check,,,,1958-09-11T00:21:00
+14.23.22,187,50,Path1,specimen_ready_for_test,,Delay Until - ,1958-09-11 00:44:00,1958-09-11T00:21:00
+14.23.22,188,50,Path1,lab_test,,,,1958-09-11T00:44:00
+14.23.22,189,50,Path1,test_report,,,,1958-09-11T00:44:00
+14.23.22,190,50,Path1,send_report,,,,1958-09-11T00:44:00
+14.23.22,190,50,Path1,send_report,,BloodGlucose,"{'quantity': 4.783422143592818, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1958-09-11T00:44:00
+14.23.22,191,50,Path1,receive_report,,,,1958-09-11T00:44:00
+14.23.22,192,50,Path1,GP_checks_report,,Delay Until - ,1958-09-11 11:44:00,1958-09-11T00:44:00
+14.23.22,193,50,Path1,inform_patient,,,,1958-09-11T11:44:00
+14.23.22,194,50,Path1,Finish,,,,1958-09-11T11:44:00
+14.23.22,195,36,Path1,Start,,,,1962-01-07T00:00:00
+14.23.22,195,36,Path1,Start,,HasFirstChild,'goodbye world',1962-01-07T00:00:00
+14.23.22,196,36,Path1,Initial_patient_GP_Visit,,Delay Until - ,1962-01-07 00:21:00,1962-01-07T00:00:00
+14.23.23,197,36,Path1,patient_assessment,,,,1962-01-07T00:21:00
+14.23.23,198,36,Path1,test_request,,,,1962-01-07T00:21:00
+14.23.23,199,36,Path1,Specimen_check,,,,1962-01-07T00:21:00
+14.23.23,200,36,Path1,specimen_ready_for_test,,Delay Until - ,1962-01-07 00:36:00,1962-01-07T00:21:00
+14.23.23,201,36,Path1,lab_test,,,,1962-01-07T00:36:00
+14.23.23,202,36,Path1,test_report,,,,1962-01-07T00:36:00
+14.23.23,203,36,Path1,send_report,,,,1962-01-07T00:36:00
+14.23.23,203,36,Path1,send_report,,BloodGlucose,"{'quantity': 4.238438591830889, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1962-01-07T00:36:00
+14.23.23,204,36,Path1,receive_report,,,,1962-01-07T00:36:00
+14.23.23,205,36,Path1,GP_checks_report,,Delay Until - ,1962-01-07 09:36:00,1962-01-07T00:36:00
+14.23.23,206,36,Path1,inform_patient,,,,1962-01-07T09:36:00
+14.23.23,207,36,Path1,Finish,,,,1962-01-07T09:36:00
+14.23.23,208,31,Path1,Start,,,,1962-10-06T00:00:00
+14.23.23,208,31,Path1,Start,,HasFirstChild,'goodbye world',1962-10-06T00:00:00
+14.23.23,209,31,Path1,Initial_patient_GP_Visit,,Delay Until - ,1962-10-06 00:32:00,1962-10-06T00:00:00
+14.23.23,210,31,Path1,patient_assessment,,,,1962-10-06T00:32:00
+14.23.23,211,31,Path1,test_request,,,,1962-10-06T00:32:00
+14.23.23,212,31,Path1,Specimen_check,,,,1962-10-06T00:32:00
+14.23.23,213,31,Path1,specimen_ready_for_test,,Delay Until - ,1962-10-06 00:55:00,1962-10-06T00:32:00
+14.23.23,214,31,Path1,lab_test,,,,1962-10-06T00:55:00
+14.23.23,215,31,Path1,test_report,,,,1962-10-06T00:55:00
+14.23.23,216,31,Path1,send_report,,,,1962-10-06T00:55:00
+14.23.23,216,31,Path1,send_report,,BloodGlucose,"{'quantity': 4.491707734776325, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1962-10-06T00:55:00
+14.23.23,217,31,Path1,receive_report,,,,1962-10-06T00:55:00
+14.23.23,218,31,Path1,GP_checks_report,,Delay Until - ,1962-10-06 08:55:00,1962-10-06T00:55:00
+14.23.23,219,31,Path1,inform_patient,,,,1962-10-06T08:55:00
+14.23.23,220,31,Path1,Finish,,,,1962-10-06T08:55:00
+14.23.23,221,32,Path1,Start,,,,1963-08-23T00:00:00
+14.23.23,221,32,Path1,Start,,HasFirstChild,'goodbye world',1963-08-23T00:00:00
+14.23.23,222,32,Path1,Initial_patient_GP_Visit,,Delay Until - ,1963-08-23 00:37:00,1963-08-23T00:00:00
+14.23.23,223,32,Path1,patient_assessment,,,,1963-08-23T00:37:00
+14.23.23,224,32,Path1,test_request,,,,1963-08-23T00:37:00
+14.23.23,225,32,Path1,Specimen_check,,,,1963-08-23T00:37:00
+14.23.23,226,32,Path1,specimen_ready_for_test,,Delay Until - ,1963-08-23 00:52:00,1963-08-23T00:37:00
+14.23.23,227,32,Path1,lab_test,,,,1963-08-23T00:52:00
+14.23.23,228,32,Path1,test_report,,,,1963-08-23T00:52:00
+14.23.23,229,32,Path1,send_report,,,,1963-08-23T00:52:00
+14.23.23,229,32,Path1,send_report,,BloodGlucose,"{'quantity': 4.060328096098378, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1963-08-23T00:52:00
+14.23.23,230,32,Path1,receive_report,,,,1963-08-23T00:52:00
+14.23.23,231,32,Path1,GP_checks_report,,Delay Until - ,1963-08-23 09:52:00,1963-08-23T00:52:00
+14.23.23,232,32,Path1,inform_patient,,,,1963-08-23T09:52:00
+14.23.23,233,32,Path1,Finish,,,,1963-08-23T09:52:00
+14.23.23,234,12,Path1,Start,,,,1964-09-20T00:00:00
+14.23.23,234,12,Path1,Start,,HasFirstChild,'goodbye world',1964-09-20T00:00:00
+14.23.23,235,12,Path1,Initial_patient_GP_Visit,,Delay Until - ,1964-09-20 00:13:00,1964-09-20T00:00:00
+14.23.23,236,12,Path1,patient_assessment,,,,1964-09-20T00:13:00
+14.23.23,237,12,Path1,test_request,,,,1964-09-20T00:13:00
+14.23.23,238,12,Path1,Specimen_check,,,,1964-09-20T00:13:00
+14.23.23,239,12,Path1,specimen_ready_for_test,,Delay Until - ,1964-09-20 00:29:00,1964-09-20T00:13:00
+14.23.23,240,12,Path1,lab_test,,,,1964-09-20T00:29:00
+14.23.23,241,12,Path1,test_report,,,,1964-09-20T00:29:00
+14.23.23,242,12,Path1,send_report,,,,1964-09-20T00:29:00
+14.23.23,242,12,Path1,send_report,,BloodGlucose,"{'quantity': 5.328228335832446, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1964-09-20T00:29:00
+14.23.23,243,12,Path1,receive_report,,,,1964-09-20T00:29:00
+14.23.23,244,12,Path1,GP_checks_report,,Delay Until - ,1964-09-20 05:29:00,1964-09-20T00:29:00
+14.23.23,245,12,Path1,inform_patient,,,,1964-09-20T05:29:00
+14.23.23,246,12,Path1,Finish,,,,1964-09-20T05:29:00
+14.23.23,247,30,Path1,Start,,,,1964-09-21T00:00:00
+14.23.23,247,30,Path1,Start,,HasFirstChild,'goodbye world',1964-09-21T00:00:00
+14.23.23,248,30,Path1,Initial_patient_GP_Visit,,Delay Until - ,1964-09-21 00:27:00,1964-09-21T00:00:00
+14.23.23,249,30,Path1,patient_assessment,,,,1964-09-21T00:27:00
+14.23.23,250,30,Path1,test_request,,,,1964-09-21T00:27:00
+14.23.23,251,30,Path1,Specimen_check,,,,1964-09-21T00:27:00
+14.23.23,252,30,Path1,specimen_ready_for_test,,Delay Until - ,1964-09-21 00:29:00,1964-09-21T00:27:00
+14.23.23,253,30,Path1,lab_test,,,,1964-09-21T00:29:00
+14.23.23,254,30,Path1,test_report,,,,1964-09-21T00:29:00
+14.23.23,255,30,Path1,send_report,,,,1964-09-21T00:29:00
+14.23.23,255,30,Path1,send_report,,BloodGlucose,"{'quantity': 4.329326954232141, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1964-09-21T00:29:00
+14.23.23,256,30,Path1,receive_report,,,,1964-09-21T00:29:00
+14.23.23,257,30,Path1,GP_checks_report,,Delay Until - ,1964-09-21 14:29:00,1964-09-21T00:29:00
+14.23.23,258,30,Path1,inform_patient,,,,1964-09-21T14:29:00
+14.23.23,259,30,Path1,Finish,,,,1964-09-21T14:29:00
+14.23.23,260,7,Path1,Start,,,,1964-11-04T00:00:00
+14.23.23,260,7,Path1,Start,,HasFirstChild,'hello-world',1964-11-04T00:00:00
+14.23.23,261,7,Path1,Initial_patient_GP_Visit,,Delay Until - ,1964-11-04 00:14:00,1964-11-04T00:00:00
+14.23.23,262,7,Path1,patient_assessment,,,,1964-11-04T00:14:00
+14.23.23,263,7,Path1,test_request,,,,1964-11-04T00:14:00
+14.23.23,264,7,Path1,Specimen_check,,,,1964-11-04T00:14:00
+14.23.23,265,7,Path1,specimen_ready_for_test,,Delay Until - ,1964-11-04 00:21:00,1964-11-04T00:14:00
+14.23.23,266,7,Path1,lab_test,,,,1964-11-04T00:21:00
+14.23.23,267,7,Path1,test_report,,,,1964-11-04T00:21:00
+14.23.23,268,7,Path1,send_report,,,,1964-11-04T00:21:00
+14.23.23,268,7,Path1,send_report,,BloodGlucose,"{'quantity': 4.505167780768306, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1964-11-04T00:21:00
+14.23.23,269,7,Path1,receive_report,,,,1964-11-04T00:21:00
+14.23.23,270,7,Path1,GP_checks_report,,Delay Until - ,1964-11-04 14:21:00,1964-11-04T00:21:00
+14.23.23,271,7,Path1,inform_patient,,,,1964-11-04T14:21:00
+14.23.23,272,7,Path1,Finish,,,,1964-11-04T14:21:00
+14.23.23,273,8,Path1,Start,,,,1965-06-23T00:00:00
+14.23.23,273,8,Path1,Start,,HasFirstChild,'hello-world',1965-06-23T00:00:00
+14.23.23,274,8,Path1,Initial_patient_GP_Visit,,Delay Until - ,1965-06-23 00:28:00,1965-06-23T00:00:00
+14.23.23,275,8,Path1,patient_assessment,,,,1965-06-23T00:28:00
+14.23.23,276,8,Path1,test_request,,,,1965-06-23T00:28:00
+14.23.23,277,8,Path1,Specimen_check,,,,1965-06-23T00:28:00
+14.23.23,278,8,Path1,specimen_ready_for_test,,Delay Until - ,1965-06-23 00:50:00,1965-06-23T00:28:00
+14.23.23,279,8,Path1,lab_test,,,,1965-06-23T00:50:00
+14.23.23,280,8,Path1,test_report,,,,1965-06-23T00:50:00
+14.23.23,281,8,Path1,send_report,,,,1965-06-23T00:50:00
+14.23.23,281,8,Path1,send_report,,BloodGlucose,"{'quantity': 4.331073696918019, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1965-06-23T00:50:00
+14.23.23,282,8,Path1,receive_report,,,,1965-06-23T00:50:00
+14.23.23,283,8,Path1,GP_checks_report,,Delay Until - ,1965-06-23 14:50:00,1965-06-23T00:50:00
+14.23.23,284,8,Path1,inform_patient,,,,1965-06-23T14:50:00
+14.23.23,285,8,Path1,Finish,,,,1965-06-23T14:50:00
+14.23.23,286,48,Path1,Start,,,,1966-01-13T00:00:00
+14.23.23,286,48,Path1,Start,,HasFirstChild,'goodbye world',1966-01-13T00:00:00
+14.23.23,287,48,Path1,Initial_patient_GP_Visit,,Delay Until - ,1966-01-13 00:24:00,1966-01-13T00:00:00
+14.23.23,288,48,Path1,patient_assessment,,,,1966-01-13T00:24:00
+14.23.23,289,48,Path1,test_request,,,,1966-01-13T00:24:00
+14.23.23,290,48,Path1,Specimen_check,,,,1966-01-13T00:24:00
+14.23.23,291,48,Path1,specimen_ready_for_test,,Delay Until - ,1966-01-13 00:40:00,1966-01-13T00:24:00
+14.23.23,292,48,Path1,lab_test,,,,1966-01-13T00:40:00
+14.23.23,293,48,Path1,test_report,,,,1966-01-13T00:40:00
+14.23.23,294,48,Path1,send_report,,,,1966-01-13T00:40:00
+14.23.23,294,48,Path1,send_report,,BloodGlucose,"{'quantity': 5.3445165716508605, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1966-01-13T00:40:00
+14.23.23,295,48,Path1,receive_report,,,,1966-01-13T00:40:00
+14.23.23,296,48,Path1,GP_checks_report,,Delay Until - ,1966-01-13 16:40:00,1966-01-13T00:40:00
+14.23.23,297,48,Path1,inform_patient,,,,1966-01-13T16:40:00
+14.23.23,298,48,Path1,Finish,,,,1966-01-13T16:40:00
+14.23.23,299,47,Path1,Start,,,,1966-04-19T00:00:00
+14.23.23,299,47,Path1,Start,,HasFirstChild,'hello-world',1966-04-19T00:00:00
+14.23.23,300,47,Path1,Initial_patient_GP_Visit,,Delay Until - ,1966-04-19 00:39:00,1966-04-19T00:00:00
+14.23.23,301,47,Path1,patient_assessment,,,,1966-04-19T00:39:00
+14.23.23,302,47,Path1,test_request,,,,1966-04-19T00:39:00
+14.23.23,303,47,Path1,Specimen_check,,,,1966-04-19T00:39:00
+14.23.23,304,47,Path1,specimen_ready_for_test,,Delay Until - ,1966-04-19 00:57:00,1966-04-19T00:39:00
+14.23.23,305,47,Path1,lab_test,,,,1966-04-19T00:57:00
+14.23.23,306,47,Path1,test_report,,,,1966-04-19T00:57:00
+14.23.23,307,47,Path1,send_report,,,,1966-04-19T00:57:00
+14.23.23,307,47,Path1,send_report,,BloodGlucose,"{'quantity': 4.719973336763916, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1966-04-19T00:57:00
+14.23.23,308,47,Path1,receive_report,,,,1966-04-19T00:57:00
+14.23.23,309,47,Path1,GP_checks_report,,Delay Until - ,1966-04-19 10:57:00,1966-04-19T00:57:00
+14.23.23,310,47,Path1,inform_patient,,,,1966-04-19T10:57:00
+14.23.23,311,47,Path1,Finish,,,,1966-04-19T10:57:00
+14.23.23,312,41,Path1,Start,,,,1970-03-29T00:00:00
+14.23.23,312,41,Path1,Start,,HasFirstChild,'goodbye world',1970-03-29T00:00:00
+14.23.23,313,41,Path1,Initial_patient_GP_Visit,,Delay Until - ,1970-03-29 00:48:00,1970-03-29T00:00:00
+14.23.23,314,41,Path1,patient_assessment,,,,1970-03-29T00:48:00
+14.23.23,315,41,Path1,test_request,,,,1970-03-29T00:48:00
+14.23.23,316,41,Path1,Specimen_check,,,,1970-03-29T00:48:00
+14.23.23,317,41,Path1,specimen_ready_for_test,,Delay Until - ,1970-03-29 01:07:00,1970-03-29T00:48:00
+14.23.23,318,41,Path1,lab_test,,,,1970-03-29T01:07:00
+14.23.23,319,41,Path1,test_report,,,,1970-03-29T01:07:00
+14.23.23,320,41,Path1,send_report,,,,1970-03-29T01:07:00
+14.23.23,320,41,Path1,send_report,,BloodGlucose,"{'quantity': 4.53156076880985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1970-03-29T01:07:00
+14.23.23,321,41,Path1,receive_report,,,,1970-03-29T01:07:00
+14.23.23,322,41,Path1,GP_checks_report,,Delay Until - ,1970-03-29 18:07:00,1970-03-29T01:07:00
+14.23.23,323,41,Path1,inform_patient,,,,1970-03-29T18:07:00
+14.23.23,324,41,Path1,Finish,,,,1970-03-29T18:07:00
+14.23.23,325,4,Path1,Start,,,,1974-08-13T00:00:00
+14.23.23,325,4,Path1,Start,,HasFirstChild,'hello-world',1974-08-13T00:00:00
+14.23.23,326,4,Path1,Initial_patient_GP_Visit,,Delay Until - ,1974-08-13 00:14:00,1974-08-13T00:00:00
+14.23.23,327,4,Path1,patient_assessment,,,,1974-08-13T00:14:00
+14.23.23,328,4,Path1,test_request,,,,1974-08-13T00:14:00
+14.23.23,329,4,Path1,Specimen_check,,,,1974-08-13T00:14:00
+14.23.23,330,4,Path1,specimen_ready_for_test,,Delay Until - ,1974-08-13 00:38:00,1974-08-13T00:14:00
+14.23.23,331,4,Path1,lab_test,,,,1974-08-13T00:38:00
+14.23.23,332,4,Path1,test_report,,,,1974-08-13T00:38:00
+14.23.23,333,4,Path1,send_report,,,,1974-08-13T00:38:00
+14.23.23,333,4,Path1,send_report,,BloodGlucose,"{'quantity': 5.350986493535304, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1974-08-13T00:38:00
+14.23.23,334,4,Path1,receive_report,,,,1974-08-13T00:38:00
+14.23.23,335,4,Path1,GP_checks_report,,Delay Until - ,1974-08-13 03:38:00,1974-08-13T00:38:00
+14.23.23,336,4,Path1,inform_patient,,,,1974-08-13T03:38:00
+14.23.23,337,4,Path1,Finish,,,,1974-08-13T03:38:00
+14.23.23,338,11,Path1,Start,,,,1976-07-07T00:00:00
+14.23.23,338,11,Path1,Start,,HasFirstChild,'goodbye world',1976-07-07T00:00:00
+14.23.23,339,11,Path1,Initial_patient_GP_Visit,,Delay Until - ,1976-07-07 00:15:00,1976-07-07T00:00:00
+14.23.23,340,11,Path1,patient_assessment,,,,1976-07-07T00:15:00
+14.23.23,341,11,Path1,test_request,,,,1976-07-07T00:15:00
+14.23.23,342,11,Path1,Specimen_check,,,,1976-07-07T00:15:00
+14.23.23,343,11,Path1,specimen_ready_for_test,,Delay Until - ,1976-07-07 00:24:00,1976-07-07T00:15:00
+14.23.23,344,11,Path1,lab_test,,,,1976-07-07T00:24:00
+14.23.23,345,11,Path1,test_report,,,,1976-07-07T00:24:00
+14.23.23,346,11,Path1,send_report,,,,1976-07-07T00:24:00
+14.23.23,346,11,Path1,send_report,,BloodGlucose,"{'quantity': 5.283628676074663, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1976-07-07T00:24:00
+14.23.23,347,11,Path1,receive_report,,,,1976-07-07T00:24:00
+14.23.23,348,11,Path1,GP_checks_report,,Delay Until - ,1976-07-07 10:24:00,1976-07-07T00:24:00
+14.23.23,349,11,Path1,inform_patient,,,,1976-07-07T10:24:00
+14.23.23,350,11,Path1,Finish,,,,1976-07-07T10:24:00
+14.23.23,351,23,Path1,Start,,,,1976-09-15T00:00:00
+14.23.23,351,23,Path1,Start,,HasFirstChild,'goodbye world',1976-09-15T00:00:00
+14.23.23,352,23,Path1,Initial_patient_GP_Visit,,Delay Until - ,1976-09-15 00:35:00,1976-09-15T00:00:00
+14.23.23,353,23,Path1,patient_assessment,,,,1976-09-15T00:35:00
+14.23.23,354,23,Path1,test_request,,,,1976-09-15T00:35:00
+14.23.23,355,23,Path1,Specimen_check,,,,1976-09-15T00:35:00
+14.23.23,356,23,Path1,specimen_ready_for_test,,Delay Until - ,1976-09-15 00:53:00,1976-09-15T00:35:00
+14.23.23,357,23,Path1,lab_test,,,,1976-09-15T00:53:00
+14.23.23,358,23,Path1,test_report,,,,1976-09-15T00:53:00
+14.23.23,359,23,Path1,send_report,,,,1976-09-15T00:53:00
+14.23.23,359,23,Path1,send_report,,BloodGlucose,"{'quantity': 5.237923790382224, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1976-09-15T00:53:00
+14.23.23,360,23,Path1,receive_report,,,,1976-09-15T00:53:00
+14.23.23,361,23,Path1,GP_checks_report,,Delay Until - ,1976-09-16 00:53:00,1976-09-15T00:53:00
+14.23.23,362,23,Path1,inform_patient,,,,1976-09-16T00:53:00
+14.23.23,363,23,Path1,Finish,,,,1976-09-16T00:53:00
+14.23.23,364,15,Path1,Start,,,,1978-06-29T00:00:00
+14.23.24,364,15,Path1,Start,,HasFirstChild,'goodbye world',1978-06-29T00:00:00
+14.23.24,365,15,Path1,Initial_patient_GP_Visit,,Delay Until - ,1978-06-29 00:15:00,1978-06-29T00:00:00
+14.23.24,366,15,Path1,patient_assessment,,,,1978-06-29T00:15:00
+14.23.24,367,15,Path1,test_request,,,,1978-06-29T00:15:00
+14.23.24,368,15,Path1,Specimen_check,,,,1978-06-29T00:15:00
+14.23.24,369,15,Path1,specimen_ready_for_test,,Delay Until - ,1978-06-29 00:22:00,1978-06-29T00:15:00
+14.23.24,370,15,Path1,lab_test,,,,1978-06-29T00:22:00
+14.23.24,371,15,Path1,test_report,,,,1978-06-29T00:22:00
+14.23.24,372,15,Path1,send_report,,,,1978-06-29T00:22:00
+14.23.24,372,15,Path1,send_report,,BloodGlucose,"{'quantity': 4.268595988715247, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1978-06-29T00:22:00
+14.23.24,373,15,Path1,receive_report,,,,1978-06-29T00:22:00
+14.23.24,374,15,Path1,GP_checks_report,,Delay Until - ,1978-06-29 06:22:00,1978-06-29T00:22:00
+14.23.24,375,15,Path1,inform_patient,,,,1978-06-29T06:22:00
+14.23.24,376,15,Path1,Finish,,,,1978-06-29T06:22:00
+14.23.24,377,17,Path1,Start,,,,1978-10-24T00:00:00
+14.23.24,377,17,Path1,Start,,HasFirstChild,'hello-world',1978-10-24T00:00:00
+14.23.24,378,17,Path1,Initial_patient_GP_Visit,,Delay Until - ,1978-10-24 00:48:00,1978-10-24T00:00:00
+14.23.24,379,17,Path1,patient_assessment,,,,1978-10-24T00:48:00
+14.23.24,380,17,Path1,test_request,,,,1978-10-24T00:48:00
+14.23.24,381,17,Path1,Specimen_check,,,,1978-10-24T00:48:00
+14.23.24,382,17,Path1,specimen_ready_for_test,,Delay Until - ,1978-10-24 01:08:00,1978-10-24T00:48:00
+14.23.24,383,17,Path1,lab_test,,,,1978-10-24T01:08:00
+14.23.24,384,17,Path1,test_report,,,,1978-10-24T01:08:00
+14.23.24,385,17,Path1,send_report,,,,1978-10-24T01:08:00
+14.23.24,385,17,Path1,send_report,,BloodGlucose,"{'quantity': 5.336681005622113, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1978-10-24T01:08:00
+14.23.24,386,17,Path1,receive_report,,,,1978-10-24T01:08:00
+14.23.24,387,17,Path1,GP_checks_report,,Delay Until - ,1978-10-24 15:08:00,1978-10-24T01:08:00
+14.23.24,388,17,Path1,inform_patient,,,,1978-10-24T15:08:00
+14.23.24,389,17,Path1,Finish,,,,1978-10-24T15:08:00
+14.23.24,390,45,Path1,Start,,,,1978-12-18T00:00:00
+14.23.24,390,45,Path1,Start,,HasFirstChild,'goodbye world',1978-12-18T00:00:00
+14.23.24,391,45,Path1,Initial_patient_GP_Visit,,Delay Until - ,1978-12-18 00:42:00,1978-12-18T00:00:00
+14.23.24,392,45,Path1,patient_assessment,,,,1978-12-18T00:42:00
+14.23.24,393,45,Path1,test_request,,,,1978-12-18T00:42:00
+14.23.24,394,45,Path1,Specimen_check,,,,1978-12-18T00:42:00
+14.23.24,395,45,Path1,specimen_ready_for_test,,Delay Until - ,1978-12-18 00:54:00,1978-12-18T00:42:00
+14.23.24,396,45,Path1,lab_test,,,,1978-12-18T00:54:00
+14.23.24,397,45,Path1,test_report,,,,1978-12-18T00:54:00
+14.23.24,398,45,Path1,send_report,,,,1978-12-18T00:54:00
+14.23.24,398,45,Path1,send_report,,BloodGlucose,"{'quantity': 4.322124175152678, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1978-12-18T00:54:00
+14.23.24,399,45,Path1,receive_report,,,,1978-12-18T00:54:00
+14.23.24,400,45,Path1,GP_checks_report,,Delay Until - ,1978-12-18 16:54:00,1978-12-18T00:54:00
+14.23.24,401,45,Path1,inform_patient,,,,1978-12-18T16:54:00
+14.23.24,402,45,Path1,Finish,,,,1978-12-18T16:54:00
+14.23.24,403,42,Path1,Start,,,,1979-06-26T00:00:00
+14.23.24,403,42,Path1,Start,,HasFirstChild,'hello-world',1979-06-26T00:00:00
+14.23.24,404,42,Path1,Initial_patient_GP_Visit,,Delay Until - ,1979-06-26 00:48:00,1979-06-26T00:00:00
+14.23.24,405,42,Path1,patient_assessment,,,,1979-06-26T00:48:00
+14.23.24,406,42,Path1,test_request,,,,1979-06-26T00:48:00
+14.23.24,407,42,Path1,Specimen_check,,,,1979-06-26T00:48:00
+14.23.24,408,42,Path1,specimen_ready_for_test,,Delay Until - ,1979-06-26 01:15:00,1979-06-26T00:48:00
+14.23.24,409,42,Path1,lab_test,,,,1979-06-26T01:15:00
+14.23.24,410,42,Path1,test_report,,,,1979-06-26T01:15:00
+14.23.24,411,42,Path1,send_report,,,,1979-06-26T01:15:00
+14.23.24,411,42,Path1,send_report,,BloodGlucose,"{'quantity': 4.6064509090857415, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1979-06-26T01:15:00
+14.23.24,412,42,Path1,receive_report,,,,1979-06-26T01:15:00
+14.23.24,413,42,Path1,GP_checks_report,,Delay Until - ,1979-06-26 05:15:00,1979-06-26T01:15:00
+14.23.24,414,42,Path1,inform_patient,,,,1979-06-26T05:15:00
+14.23.24,415,42,Path1,Finish,,,,1979-06-26T05:15:00
+14.23.24,416,5,Path1,Start,,,,1980-04-29T00:00:00
+14.23.24,416,5,Path1,Start,,HasFirstChild,'goodbye world',1980-04-29T00:00:00
+14.23.24,417,5,Path1,Initial_patient_GP_Visit,,Delay Until - ,1980-04-29 00:14:00,1980-04-29T00:00:00
+14.23.24,418,5,Path1,patient_assessment,,,,1980-04-29T00:14:00
+14.23.24,419,5,Path1,test_request,,,,1980-04-29T00:14:00
+14.23.24,420,5,Path1,Specimen_check,,,,1980-04-29T00:14:00
+14.23.24,421,5,Path1,specimen_ready_for_test,,Delay Until - ,1980-04-29 00:35:00,1980-04-29T00:14:00
+14.23.24,422,5,Path1,lab_test,,,,1980-04-29T00:35:00
+14.23.24,423,5,Path1,test_report,,,,1980-04-29T00:35:00
+14.23.24,424,5,Path1,send_report,,,,1980-04-29T00:35:00
+14.23.24,424,5,Path1,send_report,,BloodGlucose,"{'quantity': 4.098938705961531, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1980-04-29T00:35:00
+14.23.24,425,5,Path1,receive_report,,,,1980-04-29T00:35:00
+14.23.24,426,5,Path1,GP_checks_report,,Delay Until - ,1980-04-29 19:35:00,1980-04-29T00:35:00
+14.23.24,427,5,Path1,inform_patient,,,,1980-04-29T19:35:00
+14.23.24,428,5,Path1,Finish,,,,1980-04-29T19:35:00
+14.23.24,429,39,Path1,Start,,,,1983-10-18T00:00:00
+14.23.24,429,39,Path1,Start,,HasFirstChild,'goodbye world',1983-10-18T00:00:00
+14.23.24,430,39,Path1,Initial_patient_GP_Visit,,Delay Until - ,1983-10-18 00:47:00,1983-10-18T00:00:00
+14.23.24,431,39,Path1,patient_assessment,,,,1983-10-18T00:47:00
+14.23.24,432,39,Path1,test_request,,,,1983-10-18T00:47:00
+14.23.24,433,39,Path1,Specimen_check,,,,1983-10-18T00:47:00
+14.23.24,434,39,Path1,specimen_ready_for_test,,Delay Until - ,1983-10-18 01:00:00,1983-10-18T00:47:00
+14.23.24,435,39,Path1,lab_test,,,,1983-10-18T01:00:00
+14.23.24,436,39,Path1,test_report,,,,1983-10-18T01:00:00
+14.23.24,437,39,Path1,send_report,,,,1983-10-18T01:00:00
+14.23.24,437,39,Path1,send_report,,BloodGlucose,"{'quantity': 4.428975881066107, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1983-10-18T01:00:00
+14.23.24,438,39,Path1,receive_report,,,,1983-10-18T01:00:00
+14.23.24,439,39,Path1,GP_checks_report,,Delay Until - ,1983-10-18 18:00:00,1983-10-18T01:00:00
+14.23.24,440,39,Path1,inform_patient,,,,1983-10-18T18:00:00
+14.23.24,441,39,Path1,Finish,,,,1983-10-18T18:00:00
+14.23.24,442,22,Path1,Start,,,,1991-07-29T00:00:00
+14.23.24,442,22,Path1,Start,,HasFirstChild,'goodbye world',1991-07-29T00:00:00
+14.23.24,443,22,Path1,Initial_patient_GP_Visit,,Delay Until - ,1991-07-29 00:30:00,1991-07-29T00:00:00
+14.23.24,444,22,Path1,patient_assessment,,,,1991-07-29T00:30:00
+14.23.24,445,22,Path1,test_request,,,,1991-07-29T00:30:00
+14.23.24,446,22,Path1,Specimen_check,,,,1991-07-29T00:30:00
+14.23.24,447,22,Path1,specimen_ready_for_test,,Delay Until - ,1991-07-29 00:56:00,1991-07-29T00:30:00
+14.23.24,448,22,Path1,lab_test,,,,1991-07-29T00:56:00
+14.23.24,449,22,Path1,test_report,,,,1991-07-29T00:56:00
+14.23.24,450,22,Path1,send_report,,,,1991-07-29T00:56:00
+14.23.24,450,22,Path1,send_report,,BloodGlucose,"{'quantity': 4.225124055593924, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1991-07-29T00:56:00
+14.23.24,451,22,Path1,receive_report,,,,1991-07-29T00:56:00
+14.23.24,452,22,Path1,GP_checks_report,,Delay Until - ,1991-07-29 09:56:00,1991-07-29T00:56:00
+14.23.24,453,22,Path1,inform_patient,,,,1991-07-29T09:56:00
+14.23.24,454,22,Path1,Finish,,,,1991-07-29T09:56:00
+14.23.24,455,24,Path1,Start,,,,1993-01-11T00:00:00
+14.23.24,455,24,Path1,Start,,HasFirstChild,'hello-world',1993-01-11T00:00:00
+14.23.24,456,24,Path1,Initial_patient_GP_Visit,,Delay Until - ,1993-01-11 00:33:00,1993-01-11T00:00:00
+14.23.24,457,24,Path1,patient_assessment,,,,1993-01-11T00:33:00
+14.23.24,458,24,Path1,test_request,,,,1993-01-11T00:33:00
+14.23.24,459,24,Path1,Specimen_check,,,,1993-01-11T00:33:00
+14.23.24,460,24,Path1,specimen_ready_for_test,,Delay Until - ,1993-01-11 00:40:00,1993-01-11T00:33:00
+14.23.24,461,24,Path1,lab_test,,,,1993-01-11T00:40:00
+14.23.24,462,24,Path1,test_report,,,,1993-01-11T00:40:00
+14.23.24,463,24,Path1,send_report,,,,1993-01-11T00:40:00
+14.23.24,463,24,Path1,send_report,,BloodGlucose,"{'quantity': 4.978419147875955, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1993-01-11T00:40:00
+14.23.24,464,24,Path1,receive_report,,,,1993-01-11T00:40:00
+14.23.24,465,24,Path1,GP_checks_report,,Delay Until - ,1993-01-11 11:40:00,1993-01-11T00:40:00
+14.23.24,466,24,Path1,inform_patient,,,,1993-01-11T11:40:00
+14.23.24,467,24,Path1,Finish,,,,1993-01-11T11:40:00
+14.23.24,468,6,Path1,Start,,,,1993-06-16T00:00:00
+14.23.24,468,6,Path1,Start,,HasFirstChild,'goodbye world',1993-06-16T00:00:00
+14.23.24,469,6,Path1,Initial_patient_GP_Visit,,Delay Until - ,1993-06-16 00:40:00,1993-06-16T00:00:00
+14.23.24,470,6,Path1,patient_assessment,,,,1993-06-16T00:40:00
+14.23.24,471,6,Path1,test_request,,,,1993-06-16T00:40:00
+14.23.24,472,6,Path1,Specimen_check,,,,1993-06-16T00:40:00
+14.23.24,473,6,Path1,specimen_ready_for_test,,Delay Until - ,1993-06-16 01:07:00,1993-06-16T00:40:00
+14.23.24,474,6,Path1,lab_test,,,,1993-06-16T01:07:00
+14.23.24,475,6,Path1,test_report,,,,1993-06-16T01:07:00
+14.23.24,476,6,Path1,send_report,,,,1993-06-16T01:07:00
+14.23.24,476,6,Path1,send_report,,BloodGlucose,"{'quantity': 4.725234326850925, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1993-06-16T01:07:00
+14.23.24,477,6,Path1,receive_report,,,,1993-06-16T01:07:00
+14.23.24,478,6,Path1,GP_checks_report,,Delay Until - ,1993-06-16 21:07:00,1993-06-16T01:07:00
+14.23.24,479,6,Path1,inform_patient,,,,1993-06-16T21:07:00
+14.23.24,480,6,Path1,Finish,,,,1993-06-16T21:07:00
+14.23.24,481,38,Path1,Start,,,,1994-01-31T00:00:00
+14.23.24,481,38,Path1,Start,,HasFirstChild,'hello-world',1994-01-31T00:00:00
+14.23.24,482,38,Path1,Initial_patient_GP_Visit,,Delay Until - ,1994-01-31 00:27:00,1994-01-31T00:00:00
+14.23.24,483,38,Path1,patient_assessment,,,,1994-01-31T00:27:00
+14.23.24,484,38,Path1,test_request,,,,1994-01-31T00:27:00
+14.23.24,485,38,Path1,Specimen_check,,,,1994-01-31T00:27:00
+14.23.24,486,38,Path1,specimen_ready_for_test,,Delay Until - ,1994-01-31 00:42:00,1994-01-31T00:27:00
+14.23.24,487,38,Path1,lab_test,,,,1994-01-31T00:42:00
+14.23.24,488,38,Path1,test_report,,,,1994-01-31T00:42:00
+14.23.24,489,38,Path1,send_report,,,,1994-01-31T00:42:00
+14.23.24,489,38,Path1,send_report,,BloodGlucose,"{'quantity': 4.337181935937871, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1994-01-31T00:42:00
+14.23.24,490,38,Path1,receive_report,,,,1994-01-31T00:42:00
+14.23.24,491,38,Path1,GP_checks_report,,Delay Until - ,1994-01-31 05:42:00,1994-01-31T00:42:00
+14.23.24,492,38,Path1,inform_patient,,,,1994-01-31T05:42:00
+14.23.24,493,38,Path1,Finish,,,,1994-01-31T05:42:00
+14.23.24,494,1,Path1,Start,,,,1996-02-02T00:00:00
+14.23.24,494,1,Path1,Start,,HasFirstChild,'goodbye world',1996-02-02T00:00:00
+14.23.24,495,1,Path1,Initial_patient_GP_Visit,,Delay Until - ,1996-02-02 00:34:00,1996-02-02T00:00:00
+14.23.24,496,1,Path1,patient_assessment,,,,1996-02-02T00:34:00
+14.23.24,497,1,Path1,test_request,,,,1996-02-02T00:34:00
+14.23.24,498,1,Path1,Specimen_check,,,,1996-02-02T00:34:00
+14.23.24,499,1,Path1,specimen_ready_for_test,,Delay Until - ,1996-02-02 01:04:00,1996-02-02T00:34:00
+14.23.24,500,1,Path1,lab_test,,,,1996-02-02T01:04:00
+14.23.24,501,1,Path1,test_report,,,,1996-02-02T01:04:00
+14.23.24,502,1,Path1,send_report,,,,1996-02-02T01:04:00
+14.23.24,502,1,Path1,send_report,,BloodGlucose,"{'quantity': 5.175825106045625, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1996-02-02T01:04:00
+14.23.24,503,1,Path1,receive_report,,,,1996-02-02T01:04:00
+14.23.24,504,1,Path1,GP_checks_report,,Delay Until - ,1996-02-02 10:04:00,1996-02-02T01:04:00
+14.23.24,505,1,Path1,inform_patient,,,,1996-02-02T10:04:00
+14.23.24,506,1,Path1,Finish,,,,1996-02-02T10:04:00
+14.23.24,507,3,Path1,Start,,,,1996-11-07T00:00:00
+14.23.24,507,3,Path1,Start,,HasFirstChild,'hello-world',1996-11-07T00:00:00
+14.23.24,508,3,Path1,Initial_patient_GP_Visit,,Delay Until - ,1996-11-07 00:50:00,1996-11-07T00:00:00
+14.23.24,509,3,Path1,patient_assessment,,,,1996-11-07T00:50:00
+14.23.24,510,3,Path1,test_request,,,,1996-11-07T00:50:00
+14.23.24,511,3,Path1,Specimen_check,,,,1996-11-07T00:50:00
+14.23.24,512,3,Path1,specimen_ready_for_test,,Delay Until - ,1996-11-07 01:11:00,1996-11-07T00:50:00
+14.23.24,513,3,Path1,lab_test,,,,1996-11-07T01:11:00
+14.23.24,514,3,Path1,test_report,,,,1996-11-07T01:11:00
+14.23.24,515,3,Path1,send_report,,,,1996-11-07T01:11:00
+14.23.24,515,3,Path1,send_report,,BloodGlucose,"{'quantity': 5.314493088522088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1996-11-07T01:11:00
+14.23.24,516,3,Path1,receive_report,,,,1996-11-07T01:11:00
+14.23.24,517,3,Path1,GP_checks_report,,Delay Until - ,1996-11-07 14:11:00,1996-11-07T01:11:00
+14.23.24,518,3,Path1,inform_patient,,,,1996-11-07T14:11:00
+14.23.24,519,3,Path1,Finish,,,,1996-11-07T14:11:00
+14.23.24,520,2,Path1,Start,,,,1999-11-19T00:00:00
+14.23.24,520,2,Path1,Start,,HasFirstChild,'hello-world',1999-11-19T00:00:00
+14.23.24,521,2,Path1,Initial_patient_GP_Visit,,Delay Until - ,1999-11-19 00:41:00,1999-11-19T00:00:00
+14.23.24,522,2,Path1,patient_assessment,,,,1999-11-19T00:41:00
+14.23.24,523,2,Path1,test_request,,,,1999-11-19T00:41:00
+14.23.24,524,2,Path1,Specimen_check,,,,1999-11-19T00:41:00
+14.23.24,525,2,Path1,specimen_ready_for_test,,Delay Until - ,1999-11-19 00:45:00,1999-11-19T00:41:00
+14.23.24,526,2,Path1,lab_test,,,,1999-11-19T00:45:00
+14.23.24,527,2,Path1,test_report,,,,1999-11-19T00:45:00
+14.23.24,528,2,Path1,send_report,,,,1999-11-19T00:45:00
+14.23.24,528,2,Path1,send_report,,BloodGlucose,"{'quantity': 3.9792210739616594, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1999-11-19T00:45:00
+14.23.24,529,2,Path1,receive_report,,,,1999-11-19T00:45:00
+14.23.24,530,2,Path1,GP_checks_report,,Delay Until - ,1999-11-19 17:45:00,1999-11-19T00:45:00
+14.23.24,531,2,Path1,inform_patient,,,,1999-11-19T17:45:00
+14.23.24,532,2,Path1,Finish,,,,1999-11-19T17:45:00
+14.23.24,533,0,Path1,Start,,,,2002-04-04T00:00:00
+14.23.24,533,0,Path1,Start,,HasFirstChild,'goodbye world',2002-04-04T00:00:00
+14.23.24,534,0,Path1,Initial_patient_GP_Visit,,Delay Until - ,2002-04-04 00:11:00,2002-04-04T00:00:00
+14.23.24,535,0,Path1,patient_assessment,,,,2002-04-04T00:11:00
+14.23.24,536,0,Path1,test_request,,,,2002-04-04T00:11:00
+14.23.25,537,0,Path1,Specimen_check,,,,2002-04-04T00:11:00
+14.23.25,538,0,Path1,specimen_ready_for_test,,Delay Until - ,2002-04-04 00:41:00,2002-04-04T00:11:00
+14.23.25,539,0,Path1,lab_test,,,,2002-04-04T00:41:00
+14.23.25,540,0,Path1,test_report,,,,2002-04-04T00:41:00
+14.23.25,541,0,Path1,send_report,,,,2002-04-04T00:41:00
+14.23.25,541,0,Path1,send_report,,BloodGlucose,"{'quantity': 5.0041604890591715, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2002-04-04T00:41:00
+14.23.25,542,0,Path1,receive_report,,,,2002-04-04T00:41:00
+14.23.25,543,0,Path1,GP_checks_report,,Delay Until - ,2002-04-04 18:41:00,2002-04-04T00:41:00
+14.23.25,544,0,Path1,inform_patient,,,,2002-04-04T18:41:00
+14.23.25,545,0,Path1,Finish,,,,2002-04-04T18:41:00
+14.23.25,546,34,Path1,Start,,,,2003-06-15T00:00:00
+14.23.25,546,34,Path1,Start,,HasFirstChild,'hello-world',2003-06-15T00:00:00
+14.23.25,547,34,Path1,Initial_patient_GP_Visit,,Delay Until - ,2003-06-15 00:19:00,2003-06-15T00:00:00
+14.23.25,548,34,Path1,patient_assessment,,,,2003-06-15T00:19:00
+14.23.25,549,34,Path1,test_request,,,,2003-06-15T00:19:00
+14.23.25,550,34,Path1,Specimen_check,,,,2003-06-15T00:19:00
+14.23.25,551,34,Path1,specimen_ready_for_test,,Delay Until - ,2003-06-15 00:44:00,2003-06-15T00:19:00
+14.23.25,552,34,Path1,lab_test,,,,2003-06-15T00:44:00
+14.23.25,553,34,Path1,test_report,,,,2003-06-15T00:44:00
+14.23.25,554,34,Path1,send_report,,,,2003-06-15T00:44:00
+14.23.25,554,34,Path1,send_report,,BloodGlucose,"{'quantity': 4.613542537965927, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2003-06-15T00:44:00
+14.23.25,555,34,Path1,receive_report,,,,2003-06-15T00:44:00
+14.23.25,556,34,Path1,GP_checks_report,,Delay Until - ,2003-06-15 21:44:00,2003-06-15T00:44:00
+14.23.25,557,34,Path1,inform_patient,,,,2003-06-15T21:44:00
+14.23.25,558,34,Path1,Finish,,,,2003-06-15T21:44:00
+14.23.25,559,13,Path1,Start,,,,2003-10-08T00:00:00
+14.23.25,559,13,Path1,Start,,HasFirstChild,'hello-world',2003-10-08T00:00:00
+14.23.25,560,13,Path1,Initial_patient_GP_Visit,,Delay Until - ,2003-10-08 00:33:00,2003-10-08T00:00:00
+14.23.25,561,13,Path1,patient_assessment,,,,2003-10-08T00:33:00
+14.23.25,562,13,Path1,test_request,,,,2003-10-08T00:33:00
+14.23.25,563,13,Path1,Specimen_check,,,,2003-10-08T00:33:00
+14.23.25,564,13,Path1,specimen_ready_for_test,,Delay Until - ,2003-10-08 00:43:00,2003-10-08T00:33:00
+14.23.25,565,13,Path1,lab_test,,,,2003-10-08T00:43:00
+14.23.25,566,13,Path1,test_report,,,,2003-10-08T00:43:00
+14.23.25,567,13,Path1,send_report,,,,2003-10-08T00:43:00
+14.23.25,567,13,Path1,send_report,,BloodGlucose,"{'quantity': 5.328141697570378, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2003-10-08T00:43:00
+14.23.25,568,13,Path1,receive_report,,,,2003-10-08T00:43:00
+14.23.25,569,13,Path1,GP_checks_report,,Delay Until - ,2003-10-08 04:43:00,2003-10-08T00:43:00
+14.23.25,570,13,Path1,inform_patient,,,,2003-10-08T04:43:00
+14.23.25,571,13,Path1,Finish,,,,2003-10-08T04:43:00
+14.23.25,572,37,Path1,Start,,,,2003-12-20T00:00:00
+14.23.25,572,37,Path1,Start,,HasFirstChild,'hello-world',2003-12-20T00:00:00
+14.23.25,573,37,Path1,Initial_patient_GP_Visit,,Delay Until - ,2003-12-20 00:38:00,2003-12-20T00:00:00
+14.23.25,574,37,Path1,patient_assessment,,,,2003-12-20T00:38:00
+14.23.25,575,37,Path1,test_request,,,,2003-12-20T00:38:00
+14.23.25,576,37,Path1,Specimen_check,,,,2003-12-20T00:38:00
+14.23.25,577,37,Path1,specimen_ready_for_test,,Delay Until - ,2003-12-20 01:04:00,2003-12-20T00:38:00
+14.23.25,578,37,Path1,lab_test,,,,2003-12-20T01:04:00
+14.23.25,579,37,Path1,test_report,,,,2003-12-20T01:04:00
+14.23.25,580,37,Path1,send_report,,,,2003-12-20T01:04:00
+14.23.25,580,37,Path1,send_report,,BloodGlucose,"{'quantity': 5.044030699540471, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2003-12-20T01:04:00
+14.23.25,581,37,Path1,receive_report,,,,2003-12-20T01:04:00
+14.23.25,582,37,Path1,GP_checks_report,,Delay Until - ,2003-12-20 02:04:00,2003-12-20T01:04:00
+14.23.25,583,37,Path1,inform_patient,,,,2003-12-20T02:04:00
+14.23.25,584,37,Path1,Finish,,,,2003-12-20T02:04:00
+14.23.25,585,33,Path1,Start,,,,2004-02-26T00:00:00
+14.23.25,585,33,Path1,Start,,HasFirstChild,'hello-world',2004-02-26T00:00:00
+14.23.25,586,33,Path1,Initial_patient_GP_Visit,,Delay Until - ,2004-02-26 00:21:00,2004-02-26T00:00:00
+14.23.25,587,33,Path1,patient_assessment,,,,2004-02-26T00:21:00
+14.23.25,588,33,Path1,test_request,,,,2004-02-26T00:21:00
+14.23.25,589,33,Path1,Specimen_check,,,,2004-02-26T00:21:00
+14.23.25,590,33,Path1,specimen_ready_for_test,,Delay Until - ,2004-02-26 00:48:00,2004-02-26T00:21:00
+14.23.25,591,33,Path1,lab_test,,,,2004-02-26T00:48:00
+14.23.25,592,33,Path1,test_report,,,,2004-02-26T00:48:00
+14.23.25,593,33,Path1,send_report,,,,2004-02-26T00:48:00
+14.23.25,593,33,Path1,send_report,,BloodGlucose,"{'quantity': 5.023043430331733, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2004-02-26T00:48:00
+14.23.25,594,33,Path1,receive_report,,,,2004-02-26T00:48:00
+14.23.25,595,33,Path1,GP_checks_report,,Delay Until - ,2004-02-26 08:48:00,2004-02-26T00:48:00
+14.23.25,596,33,Path1,inform_patient,,,,2004-02-26T08:48:00
+14.23.25,597,33,Path1,Finish,,,,2004-02-26T08:48:00
+14.23.25,598,19,Path1,Start,,,,2008-03-06T00:00:00
+14.23.25,598,19,Path1,Start,,HasFirstChild,'goodbye world',2008-03-06T00:00:00
+14.23.25,599,19,Path1,Initial_patient_GP_Visit,,Delay Until - ,2008-03-06 00:29:00,2008-03-06T00:00:00
+14.23.25,600,19,Path1,patient_assessment,,,,2008-03-06T00:29:00
+14.23.25,601,19,Path1,test_request,,,,2008-03-06T00:29:00
+14.23.25,602,19,Path1,Specimen_check,,,,2008-03-06T00:29:00
+14.23.25,603,19,Path1,specimen_ready_for_test,,Delay Until - ,2008-03-06 00:39:00,2008-03-06T00:29:00
+14.23.25,604,19,Path1,lab_test,,,,2008-03-06T00:39:00
+14.23.25,605,19,Path1,test_report,,,,2008-03-06T00:39:00
+14.23.25,606,19,Path1,send_report,,,,2008-03-06T00:39:00
+14.23.25,606,19,Path1,send_report,,BloodGlucose,"{'quantity': 4.6572888534405985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2008-03-06T00:39:00
+14.23.25,607,19,Path1,receive_report,,,,2008-03-06T00:39:00
+14.23.25,608,19,Path1,GP_checks_report,,Delay Until - ,2008-03-06 05:39:00,2008-03-06T00:39:00
+14.23.25,609,19,Path1,inform_patient,,,,2008-03-06T05:39:00
+14.23.25,610,19,Path1,Finish,,,,2008-03-06T05:39:00
+14.23.25,611,46,Path1,Start,,,,2013-04-08T00:00:00
+14.23.25,611,46,Path1,Start,,HasFirstChild,'goodbye world',2013-04-08T00:00:00
+14.23.25,612,46,Path1,Initial_patient_GP_Visit,,Delay Until - ,2013-04-08 00:20:00,2013-04-08T00:00:00
+14.23.25,613,46,Path1,patient_assessment,,,,2013-04-08T00:20:00
+14.23.25,614,46,Path1,test_request,,,,2013-04-08T00:20:00
+14.23.25,615,46,Path1,Specimen_check,,,,2013-04-08T00:20:00
+14.23.25,616,46,Path1,specimen_ready_for_test,,Delay Until - ,2013-04-08 00:48:00,2013-04-08T00:20:00
+14.23.25,617,46,Path1,lab_test,,,,2013-04-08T00:48:00
+14.23.25,618,46,Path1,test_report,,,,2013-04-08T00:48:00
+14.23.25,619,46,Path1,send_report,,,,2013-04-08T00:48:00
+14.23.25,619,46,Path1,send_report,,BloodGlucose,"{'quantity': 5.229558626783279, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2013-04-08T00:48:00
+14.23.25,620,46,Path1,receive_report,,,,2013-04-08T00:48:00
+14.23.25,621,46,Path1,GP_checks_report,,Delay Until - ,2013-04-08 18:48:00,2013-04-08T00:48:00
+14.23.25,622,46,Path1,inform_patient,,,,2013-04-08T18:48:00
+14.23.25,623,46,Path1,Finish,,,,2013-04-08T18:48:00
+14.23.25,624,28,Path1,Start,,,,2014-07-31T00:00:00
+14.23.25,624,28,Path1,Start,,HasFirstChild,'hello-world',2014-07-31T00:00:00
+14.23.25,625,28,Path1,Initial_patient_GP_Visit,,Delay Until - ,2014-07-31 00:12:00,2014-07-31T00:00:00
+14.23.25,626,28,Path1,patient_assessment,,,,2014-07-31T00:12:00
+14.23.25,627,28,Path1,test_request,,,,2014-07-31T00:12:00
+14.23.25,628,28,Path1,Specimen_check,,,,2014-07-31T00:12:00
+14.23.25,629,28,Path1,specimen_ready_for_test,,Delay Until - ,2014-07-31 00:41:00,2014-07-31T00:12:00
+14.23.25,630,28,Path1,lab_test,,,,2014-07-31T00:41:00
+14.23.25,631,28,Path1,test_report,,,,2014-07-31T00:41:00
+14.23.25,632,28,Path1,send_report,,,,2014-07-31T00:41:00
+14.23.25,632,28,Path1,send_report,,BloodGlucose,"{'quantity': 5.134446437714743, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2014-07-31T00:41:00
+14.23.25,633,28,Path1,receive_report,,,,2014-07-31T00:41:00
+14.23.25,634,28,Path1,GP_checks_report,,Delay Until - ,2014-07-31 12:41:00,2014-07-31T00:41:00
+14.23.25,635,28,Path1,inform_patient,,,,2014-07-31T12:41:00
+14.23.25,636,28,Path1,Finish,,,,2014-07-31T12:41:00
+14.23.25,637,16,Path1,Start,,,,2016-10-29T00:00:00
+14.23.25,637,16,Path1,Start,,HasFirstChild,'goodbye world',2016-10-29T00:00:00
+14.23.25,638,16,Path1,Initial_patient_GP_Visit,,Delay Until - ,2016-10-29 00:27:00,2016-10-29T00:00:00
+14.23.25,639,16,Path1,patient_assessment,,,,2016-10-29T00:27:00
+14.23.25,640,16,Path1,test_request,,,,2016-10-29T00:27:00
+14.23.25,641,16,Path1,Specimen_check,,,,2016-10-29T00:27:00
+14.23.25,642,16,Path1,specimen_ready_for_test,,Delay Until - ,2016-10-29 00:39:00,2016-10-29T00:27:00
+14.23.25,643,16,Path1,lab_test,,,,2016-10-29T00:39:00
+14.23.25,644,16,Path1,test_report,,,,2016-10-29T00:39:00
+14.23.25,645,16,Path1,send_report,,,,2016-10-29T00:39:00
+14.23.25,645,16,Path1,send_report,,BloodGlucose,"{'quantity': 5.1100527297169345, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2016-10-29T00:39:00
+14.23.25,646,16,Path1,receive_report,,,,2016-10-29T00:39:00
+14.23.25,647,16,Path1,GP_checks_report,,Delay Until - ,2016-10-29 08:39:00,2016-10-29T00:39:00
+14.23.25,648,16,Path1,inform_patient,,,,2016-10-29T08:39:00
+14.23.25,649,16,Path1,Finish,,,,2016-10-29T08:39:00
+14.23.25,650,43,Path1,Start,,,,2016-12-10T00:00:00
+14.23.25,650,43,Path1,Start,,HasFirstChild,'goodbye world',2016-12-10T00:00:00
+14.23.25,651,43,Path1,Initial_patient_GP_Visit,,Delay Until - ,2016-12-10 00:28:00,2016-12-10T00:00:00
+14.23.25,652,43,Path1,patient_assessment,,,,2016-12-10T00:28:00
+14.23.25,653,43,Path1,test_request,,,,2016-12-10T00:28:00
+14.23.25,654,43,Path1,Specimen_check,,,,2016-12-10T00:28:00
+14.23.25,655,43,Path1,specimen_ready_for_test,,Delay Until - ,2016-12-10 00:51:00,2016-12-10T00:28:00
+14.23.25,656,43,Path1,lab_test,,,,2016-12-10T00:51:00
+14.23.25,657,43,Path1,test_report,,,,2016-12-10T00:51:00
+14.23.25,658,43,Path1,send_report,,,,2016-12-10T00:51:00
+14.23.25,658,43,Path1,send_report,,BloodGlucose,"{'quantity': 5.001578801575981, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",2016-12-10T00:51:00
+14.23.25,659,43,Path1,receive_report,,,,2016-12-10T00:51:00
+14.23.25,660,43,Path1,GP_checks_report,,Delay Until - ,2016-12-10 15:51:00,2016-12-10T00:51:00
+14.23.25,661,43,Path1,inform_patient,,,,2016-12-10T15:51:00
+14.23.25,662,43,Path1,Finish,,,,2016-12-10T15:51:00

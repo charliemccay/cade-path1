@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Male
+   DOB: 1996-02-02 00:00:00
+   Surname: Cameron
+   GivenName: Noah
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.175825106045625, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-02-02T01:04:00', 'id': UUID('6ef8cf99-f003-4018-8ec8-fa0581e750ec')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 5.175825106045625, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1996-02-02T00:00:00', 'id': UUID('a843b749-3d5f-4608-b26d-5bef7cf6b2db')}]
+   BloodGlucose: [{'value': {'quantity': 5.175825106045625, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-02-02T01:04:00', 'id': UUID('6ef8cf99-f003-4018-8ec8-fa0581e750ec')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1996-02-02T00:00:00', 'id': UUID('a843b749-3d5f-4608-b26d-5bef7cf6b2db')}
+   BloodGlucose: {'value': {'quantity': 5.175825106045625, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-02-02T01:04:00', 'id': UUID('6ef8cf99-f003-4018-8ec8-fa0581e750ec')}

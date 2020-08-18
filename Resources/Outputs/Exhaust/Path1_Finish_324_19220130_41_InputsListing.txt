@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 41
+   Gender: Male
+   DOB: 1970-03-29 00:00:00
+   Surname: Walker
+   GivenName: Thomas
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 4.53156076880985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1970-03-29T01:07:00', 'id': UUID('3c93bf1f-862f-4bdf-9393-373446159f63')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 4.53156076880985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1970-03-29T00:00:00', 'id': UUID('68575321-b076-4554-b76a-3a0d6625733c')}]
+   BloodGlucose: [{'value': {'quantity': 4.53156076880985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1970-03-29T01:07:00', 'id': UUID('3c93bf1f-862f-4bdf-9393-373446159f63')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1970-03-29T00:00:00', 'id': UUID('68575321-b076-4554-b76a-3a0d6625733c')}
+   BloodGlucose: {'value': {'quantity': 4.53156076880985, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1970-03-29T01:07:00', 'id': UUID('3c93bf1f-862f-4bdf-9393-373446159f63')}

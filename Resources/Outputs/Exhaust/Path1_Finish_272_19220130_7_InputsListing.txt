@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 7
+   Gender: Male
+   DOB: 1964-11-04 00:00:00
+   Surname: Naylor
+   GivenName: Leo
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 4.505167780768306, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-11-04T00:21:00', 'id': UUID('82299ba4-415f-4a3e-b750-fc40924b811e')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 4.505167780768306, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1964-11-04T00:00:00', 'id': UUID('34b710f2-c4d4-4ad6-a900-32b1a715289c')}]
+   BloodGlucose: [{'value': {'quantity': 4.505167780768306, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-11-04T00:21:00', 'id': UUID('82299ba4-415f-4a3e-b750-fc40924b811e')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1964-11-04T00:00:00', 'id': UUID('34b710f2-c4d4-4ad6-a900-32b1a715289c')}
+   BloodGlucose: {'value': {'quantity': 4.505167780768306, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-11-04T00:21:00', 'id': UUID('82299ba4-415f-4a3e-b750-fc40924b811e')}

@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 23
+   Gender: Male
+   DOB: 1976-09-15 00:00:00
+   Surname: Godfrey
+   GivenName: Freddie
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.237923790382224, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-09-15T00:53:00', 'id': UUID('aff27b45-6507-4d5c-a7e6-315d3f14f26b')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 5.237923790382224, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1976-09-15T00:00:00', 'id': UUID('cac05300-dbd1-42d5-bc97-0d5c769dc5b3')}]
+   BloodGlucose: [{'value': {'quantity': 5.237923790382224, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-09-15T00:53:00', 'id': UUID('aff27b45-6507-4d5c-a7e6-315d3f14f26b')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1976-09-15T00:00:00', 'id': UUID('cac05300-dbd1-42d5-bc97-0d5c769dc5b3')}
+   BloodGlucose: {'value': {'quantity': 5.237923790382224, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1976-09-15T00:53:00', 'id': UUID('aff27b45-6507-4d5c-a7e6-315d3f14f26b')}

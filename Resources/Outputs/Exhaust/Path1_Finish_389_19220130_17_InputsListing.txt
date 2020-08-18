@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 1978-10-24 00:00:00
+   Surname: Evans
+   GivenName: Skye
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.336681005622113, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1978-10-24T01:08:00', 'id': UUID('b25892e9-98e5-479e-8376-8d770eda0f93')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 5.336681005622113, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1978-10-24T00:00:00', 'id': UUID('2c3bbcf0-0644-43b2-95fd-d15425fa970a')}]
+   BloodGlucose: [{'value': {'quantity': 5.336681005622113, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1978-10-24T01:08:00', 'id': UUID('b25892e9-98e5-479e-8376-8d770eda0f93')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1978-10-24T00:00:00', 'id': UUID('2c3bbcf0-0644-43b2-95fd-d15425fa970a')}
+   BloodGlucose: {'value': {'quantity': 5.336681005622113, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1978-10-24T01:08:00', 'id': UUID('b25892e9-98e5-479e-8376-8d770eda0f93')}

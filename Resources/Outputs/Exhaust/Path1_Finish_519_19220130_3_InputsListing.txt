@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 3
+   Gender: Female
+   DOB: 1996-11-07 00:00:00
+   Surname: O'Neill
+   GivenName: Shannon
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.314493088522088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-11-07T01:11:00', 'id': UUID('7f9806db-8bd1-4d40-a416-1b1735343c97')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 5.314493088522088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1996-11-07T00:00:00', 'id': UUID('e25c52fd-ef12-4bf2-843d-a791dc2dea4e')}]
+   BloodGlucose: [{'value': {'quantity': 5.314493088522088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-11-07T01:11:00', 'id': UUID('7f9806db-8bd1-4d40-a416-1b1735343c97')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1996-11-07T00:00:00', 'id': UUID('e25c52fd-ef12-4bf2-843d-a791dc2dea4e')}
+   BloodGlucose: {'value': {'quantity': 5.314493088522088, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1996-11-07T01:11:00', 'id': UUID('7f9806db-8bd1-4d40-a416-1b1735343c97')}

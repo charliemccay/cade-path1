@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 12
+   Gender: Female
+   DOB: 1964-09-20 00:00:00
+   Surname: Brady
+   GivenName: Elizabeth
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.328228335832446, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-20T00:29:00', 'id': UUID('18b0b965-f35e-444d-ad00-f05feb5b7d31')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 5.328228335832446, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1964-09-20T00:00:00', 'id': UUID('4d1058f8-35de-4147-a389-0baa042c05ea')}]
+   BloodGlucose: [{'value': {'quantity': 5.328228335832446, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-20T00:29:00', 'id': UUID('18b0b965-f35e-444d-ad00-f05feb5b7d31')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1964-09-20T00:00:00', 'id': UUID('4d1058f8-35de-4147-a389-0baa042c05ea')}
+   BloodGlucose: {'value': {'quantity': 5.328228335832446, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-20T00:29:00', 'id': UUID('18b0b965-f35e-444d-ad00-f05feb5b7d31')}

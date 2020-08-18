@@ -1,0 +1,16 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+91,Path1,Initial_patient_GP_Visit,,,,1948-04-04T00:00:00
+91,Path1,Initial_patient_GP_Visit,,HasFirstChild,'goodbye world',1948-04-04T00:00:00
+92,Path1,patient_assessment,,,,1948-04-04T00:00:00
+93,Path1,test_request,,,,1948-04-04T00:37:00
+94,Path1,Specimen_check,,,,1948-04-04T00:37:00
+95,Path1,specimen_ready_for_test,,,,1948-04-04T00:37:00
+96,Path1,lab_test,,,,1948-04-04T00:37:00
+97,Path1,test_report,,,,1948-04-04T00:40:00
+98,Path1,send_report,,,,1948-04-04T00:40:00
+99,Path1,receive_report,,,,1948-04-04T00:40:00
+99,Path1,receive_report,,BloodGlucose,"{'quantity': 4.308465651954344, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}",1948-04-04T00:40:00
+100,Path1,GP_checks_report,,,,1948-04-04T00:40:00
+101,Path1,inform_patient,,,,1948-04-04T00:40:00
+102,Path1,Finish,,,,1948-04-04T14:40:00
+103,Path1,Finish,,,,1948-04-04T14:40:00

@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Meole
+   Country: England
+   PersonID: 28
+   Gender: Male
+   DOB: 2014-07-31 00:00:00
+   Surname: Stevenson
+   GivenName: Ellis
+   School: Meole School
+   GP: Meole GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.134446437714743, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2014-07-31T00:41:00', 'id': UUID('02313760-3aaf-473c-b465-2254136b4295')}
+   HasFirstChild: 'hello-world'
+   BloodGlucose: {'quantity': 5.134446437714743, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '2014-07-31T00:00:00', 'id': UUID('8628cd77-9859-4149-b681-5b50cd0ce83e')}]
+   BloodGlucose: [{'value': {'quantity': 5.134446437714743, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2014-07-31T00:41:00', 'id': UUID('02313760-3aaf-473c-b465-2254136b4295')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '2014-07-31T00:00:00', 'id': UUID('8628cd77-9859-4149-b681-5b50cd0ce83e')}
+   BloodGlucose: {'value': {'quantity': 5.134446437714743, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '2014-07-31T00:41:00', 'id': UUID('02313760-3aaf-473c-b465-2254136b4295')}

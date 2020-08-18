@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 48
+   Gender: Male
+   DOB: 1966-01-13 00:00:00
+   Surname: Murphy
+   GivenName: Kieran
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 5.3445165716508605, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-01-13T00:40:00', 'id': UUID('ab7b3e7e-7a64-4bcb-9a23-0db4b3d9be24')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 5.3445165716508605, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1966-01-13T00:00:00', 'id': UUID('a6d72515-02a3-4620-b691-021379cd833c')}]
+   BloodGlucose: [{'value': {'quantity': 5.3445165716508605, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-01-13T00:40:00', 'id': UUID('ab7b3e7e-7a64-4bcb-9a23-0db4b3d9be24')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1966-01-13T00:00:00', 'id': UUID('a6d72515-02a3-4620-b691-021379cd833c')}
+   BloodGlucose: {'value': {'quantity': 5.3445165716508605, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1966-01-13T00:40:00', 'id': UUID('ab7b3e7e-7a64-4bcb-9a23-0db4b3d9be24')}

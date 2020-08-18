@@ -1,0 +1,25 @@
+
+timestamp: 1922_01_30
+activity_time: 1922-01-30
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 30
+   Gender: Male
+   DOB: 1964-09-21 00:00:00
+   Surname: Whittaker
+   GivenName: Elliot
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'BloodGlucose', 'value': {'quantity': 4.329326954232141, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-21T00:29:00', 'id': UUID('73fe2d0d-f39b-4155-9df2-7a83894fadeb')}
+   HasFirstChild: 'goodbye world'
+   BloodGlucose: {'quantity': 4.329326954232141, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1964-09-21T00:00:00', 'id': UUID('cafe980e-2bf2-4a07-990a-4af498cb2c2d')}]
+   BloodGlucose: [{'value': {'quantity': 4.329326954232141, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-21T00:29:00', 'id': UUID('73fe2d0d-f39b-4155-9df2-7a83894fadeb')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1964-09-21T00:00:00', 'id': UUID('cafe980e-2bf2-4a07-990a-4af498cb2c2d')}
+   BloodGlucose: {'value': {'quantity': 4.329326954232141, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1964-09-21T00:29:00', 'id': UUID('73fe2d0d-f39b-4155-9df2-7a83894fadeb')}
