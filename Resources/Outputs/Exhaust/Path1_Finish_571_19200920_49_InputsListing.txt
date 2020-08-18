@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 49
+   Gender: Male
+   DOB: 2005-11-16 00:00:00
+   Surname: Sharpe
+   GivenName: Joshua
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '2005-11-16T00:00:00', 'id': UUID('03668b78-4469-4a38-a9ac-7e9ca76d95a5')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '2005-11-16T00:00:00', 'id': UUID('03668b78-4469-4a38-a9ac-7e9ca76d95a5')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '2005-11-16T00:00:00', 'id': UUID('03668b78-4469-4a38-a9ac-7e9ca76d95a5')}

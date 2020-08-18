@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Harlescott
+   Country: England
+   PersonID: 25
+   Gender: Male
+   DOB: 2008-04-02 00:00:00
+   Surname: Farmer
+   GivenName: Adam
+   School: Harlescott School
+   GP: Harlescott GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '2008-04-02T00:00:00', 'id': UUID('589a5c55-5240-4ba1-9ac2-a82816554482')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '2008-04-02T00:00:00', 'id': UUID('589a5c55-5240-4ba1-9ac2-a82816554482')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '2008-04-02T00:00:00', 'id': UUID('589a5c55-5240-4ba1-9ac2-a82816554482')}

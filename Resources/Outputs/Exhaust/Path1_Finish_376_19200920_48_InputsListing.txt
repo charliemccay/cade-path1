@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 48
+   Gender: Male
+   DOB: 1982-11-10 00:00:00
+   Surname: Brown
+   GivenName: Lewis
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1982-11-10T00:00:00', 'id': UUID('b4d87c82-2443-4a17-bc30-cf63c5a9a366')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1982-11-10T00:00:00', 'id': UUID('b4d87c82-2443-4a17-bc30-cf63c5a9a366')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1982-11-10T00:00:00', 'id': UUID('b4d87c82-2443-4a17-bc30-cf63c5a9a366')}

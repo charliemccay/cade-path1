@@ -1,0 +1,16 @@
+{
+  "resourceType": "Observation",
+  "id": 2ce22e49-7484-4483-b9df-5b278e15c797,
+  "status": "final",
+  "code": {'coding': [{'system': 'http://snomed.info/sct', 'code': '1107811000000102', 'display': 'Prostate specific antigen mass concentration in plasmal'}]},
+  "subject": {
+    "reference": "Patient/2"
+  },
+  "effectiveDateTime": "1920-09-20",
+  "valueQuantity": {
+    "value": "5.967945516757904",
+    "unit": "ug/L",
+    "system": "http://unitsofmeasure.org",
+    "code": "ug/L"
+  }
+}

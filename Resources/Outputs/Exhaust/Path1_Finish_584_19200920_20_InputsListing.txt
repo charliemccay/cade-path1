@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Column
+   Country: England
+   PersonID: 20
+   Gender: Female
+   DOB: 2006-05-09 00:00:00
+   Surname: Hope
+   GivenName: Morgan
+   School: Column School
+   GP: Column GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '2006-05-09T00:00:00', 'id': UUID('1df4b516-665c-4cd6-9c81-fd07b341e785')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '2006-05-09T00:00:00', 'id': UUID('1df4b516-665c-4cd6-9c81-fd07b341e785')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '2006-05-09T00:00:00', 'id': UUID('1df4b516-665c-4cd6-9c81-fd07b341e785')}

@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Sundorne
+   Country: England
+   PersonID: 43
+   Gender: Female
+   DOB: 1963-05-09 00:00:00
+   Surname: Nelson
+   GivenName: Olivia
+   School: Sundorne School
+   GP: Sundorne GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1963-05-09T00:00:00', 'id': UUID('ba5a66e8-7bf7-452f-81a5-fb7304d7a5bf')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1963-05-09T00:00:00', 'id': UUID('ba5a66e8-7bf7-452f-81a5-fb7304d7a5bf')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1963-05-09T00:00:00', 'id': UUID('ba5a66e8-7bf7-452f-81a5-fb7304d7a5bf')}

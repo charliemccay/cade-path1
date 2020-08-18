@@ -4,7 +4,7 @@
   "status": "final",
   "code": {{ person.This.value.code }},
   "subject": {
-    "reference": "Patient/{{ person.patient_id }}"
+    "reference": "Patient/{{ person.PersonID }}"
   },
   "effectiveDateTime": "{{ activity_time }}",
   "valueQuantity": {
@@ -14,3 +14,4 @@
     "code": "{{ person.This.value.unit }}"
   }
 }
+

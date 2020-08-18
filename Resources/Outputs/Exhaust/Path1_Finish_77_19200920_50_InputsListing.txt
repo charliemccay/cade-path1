@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Underdale
+   Country: England
+   PersonID: 50
+   Gender: Male
+   DOB: 1951-08-18 00:00:00
+   Surname: Blackburn
+   GivenName: Aaron
+   School: Underdale School
+   GP: Underdale GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1951-08-18T00:00:00', 'id': UUID('b3814716-ab35-4f91-be7a-20edececdece')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1951-08-18T00:00:00', 'id': UUID('b3814716-ab35-4f91-be7a-20edececdece')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1951-08-18T00:00:00', 'id': UUID('b3814716-ab35-4f91-be7a-20edececdece')}

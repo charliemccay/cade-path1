@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 6
+   Gender: Female
+   DOB: 1991-01-11 00:00:00
+   Surname: Chapman
+   GivenName: Katie
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1991-01-11T00:00:00', 'id': UUID('3e467b2d-2a97-468d-9f45-42cb23d78359')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1991-01-11T00:00:00', 'id': UUID('3e467b2d-2a97-468d-9f45-42cb23d78359')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1991-01-11T00:00:00', 'id': UUID('3e467b2d-2a97-468d-9f45-42cb23d78359')}

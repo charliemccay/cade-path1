@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Bowbrook
+   Country: England
+   PersonID: 12
+   Gender: Male
+   DOB: 1973-05-20 00:00:00
+   Surname: Burton
+   GivenName: Leon
+   School: Bowbrook School
+   GP: Bowbrook GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1973-05-20T00:00:00', 'id': UUID('1467abe2-fc36-4f05-b15a-c71a6c6f1013')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1973-05-20T00:00:00', 'id': UUID('1467abe2-fc36-4f05-b15a-c71a6c6f1013')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1973-05-20T00:00:00', 'id': UUID('1467abe2-fc36-4f05-b15a-c71a6c6f1013')}

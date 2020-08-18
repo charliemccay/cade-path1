@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 21
+   Gender: Female
+   DOB: 2007-12-27 00:00:00
+   Surname: Iqbal
+   GivenName: Chloe
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '2007-12-27T00:00:00', 'id': UUID('7198b506-8641-4b4d-9ecc-e1d68e46e8ed')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '2007-12-27T00:00:00', 'id': UUID('7198b506-8641-4b4d-9ecc-e1d68e46e8ed')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '2007-12-27T00:00:00', 'id': UUID('7198b506-8641-4b4d-9ecc-e1d68e46e8ed')}

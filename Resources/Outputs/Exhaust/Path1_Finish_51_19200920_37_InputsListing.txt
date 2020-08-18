@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 37
+   Gender: Male
+   DOB: 1947-08-14 00:00:00
+   Surname: Griffin
+   GivenName: Finlay
+   School: Quarry School
+   GP: Quarry GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1947-08-14T00:00:00', 'id': UUID('72cf2b6c-edc1-44fa-a683-8c23b21e77e9')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1947-08-14T00:00:00', 'id': UUID('72cf2b6c-edc1-44fa-a683-8c23b21e77e9')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1947-08-14T00:00:00', 'id': UUID('72cf2b6c-edc1-44fa-a683-8c23b21e77e9')}

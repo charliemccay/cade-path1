@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 38
+   Gender: Female
+   DOB: 1970-10-22 00:00:00
+   Surname: Davies
+   GivenName: Megan
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1970-10-22T00:00:00', 'id': UUID('99070467-c578-49e1-afeb-27cdb35b638f')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1970-10-22T00:00:00', 'id': UUID('99070467-c578-49e1-afeb-27cdb35b638f')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1970-10-22T00:00:00', 'id': UUID('99070467-c578-49e1-afeb-27cdb35b638f')}

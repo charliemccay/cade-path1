@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 9
+   Gender: Male
+   DOB: 1967-03-26 00:00:00
+   Surname: Wright
+   GivenName: Lucas
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1967-03-26T00:00:00', 'id': UUID('ccb8aedc-65f7-4dc1-aaf7-fa11c594e45c')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1967-03-26T00:00:00', 'id': UUID('ccb8aedc-65f7-4dc1-aaf7-fa11c594e45c')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1967-03-26T00:00:00', 'id': UUID('ccb8aedc-65f7-4dc1-aaf7-fa11c594e45c')}

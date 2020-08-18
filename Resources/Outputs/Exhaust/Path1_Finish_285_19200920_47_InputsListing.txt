@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 47
+   Gender: Male
+   DOB: 1968-06-11 00:00:00
+   Surname: Warner
+   GivenName: Isaac
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1968-06-11T00:00:00', 'id': UUID('524939c5-de24-476a-bd48-7588f73d3e5e')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1968-06-11T00:00:00', 'id': UUID('524939c5-de24-476a-bd48-7588f73d3e5e')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1968-06-11T00:00:00', 'id': UUID('524939c5-de24-476a-bd48-7588f73d3e5e')}

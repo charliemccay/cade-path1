@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 40
+   Gender: Female
+   DOB: 1981-11-23 00:00:00
+   Surname: Webb
+   GivenName: Alice
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1981-11-23T00:00:00', 'id': UUID('756ea3a1-cbc2-466e-9f12-20a0ca2cbc0d')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1981-11-23T00:00:00', 'id': UUID('756ea3a1-cbc2-466e-9f12-20a0ca2cbc0d')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1981-11-23T00:00:00', 'id': UUID('756ea3a1-cbc2-466e-9f12-20a0ca2cbc0d')}

@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 16
+   Gender: Female
+   DOB: 1967-08-18 00:00:00
+   Surname: Moss
+   GivenName: Scarlett
+   School: Castlefields School
+   GP: Castlefields GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1967-08-18T00:00:00', 'id': UUID('c8b0a5c5-df87-417c-a28b-0103151a6840')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1967-08-18T00:00:00', 'id': UUID('c8b0a5c5-df87-417c-a28b-0103151a6840')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1967-08-18T00:00:00', 'id': UUID('c8b0a5c5-df87-417c-a28b-0103151a6840')}

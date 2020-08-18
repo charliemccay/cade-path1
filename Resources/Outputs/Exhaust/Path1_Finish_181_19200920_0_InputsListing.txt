@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 0
+   Gender: Male
+   DOB: 1962-02-02 00:00:00
+   Surname: Stephens
+   GivenName: Ben
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1962-02-02T00:00:00', 'id': UUID('d5792f93-b169-47dc-a6bf-b642d99b239a')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1962-02-02T00:00:00', 'id': UUID('d5792f93-b169-47dc-a6bf-b642d99b239a')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1962-02-02T00:00:00', 'id': UUID('d5792f93-b169-47dc-a6bf-b642d99b239a')}

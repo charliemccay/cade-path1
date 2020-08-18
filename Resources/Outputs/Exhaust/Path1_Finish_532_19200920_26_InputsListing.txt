@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Harlescott
+   Country: England
+   PersonID: 26
+   Gender: Female
+   DOB: 2003-07-24 00:00:00
+   Surname: Hayes
+   GivenName: Summer
+   School: Harlescott School
+   GP: Harlescott GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '2003-07-24T00:00:00', 'id': UUID('e7f403f4-6ede-461a-9624-fbba2e791443')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '2003-07-24T00:00:00', 'id': UUID('e7f403f4-6ede-461a-9624-fbba2e791443')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '2003-07-24T00:00:00', 'id': UUID('e7f403f4-6ede-461a-9624-fbba2e791443')}

@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 4
+   Gender: Female
+   DOB: 2005-10-24 00:00:00
+   Surname: Frost
+   GivenName: Jasmine
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '2005-10-24T00:00:00', 'id': UUID('460aa684-0ff4-4d4c-8e54-28ff63295d11')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '2005-10-24T00:00:00', 'id': UUID('460aa684-0ff4-4d4c-8e54-28ff63295d11')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '2005-10-24T00:00:00', 'id': UUID('460aa684-0ff4-4d4c-8e54-28ff63295d11')}

@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 11
+   Gender: Female
+   DOB: 1985-02-20 00:00:00
+   Surname: Spencer
+   GivenName: Hollie
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1985-02-20T00:00:00', 'id': UUID('f8dc2498-3ef0-4a1d-b322-338879735c18')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1985-02-20T00:00:00', 'id': UUID('f8dc2498-3ef0-4a1d-b322-338879735c18')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1985-02-20T00:00:00', 'id': UUID('f8dc2498-3ef0-4a1d-b322-338879735c18')}

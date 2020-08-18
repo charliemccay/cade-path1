@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 45
+   Gender: Male
+   DOB: 1989-12-10 00:00:00
+   Surname: Alexander
+   GivenName: Jonathan
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'hello-world'", 'date': '1989-12-10T00:00:00', 'id': UUID('a2010560-9ac6-4647-82a9-e946f3369449')}
+   HasFirstChild: 'hello-world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1989-12-10T00:00:00', 'id': UUID('a2010560-9ac6-4647-82a9-e946f3369449')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1989-12-10T00:00:00', 'id': UUID('a2010560-9ac6-4647-82a9-e946f3369449')}

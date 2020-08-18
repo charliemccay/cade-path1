@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 32
+   Gender: Male
+   DOB: 1982-09-23 00:00:00
+   Surname: Simpson
+   GivenName: Jamie
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1982-09-23T00:00:00', 'id': UUID('c6d66c9a-fbfc-448f-bdb6-adafae6ae503')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1982-09-23T00:00:00', 'id': UUID('c6d66c9a-fbfc-448f-bdb6-adafae6ae503')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1982-09-23T00:00:00', 'id': UUID('c6d66c9a-fbfc-448f-bdb6-adafae6ae503')}

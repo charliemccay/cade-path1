@@ -1,0 +1,25 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Male
+   DOB: 1920-09-20 00:00:00
+   Surname: Lee
+   GivenName: Leon
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'Obs1', 'value': {'quantity': 5.286511513859694, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1920-09-20T00:25:00', 'id': UUID('5a6025e6-34f7-49dd-9b00-9795d6fb0507')}
+   HasFirstChild: 'hello-world'
+   Obs1: {'quantity': 5.286511513859694, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'hello-world'", 'date': '1920-09-20T00:00:00', 'id': UUID('bf325247-804f-4c1e-a924-41c040844d1d')}]
+   Obs1: [{'value': {'quantity': 5.286511513859694, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1920-09-20T00:25:00', 'id': UUID('5a6025e6-34f7-49dd-9b00-9795d6fb0507')}]
+person['Last']':  
+   HasFirstChild: {'value': "'hello-world'", 'date': '1920-09-20T00:00:00', 'id': UUID('bf325247-804f-4c1e-a924-41c040844d1d')}
+   Obs1: {'value': {'quantity': 5.286511513859694, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1920-09-20T00:25:00', 'id': UUID('5a6025e6-34f7-49dd-9b00-9795d6fb0507')}

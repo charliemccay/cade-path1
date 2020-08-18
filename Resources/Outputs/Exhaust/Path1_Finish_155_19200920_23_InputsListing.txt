@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 23
+   Gender: Female
+   DOB: 1960-08-20 00:00:00
+   Surname: Cunningham
+   GivenName: Samantha
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1960-08-20T00:00:00', 'id': UUID('508a0687-1804-4e0a-9e22-dd7b05f62b16')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1960-08-20T00:00:00', 'id': UUID('508a0687-1804-4e0a-9e22-dd7b05f62b16')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1960-08-20T00:00:00', 'id': UUID('508a0687-1804-4e0a-9e22-dd7b05f62b16')}

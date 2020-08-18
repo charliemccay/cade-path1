@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Bagley
+   Country: England
+   PersonID: 5
+   Gender: Female
+   DOB: 2004-08-20 00:00:00
+   Surname: Armstrong
+   GivenName: Jasmine
+   School: Bagley School
+   GP: Bagely GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '2004-08-20T00:00:00', 'id': UUID('6b832565-ee36-4710-805a-50b97b079e3c')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '2004-08-20T00:00:00', 'id': UUID('6b832565-ee36-4710-805a-50b97b079e3c')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '2004-08-20T00:00:00', 'id': UUID('6b832565-ee36-4710-805a-50b97b079e3c')}

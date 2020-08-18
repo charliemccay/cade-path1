@@ -1,0 +1,22 @@
+
+timestamp: 1920_09_20
+activity_time: 1920-09-20
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 1983-02-25 00:00:00
+   Surname: Kelly
+   GivenName: Amber
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'HasFirstChild', 'value': "'goodbye world'", 'date': '1983-02-25T00:00:00', 'id': UUID('6d9c4ba7-4025-4dd5-bd6f-7fcb56f63ee6')}
+   HasFirstChild: 'goodbye world'
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1983-02-25T00:00:00', 'id': UUID('6d9c4ba7-4025-4dd5-bd6f-7fcb56f63ee6')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1983-02-25T00:00:00', 'id': UUID('6d9c4ba7-4025-4dd5-bd6f-7fcb56f63ee6')}
