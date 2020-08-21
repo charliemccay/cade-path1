@@ -1,0 +1,55 @@
+
+timestamp: 1923_07_24
+activity_time: 1923-07-24
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Male
+   DOB: 1984-05-31 00:00:00
+   Surname: Browne
+   GivenName: Kyle
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'Report', 'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1984-05-31T00:12:00', 'id': UUID('8ff0d5cc-18db-4c22-a8f3-50b35475bbf5')}
+   HasFirstChild: 'goodbye world'
+   Patient: {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}
+   Request: {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}
+   RequestingHCP: {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}
+   OrgRequesting: {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   Specimen: {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}
+   CollectingHCP: {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   OrgCollecting: {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   PerformingHCP: {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   PerformingOrg: {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}
+   Obs1: {'quantity': 5.279752214146941, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}
+   Report: {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1984-05-31T00:00:00', 'id': UUID('8fefe42b-03dd-44f2-a032-ccf3fa627cb9')}]
+   Patient: [{'value': {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}, 'date': '1984-05-31T00:10:00', 'id': UUID('be7f024e-7c7d-4dae-abb3-a5030c65cd56')}]
+   Request: [{'value': {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}, 'date': '1984-05-31T00:10:00', 'id': UUID('2a5c575a-05f3-4946-b850-9e1ee602b781')}]
+   RequestingHCP: [{'value': {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1984-05-31T00:10:00', 'id': UUID('2c78d277-f5b0-4c8f-b904-a6c7d98b2ac0')}]
+   OrgRequesting: [{'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1984-05-31T00:10:00', 'id': UUID('cecc9479-b3e0-4810-8013-fbc25b6d8ba1')}]
+   Specimen: [{'value': {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1984-05-31T00:10:00', 'id': UUID('33e6a86f-3615-47ac-aad8-a324e09ef9be')}]
+   CollectingHCP: [{'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1984-05-31T00:10:00', 'id': UUID('ec81734e-524d-4f33-b831-18ae443250c8')}]
+   OrgCollecting: [{'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1984-05-31T00:10:00', 'id': UUID('fe876bc4-e0f2-41ef-ae0f-dd57ce543da5')}]
+   PerformingHCP: [{'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1984-05-31T00:12:00', 'id': UUID('d6c2cc2f-204c-4458-81eb-b4383fe3762e')}]
+   PerformingOrg: [{'value': {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1984-05-31T00:12:00', 'id': UUID('3f97d7de-7e08-4924-8a44-f40b9205c91c')}]
+   Obs1: [{'value': {'quantity': 5.279752214146941, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1984-05-31T00:12:00', 'id': UUID('d2fdeec6-a0b5-486c-b322-8df1d0479e8a')}]
+   Report: [{'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1984-05-31T00:12:00', 'id': UUID('8ff0d5cc-18db-4c22-a8f3-50b35475bbf5')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1984-05-31T00:00:00', 'id': UUID('8fefe42b-03dd-44f2-a032-ccf3fa627cb9')}
+   Patient: {'value': {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}, 'date': '1984-05-31T00:10:00', 'id': UUID('be7f024e-7c7d-4dae-abb3-a5030c65cd56')}
+   Request: {'value': {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}, 'date': '1984-05-31T00:10:00', 'id': UUID('2a5c575a-05f3-4946-b850-9e1ee602b781')}
+   RequestingHCP: {'value': {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1984-05-31T00:10:00', 'id': UUID('2c78d277-f5b0-4c8f-b904-a6c7d98b2ac0')}
+   OrgRequesting: {'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1984-05-31T00:10:00', 'id': UUID('cecc9479-b3e0-4810-8013-fbc25b6d8ba1')}
+   Specimen: {'value': {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1984-05-31T00:10:00', 'id': UUID('33e6a86f-3615-47ac-aad8-a324e09ef9be')}
+   CollectingHCP: {'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1984-05-31T00:10:00', 'id': UUID('ec81734e-524d-4f33-b831-18ae443250c8')}
+   OrgCollecting: {'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1984-05-31T00:10:00', 'id': UUID('fe876bc4-e0f2-41ef-ae0f-dd57ce543da5')}
+   PerformingHCP: {'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1984-05-31T00:12:00', 'id': UUID('d6c2cc2f-204c-4458-81eb-b4383fe3762e')}
+   PerformingOrg: {'value': {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1984-05-31T00:12:00', 'id': UUID('3f97d7de-7e08-4924-8a44-f40b9205c91c')}
+   Obs1: {'value': {'quantity': 5.279752214146941, 'unit': 'mmol/l', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]}}, 'date': '1984-05-31T00:12:00', 'id': UUID('d2fdeec6-a0b5-486c-b322-8df1d0479e8a')}
+   Report: {'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1984-05-31T00:12:00', 'id': UUID('8ff0d5cc-18db-4c22-a8f3-50b35475bbf5')}

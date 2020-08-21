@@ -1,0 +1,55 @@
+
+timestamp: 1923_07_24
+activity_time: 1923-07-24
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 2
+   Gender: Female
+   DOB: 1939-06-17 00:00:00
+   Surname: Kelly
+   GivenName: Charlie
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   Path1Status: Finish
+   This: {'name': 'Report', 'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1939-06-17T01:01:00', 'id': UUID('cba49346-b327-4724-ad97-9eb762049413')}
+   HasFirstChild: 'goodbye world'
+   Patient: {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}
+   Request: {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}
+   RequestingHCP: {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}
+   OrgRequesting: {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   Specimen: {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}
+   CollectingHCP: {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   OrgCollecting: {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}
+   PerformingHCP: {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}
+   PerformingOrg: {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}
+   Obs2: {'quantity': 5.953628026002102, 'unit': 'ug/L', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1107811000000102', 'display': 'Prostate specific antigen mass concentration in plasmal'}]}}
+   Report: {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': "'goodbye world'", 'date': '1939-06-17T00:00:00', 'id': UUID('d2b140f8-7449-48f3-b6e7-b62cc9c1693d')}]
+   Patient: [{'value': {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}, 'date': '1939-06-17T00:44:00', 'id': UUID('083dd04c-49c1-4f34-b08d-984bcd1f410c')}]
+   Request: [{'value': {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}, 'date': '1939-06-17T00:44:00', 'id': UUID('2323b381-850b-49bb-8ee8-85deac5fefa5')}]
+   RequestingHCP: [{'value': {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1939-06-17T00:44:00', 'id': UUID('18578d11-64c6-4e4b-b6b1-1084a6be5c91')}]
+   OrgRequesting: [{'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1939-06-17T00:44:00', 'id': UUID('4c98ac4e-1fa6-467f-9d1a-a214eb0a5d48')}]
+   Specimen: [{'value': {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1939-06-17T00:44:00', 'id': UUID('458cca42-ce36-488f-9e24-a1775e4ba5f7')}]
+   CollectingHCP: [{'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1939-06-17T00:44:00', 'id': UUID('b7c391f9-42c7-4a9c-b576-07592305e0c4')}]
+   OrgCollecting: [{'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1939-06-17T00:44:00', 'id': UUID('edd74980-0720-4b57-a95f-102f97a54dad')}]
+   PerformingHCP: [{'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1939-06-17T01:01:00', 'id': UUID('a8e2681e-d76b-4907-83e1-ea7803907bc0')}]
+   PerformingOrg: [{'value': {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1939-06-17T01:01:00', 'id': UUID('d3410767-f7bd-4b3e-8d3e-dd8aa8164daa')}]
+   Obs2: [{'value': {'quantity': 5.953628026002102, 'unit': 'ug/L', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1107811000000102', 'display': 'Prostate specific antigen mass concentration in plasmal'}]}}, 'date': '1939-06-17T01:01:00', 'id': UUID('64283eb7-2906-49af-9223-d27d88566abc')}]
+   Report: [{'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1939-06-17T01:01:00', 'id': UUID('cba49346-b327-4724-ad97-9eb762049413')}]
+person['Last']':  
+   HasFirstChild: {'value': "'goodbye world'", 'date': '1939-06-17T00:00:00', 'id': UUID('d2b140f8-7449-48f3-b6e7-b62cc9c1693d')}
+   Patient: {'value': {'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}, 'date': '1939-06-17T00:44:00', 'id': UUID('083dd04c-49c1-4f34-b08d-984bcd1f410c')}
+   Request: {'value': {'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}, 'date': '1939-06-17T00:44:00', 'id': UUID('2323b381-850b-49bb-8ee8-85deac5fefa5')}
+   RequestingHCP: {'value': {'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}, 'date': '1939-06-17T00:44:00', 'id': UUID('18578d11-64c6-4e4b-b6b1-1084a6be5c91')}
+   OrgRequesting: {'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1939-06-17T00:44:00', 'id': UUID('4c98ac4e-1fa6-467f-9d1a-a214eb0a5d48')}
+   Specimen: {'value': {'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}, 'date': '1939-06-17T00:44:00', 'id': UUID('458cca42-ce36-488f-9e24-a1775e4ba5f7')}
+   CollectingHCP: {'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1939-06-17T00:44:00', 'id': UUID('b7c391f9-42c7-4a9c-b576-07592305e0c4')}
+   OrgCollecting: {'value': {'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}, 'date': '1939-06-17T00:44:00', 'id': UUID('edd74980-0720-4b57-a95f-102f97a54dad')}
+   PerformingHCP: {'value': {'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}, 'date': '1939-06-17T01:01:00', 'id': UUID('a8e2681e-d76b-4907-83e1-ea7803907bc0')}
+   PerformingOrg: {'value': {'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}, 'date': '1939-06-17T01:01:00', 'id': UUID('d3410767-f7bd-4b3e-8d3e-dd8aa8164daa')}
+   Obs2: {'value': {'quantity': 5.953628026002102, 'unit': 'ug/L', 'code': {'coding': [{'system': 'http://snomed.info/sct', 'code': '1107811000000102', 'display': 'Prostate specific antigen mass concentration in plasmal'}]}}, 'date': '1939-06-17T01:01:00', 'id': UUID('64283eb7-2906-49af-9223-d27d88566abc')}
+   Report: {'value': {'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}, 'date': '1939-06-17T01:01:00', 'id': UUID('cba49346-b327-4724-ad97-9eb762049413')}

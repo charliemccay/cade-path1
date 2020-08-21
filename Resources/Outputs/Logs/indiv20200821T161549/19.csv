@@ -1,0 +1,25 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+208,Path1,Initial_patient_GP_Visit,,,,1970-02-26T00:00:00
+208,Path1,Initial_patient_GP_Visit,,HasFirstChild,'goodbye world',1970-02-26T00:00:00
+209,Path1,patient_assessment,,,,1970-02-26T00:00:00
+210,Path1,test_request,,,,1970-02-26T00:46:00
+210,Path1,test_request,,Patient,"{'UUID': '4f3r2cd5-0eec-496a-88d0-3785a135df09', 'Code': '7832003812', 'DisplayName': 'Lisa Stanner', 'Age': '60', 'Gender': 'Female'}",1970-02-26T00:46:00
+211,Path1,Specimen_check,,,,1970-02-26T00:46:00
+211,Path1,Specimen_check,,Request,"{'UUID': 'd9df1431-22ac-462a-946a-f195f6c639af', 'Code': '26604007', 'DisplayName': 'FBC - Full blood count'}",1970-02-26T00:46:00
+211,Path1,Specimen_check,,RequestingHCP,"{'UUID': 'f25e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",1970-02-26T00:46:00
+211,Path1,Specimen_check,,OrgRequesting,"{'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1970-02-26T00:46:00
+212,Path1,specimen_ready_for_test,,,,1970-02-26T00:46:00
+212,Path1,specimen_ready_for_test,,Specimen,"{'UUID': '756a8361-79ce-4561-afcb-a91fe19df123', 'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",1970-02-26T00:46:00
+212,Path1,specimen_ready_for_test,,CollectingHCP,"{'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1970-02-26T00:46:00
+212,Path1,specimen_ready_for_test,,OrgCollecting,"{'UUID': 'bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e', 'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1970-02-26T00:46:00
+213,Path1,lab_test,,,,1970-02-26T00:46:00
+214,Path1,test_report,,,,1970-02-26T01:16:00
+214,Path1,test_report,,PerformingHCP,"{'UUID': 'x56e9d63-6a4e-4de6-b9dc-c912fda62b01', 'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1970-02-26T01:16:00
+214,Path1,test_report,,PerformingOrg,"{'UUID': 'k8407de7-0e86-45eb-93cb-035094aaa49e', 'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",1970-02-26T01:16:00
+215,Path1,send_report,,,,1970-02-26T01:16:00
+216,Path1,receive_report,,,,1970-02-26T01:16:00
+216,Path1,receive_report,,Report,"{'UUID': '32685afe-1d46-4d98-8279-39b9e96ee914', 'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",1970-02-26T01:16:00
+217,Path1,GP_checks_report,,,,1970-02-26T01:16:00
+218,Path1,inform_patient,,,,1970-02-26T01:16:00
+219,Path1,Finish,,,,1970-02-26T19:16:00
+220,Path1,Finish,,,,1970-02-26T19:16:00

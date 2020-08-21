@@ -1,0 +1,18 @@
+{
+  "resourceType": "Observation",
+  "id": d2fdeec6-a0b5-486c-b322-8df1d0479e8a,
+  "status": "final",
+  "code": {'coding': [{'system': 'http://snomed.info/sct', 'code': '1003131000000101', 'display': 'Serum fasting glucose level'}]},
+  "subject": {
+    "reference": "Patient/1"
+  },
+  "effectiveDateTime": "1923-07-24",
+  "valueQuantity": {
+    "value": "5.279752214146941",
+    "unit": "mmol/l",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmol/l"
+  }
+}
+
+
